@@ -180,7 +180,7 @@
   <!-- Full-Width Bottom Section with Terms & Conditions -->
   <div class="footer-bottom-container-fluid container-fluid">
     <div class="footer-bottom container">
-      <p>&copy; Athena. All Rights Reserved.</p>
+      <p>&copy; Invisor. All Rights Reserved.</p>
       <div>
         <a href="#">Terms & Conditions</a>
         <a href="#">Cookies</a>

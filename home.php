@@ -322,7 +322,7 @@ height: auto;
                           business
                           from one platform.</p>
                         <div class="tab-bottom">
-                          <a href="?page=zohobooks" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zohoone" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                           <img src="assets/img/zoho-logo.svg" alt="">
                         </div>

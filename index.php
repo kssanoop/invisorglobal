@@ -11,6 +11,10 @@ if($page=='zohobooks')
 {
 	include('zohobooks.php');
 }
+if($page=='zohoone')
+{
+	include('zohoone.php');
+}
 
 include('footer.php');
  ?>
