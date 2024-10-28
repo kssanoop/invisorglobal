@@ -25,10 +25,10 @@
       margin-bottom: 2rem;
     }
 
-    .footer-address p {
+    .footer-address p {line-height: 25px;
       color: #666;
       margin: 0.5rem 0;
-      font-size: 0.9rem;
+      font-size: 1rem;
     }
 
     .footer-address p a {
@@ -141,10 +141,14 @@
       <!-- Footer Logo and Address Section -->
       <div class="footer-logo footer-address">
         <img src="assets/img/Invisor-footer-logo.jpeg" alt="Prospera Logo">
-        <p>Atlanta, United States</p>
-        <p>48 Market Street</p>
-        <p>+38 (045) 495 342</p>
-        <p><a href="mailto:email@example.com">email@example.com</a></p>
+        <p><strong>India:</strong> 2nd Floor, Phase 1, Carnival Infopark, Kakkanad, Cochin : 682042
+        </p>
+        <p><strong>Canada:</strong> Suite 337V, 341 Talbot Street, London, Ontario, N6A2R5, Canada
+        </p>
+        <p><strong>Saudi Arabia:</strong>  KSA, Arabian Software, 5th Floor,Le Cygne Commercial Center-2
+Kaab Bin Malik Street, Al Olaya District, Kingdom of Saudi Arabia 
+
+        </p>
       </div>
 
       <!-- Footer Links Section -->

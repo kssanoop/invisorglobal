@@ -1117,7 +1117,7 @@ section,
   position: relative;
   margin: 60px 0 0 60px;
 }
-.about .tab-content img{width: 100px;margin-right: 20px ;}
+.about .tab-content img{width: 100px;margin-right: 20px ;margin-bottom: 20px;}
 .about .about-img:before {
   position: absolute;
   inset: -60px 0 0 -60px;
@@ -1198,3 +1198,181 @@ section,
   color: var(--accent-color);
 }
 
+/*--------------------------------------------------------------
+# Call To Action Section
+--------------------------------------------------------------*/
+.call-to-action {
+  padding: 0;
+}
+
+.call-to-action .container {
+  padding: 80px;
+  background: color-mix(in srgb, var(--default-color), transparent 96%);
+  border-radius: 15px;
+}
+
+@media (max-width: 992px) {
+  .call-to-action .container {
+    padding: 60px;
+  }
+}
+
+.call-to-action .content h3 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.call-to-action .content h3 em {
+  font-style: normal;
+  position: relative;
+  z-index: 1;
+}
+
+.call-to-action .content h3 em:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  height: 10px;
+  background: color-mix(in srgb, var(--accent-color), transparent 30%);
+  z-index: -1;
+}
+
+.call-to-action .content p {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.call-to-action .content .cta-btn {
+  color: var(--contrast-color);
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 5px;
+  transition: 0.5s;
+  margin-top: 10px;
+  background: var(--accent-color);
+}
+
+.call-to-action .content .cta-btn:hover {
+  background: color-mix(in srgb, var(--accent-color) 90%, black 15%);
+}
+
+.call-to-action .img {
+  position: relative;
+}
+
+.call-to-action .img:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: color-mix(in srgb, var(--contrast-color), transparent 20%);
+  border-radius: 15px;
+  transform: rotate(6deg);
+  z-index: 2;
+}
+
+.call-to-action .img:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: color-mix(in srgb, var(--default-color), transparent 95%);
+  border-radius: 15px;
+  transform: rotate(12deg);
+  z-index: 1;
+}
+
+.call-to-action .img img {
+  position: relative;
+  z-index: 3;
+  border-radius: 15px;
+  z-index: 3;
+}
+
+/*--------------------------------------------------------------
+# Onfocus Section
+--------------------------------------------------------------*/
+.onfocus {
+  padding: 0;
+}
+
+.onfocus .video-play {
+  min-height: 400px;
+  background: linear-gradient(color-mix(in srgb, var(--background-color), transparent 90%), color-mix(in srgb, var(--background-color), transparent 75%)), url("../img/onfocus-video-bg.jpg") center center;
+  background-size: cover;
+}
+
+.onfocus .content {
+  background: linear-gradient(color-mix(in srgb, var(--background-color), transparent 90%), color-mix(in srgb, var(--background-color), transparent 75%)), url("../img/onfocus-content-bg.jpg") center center;
+  background-size: cover;
+  padding: 40px;
+}
+
+@media (min-width: 768px) {
+  .onfocus .content {
+    padding: 80px;
+  }
+}
+
+.onfocus .content h3 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.onfocus .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.onfocus .content ul li {
+  padding-bottom: 10px;
+}
+
+.onfocus .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: var(--accent-color);
+}
+
+.onfocus .content p:last-child {
+  margin-bottom: 0;
+}
+
+.onfocus .content .read-more {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  border-radius: 5px;
+  transition: 0.3s;
+  display: -nline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--contrast-color);
+  background: var(--accent-color);
+}
+
+.onfocus .content .read-more i {
+  font-size: 18px;
+  margin-left: 5px;
+  line-height: 0;
+  transition: 0.3s;
+}
+
+.onfocus .content .read-more:hover {
+  background: color-mix(in srgb, var(--accent-color) 90%, black 15%);
+  padding-right: 19px;
+}
+
+.onfocus .content .read-more:hover i {
+  margin-left: 10px;
+}
+
+.onfocus .pulsating-play-btn {
+  position: absolute;
+  left: calc(50% - 47px);
+  top: calc(50% - 47px);
+}

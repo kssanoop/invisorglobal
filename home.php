@@ -137,6 +137,21 @@
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         transition: all 0.3s ease;
       }
+      .services-section .card:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -30px;
+    right: -30px;
+    background: linear-gradient(135deg, #e1e1e1, #f3f3f3);
+    height: 32px;
+    width: 32px;
+    border-radius: 0;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.35s ease-out;
+    rotate: 45deg;
+}
 
       @media (max-width:767px) {
         .services-section .service-card {
@@ -547,11 +562,11 @@ height: auto;
           <div class="title-dot"></div>
           <div class="trust-badge">ABOUT US</div>
         </div>
-        <h1 class="about-heading">Your trusted partner in financial consulting</h1>
+        <h1 class="about-heading">Your Success, Simplified with Our Expert Solutions</h1>
 
         <p class="about-description">
-          As a premier financial consulting firm, we pride ourselves on delivering tailored solutions that empower
-          individuals and businesses to achieve their financial goals with confidence.
+        At Invisor, our global team of certified finance professionals, focusing on transforming businesses through innovative finance and digital solutions. With extensive experience in sectors such as IT, hospitality, financial services, and retail, we specialise in high-impact consulting and large-scale change management.   
+
         </p>
 
         <div class="stats-container">
@@ -754,43 +769,42 @@ height: auto;
         <div class="testimonials-container">
           <div class="testimonial-card">
             <p class="testimonial-text">
-              "I cannot express enough gratitude for the exceptional legal services. From the moment, I reached out for
-              help with my complex legal matter."
+              "Invisor made our Zoho setup easy and stress-free. Their team really listened to what we needed, and now our daily tasks run so much smoother!
+              "
             </p>
             <div class="client-info">
               <img src="assets/img/team/team-3.jpg" alt="Andrew McArthur" class="client-photo">
               <div class="client-details">
                 <p class="client-name">Andrew McArthur</p>
-                <p class="client-title">CEO Minechaft</p>
+                <p class="client-title"> CEO Netflix </p>
               </div>
             </div>
           </div>
 
           <div class="testimonial-card">
             <p class="testimonial-text">
-              "I want to express my deepest appreciation for the exceptional legal services provided by LOI. I am truly
-              grateful for their outstanding professionalism and would confidently recommend LOI to anyone seeking
-              top-notch legal representation."
+              "Working with Invisor was a game-changer for our team. Their thorough understanding of Zoho's capabilities allowed us to optimise our workflows and enhance our overall efficiency.
+              "
             </p>
             <div class="client-info">
               <img src="assets/img/team/team-2.jpg" alt="Andrew McArthur" class="client-photo">
               <div class="client-details">
                 <p class="client-name">Andrew McArthur</p>
-                <p class="client-title">CEO Minechaft</p>
+                <p class="client-title">CEO Amazon
+                </p>
               </div>
             </div>
           </div>
 
           <div class="testimonial-card">
             <p class="testimonial-text">
-              "Choosing LOI for my legal representation was one of the best decisions I’ve made. Their exceptional legal
-              services."
+              "The Invisor team provided exceptional support during our Zoho implementation. They tailored everything to fit our business, and their training made it simple for our team to get on board. "
             </p>
             <div class="client-info">
               <img src="assets/img/team/team-1.jpg" alt="Andrew McArthur" class="client-photo">
               <div class="client-details">
                 <p class="client-name">Andrew McArthur</p>
-                <p class="client-title">CEO Minechaft</p>
+                <p class="client-title">CEO DHL</p>
               </div>
             </div>
           </div>
@@ -1073,7 +1087,8 @@ height: auto;
             <div class="trust-badge" style="color: #fff;">CONTACTS</div>
           </div>
           <h1>Let's get in Touch</h1>
-          <p>Providing expert accounting solutions for businesses of all sizes</p>
+          <p>Your partner in delivering tailored solutions for limitless growth 
+          </p>
         </div>
         <div class="contact-footer">
           <a href="#" class="contact-btn">Contact Us <i class="bi bi-arrow-right-short"></i></a>
@@ -1444,8 +1459,8 @@ height: auto;
               <span class="icon"></span>
             </button>
             <div class="faq-answer">
-              Getting started is easy! Schedule a free consultation with our team to discuss your needs and goals. We'll
-              guide you through our process and create a personalized plan for your financial success.
+            To begin, fill out our contact form or call us. Our team will assist you in navigating our services.
+
             </div>
           </div>
         </div>
@@ -1453,25 +1468,13 @@ height: auto;
         <div class="col-md-6">
           <div class="faq-item">
             <button class="faq-question">
-              What credentials and experience do our advisors have?
+            What services do you offer?
+
 
               <span class="icon"></span>
             </button>
             <div class="faq-answer">
-              We offer a comprehensive suite of financial services including investment management, retirement planning,
-              tax strategy, estate planning, and business consulting. </div>
-          </div>
-        </div>
-
-        <div class="col-md-6">
-          <div class="faq-item">
-            <button class="faq-question">
-              What makes us different?
-              <span class="icon"></span>
-            </button>
-            <div class="faq-answer">
-              Our personalized approach, experienced team, and commitment to your success set us apart. We focus on
-              building long-term relationships and providing tailored solutions.
+            We provide Zoho implementation, accounting solutions, and IT services to optimise your business operations.
             </div>
           </div>
         </div>
@@ -1479,12 +1482,12 @@ height: auto;
         <div class="col-md-6">
           <div class="faq-item">
             <button class="faq-question">
-              What credentials do your advisors have?
+            What sets us apart?       
               <span class="icon"></span>
             </button>
             <div class="faq-answer">
-              Our advisors hold various professional certifications including CFP®, CFA, and CPA designations, with
-              decades of combined experience in financial planning and wealth management.
+            Our personalised approach, industry expertise, and commitment to delivering effective solutions distinguish us in the market.
+
             </div>
           </div>
         </div>
@@ -1492,12 +1495,13 @@ height: auto;
         <div class="col-md-6">
           <div class="faq-item">
             <button class="faq-question">
-              How often will you meet your advisor?
+            How do you ensure quality in your services?
+
               <span class="icon"></span>
             </button>
             <div class="faq-answer">
-              We schedule regular quarterly reviews, but we're always available for additional meetings as needed. Your
-              advisor is just a phone call or email away.
+            We follow strict quality control measures and continuously monitor our processes to guarantee exceptional results for our clients.
+
             </div>
           </div>
         </div>
@@ -1505,12 +1509,13 @@ height: auto;
         <div class="col-md-6">
           <div class="faq-item">
             <button class="faq-question">
-              How do we manage risk?
+            Who are your typical clients?
+
               <span class="icon"></span>
             </button>
             <div class="faq-answer">
-              We employ sophisticated risk management strategies, diversification, and ongoing monitoring to help
-              protect and grow your wealth in line with your risk tolerance.
+            We work with businesses of all sizes, including startups, SMEs, and established corporations across various industries.
+
             </div>
           </div>
         </div>
@@ -1518,12 +1523,13 @@ height: auto;
         <div class="col-md-6">
           <div class="faq-item">
             <button class="faq-question">
-              Do you have a minimum asset requirement?
+            Can you customise your services for my business?
+
               <span class="icon"></span>
             </button>
             <div class="faq-answer">
-              We do not have a strict minimum asset requirement, but our services are best suited for clients seeking
-              comprehensive financial management.
+            Absolutely! We tailor our solutions to meet the specific needs and goals of your business.
+
             </div>
           </div>
         </div>
@@ -1531,12 +1537,27 @@ height: auto;
         <div class="col-md-6">
           <div class="faq-item">
             <button class="faq-question">
-              What types of clients do we work with?
+            Do you offer training for your solutions?
+
               <span class="icon"></span>
             </button>
             <div class="faq-answer">
-              We work with individuals, families, business owners, and institutions, providing customized financial
-              solutions for each client's unique needs.
+            Yes, we provide comprehensive training to help your team effectively use our Zoho solutions and services.
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="faq-item">
+            <button class="faq-question">
+            What is the typical timeline for implementation?
+
+              <span class="icon"></span>
+            </button>
+            <div class="faq-answer">
+            The timeline varies based on the complexity of your needs, but we ensure efficient planning to meet your deadlines.
+
             </div>
           </div>
         </div>
@@ -1670,8 +1691,10 @@ height: auto;
             <div class="title-dot"></div>
             <div class="trust-badge">NEWSLETTER</div>
           </div>
-          <h2 class="newsletter-title">Stay in touch.</h2>
-          <h2 class="newsletter-subtitle">Subscribe to newsletter.</h2>
+          <h2 class="newsletter-title">Join our network.
+          </h2>
+          <h2 class="newsletter-subtitle">Sign up for updates and insights.
+          </h2>
           <form class="newsletter-form">
             <input type="email" class="newsletter-input" placeholder="Provide your email" required>
             <button type="submit" class="newsletter-button">Subscribe</button>
