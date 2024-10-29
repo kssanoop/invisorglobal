@@ -1,10 +1,8 @@
-
-
 /* Fonts */
 :root {
-  --default-font:"Open Sans", serif;
-  --heading-font:'Switzer', sans-serif;
-  --nav-font:"Open Sans", serif;
+  --default-font: "Open Sans", serif;
+  --heading-font: 'Switzer', sans-serif;
+  --nav-font: "Open Sans", serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -58,7 +56,11 @@
 :root {
   scroll-behavior: smooth;
 }
-.container{max-width: 1100px;}
+
+.container {
+  max-width: 1100px;
+}
+
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
@@ -103,7 +105,10 @@ h6 {
   background: radial-gradient(var(--accent-color) 50%, color-mix(in srgb, var(--accent-color), transparent 75%) 52%);
   border-radius: 50%;
   display: block;
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   overflow: hidden;
 }
 
@@ -199,6 +204,7 @@ h6 {
   color: white;
   z-index: 1000;
 }
+
 .phone {
   display: flex;
   align-items: center;
@@ -210,12 +216,14 @@ h6 {
 .phone img {
   width: 24px;
   height: 24px;
-  transition: transform 0.4s ease; /* Smooth rotation */
+  transition: transform 0.4s ease;
+  /* Smooth rotation */
 }
 
 /* Hover effect on phone details */
 .phone:hover img {
-  transform: rotate(-20deg); /* Rotate 90 degrees to the left (counterclockwise) */
+  transform: rotate(-20deg);
+  /* Rotate 90 degrees to the left (counterclockwise) */
 }
 
 .header {
@@ -271,9 +279,11 @@ h6 {
   color: var(--contrast-color);
   background: color-mix(in srgb, var(--accent-color), transparent 15%);
 }
+
 @media (max-width: 340px) {
   .header .logo img {
-width: 120px !important;  }
+    width: 120px !important;
+  }
 }
 
 
@@ -449,19 +459,21 @@ width: 120px !important;  }
     visibility: visible;
   }
 }
-@media (min-width: 768px) and (max-width:1200px){
+
+@media (min-width: 768px) and (max-width:1200px) {
   .phone {
     position: absolute;
     top: 30px;
     right: 9%;
     color: white;
     z-index: 1000;
+  }
 }
-}
+
 /* Mobile Navigation */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
-    color:#Fff  ;
+    color: #Fff;
     font-size: 28px;
     line-height: 0;
     margin-right: 10px;
@@ -628,7 +640,8 @@ width: 120px !important;  }
 
 .right-arrow img {
   transition: transform 0.5s ease;
-  margin-left: 5px; /* Optional: to space the arrow from the text */
+  margin-left: 5px;
+  /* Optional: to space the arrow from the text */
 }
 
 .right-arrow:hover img {
@@ -739,103 +752,129 @@ section,
   margin-bottom: 0;
 }
 
-/* =====================================btn=================================== */
-/* Shutter In Vertical */
-.hvr-shutter-in-vertical {color: #fff;
+
+/* ==========================================hover button1===================================== */
+
+.hover-button {
+  color: #1d1d1d;
   display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  padding: 10px 20px;
+  border: 1px solid #03045e;
   position: relative;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;padding: 10px 20px;
+  overflow: hidden;
+  transition: all 0.5s ease-in;
+  z-index: 1;
+  text-align: center;
 }
 
-.hvr-shutter-in-vertical:before {
-  content: "";
+.hover-button::before,
+.hover-button::after {
+  content: '';
   position: absolute;
-  z-index: -1;
   top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  width: 0;
+  height: 60px;
+  transform: skew(15deg);
+  transition: all 0.5s;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.hover-button::before {
+  left: -10px;
   background: var(--accent-color);
-  -webkit-transform: scaleY(1);
-  transform: scaleY(1);
-  -webkit-transform-origin: 50%;
-  transform-origin: 50%;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
 }
 
-.hvr-shutter-in-vertical:hover,
-.hvr-shutter-in-vertical:focus,
-.hvr-shutter-in-vertical:active {
-  color: var(--accent-color);
+.hover-button::after {
+  right: -10px;
+  background: var(--accent-color);
 }
 
-.hvr-shutter-in-vertical:hover:before,
-.hvr-shutter-in-vertical:focus:before,
-.hvr-shutter-in-vertical:active:before {
-  -webkit-transform: scaleY(0);
-  transform: scaleY(0);
+.hover-button:hover::before,
+.hover-button:hover::after {
+  width: 58%;
 }
 
-/* Shutter Out Vertical */
-.hvr-shutter-out-vertical {
+.hover-button:hover a {
+  color: #fff !important;
+  transition: 0.3s;
+}
+
+.hover-button:hover {
+  color: #fff !important;
+}
+
+.hover-button a {
+  text-align: center;
+  margin: auto;
+  display: block;
+  color: #1d1d1d !important;
+  font-size: 18px;
+  transition: all 0.3s ease-in;
+}
+
+/* ==========================================hover button2===================================== */
+
+.hover-button2 {
+  color: #fff;
+  background-color: var(--accent-color);
   display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  padding: 10px 20px;
+  border: 1px solid #03045e;
   position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in;
+  z-index: 1;
+  text-align: center;
+}
+
+.hover-button2::before,
+.hover-button2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 80px;
+  transform: skew(15deg);
+  transition: all 0.5s;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.hover-button2::before {
+  left: -10px;
   background: #fff;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;padding: 10px 20px;
 }
 
-.hvr-shutter-out-vertical:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: var(--accent-color);
-  -webkit-transform: scaleY(0);
-  transform: scaleY(0);
-  -webkit-transform-origin: 50%;
-  transform-origin: 50%;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+.hover-button2::after {
+  right: -10px;
+  background: #fff;
 }
 
-.hvr-shutter-out-vertical:hover,
-.hvr-shutter-out-vertical:focus,
-.hvr-shutter-out-vertical:active {
-  color: white;
+.hover-button2:hover::before,
+.hover-button2:hover::after {
+  width: 58%;
 }
 
-.hvr-shutter-out-vertical:hover:before,
-.hvr-shutter-out-vertical:focus:before,
-.hvr-shutter-out-vertical:active:before {
-  -webkit-transform: scaleY(1);
-  transform: scaleY(1);
+.hover-button2:hover a {
+  color: #fff;
+  transition: 0.3s;
 }
+
+.hover-button2 a {
+  text-align: center;
+  margin: auto;
+  display: block;
+  color: #000;
+  font-size: 18px;
+  transition: all 0.3s ease-in;
+}
+
+.hover-button2:hover {
+  color: #1d1d1d;
+}
+
+/* ----------------------------------------------------------- */
 
 /* Underline From Left */
 .hvr-underline-from-left {
@@ -847,6 +886,7 @@ section,
   position: relative;
   overflow: hidden;
 }
+
 .hvr-underline-from-left:before {
   content: "";
   position: absolute;
@@ -863,7 +903,10 @@ section,
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+
+.hvr-underline-from-left:hover:before,
+.hvr-underline-from-left:focus:before,
+.hvr-underline-from-left:active:before {
   right: 0;
 }
 
@@ -889,14 +932,18 @@ section,
   background-color: var(--accent-color);
 }
 
-.hero-title {color: #333;
+.hero-title {
+  color: #333;
   font-size: 46px;
   font-weight: 300;
   margin-bottom: 5%;
 }
 
-.hero-subtitle {padding-right: 30%;font-weight: 300 !important;
-  font-size: 1.2rem;color: #1d1d1dcc;
+.hero-subtitle {
+  padding-right: 30%;
+  font-weight: 300 !important;
+  font-size: 1.2rem;
+  color: #1d1d1dcc;
   margin-bottom: 30px;
 }
 
@@ -906,7 +953,8 @@ section,
 
 .trust-badge {
   color: var(--accent-color);
-  font-size: 14px;font-weight: 600;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .hero-section .img-fluid {
@@ -926,7 +974,10 @@ section,
   .banner-text {
     margin-top: 4% !important;
   }
-  .hero-subtitle {margin: 8% 0 !important;}
+
+  .hero-subtitle {
+    margin: 8% 0 !important;
+  }
 
   .banner {
     height: 64vh !important;
@@ -937,6 +988,7 @@ section,
   .banner {
     height: 55vh;
   }
+
   .hero-section .img-fluid {
     position: absolute;
     top: 0;
@@ -950,26 +1002,35 @@ section,
   }
 
 }
+
 @media (min-width: 1500px) {
-.banner{height: 72vh !important;}
+  .banner {
+    height: 72vh !important;
+  }
+
   .banner-text {
     margin-top: 25% !important;
   }
+
   .hero-section .img-fluid {
     width: 45%;
   }
 
 }
+
 @media (min-width: 1200px) and (max-width:1400px) {
   .banner {
     height: 90vh !important;
   }
 }
+
 @media (max-width: 991px) {
   .banner {
     height: auto;
   }
-  .hero-subtitle {padding-right: 0 !important;
+
+  .hero-subtitle {
+    padding-right: 0 !important;
   }
 
   .banner .container {
@@ -1034,7 +1095,8 @@ section,
 
 .service-section .card {
   width: 100%;
-  max-width: 350px; /* Adjust based on your design */
+  max-width: 350px;
+  /* Adjust based on your design */
   margin: 0 auto;
 }
 
@@ -1063,30 +1125,38 @@ section,
 .hvr-underline-from-left:hover::after {
   transform: scaleX(1);
 }
+
 /* Swiper Navigation Button Styles */
 .swiper-button-next,
 .swiper-button-prev {
-    width: 50px; /* Adjust button width */
-    height: 50px; /* Adjust button height */
-    color: var(--accent-color); /* Change color as needed */
-    display: none;
+  width: 50px;
+  /* Adjust button width */
+  height: 50px;
+  /* Adjust button height */
+  color: var(--accent-color);
+  /* Change color as needed */
+  display: none;
 }
 
 /* Positioning */
 .swiper-button-next {
-    right: -50px; /* Place the next button 20px from the right */
+  right: -50px;
+  /* Place the next button 20px from the right */
 }
 
 .swiper-button-prev {
-    left: -50px; /* Place the prev button 20px from the left */
+  left: -50px;
+  /* Place the prev button 20px from the left */
 }
 
 /* Adjust the icon size inside the buttons */
 .swiper-button-next:after,
 .swiper-button-prev:after {
-    font-size: 40px; /* Adjust font size of arrow icons */
-    
+  font-size: 40px;
+  /* Adjust font size of arrow icons */
+
 }
+
 /* Line pagination style */
 .swiper-pagination {
   position: relative;
@@ -1096,17 +1166,24 @@ section,
 }
 
 .swiper-pagination-bullet {
-  width: 10px; /* Line width for pagination bullet */
-  height: 4px; /* Line height for pagination bullet */
-  background-color: #333; /* Color of the inactive bullets */
-  border-radius: 0; /* Remove rounded corners */
-  opacity: 0.5; /* Inactive bullet opacity */
+  width: 10px;
+  /* Line width for pagination bullet */
+  height: 4px;
+  /* Line height for pagination bullet */
+  background-color: #333;
+  /* Color of the inactive bullets */
+  border-radius: 0;
+  /* Remove rounded corners */
+  opacity: 0.5;
+  /* Inactive bullet opacity */
 }
 
 /* Active bullet style */
 .swiper-pagination-bullet-active {
-  background-color: var(--accent-color); /* Color of the active bullet */
-  opacity: 1; /* Full opacity for the active bullet */
+  background-color: var(--accent-color);
+  /* Color of the active bullet */
+  opacity: 1;
+  /* Full opacity for the active bullet */
 }
 
 
@@ -1117,7 +1194,13 @@ section,
   position: relative;
   margin: 60px 0 0 60px;
 }
-.about .tab-content img{width: 100px;margin-right: 20px ;margin-bottom: 20px;}
+
+.about .tab-content img {
+  width: 100px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
 .about .about-img:before {
   position: absolute;
   inset: -60px 0 0 -60px;
@@ -1144,7 +1227,7 @@ section,
 
 .about h3 {
   font-weight: 300;
-  font-size: 32px;
+  font-size: 40px;
   margin-bottom: 20px;
 }
 
@@ -1159,7 +1242,7 @@ section,
 }
 
 .about .nav-pills li+li {
-  margin-left: 40px;
+  margin-right: 20px;
 }
 
 .about .nav-link {
@@ -1218,30 +1301,14 @@ section,
 }
 
 .call-to-action .content h3 {
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 36px;
+  font-weight: 300;
 }
 
-.call-to-action .content h3 em {
-  font-style: normal;
-  position: relative;
-  z-index: 1;
-}
-
-.call-to-action .content h3 em:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 10px;
-  height: 10px;
-  background: color-mix(in srgb, var(--accent-color), transparent 30%);
-  z-index: -1;
-}
 
 .call-to-action .content p {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
 }
 
@@ -1259,6 +1326,14 @@ section,
 
 .call-to-action .content .cta-btn:hover {
   background: color-mix(in srgb, var(--accent-color) 90%, black 15%);
+}
+
+.call-to-action li {
+  display: flex;
+}
+
+.call-to-action i {
+  margin-right: 5px;
 }
 
 .call-to-action .img {
@@ -1318,8 +1393,11 @@ section,
 }
 
 .onfocus .content h3 {
-  font-weight: 600;
-  font-size: 32px;
+  font-weight: 300;
+  font-size: 35px;
+}
+.onfocus .content h5 {
+  font-weight: 300;
 }
 
 .onfocus .content ul {
@@ -1328,13 +1406,14 @@ section,
 }
 
 .onfocus .content ul li {
+  display: flex;
   padding-bottom: 10px;
 }
 
 .onfocus .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: var(--accent-color);
+  color: #ccc;
 }
 
 .onfocus .content p:last-child {

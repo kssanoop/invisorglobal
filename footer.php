@@ -25,7 +25,7 @@
       margin-bottom: 2rem;
     }
 
-    .footer-address p {line-height: 25px;
+    .footer-address p {line-height: 30px;
       color: #666;
       margin: 0.5rem 0;
       font-size: 1rem;

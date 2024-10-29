@@ -13,8 +13,8 @@
             </h1>
             <p class="hero-subtitle">We specialise in implementing expert Zoho solutions for businesses of all sizes
             </p>
-            <button class="btn hvr-shutter-in-vertical me-2">Our Services</button>
-            <button class="btn hvr-shutter-out-vertical">Book Consultation</button>
+            <a href="" class="hover-button2 me-2">Our Services</a>
+            <a href="" class="hover-button">Book Consultation</a>
           </div>
           <div class="col-md-6">
             <img src="assets/img/banner-img.png" alt="Two professional women working together" class="img-fluid">
@@ -208,6 +208,9 @@ height: auto;
         /* Ensures the button doesn't wrap */
       }
 
+      /* =========== */
+      
+      /* =========== */
       .services-section .show-more a:hover {
         color: var(--accent-color);
       }
@@ -1268,7 +1271,7 @@ height: auto;
               <div class="blog-date">3/18/2024</div>
             </div>
             <div class="blog-content">
-              <h3>Retirement Planning 101: Securing Your Golden Years</h3>
+              <h3>Why Zoho? Uncover the Key Benefits of Zoho Implementation</h3>
               <div class="read-more">Read <i class="bi bi-arrow-right-short"></i></div>
             </div>
           </div>
@@ -1282,7 +1285,8 @@ height: auto;
               <div class="blog-date">3/18/2024</div>
             </div>
             <div class="blog-content">
-              <h3>The Power of Compound Interest: Building Wealth Over Time</h3>
+              <h3>Zoho Implementation Success Stories: Real-World Examples of Business Transformation
+              </h3>
               <div class="read-more">Read <i class="bi bi-arrow-right-short"></i></div>
             </div>
           </div>
@@ -1296,7 +1300,8 @@ height: auto;
               <div class="blog-date">3/18/2024</div>
             </div>
             <div class="blog-content">
-              <h3>Navigating Market Volatility: Strategies for Uncertain Times</h3>
+              <h3>Accounting Made Simple: How Zoho Books Can Revolutionise Your Finances
+              </h3>
               <div class="read-more">Read <i class="bi bi-arrow-right-short"></i></div>
             </div>
           </div>
@@ -1697,7 +1702,7 @@ height: auto;
           </h2>
           <form class="newsletter-form">
             <input type="email" class="newsletter-input" placeholder="Provide your email" required>
-            <button type="submit" class="newsletter-button">Subscribe</button>
+            <button type="submit" class="newsletter-button">Join Now</button>
           </form>
         </div>
         <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
