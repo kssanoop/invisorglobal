@@ -282,8 +282,8 @@ height: auto;
       }
     </style>
 
-    <div class="services-section" data-aos="zoom-in-up">
-      <div class="container" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+    <div class="services-section">
+      <div class="container">
         <div class="title-top">
           <div class="title-dot"></div>
           <div class="trust-badge">SERVICES</div>
@@ -329,7 +329,7 @@ height: auto;
               <div class="swiper-wrapper">
                 <!-- Card 1 -->
                 <div class="swiper-slide">
-                  <div class="card service-card hvr-underline-from-left">
+                  <a href="?page=zohoone"><div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
                         <h5 class="card-title">Zoho One
@@ -346,7 +346,7 @@ height: auto;
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <!-- Card 2 -->
                 <div class="swiper-slide">
@@ -410,7 +410,7 @@ height: auto;
                 </div>
                                 <!-- Card 5 -->
                 <div class="swiper-slide">
-                  <div class="card service-card hvr-underline-from-left">
+                  <a href=""><div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
                         <h5 class="card-title">Zoho Analytics</h5>
@@ -425,7 +425,7 @@ height: auto;
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <!-- Card 6 -->
                 <div class="swiper-slide">

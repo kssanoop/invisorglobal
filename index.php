@@ -15,6 +15,14 @@ if($page=='zohoone')
 {
 	include('zohoone.php');
 }
+if($page=='about')
+{
+	include('about.php');
+}
+if($page=='contact')
+{
+	include('contact.php');
+}
 
 include('footer.php');
  ?>
