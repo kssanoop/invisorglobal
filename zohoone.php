@@ -27,10 +27,6 @@
 </style>
 <div class="container-fluid">
   <div class="container zoho-one">
-    <div class="title-top">
-      <div class="title-dot"></div>
-      <div class="trust-badge">SERVICES</div>
-    </div>
 
     <div class="row my-5">
       <div class="col-md-6">
@@ -41,10 +37,8 @@
           with a single
           suite of contextually connected apps.
         </p>
-        <div class="hover-button mt-2" style="border-radius: 5px;">
-          <a href="#newsletter">Learn more</a>
+        <a class="hover-button mt-2" href="#newsletter">Learn more</a>
         </div>
-      </div>
       <div class="col-md-6" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
 
         <img src="assets/img/dashboard-sm.png" alt="Zoho One Image" class="service-image">
@@ -83,9 +77,9 @@
 
 <!-- Features Section -->
 <section id="features" class="features section">
-    <!-- Section Title -->
-    <div class="container section-title about-head mt-5" data-aos="fade-up">
-    <h3>List of Zoho One's Business Management Software Tools</h3>
+  <!-- Section Title -->
+  <div class="container section-title about-head mt-5" data-aos="fade-up">
+    <h3 style="font-weight: 300;">List of Zoho One's Business Management Software Tools</h3>
     <p>All apps under Zoho One are consistent in their approach in terms of usability and design. This means the
       learning curve is lessened and different functionalities use data from other apps, so your data flows smoothly
       wherever it has to. Covering the breadth and width of all the functions that a business would need comes as a
@@ -502,8 +496,262 @@
 
 </section><!-- /Call To Action Section -->
 
+<div class="service-cmn container-fluid">
+  <div class="container">
+    <div class="title-top">
+      <div class="title-dot"></div>
+      <div class="trust-badge">SERVICES</div>
+    </div>
+    <h2 class="services-title">Why Choose Invisor as Your Zoho Partner?</h2>
+    <p>At Invisor, we do more than just implement software—we help businesses transform. With our deep expertise and
+      hands-on approach, we’ll guide you through every stage of your Zoho journey, from planning and setup to support
+      and optimization</p>
+    <div class="service-cards" data-aos="zoom-in-up">
+      <div class="swiper-container" style="overflow: hidden;">
+        <div class="swiper-wrapper">
+          <!-- Card 1 -->
+          <div class="swiper-slide">
+            <a href="?page=zohoone">
+              <div class="card service-card hvr-underline-from-left">
+                <div class="card-body">
+                  <div class="card-top">
+                    <h5 class="card-title">Understanding your business needs</h5>
+                  </div>
+                  <div class="card-bdy">
+                    <p class="card-text">We start by thoroughly analysing your business processes to identify key areas
+                      where Zoho can add value. Our team ensures that the Zoho applications are aligned with your unique
+                      goals and operational workflows.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Additional cards follow similar structure -->
+          <!-- Card 2 -->
+          <div class="swiper-slide">
+            <div class="card service-card hvr-underline-from-left">
+              <div class="card-body">
+                <div class="card-top">
+                  <h5 class="card-title">Tailored Customisation</h5>
+                </div>
+                <div class="card-bdy">
+                  <p class="card-text">Our experts customise Zoho solutions to fit your business requirements. We
+                    configure automation, workflows, and custom features while seamlessly integrating them with your
+                    existing systems to enhance efficiency.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="swiper-slide">
+            <div class="card service-card hvr-underline-from-left">
+              <div class="card-body">
+                <div class="card-top">
+                  <h5 class="card-title">Streamlined Integration Process</h5>
+                </div>
+                <div class="card-bdy">
+                  <p class="card-text">Our integration process connects Zoho with your existing tools, creating a
+                    unified platform for data flow across departments. We manage third-party integrations and ensure
+                    that all systems work together harmoniously.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="swiper-slide">
+            <div class="card service-card hvr-underline-from-left">
+              <div class="card-body">
+                <div class="card-top">
+                  <h5 class="card-title">Comprehensive Training for Your Team</h5>
+                </div>
+                <div class="card-bdy">
+                  <p class="card-text">Once the system is live, we provide hands-on training to your staff, ensuring
+                    they are fully equipped to use Zoho’s tools effectively. Tailored training sessions ensure each
+                    department can maximise the platform’s potential.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="swiper-slide">
+            <div class="card service-card hvr-underline-from-left">
+              <div class="card-body">
+                <div class="card-top">
+                  <h5 class="card-title">Continuous Support and Optimization</h5>
+                </div>
+                <div class="card-bdy">
+                  <p class="card-text">Beyond implementation, we offer ongoing support to keep your Zoho system
+                    optimised. Our team provides updates, resolves issues, and ensures your platform evolves with your
+                    business needs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="swiper-slide">
+            <div class="card service-card hvr-underline-from-left">
+              <div class="card-body">
+                <div class="card-top">
+                  <h5 class="card-title">Secure Data Transition</h5>
+                </div>
+                <div class="card-bdy">
+                  <p class="card-text">We ensure a smooth migration of your data into Zoho, with a focus on accuracy and
+                    security. Our team validates the data and guarantees its integrity throughout the migration process.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- More service cards can be added here as needed -->
+        </div>
 
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
 
+        <!-- Add Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  /* Positioning */
+.swiper-button-next {
+  right: 0px;
+  /* Place the next button 20px from the right */
+}
+
+.swiper-button-prev {
+  left: 0px;
+  /* Place the prev button 20px from the left */
+}
+@media (min-width:1200px) {
+  .swiper-button-next {
+  right: -30px !important;
+  /* Place the next button 20px from the right */
+}
+
+.swiper-button-prev {
+  left: -30px;
+  /* Place the prev button 20px from the left */
+}
+
+}
+  .service-cmn {
+    position: relative;
+    padding: 50px 0;
+  }
+
+  .service-cmn .card-body {
+    background-color: #fff;
+    padding: 0;
+  }
+
+  .service-cmn .card-bdy {
+    padding: 0 20px 20px;
+  }
+
+  .service-cmn .services-title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  .service-cmn .services-badge {
+    color: var(--accent-color);
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  /* Service Cards */
+  .service-cmn .service-card {
+    border: none;
+    border-radius: 8px;
+    height: 275px;
+    max-height: 350px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: all 0.3s ease;
+  }
+
+  .service-cmn .card:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -30px;
+    right: -30px;
+    background: linear-gradient(135deg, #e1e1e1, #f3f3f3);
+    height: 32px;
+    width: 32px;
+    border-radius: 0;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.35s ease-out;
+    rotate: 45deg;
+  }
+
+  .service-cmn .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(99, 99, 99, 0.3) 0px 4px 12px 0px;
+  }
+
+  .service-cmn .service-card .card-title {
+    color: #fff;
+    font-weight: 500;
+    padding: 20px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    background-color: var(--accent-color);
+    height: 75px;
+    text-align: center;
+  }
+
+  .service-cmn .service-card .card-text {
+    text-align: justify;
+    color: #1d1d1dcc;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+
+  .service-cmn .service-card .btn-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0;
+  }
+
+  /* Responsive Styles */
+  @media (max-width:767px) {
+    .service-cmn .service-card {
+      height: auto;
+      width: 80%;
+      margin: auto;
+      display: block;
+    }
+  }
+
+  @media (min-width:767px) and (max-width:991px) {
+    .service-cmn .service-card {
+      height: 300px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .service-cmn .services-title {
+      font-size: 2rem;
+    }
+
+    .service-cmn .service-card .card-title {
+      font-size: 1.1rem;
+    }
+
+    .service-cmn .service-card .card-text {
+      font-size: 0.9rem;
+    }
+  }
+</style>
 
 <!-- ================================================================== -->
 <!-- ================Services Section==================== -->
@@ -530,7 +778,7 @@
 
     <div class="card">
       <div class="content">
-        <h2 class="title">Your Business Needs</h2>
+        <h2 class="title">Understanding your business needs</h2>
         <p class="copy">We start by thoroughly analysing your business processes to identify key areas where Zoho can
           add
           value. Our team ensures that the Zoho applications are aligned with your unique goals and operational
@@ -770,10 +1018,11 @@
   }
 
   .services .title {
+    font-weight: 500;
     color: #fff;
     font-size: 22px;
-    font-weight: 800;
     line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   }
 
   .services .copy {
@@ -927,7 +1176,8 @@
 
   .newsletter-image {
     position: absolute;
-    bottom: 0;right: 10%;
+    bottom: 0;
+    right: 10%;
     max-width: 400px;
     height: auto;
   }
@@ -950,6 +1200,7 @@
       display: none;
     }
   }
+
   .slide-bg-1 {
     z-index: 1;
     background-color: var(--accent-color);
@@ -963,7 +1214,8 @@
     left: 60%;
     right: auto;
     transform: skew(-10deg);
-}
+  }
+
   .slide-bg {
     width: 45%;
     background-color: #fff;
@@ -975,10 +1227,19 @@
   }
 
   @media (max-width: 991px) {
-    .slide-bg{    background-color: #e4e5e5;
+    .slide-bg {
+      display: none;
     }
-  }
 
+    .slide-bg-1 {
+      display: none;
+    }
+
+    .newsletter-image {
+      right: -7%;
+    }
+
+  }
 </style>
 
 <div class="newsletter-section" data-aos="zoom-in-up" id="newsletter">
@@ -988,7 +1249,7 @@
 
       <div class="title-top">
         <div class="title-dot"></div>
-        <div class="trust-badge">NEWSLETTER</div>
+        <div class="trust-badge">STAY CONNECTED</div>
       </div>
       <h2 class="newsletter-title">Join our network.
       </h2>
@@ -1002,8 +1263,8 @@
       </form>
     </div>
     <div class="slide-bg-1"></div>
-    <div class="slide-bg">    </div>
+    <div class="slide-bg"> </div>
 
-      <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
+    <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
   </div>
 </div>

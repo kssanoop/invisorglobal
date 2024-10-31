@@ -54,11 +54,11 @@
 
       <nav id="navmenu" class="navmenu d-flex justify-content-center align-items-center m-xl-auto">
         <ul>
-          <li><a href="#">Services<br></a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="?page=services">Services<br></a></li>
+          <li><a href="?page=pricing">Pricing</a></li>
+          <li><a href="?page=about">About Us</a></li>
+          <li><a href="?page=blog">Blog</a></li>
+          <li><a href="?page=contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>

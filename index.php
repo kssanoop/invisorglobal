@@ -23,6 +23,62 @@ if($page=='contact')
 {
 	include('contact.php');
 }
+if($page=='zohocrm')
+{
+	include('zohocrm.php');
+}
+if($page=='blog')
+{
+	include('blog.php');
+}
+if($page=='services')
+{
+	include('services.php');
+}
+if($page=='zohoinventory')
+{
+	include('zohoinventory.php');
+}
+if($page=='zohoanalytics')
+{
+	include('zohoanalytics.php');
+}
+if($page=='zohocreator')
+{
+	include('zohocreator.php');
+}
+if($page=='zohoprojects')
+{
+	include('zohoprojects.php');
+}
+if($page=='zohodesk')
+{
+	include('zohodesk.php');
+}
+if($page=='zohopeople')
+{
+	include('zohopeople.php');
+}
+if($page=='zohopayroll')
+{
+	include('zohopayroll.php');
+}
+if($page=='pricing')
+{
+	include('pricing.php');
+}
+if($page=='blog1')
+{
+	include('blog1.php');
+}
+if($page=='blog2')
+{
+	include('blog2.php');
+}
+if($page=='blog3')
+{
+	include('blog3.php');
+}
 
 include('footer.php');
  ?>

@@ -872,6 +872,89 @@ section,
 }
 
 /* ----------------------------------------------------------- */
+/* Sweep To Right */
+.hvr-sweep-to-right {
+  display: flow-root;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-right:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.1); /* 10% opacity */
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
+  color: white;
+}
+.hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/* Shutter In Horizontal */
+.hvr-shutter-in-horizontal {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  background: #fff !important;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  color: #333 !important;
+}
+.hvr-shutter-in-horizontal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--accent-color);
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-shutter-in-horizontal:hover, .hvr-shutter-in-horizontal:focus, .hvr-shutter-in-horizontal:active {
+  color: #333 !important;
+}
+.hvr-shutter-in-horizontal:hover:before, .hvr-shutter-in-horizontal:focus:before, .hvr-shutter-in-horizontal:active:before {
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
 
 /* Underline From Left */
 .hvr-underline-from-left {
@@ -1074,6 +1157,8 @@ section,
   }
 }
 
+
+
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
@@ -1134,21 +1219,31 @@ section,
   /* Change color as needed */
 }
 
-/* Positioning */
-.swiper-button-next {
-  right: -50px;
-  /* Place the next button 20px from the right */
-}
-
-.swiper-button-prev {
-  left: -50px;
-  /* Place the prev button 20px from the left */
-}
-
+  /* Positioning */
+  .swiper-button-next {
+    right: 0px;
+    /* Place the next button 20px from the right */
+  }
+  
+  .swiper-button-prev {
+    left: 0px;
+    /* Place the prev button 20px from the left */
+  }
+  @media (min-width:1200px) {
+    .swiper-button-next {
+    right: -30px !important;
+    /* Place the next button 20px from the right */
+  }
+  
+  .swiper-button-prev {
+    left: -30px;
+    /* Place the prev button 20px from the left */
+  }
+  }  
 /* Adjust the icon size inside the buttons */
 .swiper-button-next:after,
 .swiper-button-prev:after {
-  font-size: 20px;
+  font-size: 30px;
   /* Adjust font size of arrow icons */
 
 }

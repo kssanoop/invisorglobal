@@ -332,8 +332,8 @@ height: auto;
                   <a href="?page=zohoone"><div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
-                        <h5 class="card-title">Zoho One
-                        </h5>
+                        <a href=""><h5 class="card-title">Zoho One
+                        </h5></a>
                       </div>
                       <div class="card-bdy">
                         <p class="card-text">An all-in-one suite offering 50+ integrated apps to run your entire
@@ -350,7 +350,7 @@ height: auto;
                 </div>
                 <!-- Card 2 -->
                 <div class="swiper-slide">
-                  <div class="card service-card hvr-underline-from-left">
+                  <a href="?page=zohocrm"><div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
                         <h5 class="card-title">Zoho CRM</h5>
@@ -359,17 +359,17 @@ height: auto;
                         <p class="card-text">A powerful CRM tool to manage sales, marketing, and customer support,
                           streamlining your customer interactions.</p>
                         <div class="tab-bottom">
-                          <a href="#" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zohocrm" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                           <img src="assets/img/crm.svg" alt="">
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <!-- Card 3 -->
                 <div class="swiper-slide">
-                  <div class="card service-card hvr-underline-from-left">
+                  <a href="?page=zohobooks"><div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
                         <h5 class="card-title">Zoho Books
@@ -380,17 +380,17 @@ height: auto;
                           manage business accounts effortlessly.
                         </p>
                         <div class="tab-bottom">
-                          <a href="#" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zohobooks" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                           <img src="assets/img/zoho-books_3ex2.png" alt="">
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <!-- Card 4 -->
                 <div class="swiper-slide">
-                  <div class="card service-card hvr-underline-from-left">
+                 <a href="?page=zohoinventory"><div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
                         <h5 class="card-title">Zoho Inventory 
@@ -400,17 +400,17 @@ height: auto;
                         <p class="card-text">A robust inventory management system for tracking stock, fulfilling orders, and managing warehouses.
                         </p>
                         <div class="tab-bottom">
-                          <a href="#" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zohoinventory" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                           <img src="assets/img/inventory.png" alt="">
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div></a> 
                 </div>
                                 <!-- Card 5 -->
                 <div class="swiper-slide">
-                  <a href=""><div class="card service-card hvr-underline-from-left">
+                  <a href="?page=zohoanalytics"><div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
                         <h5 class="card-title">Zoho Analytics</h5>
@@ -419,7 +419,7 @@ height: auto;
                         <p class="card-text">A business intelligence platform offering deep data insights with customisable reports and dashboards.
                         </p>
                         <div class="tab-bottom">
-                          <a href="#" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zohoanalytics" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                           <img src="assets/img/zoho-analytics-logo-lockup.png" alt="">
                         </div>
@@ -429,7 +429,7 @@ height: auto;
                 </div>
                 <!-- Card 6 -->
                 <div class="swiper-slide">
-                  <div class="card service-card hvr-underline-from-left">
+                  <a href="?page=zohocreator"><div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
                         <h5 class="card-title">Zoho creator 
@@ -439,17 +439,17 @@ height: auto;
                         <p class="card-text">A low-code platform to build custom applications that automate business processes without heavy coding.
                         </p>
                         <div class="tab-bottom">
-                          <a href="#" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zohocreator" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                           <img src="assets/img/creator.png" alt="">
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <!-- Card 6 -->
                 <div class="swiper-slide">
-                  <div class="card service-card hvr-underline-from-left">
+                 <a href="?page=zohoprojects"><div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
                         <h5 class="card-title">Zoho projects 
@@ -460,17 +460,17 @@ height: auto;
                         <p class="card-text">A project management tool to plan, track, and collaborate on projects, ensuring timely completion and efficiency.
                         </p>
                         <div class="tab-bottom">
-                          <a href="#" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zohoprojects" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                           <img src="assets/img/zoho-Projects-logo-lockup.jpg" alt="">
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div></a> 
                 </div>
                 <!-- Card 6 -->
                 <div class="swiper-slide">
-                  <div class="card service-card hvr-underline-from-left">
+                  <a href="?page=zohodesk"><div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
                         <h5 class="card-title">Zoho Desk
@@ -482,17 +482,17 @@ height: auto;
 
                         </p>
                         <div class="tab-bottom">
-                          <a href="#" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zohodesk" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                           <img src="assets/img/zoho-desk.webp" alt="">
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <!-- Card 6 -->
                 <div class="swiper-slide">
-                  <div class="card service-card hvr-underline-from-left">
+                  <a href="?page=zohopeople"><div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
                         <h5 class="card-title">Zoho People 
@@ -504,17 +504,17 @@ height: auto;
 
                         </p>
                         <div class="tab-bottom">
-                          <a href="#" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zohopeople" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                           <img src="assets/img/People-logo-lockup.jpg" alt="">
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <!-- Card 6 -->
                 <div class="swiper-slide">
-                  <div class="card service-card hvr-underline-from-left">
+                  <a href="?page=zohopayroll"><div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
                         <h5 class="card-title">Zoho Payroll  
@@ -524,13 +524,13 @@ height: auto;
                         <p class="card-text">A simple, efficient payroll software for automating salary calculations and ensuring compliance with tax regulations.
                         </p>
                         <div class="tab-bottom">
-                          <a href="#" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zohopayroll" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                           <img src="assets/img/Payroll-logo-lockup.jpg" alt="">
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div></a>
                 </div>
                 <!-- More cards -->
               </div>
@@ -589,10 +589,10 @@ height: auto;
       </div>
 
       <div class="learn-more-section" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
-        <div class="lern-more" style="width: 50%;margin: auto;display: block;">
-          <span class="arrow">→</span>
+        <a href=""><div class="lern-more" style="width: 50%;margin: auto;display: block;">
+          <span class="arrow" style="color: #fff;">→</span>
           <div class="learn-more-text">Learn more about our work <br> ethics and personalities</div>
-        </div>
+        </div></a>
       </div>
     </div>
     <style>
@@ -1190,16 +1190,6 @@ height: auto;
         transform: scale(1.05);
       }
 
-      .blog-date {
-        position: absolute;
-        bottom: 1rem;
-        left: 1rem;
-        background: rgba(255, 255, 255, 0.9);
-        padding: 0.5rem 1rem;
-        border-radius: 4px;
-        font-size: 0.875rem;
-        color: #333;
-      }
 
       .blog-content {
         padding: 1rem;
@@ -1208,7 +1198,7 @@ height: auto;
       .blog-content h3 {
         font-size: 1.25rem;
         color: #333;
-        margin-bottom: 1rem;
+        margin-bottom: 1rem;font-weight: 400;
       }
 
       .blog-content .read-more {
@@ -1244,7 +1234,12 @@ height: auto;
         .blog-section h1 {
           font-size: 1.5rem;
         }
+        
       }
+      @media (min-width:1010px) {
+.blog-item{height: 390px;max-height: 400px;}
+      }
+
     </style>
 
     <div class="container blog-section" data-aos="zoom-in-up">
@@ -1265,46 +1260,43 @@ height: auto;
       <div class="row">
         <!-- Blog Item 1 -->
         <div class="col-md-4 col-sm-6 col-12">
-          <div class="blog-item hvr-underline-from-left">
+          <a href="?page=blog1"><div class="blog-item hvr-underline-from-left">
             <div class="blog-image">
-              <img src="assets/img/blog.jpg" alt="Retirement Planning 101">
-              <div class="blog-date">3/18/2024</div>
+              <img src="assets/img/blog1.jpg" alt="Retirement Planning 101">
             </div>
             <div class="blog-content">
               <h3>Why Zoho? Uncover the Key Benefits of Zoho Implementation</h3>
               <div class="read-more">Read <i class="bi bi-arrow-right-short"></i></div>
             </div>
-          </div>
+          </div></a>
         </div>
 
         <!-- Blog Item 2 -->
         <div class="col-md-4 col-sm-6 col-12">
-          <div class="blog-item hvr-underline-from-left">
+          <a href="?page=blog2"><div class="blog-item hvr-underline-from-left">
             <div class="blog-image">
-              <img src="assets/img/blog.jpg" alt="Retirement Planning 101">
-              <div class="blog-date">3/18/2024</div>
+              <img src="assets/img/blog2.jpg" alt="Retirement Planning 101">
             </div>
             <div class="blog-content">
               <h3>Zoho Implementation Success Stories: Real-World Examples of Business Transformation
               </h3>
               <div class="read-more">Read <i class="bi bi-arrow-right-short"></i></div>
             </div>
-          </div>
+          </div></a>
         </div>
 
         <!-- Blog Item 3 -->
         <div class="col-md-4 col-sm-6 col-12">
-          <div class="blog-item hvr-underline-from-left">
+          <a href="?page=blog3"><div class="blog-item hvr-underline-from-left">
             <div class="blog-image">
-              <img src="assets/img/blog.jpg" alt="Retirement Planning 101">
-              <div class="blog-date">3/18/2024</div>
+              <img src="assets/img/blog3.jpg" alt="Retirement Planning 101">
             </div>
             <div class="blog-content">
               <h3>Accounting Made Simple: How Zoho Books Can Revolutionise Your Finances
               </h3>
               <div class="read-more">Read <i class="bi bi-arrow-right-short"></i></div>
             </div>
-          </div>
+          </div></a>
         </div>
       </div>
     </div>
@@ -1329,7 +1321,7 @@ height: auto;
         font-size: clamp(2rem, 4vw, 2.5rem);
         color: var(--text-color);
         max-width: 500px;
-        line-height: 1.2;
+        line-height: 1.2;font-weight: 300;
       }
 
       .contact-link {
@@ -1589,124 +1581,161 @@ height: auto;
       });
     </script>
 
-    <!-- ====================================newsletter================================== -->
-    <style>
-      .newsletter-section {
-        background-color: #e4e5e5;
-        padding: 40px 0;
-        position: relative;
-        overflow: hidden;
-      }
+<!-- ====================================newsletter================================== -->
+<style>
+  .newsletter-section {
+    background-color: #e4e5e5;
+    padding: 40px 0;
+    position: relative;
+    overflow: hidden;
+  }
 
-      .newsletter-container {
-        margin: 0 auto;
-        padding: 0 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
+  .newsletter-container {
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-      .newsletter-content {
-        max-width: 600px;
-      }
+  .newsletter-content {
+    max-width: 600px;
+  }
 
-      .newsletter-label {
-        color: var(--accent-color);
-        text-transform: uppercase;
-        font-size: 14px;
-        font-weight: 600;
-        margin-bottom: 10px;
-      }
+  .newsletter-label {
+    color: var(--accent-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
 
-      .newsletter-title {
-        font-weight: 400;
-        font-size: 36px;
-        color: #1d1d1d;
-        margin: 0;
-        line-height: 1.2;
-      }
+  .newsletter-title {
+    font-weight: 400;
+    font-size: 36px;
+    color: #1d1d1d;
+    margin: 0;
+    line-height: 1.2;
+  }
 
-      .newsletter-subtitle {
-        font-weight: 400;
-        font-size: 36px;
-        color: #1d1d1d;
-        margin: 0 0 20px 0;
-        line-height: 1.2;
-      }
+  .newsletter-subtitle {
+    font-weight: 400;
+    font-size: 36px;
+    color: #1d1d1d;
+    margin: 0 0 20px 0;
+    line-height: 1.2;
+  }
 
-      .newsletter-form {
-        display: flex;
-        max-width: 500px;
-      }
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+  }
 
-      .newsletter-input {
-        flex: 1;
-        padding: 12px 15px;
-        border: 1px solid #ddd;
-        font-size: 16px;
-      }
+  .newsletter-input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
 
-      .newsletter-button {
-        background-color: var(--accent-color);
-        color: white;
-        border: none;
-        padding: 12px 25px;
-        cursor: pointer;
-        font-size: 16px;
-        transition: background-color 0.3s;
-      }
+  .newsletter-button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    width: 40%;
+    margin: auto;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
 
-      .newsletter-button:hover {
-        background-color: #0f065c;
-      }
+  .newsletter-button:hover {
+    background-color: #0f065c;
+  }
 
-      .newsletter-image {
-        margin-bottom: -50px;
-        margin-right: -80px;
-        max-width: 400px;
-        height: auto;
-      }
+  .newsletter-image {
+    position: absolute;
+    bottom: 0;right: 10%;
+    max-width: 400px;
+    height: auto;
+  }
 
-      @media (max-width: 768px) {
-        .newsletter-container {
-          flex-direction: column;
-        }
+  @media (max-width: 768px) {
+    .newsletter-container {
+      flex-direction: column;
+    }
 
-        .newsletter-title,
-        .newsletter-subtitle {
-          font-size: 25px;
-        }
+    .newsletter-title,
+    .newsletter-subtitle {
+      font-size: 25px;
+    }
 
-        .newsletter-form {
-          width: 100%;
-        }
+    .newsletter-form {
+      width: 100%;
+    }
 
-        .newsletter-image {
-          display: none;
-        }
-      }
-    </style>
+    .newsletter-image {
+      display: none;
+    }
+  }
+  .slide-bg-1 {
+    z-index: 1;
+    background-color: var(--accent-color);
+    align-self: center;
+    width: 5px;
+    height: 120%;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 60%;
+    right: auto;
+    transform: skew(-10deg);
+}
+  .slide-bg {
+    width: 45%;
+    background-color: #fff;
+    position: absolute;
+    right: -5%;
+    bottom: 0;
+    top: 0;
+    transform: skew(-10deg);
+  }
 
-    <div class="newsletter-section" data-aos="zoom-in-up">
-      <div class="newsletter-container container">
+  @media (max-width: 991px) {
+    .slide-bg{    background-color: #e4e5e5;
+    }
+  }
 
-        <div class="newsletter-content">
+</style>
 
-          <div class="title-top">
-            <div class="title-dot"></div>
-            <div class="trust-badge">NEWSLETTER</div>
-          </div>
-          <h2 class="newsletter-title">Join our network.
-          </h2>
-          <h2 class="newsletter-subtitle">Sign up for updates and insights.
-          </h2>
-          <form class="newsletter-form">
-            <input type="email" class="newsletter-input" placeholder="Provide your email" required>
-            <button type="submit" class="newsletter-button">Join Now</button>
-          </form>
-        </div>
-        <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
+<div class="newsletter-section" data-aos="zoom-in-up" id="newsletter">
+  <div class="newsletter-container container">
+
+    <div class="newsletter-content">
+
+      <div class="title-top">
+        <div class="title-dot"></div>
+        <div class="trust-badge">STAY CONNECTED</div>
       </div>
+      <h2 class="newsletter-title">Join our network.
+      </h2>
+      <h2 class="newsletter-subtitle">Sign up for updates and insights.
+      </h2>
+      <form class="newsletter-form">
+        <input type="text" class="newsletter-input" placeholder="Your Name" required>
+        <input type="email" class="newsletter-input" placeholder="Your Email" required>
+        <input type="tel" class="newsletter-input" placeholder="Your Phone" required> <button type="submit"
+          class="newsletter-button">Join Now</button>
+      </form>
     </div>
+    <div class="slide-bg-1"></div>
+    <div class="slide-bg">    </div>
 
+      <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
+  </div>
+</div>
   </main>

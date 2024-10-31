@@ -140,7 +140,7 @@
     <div class="footer-container container">
       <!-- Footer Logo and Address Section -->
       <div class="footer-logo footer-address">
-        <img src="assets/img/Invisor-footer-logo.jpeg" alt="Prospera Logo">
+        <a href="?page=home"><img src="assets/img/Invisor-footer-logo.jpeg" alt="Prospera Logo"></a>
         <p><strong>India:</strong> 2nd Floor, Phase 1, Carnival Infopark, Kakkanad, Cochin : 682042
         </p>
         <p><strong>Canada:</strong> Suite 337V, 341 Talbot Street, London, Ontario, N6A2R5, Canada
