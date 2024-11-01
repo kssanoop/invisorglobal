@@ -31,14 +31,15 @@
         <div class="row my-5">
             <div class="col-md-7">
                 <h1 class="service-title"><img src="assets/img/icons/zoho-analytics.png" alt="" style="width: 40%;"></h1>
-                <h1 style="font-weight: 400;">Grow Smarter, Not Harder
-                </h1>
-                <h1 class="service-title">Elevate your customer relationships and drive success
+                <h1 style="font-weight: 400;">Let your data speak volumes 
 
                 </h1>
-                <p>At Invisor, we believe that building strong customer relationships is the cornerstone of business
-                    success. That’s why we offer tailored Zoho CRM implementation services designed to elevate your
-                    customer interactions and empower your sales team!
+                <h1 class="service-title">Zoho Analytics to simplify your data journey
+
+
+                </h1>
+                <p>In a world driven by data, businesses need more than just numbers—they need insights. <strong> Zoho Analytics </strong>is a powerful business intelligence tool that turns raw data into meaningful reports and dashboards, helping you make smarter, data-driven decisions.
+
 
                 </p>
                 <a class="hover-button mt-2" href="#newsletter">Learn more</a>
@@ -77,12 +78,13 @@
     }
 </style>
 <div class="dashboard-container">
-    <h2 class="dashboard-title">What is Zoho CRM?</h2>
+    <h2 class="dashboard-title">What is Zoho Analytics?</h2>
     <p class="dashboard-description">
-    In today’s fast-paced business environment, effective customer relationship management (CRM) is essential for driving growth and maintaining strong client relationships. <strong> Zoho CRM </strong>is an all-in-one solution designed to help businesses of all sizes streamline their sales processes, enhance customer engagement, and ultimately drive success.
+    Zoho Analytics is a comprehensive business intelligence and analytics platform designed to help organisations turn raw data into insightful, visual reports and dashboards, enabling strategic decision-making and growth.
+
 
     </p>
-    <img src="https://www.zohowebstatic.com/sites/zweb/images/crm/canvas-screen-crm-home.svg" alt="">
+    <img src="assets/img/icons/analytics-dash.png" alt="">
 </div>
 
 
@@ -91,7 +93,8 @@
     <section id="features-2" class="features-2 section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2 style="text-align: center;margin-bottom: 50px;font-weight: 300;font-size: 3rem;">Key Features of Zoho CRM
+        <h2 style="text-align: center;margin-bottom: 50px;font-weight: 300;font-size: 3rem;">Key Features of Zoho Analytics
+
         </h2>
 
         <div class="row align-items-center">
@@ -101,9 +104,11 @@
             <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="200">
               <div class="d-flex align-items-center justify-content-end gap-4">
                 <div class="feature-content">
-                  <h3>360-Degree Customer View
+                  <h3>Unified Data Management
+
                   </h3>
-                  <p>With Zoho CRM, you gain a comprehensive view of your customers by integrating all relevant data into a single platform. Access customer history, interactions, and preferences at a glance, empowering your team to deliver personalised service and build lasting relationships.</p>
+                  <p>Connect data from multiple sources—CRM, ERP, spreadsheets, and more—into a single platform. Zoho Analytics consolidates and organises all your data, giving you a clear view of business performance.
+                  </p>
                 </div>
               </div>
             </div><!-- End .feature-item -->
@@ -111,9 +116,11 @@
             <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="300">
               <div class="d-flex align-items-center justify-content-end gap-4">
                 <div class="feature-content">
-                  <h3> Intelligent Automation
+                  <h3>  Customizable Dashboards and Reports
+
                   </h3>
-                  <p>Say goodbye to manual tasks! Zoho CRM automates repetitive processes, allowing your team to focus on what really matters—building connections. From lead nurturing to follow-up reminders, automation helps increase efficiency and ensures no opportunity slips through the cracks.
+                  <p>Create stunning dashboards and reports tailored to your needs. With Zoho Analytics, you can visualise data in real-time, making it easy to track KPIs and analyse trends to guide your strategies.
+
                   </p>
                 </div>
               </div>
@@ -122,9 +129,11 @@
             <div class="feature-item text-end" data-aos="fade-right" data-aos-delay="400">
               <div class="d-flex align-items-center justify-content-end gap-4">
                 <div class="feature-content">
-                  <h3> Customization and Scalability
+                  <h3> AI-Powered Insights
+
                   </h3>
-                  <p>Every business is unique, and Zoho CRM is designed to adapt to your specific needs. Customise fields, modules, and dashboards to reflect your business processes, ensuring that the platform grows with you as your organisation evolves.
+                  <p>Zoho Analytics’ AI assistant, Zia, provides intelligent insights by automatically detecting patterns, generating forecasts, and offering suggestions, making data interpretation faster and more accurate.
+
                   </p>
                 </div>
               </div>
@@ -134,7 +143,7 @@
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="phone-mockup text-center">
-              <img src="assets/img/crm-mobile.png" alt="Phone Mockup" class="img-fluid">
+              <img src="assets/img/icons/mobile-anlytics.png" alt="Phone Mockup" class="img-fluid">
             </div>
           </div><!-- End Phone Mockup -->
 
@@ -143,9 +152,11 @@
             <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="200">
               <div class="d-flex align-items-center gap-4">
                 <div class="feature-content">
-                  <h3>Powerful Analytics and Reporting
+                  <h3>Robust Data Blending and Transformation
+
                   </h3>
-                  <p>Make informed decisions with Zoho CRM’s robust analytics tools. Track key performance indicators (KPIs), monitor sales trends, and generate insightful reports that provide a clear understanding of your business performance, helping you strategize effectively.
+                  <p>Combine and transform data from various sources, allowing deeper analysis and uncovering insights that would be missed when data is separated.
+
                   </p>
                 </div>
               </div>
@@ -154,8 +165,10 @@
             <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="300">
               <div class="d-flex align-items-center gap-4">
                 <div class="feature-content">
-                  <h3>Seamless Integration</h3>
-                  <p>Zoho CRM integrates effortlessly with various third-party applications, including email, social media, and marketing tools. This connectivity enables smooth data sharing across your organisation and enhances collaboration among teams.
+                  <h3> Data Collaboration and Sharing
+                  </h3>
+                  <p>Collaborate seamlessly by sharing reports and dashboards with team members or clients. Zoho Analytics allows real-time collaboration, ensuring everyone stays informed and aligned on goals.
+
                   </p>
                 </div>
               </div>
@@ -164,9 +177,11 @@
             <div class="feature-item" data-aos="fade-left" data-aos-delay="400">
               <div class="d-flex align-items-center gap-4">
                 <div class="feature-content">
-                  <h3>AI-Driven Insights
+                  <h3> Advanced Security
+
                   </h3>
-                  <p>Leverage the power of AI with Zoho CRM’s Zia, an intelligent assistant that predicts sales trends, identifies patterns, and delivers insights. Zia aids data-driven decision-making, sales strategy optimization, and customer interaction from lead scoring to anomaly identification.
+                  <p>Keep your data secure with Zoho Analytics’ advanced security measures, including role-based access, data encryption, and user activity monitoring, so you can analyse your data confidently.
+
                   </p>
                 </div>
               </div>
@@ -425,8 +440,11 @@
       <div class="contact-content">
 
         <div class="contact-text">
-          <h1>Transform Your Business with Zoho CRM</h1>
-          <p>In a world where customer relationships are paramount, Zoho CRM stands out as a powerful ally. Whether you’re a small business or a large enterprise, Zoho CRM can help you streamline your operations, enhance customer experiences, and drive meaningful growth.
+          <h1>Transform Your Business with Zoho Analytics
+
+          </h1>
+          <p>In today’s data-driven economy, Zoho Analytics empowers businesses to turn data into valuable insights. Whether you’re a small team or a large enterprise, Zoho Analytics helps optimise decision-making, track performance, and identify new growth opportunities.
+
  
           </p>
         </div>
@@ -440,7 +458,8 @@
 <!-- ================================================================ -->
 
 <div class="why-choose-section">
-    <h2 class="why-choose-title">Why Choose Zoho CRM?</h2>
+    <h2 class="why-choose-title">Why Choose Invisor as Your Zoho One Partner?
+    </h2>
     <div class="why-choose-grid">
     <!-- Feature 1 -->
     <div class="why-choose-item">
@@ -448,8 +467,10 @@
             <i style="color: #4C6EFF;" class="bi bi-people"></i>
         </div>
         <div class="why-choose-content">
-            <h3 class="why-choose-feature-title">Empower Your Sales Team</h3>
-            <h6 class="why-choose-description">Zoho CRM is more than just a tool; it’s a platform that empowers your sales team to be more effective. With features like lead scoring, territory management, and multi-channel communication, your team can engage with prospects more effectively and close deals faster.</h6>
+            <h3 class="why-choose-feature-title">Understanding Your Business Needs
+            </h3>
+            <h6 class="why-choose-description">We start by thoroughly analysing your business processes to identify key areas where Zoho can add value. Our team ensures that the Zoho applications are aligned with your unique goals and operational workflows.
+            </h6>
         </div>
     </div>
     <!-- Feature 2 -->
@@ -458,8 +479,10 @@
             <i style="color: #6A0572;" class="bi bi-chat-dots"></i>
         </div>
         <div class="why-choose-content">
-            <h3 class="why-choose-feature-title">Enhance Customer Relationships</h3>
-            <h6 class="why-choose-description">By providing a unified platform for managing customer interactions, Zoho CRM enables businesses to enhance their customer relationships. Understand customer needs, preferences, and behaviours to deliver a tailored experience that drives loyalty and satisfaction.</h6>
+            <h3 class="why-choose-feature-title">Tailored Customisation 
+            </h3>
+            <h6 class="why-choose-description">Our experts customise Zoho solutions to fit your business requirements. We configure automation, workflows, and custom features while seamlessly integrating them with your existing systems to enhance efficiency.
+            </h6>
         </div>
     </div>
     <!-- Feature 3 -->
@@ -468,8 +491,10 @@
             <i style="color: #de6264;" class="bi bi-gear"></i>
         </div>
         <div class="why-choose-content">
-            <h3 class="why-choose-feature-title">Streamline Operations</h3>
-            <h6 class="why-choose-description">Reduce bottlenecks and streamline your sales processes with Zoho CRM’s automation capabilities. By automating tasks like follow-ups and data entry, you free up time for your team to focus on strategy and customer engagement.</h6>
+            <h3 class="why-choose-feature-title">Streamlined Integration Process
+            </h3>
+            <h6 class="why-choose-description">Our integration process connects Zoho with your existing tools, creating a unified platform for data flow across departments. We manage third-party integrations and ensure that all systems work together harmoniously.
+            </h6>
         </div>
     </div>
     <!-- Feature 4 -->
@@ -478,8 +503,10 @@
             <i style="color:#4C4C4C ;" class="bi bi-shield-lock"></i>
         </div>
         <div class="why-choose-content">
-            <h3 class="why-choose-feature-title">Security You Can Trust</h3>
-            <h6 class="why-choose-description">At Zoho, we prioritise the security of your data. With advanced security measures, including data encryption and role-based access controls, you can trust that your business information is protected.</h6>
+            <h3 class="why-choose-feature-title"> Secure Data Transition
+            </h3>
+            <h6 class="why-choose-description">We ensure a smooth migration of your data into Zoho, with a focus on accuracy and security. Our team validates the data and guarantees its integrity throughout the migration process.
+            </h6>
         </div>
     </div>
 </div>

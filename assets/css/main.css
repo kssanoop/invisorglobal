@@ -1259,7 +1259,7 @@ section,
 .swiper-pagination-bullet {
   width: 10px;
   /* Line width for pagination bullet */
-  height: 4px;
+  height: 6px;
   /* Line height for pagination bullet */
   background-color: #333;
   /* Color of the inactive bullets */
@@ -1472,6 +1472,9 @@ section,
   border-radius: 15px;
   z-index: 3;
 }
+
+
+/* =============================================== */
 
 /*--------------------------------------------------------------
 # Onfocus Section

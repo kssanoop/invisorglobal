@@ -79,6 +79,10 @@ if($page=='blog3')
 {
 	include('blog3.php');
 }
+if($page=='zoho-training')
+{
+	include('zoho-training.php');
+}
 
 include('footer.php');
  ?>

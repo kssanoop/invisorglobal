@@ -249,7 +249,7 @@
         flex: 1;
         position: relative;
         color: #fff;
-        clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -263,14 +263,14 @@
 
       @media (min-width:1400px) {
         .contact-text {
-          max-width: 400px;
+          max-width: 700px;
           margin: auto 22% auto 44%;
         }
-
         .contact-section .contact-btn {
           width: 70% !important;
           padding-left: 32% !important;
         }
+        .contact-text h1 {font-size: 31px !important;}
 
         .contact-footer {
           gap: 0;
@@ -377,7 +377,7 @@
         flex: 1;
         position: relative;
         overflow: hidden;
-        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 15% 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
       }
 
       .contact-image img {

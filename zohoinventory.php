@@ -33,20 +33,19 @@
                 <h1 class="service-title"><img src="assets/img/icons/zoho-inventory.png" alt="" style="width: 40%;"></h1>
                 <h1 style="font-weight: 400;">Grow Smarter, Not Harder
                 </h1>
-                <h1 class="service-title">Elevate your customer relationships and drive success
+                <h1 class="service-title">Inventory Management Made Easy with Zoho Inventory 
+
 
                 </h1>
-                <p>At Invisor, we believe that building strong customer relationships is the cornerstone of business
-                    success. That’s why we offer tailored Zoho CRM implementation services designed to elevate your
-                    customer interactions and empower your sales team!
+                <p>In today's fast-paced business world, managing inventory efficiently is critical to staying competitive. Zoho Inventory, with its robust features, empowers businesses to seamlessly control stock, automate order management, and simplify their entire supply chain process.
+
 
                 </p>
                 <a class="hover-button mt-2" href="#newsletter">Learn more</a>
                 </div>
             <div class="col-md-5" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
 
-                <img src="https://www.zohowebstatic.com/sites/zweb/images/crm/banner-image-2x.svg" alt="Zoho One Image"
-                    class="service-image">
+                <img src="assets/img/icons/zoho-inventory-banner.png">
 
             </div>
         </div>
@@ -77,12 +76,13 @@
     }
 </style>
 <div class="dashboard-container">
-    <h2 class="dashboard-title">What is Zoho CRM?</h2>
+    <h2 class="dashboard-title">What is Zoho Inventory?
+    </h2>
     <p class="dashboard-description">
-    In today’s fast-paced business environment, effective customer relationship management (CRM) is essential for driving growth and maintaining strong client relationships. <strong> Zoho CRM </strong>is an all-in-one solution designed to help businesses of all sizes streamline their sales processes, enhance customer engagement, and ultimately drive success.
+    Effective inventory management is essential for ensuring operational efficiency and meeting customer demand. Zoho Inventory is an all-in-one inventory management solution designed to help businesses of all size
 
     </p>
-    <img src="https://www.zohowebstatic.com/sites/zweb/images/crm/canvas-screen-crm-home.svg" alt="">
+    <img src="assets/img/icons/what-inventory.png" alt="">
 </div>
 
 
@@ -91,7 +91,8 @@
     <section id="features-2" class="features-2 section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2 style="text-align: center;margin-bottom: 50px;font-weight: 300;font-size: 3rem;">Key Features of Zoho CRM
+        <h2 style="text-align: center;margin-bottom: 50px;font-weight: 300;font-size: 3rem;">Key Features of Zoho Inventory
+
         </h2>
 
         <div class="row align-items-center">
@@ -101,9 +102,11 @@
             <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="200">
               <div class="d-flex align-items-center justify-content-end gap-4">
                 <div class="feature-content">
-                  <h3>360-Degree Customer View
+                  <h3>Efficient Order Management
+
                   </h3>
-                  <p>With Zoho CRM, you gain a comprehensive view of your customers by integrating all relevant data into a single platform. Access customer history, interactions, and preferences at a glance, empowering your team to deliver personalised service and build lasting relationships.</p>
+                  <p>From sales to purchase orders, Zoho Inventory centralises your order processes. Create and manage orders effortlessly while tracking sales channels and shipment statuses—all in one place.
+                  </p>
                 </div>
               </div>
             </div><!-- End .feature-item -->
@@ -111,9 +114,11 @@
             <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="300">
               <div class="d-flex align-items-center justify-content-end gap-4">
                 <div class="feature-content">
-                  <h3> Intelligent Automation
+                  <h3> Multichannel Selling
+
                   </h3>
-                  <p>Say goodbye to manual tasks! Zoho CRM automates repetitive processes, allowing your team to focus on what really matters—building connections. From lead nurturing to follow-up reminders, automation helps increase efficiency and ensures no opportunity slips through the cracks.
+                  <p>Sell across multiple platforms like Amazon, eBay, Etsy, and Shopify. Zoho Inventory ensures all your sales are synchronised, allowing you to manage orders from different marketplaces seamlessly.
+
                   </p>
                 </div>
               </div>
@@ -122,9 +127,11 @@
             <div class="feature-item text-end" data-aos="fade-right" data-aos-delay="400">
               <div class="d-flex align-items-center justify-content-end gap-4">
                 <div class="feature-content">
-                  <h3> Customization and Scalability
+                  <h3> Real-Time Inventory Tracking
+
                   </h3>
-                  <p>Every business is unique, and Zoho CRM is designed to adapt to your specific needs. Customise fields, modules, and dashboards to reflect your business processes, ensuring that the platform grows with you as your organisation evolves.
+                  <p>Track every item in your inventory with precision. Zoho Inventory updates stock levels automatically after every sale, purchase, or return, ensuring you never run out of stock or overstock.
+
                   </p>
                 </div>
               </div>
@@ -134,7 +141,7 @@
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="phone-mockup text-center">
-              <img src="assets/img/crm-mobile.png" alt="Phone Mockup" class="img-fluid">
+              <img src="assets/img/icons/mobile-inventory.png" alt="Phone Mockup" class="img-fluid">
             </div>
           </div><!-- End Phone Mockup -->
 
@@ -143,9 +150,11 @@
             <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="200">
               <div class="d-flex align-items-center gap-4">
                 <div class="feature-content">
-                  <h3>Powerful Analytics and Reporting
+                  <h3>End-to-End Shipping Integration
+
                   </h3>
-                  <p>Make informed decisions with Zoho CRM’s robust analytics tools. Track key performance indicators (KPIs), monitor sales trends, and generate insightful reports that provide a clear understanding of your business performance, helping you strategize effectively.
+                  <p>Zoho Inventory integrates with leading shipping carriers, providing real-time shipping rates, automatic order updates, and tracking information to both your team and customers.
+
                   </p>
                 </div>
               </div>
@@ -154,8 +163,10 @@
             <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="300">
               <div class="d-flex align-items-center gap-4">
                 <div class="feature-content">
-                  <h3>Seamless Integration</h3>
-                  <p>Zoho CRM integrates effortlessly with various third-party applications, including email, social media, and marketing tools. This connectivity enables smooth data sharing across your organisation and enhances collaboration among teams.
+                  <h3>Barcode Scanning
+                  </h3>
+                  <p>Make your inventory management even more efficient with barcode scanning, ensuring accuracy and speed in tracking products across your warehouse.
+
                   </p>
                 </div>
               </div>
@@ -164,9 +175,11 @@
             <div class="feature-item" data-aos="fade-left" data-aos-delay="400">
               <div class="d-flex align-items-center gap-4">
                 <div class="feature-content">
-                  <h3>AI-Driven Insights
+                  <h3>Comprehensive Reporting
+
                   </h3>
-                  <p>Leverage the power of AI with Zoho CRM’s Zia, an intelligent assistant that predicts sales trends, identifies patterns, and delivers insights. Zia aids data-driven decision-making, sales strategy optimization, and customer interaction from lead scoring to anomaly identification.
+                  <p>Zoho Inventory provides detailed reports on your sales, purchases, and stock levels. Get insights into your business’s performance with a variety of customizable reports, helping you make informed decisions.
+
                   </p>
                 </div>
               </div>
@@ -440,7 +453,8 @@
 <!-- ================================================================ -->
 
 <div class="why-choose-section">
-    <h2 class="why-choose-title">Why Choose Zoho CRM?</h2>
+    <h2 class="why-choose-title">Why Choose Zoho Inventory?
+    </h2>
     <div class="why-choose-grid">
     <!-- Feature 1 -->
     <div class="why-choose-item">
@@ -448,8 +462,9 @@
             <i style="color: #4C6EFF;" class="bi bi-people"></i>
         </div>
         <div class="why-choose-content">
-            <h3 class="why-choose-feature-title">Empower Your Sales Team</h3>
-            <h6 class="why-choose-description">Zoho CRM is more than just a tool; it’s a platform that empowers your sales team to be more effective. With features like lead scoring, territory management, and multi-channel communication, your team can engage with prospects more effectively and close deals faster.</h6>
+            <h3 class="why-choose-feature-title">Boost Efficiency
+            </h3>
+            <h6 class="why-choose-description">Zoho Inventory automates stock processes and integrates multiple sales channels, letting your team focus on customer service            .</h6>
         </div>
     </div>
     <!-- Feature 2 -->
@@ -458,8 +473,10 @@
             <i style="color: #6A0572;" class="bi bi-chat-dots"></i>
         </div>
         <div class="why-choose-content">
-            <h3 class="why-choose-feature-title">Enhance Customer Relationships</h3>
-            <h6 class="why-choose-description">By providing a unified platform for managing customer interactions, Zoho CRM enables businesses to enhance their customer relationships. Understand customer needs, preferences, and behaviours to deliver a tailored experience that drives loyalty and satisfaction.</h6>
+            <h3 class="why-choose-feature-title">Enhance Customer Satisfaction
+            </h3>
+            <h6 class="why-choose-description">Efficient stock management and on-time orders ensure you consistently meet customer expectations and deliver a great experience.
+            </h6>
         </div>
     </div>
     <!-- Feature 3 -->
@@ -468,8 +485,10 @@
             <i style="color: #de6264;" class="bi bi-gear"></i>
         </div>
         <div class="why-choose-content">
-            <h3 class="why-choose-feature-title">Streamline Operations</h3>
-            <h6 class="why-choose-description">Reduce bottlenecks and streamline your sales processes with Zoho CRM’s automation capabilities. By automating tasks like follow-ups and data entry, you free up time for your team to focus on strategy and customer engagement.</h6>
+            <h3 class="why-choose-feature-title">Streamline Operations
+            </h3>
+            <h6 class="why-choose-description">With automation for stock tracking and reordering, Zoho Inventory reduces operational bottlenecks and boosts overall efficiency.
+            </h6>
         </div>
     </div>
     <!-- Feature 4 -->
@@ -479,7 +498,8 @@
         </div>
         <div class="why-choose-content">
             <h3 class="why-choose-feature-title">Security You Can Trust</h3>
-            <h6 class="why-choose-description">At Zoho, we prioritise the security of your data. With advanced security measures, including data encryption and role-based access controls, you can trust that your business information is protected.</h6>
+            <h6 class="why-choose-description">Zoho protects your data with encryption and role-based access, ensuring your inventory and customer information stay secure.
+            </h6>
         </div>
     </div>
 </div>
