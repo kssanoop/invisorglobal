@@ -55,7 +55,7 @@
       <nav id="navmenu" class="navmenu d-flex justify-content-center align-items-center m-xl-auto">
         <ul>
           <li><a href="?page=services">Services<br></a></li>
-          <li><a href="?page=pricing">Pricing</a></li>
+          <li style="display: none;"><a href="?page=pricing">Pricing</a></li>
           <li><a href="?page=about">About Us</a></li>
           <li><a href="?page=blog">Blog</a></li>
           <li><a href="?page=contact">Contact</a></li>
