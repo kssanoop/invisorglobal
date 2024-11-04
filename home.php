@@ -13,8 +13,8 @@
           </h1>
           <p class="hero-subtitle">We specialise in implementing expert Zoho solutions for businesses of all sizes
           </p>
-          <a href="" class="hover-button2 me-2">Our Services</a>
-          <a href="" class="hover-button">Book Consultation</a>
+          <a href="?page=services" class="hover-button2 me-2">Our Services</a>
+          <a href="?page=contact" class="hover-button">Book Consultation</a>
         </div>
         <div class="col-md-6">
           <img src="assets/img/banner-img.png" alt="Two professional women working together" class="img-fluid">
@@ -321,11 +321,6 @@
             <button class="nav-link" id="hire-tab" data-bs-toggle="tab" data-bs-target="#hire" type="button" role="tab"
               aria-controls="hire" aria-selected="false">Zoho Cunsultant Hire
             </button>
-          </li>
-          <li class="nav-item ms-auto d-flex align-items-center hvr-underline-from-left">
-            <div class="show-more right-arrow">
-              <a href="#">Show more <img src="assets/img/arrow.svg" alt=""></a>
-            </div>
           </li>
 
         </ul>
@@ -672,11 +667,11 @@
             <div class="swiper-wrapper">
               <!-- Card 1 -->
               <div class="swiper-slide">
-                <a href="?page=zoho-training">
+                <a href="?page=zoho-support">
                   <div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
-                        <a href="?page=zoho-training">
+                        <a href="?page=zoho-support">
                           <h5 class="card-title">Zoho Support & Maintenance
 
                           </h5>
@@ -687,7 +682,7 @@
                           issues and providing tailored solutions to enhance your business.
                         </p>
                         <div class="tab-bottom">
-                          <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                         </div>
                       </div>
@@ -697,11 +692,11 @@
               </div>
               <!-- Card 1 -->
               <div class="swiper-slide">
-                <a href="?page=zoho-training">
+                <a href="?page=zoho-support">
                   <div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
-                        <a href="?page=zoho-training">
+                        <a href="?page=zoho-support">
                           <h5 class="card-title">Responsive Support
 
                           </h5>
@@ -712,7 +707,7 @@
 
                         </p>
                         <div class="tab-bottom">
-                          <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                         </div>
                       </div>
@@ -722,7 +717,7 @@
               </div>
               <!-- Card 2 -->
               <div class="swiper-slide">
-                <a href="?page=zoho-training">
+                <a href="?page=zoho-support">
                   <div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
@@ -734,7 +729,7 @@
                           applications.
                         </p>
                         <div class="tab-bottom">
-                          <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                         </div>
                       </div>
@@ -744,7 +739,7 @@
               </div>
               <!-- Card 3 -->
               <div class="swiper-slide">
-                <a href="?page=zoho-training">
+                <a href="?page=zoho-support">
                   <div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
@@ -757,7 +752,7 @@
 
                         </p>
                         <div class="tab-bottom">
-                          <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                         </div>
                       </div>
@@ -767,7 +762,7 @@
               </div>
               <!-- Card 4 -->
               <div class="swiper-slide">
-                <a href="?page=zoho-training">
+                <a href="?page=zoho-support">
                   <div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
@@ -780,7 +775,7 @@
 
                         </p>
                         <div class="tab-bottom">
-                          <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                         </div>
                       </div>
@@ -804,11 +799,11 @@
             <div class="swiper-wrapper">
               <!-- Card 1 -->
               <div class="swiper-slide">
-                <a href="?page=zoho-training">
+                <a href="?page=zoho-hire">
                   <div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
-                        <a href="?page=zoho-training">
+                        <a href="?page=zoho-hire">
                           <h5 class="card-title">Hire
 
 
@@ -821,7 +816,7 @@
 
                         </p>
                         <div class="tab-bottom">
-                          <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zoho-hire" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                         </div>
                       </div>
@@ -831,11 +826,11 @@
               </div>
               <!-- Card 1 -->
               <div class="swiper-slide">
-                <a href="?page=zoho-training">
+                <a href="?page=zoho-hire">
                   <div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
-                        <a href="?page=zoho-training">
+                        <a href="?page=zoho-hire">
                           <h5 class="card-title">Assign
 
                           </h5>
@@ -846,7 +841,7 @@
 
                         </p>
                         <div class="tab-bottom">
-                          <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zoho-hire" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                         </div>
                       </div>
@@ -856,7 +851,7 @@
               </div>
               <!-- Card 2 -->
               <div class="swiper-slide">
-                <a href="?page=zoho-training">
+                <a href="?page=zoho-hire">
                   <div class="card service-card hvr-underline-from-left">
                     <div class="card-body">
                       <div class="card-top">
@@ -869,7 +864,7 @@
 
                         </p>
                         <div class="tab-bottom">
-                          <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
+                          <a href="?page=zoho-hire" class="btn btn-link contact-btn">Learn more <i
                               class="bi bi-arrow-right-short"></i></a>
                         </div>
                       </div>
@@ -913,7 +908,7 @@
 
       </p>
 
-      <div class="stats-container">
+      <div class="stats-container d-none">
         <div class="stat-item">
           <div class="stat-number">43mil+</div>
           <div class="stat-label">REVENUE</div>
@@ -930,7 +925,7 @@
     </div>
 
     <div class="learn-more-section" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
-      <a href="">
+      <a href="?page=about">
         <div class="lern-more" style="width: 50%;margin: auto;display: block;">
           <span class="arrow" style="color: #fff;">→</span>
           <div class="learn-more-text">Learn more about our work <br> ethics and personalities</div>
@@ -1100,144 +1095,255 @@
       }
     }
   </style>
-  <!-- ================================================testimonial========================================== -->
+<!-- =============================================testimonial====================================== -->
 
-  <section class="testimonials-section" data-aos="zoom-in-up">
+<section class="testimonials-section" data-aos="zoom-in-up">
     <div class="container">
-      <div class="section-heading">
-        <div class="title-top align-items-center justify-content-center mb-4">
-          <div class="title-dot"></div>
-          <div class="trust-badge">TESTIMONIALS</div>
-        </div>
-        <h2 class="section-title">Hear what our satisfied clients have to say</h2>
-      </div>
-
-      <div class="testimonials-container">
-        <div class="testimonial-card">
-          <p class="testimonial-text">
-            "Invisor made our Zoho setup easy and stress-free. Their team really listened to what we needed, and now our
-            daily tasks run so much smoother!
-            "
-          </p>
-          <div class="client-info">
-            <img src="assets/img/team/team-3.jpg" alt="Andrew McArthur" class="client-photo">
-            <div class="client-details">
-              <p class="client-name">Andrew McArthur</p>
-              <p class="client-title"> CEO Netflix </p>
+        <div class="section-heading">
+            <div class="title-top align-items-center justify-content-center mb-4">
+                <div class="title-dot"></div>
+                <div class="trust-badge">TESTIMONIALS</div>
             </div>
-          </div>
+            <h2 class="section-title">Hear what our satisfied clients have to say</h2>
         </div>
 
-        <div class="testimonial-card">
-          <p class="testimonial-text">
-            "Working with Invisor was a game-changer for our team. Their thorough understanding of Zoho's capabilities
-            allowed us to optimise our workflows and enhance our overall efficiency.
-            "
-          </p>
-          <div class="client-info">
-            <img src="assets/img/team/team-2.jpg" alt="Andrew McArthur" class="client-photo">
-            <div class="client-details">
-              <p class="client-name">Andrew McArthur</p>
-              <p class="client-title">CEO Amazon
-              </p>
-            </div>
-          </div>
-        </div>
+        <div class="testimonials-container">
+            <!-- Swiper -->
+            <div class="swiper-container" style="overflow: hidden;">
+                <div class="swiper-wrapper">
+                    <!-- Card 1 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                "Invisor made our Zoho setup easy and stress-free. Their team really listened to what we
+                                needed, and
+                                now
+                                our daily tasks run so much smoother!
+                                "
+                            </p>
+                            <div class="client-info">
+                                <img src="assets/img/team/team-3.jpg" alt="Andrew McArthur" class="client-photo">
+                                <div class="client-details">
+                                    <p class="client-name">Xavier Tom Joseph</p>
+                                    <p class="client-title"> CEO Happix </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                "Invisor made our Zoho setup easy and stress-free. Their team really listened to what we
+                                needed, and
+                                now our daily tasks run so much smoother!
+                                "
+                            </p>
+                            <div class="client-info">
+                                <img src="assets/img/team/team-3.jpg" alt="Andrew McArthur" class="client-photo">
+                                <div class="client-details">
+                                    <p class="client-name">Andrew McArthur</p>
+                                    <p class="client-title"> CEO Netflix </p>
+                                </div>
+                            </div>
+                        </div>
 
-        <div class="testimonial-card">
-          <p class="testimonial-text">
-            "The Invisor team provided exceptional support during our Zoho implementation. They tailored everything to
-            fit our business, and their training made it simple for our team to get on board. "
-          </p>
-          <div class="client-info">
-            <img src="assets/img/team/team-1.jpg" alt="Andrew McArthur" class="client-photo">
-            <div class="client-details">
-              <p class="client-name">Andrew McArthur</p>
-              <p class="client-title">CEO DHL</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                "Invisor delivered a flawless Zoho integration for our company. Their professionalism
+                                and dedication
+                                to understanding our requirements made all the difference in achieving our operational
+                                goals. "
+                            </p>
+                            <div class="client-info">
+                                <img src="assets/img/team/team-1.jpg" alt="Andrew McArthur" class="client-photo">
+                                <div class="client-details">
+                                    <p class="client-name">Andrew McArthur</p>
+                                    <p class="client-title">CEO</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                "The training and ongoing support from Invisor were invaluable during our Zoho
+                                transition. They
+                                empowered our team with the knowledge and tools to maximise the system's potential."
+                            </p>
+                            <div class="client-info">
+                                <img src="assets/img/team/team-1.jpg" alt="Andrew McArthur" class="client-photo">
+                                <div class="client-details">
+                                    <p class="client-name">Andrew McArthur</p>
+                                    <p class="client-title">PROJECT MANAGER</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                "Invisor's team exhibited a high level of expertise throughout our Zoho implementation.
+                                Their
+                                strategic insights and hands-on approach helped us leverage Zoho to its fullest, driving
+                                measurable
+                                results. "
+                            </p>
+                            <div class="client-info">
+                                <img src="assets/img/team/team-1.jpg" alt="Andrew McArthur" class="client-photo">
+                                <div class="client-details">
+                                    <p class="client-name">Andrew McArthur</p>
+                                    <p class="client-title">IT DIRECTOR</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                "The Invisor team provided exceptional support during our Zoho implementation. They
+                                tailored
+                                everything to fit our business, and their training made it simple for our team to get on
+                                board. "
+                            </p>
+                            <div class="client-info">
+                                <img src="assets/img/team/team-1.jpg" alt="Andrew McArthur" class="client-photo">
+                                <div class="client-details">
+                                    <p class="client-name">Andrew McArthur</p>
+                                    <p class="client-title">CEO DHL</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- More cards -->
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- Add Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
-          </div>
+
+
         </div>
-      </div>
     </div>
-  </section>
+</section>
 
-  <style>
+<style>
+    .swiper-pagination {
+        position: relative;
+        bottom: 0px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
     .testimonials-section {
-      background-color: #f9f9f9;
-      padding: 50px 0;
-      text-align: center;
+        background-color: #f9f9f9;
+        padding: 50px 0;
+        text-align: center;
     }
 
     .section-heading {
-      margin-bottom: 30px;
+        margin-bottom: 30px;
     }
 
     .section-title {
-      font-size: 36px;
-      font-weight: 300;
-      color: #333;
+        font-size: 36px;
+        font-weight: 300;
+        color: #333;
     }
 
     .testimonials-container {
-      display: flex;
-      justify-content: space-between;
-      gap: 20px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
     }
 
     .testimonial-card {
-      background-color: white;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-      flex: 1;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        flex: 1;
+    }
+
+    @media (min-width:768px) {
+        .testimonial-card {
+            height: 280px;
+            max-height: 320px;
+        }
     }
 
     .testimonial-text {
-      font-size: 16px;
-      font-style: italic;
-      color: #666;
-      margin-bottom: 20px;
+        font-size: 16px;
+        font-style: italic;
+        color: #666;
+        margin-bottom: 20px;
     }
 
     .client-info {
-      display: flex;
-      align-items: center;
+        display: flex;
+        align-items: center;
     }
 
     .client-photo {
-      width: 50px;
-      height: 50px;
-      object-fit: cover;
-      margin-right: 10px;
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        margin-right: 10px;
     }
 
     .client-details {
-      text-align: left;
+        text-align: left;
     }
 
     .client-name {
-      font-size: 16px;
-      font-weight: bold;
-      color: #333;
-      margin-bottom: 0;
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 0;
     }
 
     .client-title {
-      font-size: 14px;
-      color: #999;
+        font-size: 14px;
+        color: #999;
     }
 
     /* Responsive */
     @media (max-width: 768px) {
-      .testimonials-container {
-        flex-direction: column;
-      }
+        .testimonials-container {
+            flex-direction: column;
+        }
 
-      .testimonial-card {
-        margin-bottom: 20px;
-      }
+        .testimonial-card {
+            margin-bottom: 20px;
+        }
     }
-  </style>
+
+    /* Positioning */
+    .swiper-button-next {display: none;
+        right: 0%;
+        /* Place the next button 20px from the right */
+    }
+
+    .swiper-button-prev {display: none;
+        left: -0%;
+        /* Place the prev button 20px from the left */
+    }
+</style>
   <!-- ===============================contact=========================== -->
   <style>
     .contact-section {
@@ -1942,164 +2048,302 @@
     });
   </script>
 
-  <!-- ====================================newsletter================================== -->
-  <style>
+<!-- ====================================newsletter================================== -->
+<style>
     .newsletter-section {
-      background-color: #e4e5e5;
-      padding: 40px 0;
-      position: relative;
-      overflow: hidden;
+        background-color: #e4e5e5;
+        padding: 40px 0;
+        position: relative;
+        overflow: hidden;
     }
 
     .newsletter-container {
-      margin: 0 auto;
-      padding: 0 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .newsletter-content {
-      max-width: 600px;
+        max-width: 600px;
     }
 
     .newsletter-label {
-      color: var(--accent-color);
-      text-transform: uppercase;
-      font-size: 14px;
-      font-weight: 600;
-      margin-bottom: 10px;
+        color: var(--accent-color);
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 10px;
     }
 
     .newsletter-title {
-      font-weight: 400;
-      font-size: 36px;
-      color: #1d1d1d;
-      margin: 0;
-      line-height: 1.2;
+        font-weight: 400;
+        font-size: 36px;
+        color: #1d1d1d;
+        margin: 0;
+        line-height: 1.2;
     }
 
     .newsletter-subtitle {
-      font-weight: 400;
-      font-size: 36px;
-      color: #1d1d1d;
-      margin: 0 0 20px 0;
-      line-height: 1.2;
+        font-weight: 400;
+        font-size: 36px;
+        color: #1d1d1d;
+        margin: 0 0 20px 0;
+        line-height: 1.2;
     }
 
     .newsletter-form {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 500px;
     }
 
     .newsletter-input {
-      flex: 1;
-      padding: 12px 15px;
-      border: 1px solid #ddd;
-      font-size: 16px;
+        flex: 1;
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        font-size: 16px;
     }
 
     .newsletter-button {
-      background-color: var(--accent-color);
-      color: white;
-      border: none;
-      padding: 12px 25px;
-      width: 40%;
-      margin: auto;
-      cursor: pointer;
-      font-size: 16px;
-      transition: background-color 0.3s;
+        background-color: var(--accent-color);
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        width: 40%;
+        margin: auto;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
     }
 
     .newsletter-button:hover {
-      background-color: #0f065c;
+        background-color: #0f065c;
     }
 
     .newsletter-image {
-      position: absolute;
-      bottom: 0;
-      right: 10%;
-      max-width: 400px;
-      height: auto;
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+        max-width: 400px;
+        height: auto;
     }
 
     @media (max-width: 768px) {
-      .newsletter-container {
-        flex-direction: column;
-      }
+        .newsletter-container {
+            flex-direction: column;
+        }
 
-      .newsletter-title,
-      .newsletter-subtitle {
-        font-size: 25px;
-      }
+        .newsletter-title,
+        .newsletter-subtitle {
+            font-size: 25px;
+        }
 
-      .newsletter-form {
-        width: 100%;
-      }
+        .newsletter-form {
+            width: 100%;
+        }
 
-      .newsletter-image {
-        display: none;
-      }
+        .newsletter-image {
+            display: none;
+        }
     }
 
     .slide-bg-1 {
-      z-index: 1;
-      background-color: var(--accent-color);
-      align-self: center;
-      width: 5px;
-      height: 120%;
-      margin: auto;
-      position: absolute;
-      top: 0%;
-      bottom: 0%;
-      left: 60%;
-      right: auto;
-      transform: skew(-10deg);
+        z-index: 1;
+        background-color: var(--accent-color);
+        align-self: center;
+        width: 5px;
+        height: 120%;
+        margin: auto;
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 60%;
+        right: auto;
+        transform: skew(-10deg);
     }
 
     .slide-bg {
-      width: 45%;
-      background-color: #fff;
-      position: absolute;
-      right: -5%;
-      bottom: 0;
-      top: 0;
-      transform: skew(-10deg);
+        width: 45%;
+        background-color: #fff;
+        position: absolute;
+        right: -5%;
+        bottom: 0;
+        top: 0;
+        transform: skew(-10deg);
     }
 
-    @media (max-width: 991px) {
-      .slide-bg {
-        background-color: #e4e5e5;
-      }
+    @media (max-width: 900px) {
+        .slide-bg {
+            background-color: #e4e5e5;
+        }
     }
-  </style>
+    @media (max-width: 900px) {
+        .slide-bg,.slide-bg-1{display: none
+        }
+        .newsletter-image {
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    max-width: 400px;
+    height: auto;
+}
+    }
 
-  <div class="newsletter-section" data-aos="zoom-in-up" id="newsletter">
+    @media (max-width: 769px) {.newsletter-image{display: none;}
+
+    }
+</style>
+
+<div class="newsletter-section" data-aos="zoom-in-up" id="newsletter">
     <div class="newsletter-container container">
 
-      <div class="newsletter-content">
+        <div class="newsletter-content">
 
-        <div class="title-top">
-          <div class="title-dot"></div>
-          <div class="trust-badge">STAY CONNECTED</div>
+            <div class="title-top">
+                <div class="title-dot"></div>
+                <div class="trust-badge">STAY CONNECTED</div>
+            </div>
+            <h2 class="newsletter-title">Join our network.
+            </h2>
+            <h2 class="newsletter-subtitle">Sign up for updates and insights.
+            </h2>
+            <form class="newsletter-form">
+                <input type="text" class="newsletter-input" placeholder="Your Name" required>
+                <input type="email" class="newsletter-input" placeholder="Your Email" required>
+                <input type="tel" class="newsletter-input" placeholder="Your Phone" required> <button type="submit"
+                    class="newsletter-button">Join Now</button>
+            </form>
         </div>
-        <h2 class="newsletter-title">Join our network.
-        </h2>
-        <h2 class="newsletter-subtitle">Sign up for updates and insights.
-        </h2>
-        <form class="newsletter-form">
-          <input type="text" class="newsletter-input" placeholder="Your Name" required>
-          <input type="email" class="newsletter-input" placeholder="Your Email" required>
-          <input type="tel" class="newsletter-input" placeholder="Your Phone" required> <button type="submit"
-            class="newsletter-button">Join Now</button>
-        </form>
-      </div>
-      <div class="slide-bg-1"></div>
-      <div class="slide-bg"> </div>
+        <div class="slide-bg-1"></div>
+        <div class="slide-bg"> </div>
 
-      <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
+        <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
     </div>
-  </div>
+</div>
+
 </main>
+<!-- Popup Form HTML -->
+<div class="popup-form-overlay" id="popupForm">
+  <div class="popup-form">
+    <button class="close-btn" onclick="closePopup()">×</button>
+    <form action="#" method="POST">
+      <input type="text" name="first_name" placeholder="First Name" required>
+      <input type="text" name="last_name" placeholder="Last Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Message" required></textarea>
+      <button type="submit" class="submit-btn">Submit</button>
+      <p class="terms-text">*By clicking "Send Message" you agree to our <a href="#">Terms of Services</a></p>
+    </form>
+  </div>
+</div>
+
+<!-- Popup Form CSS -->
+<style>
+  .popup-form-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  .popup-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+  }
+
+  .popup-form form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .popup-form input,
+  .popup-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  .popup-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+
+  .popup-form-overlay .submit-btn {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    padding: 12px 0;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .popup-form-overlay .submit-btn:hover {
+    background-color: #333;
+  }
+
+  .popup-form-overlay .terms-text {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 10px;
+  }
+
+  .popup-form-overlay .terms-text a {
+    color: var(--accent-color);
+    text-decoration: none;
+  }
+
+  .popup-form-overlay .terms-text a:hover {
+    text-decoration: underline;
+  }
+
+  .popup-form input:hover,
+  .popup-form textarea:hover,
+  .popup-form input:focus,
+  .popup-form textarea:focus {
+    border-color: var(--accent-color);
+  }
+
+  .popup-form-overlay .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+</style>
+
+<!-- Popup Form JavaScript -->
+<script>
+  function showPopup() {
+    document.getElementById("popupForm").style.display = "flex";
+  }
+
+  function closePopup() {
+    document.getElementById("popupForm").style.display = "none";
+  }
+
+  window.onload = function() {
+    setTimeout(showPopup, 5000); // Show popup 10 seconds after page load
+  };
+</script>

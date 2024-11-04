@@ -30,7 +30,7 @@
         color: #fff;
     }
 
-    .banner-text {
+    .banner-text1 {
         font-size: 16px;
         line-height: 1.6;
         opacity: 0.9;
@@ -73,7 +73,7 @@
                         <div class="trust-badge" style="color:#fff">SERVICES</div>
                     </div>
                     <h1 class="banner-title">Zoho Training</h1>
-                    <p class="banner-text">Learn from experts on how to effectively implement and administer your ERP
+                    <p class="banner-text1">Learn from experts on how to effectively implement and administer your ERP
                         application with Zoho. Obtain training and maintain a competitive edge. We offer a comprehensive
                         learning experience that includes adequate instruction.</p>
                 </div>
@@ -121,7 +121,7 @@
                         <p class="card-text">Designed for IT professionals and new developers interested in customising
                             and developing with Zoho, this training covers:</p>
                         <div class="tab-bottom">
-                            <a href="" class="btn btn-link contact-btn">Learn more <i
+                            <a href="#fungtional-training2" class="btn btn-link contact-btn">Learn more <i
                                     class="bi bi-arrow-right-short"></i></a>
                         </div>
                     </div>
@@ -138,7 +138,7 @@
                         <p class="card-text">Our corporate training is designed for businesses utilising Zoho and those
                             transitioning their operations to the platform.</p>
                         <div class="tab-bottom">
-                            <a href="" class="btn btn-link contact-btn">Learn more <i
+                            <a href="#fungtional-training3" class="btn btn-link contact-btn">Learn more <i
                                     class="bi bi-arrow-right-short"></i></a>
                         </div>
                     </div>
@@ -544,25 +544,10 @@
 
 </style>
 
-<div class="training-package-card">
-    <div class="package-info">
-        <h3>Training Package</h3>
-        <p class="price">$199</p>
-        <p class="duration">4 Hours</p>
-    </div>
-    <div class="package-details">
-        <h4>Plan Benefits & Features</h4>
-        <ul>
-            <li><i class="bi bi-check-circle-fill"></i> 1 Day (4 Hours/Day)</li>
-            <li><i class="bi bi-check-circle-fill"></i> Modules include CRM, Marketing Automation, Social Marketing, SMS Marketing</li>
-        </ul>
-        <p>Want to know more about our Zoho Training Customized Packages? Send an e-mail to <a href="mailto:odoo@cybrosys.com">inisor@global.com</a>.</p>
-    </div>
-</div>
 
 <!-- 2 -->
 
-<div class="contact-section">
+<div class="contact-section" id="fungtional-training2">
     <div class="contact-image contact-image2" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
         <img src="assets/img/training2.webp" alt="People working on laptops">
     </div>
@@ -609,54 +594,43 @@
     </div>
 </div>
 
-<div class="training-package-card">
-    <div class="package-info">
-        <h3>Training Package</h3>
-        <p class="price">$199</p>
-        <p class="duration">4 Hours</p>
-    </div>
-    <div class="package-details">
-        <h4>Plan Benefits & Features</h4>
-        <ul>
-            <li><i class="bi bi-check-circle-fill"></i> 1 Day (4 Hours/Day)</li>
-            <li><i class="bi bi-check-circle-fill"></i> Modules include CRM, Marketing Automation, Social Marketing, SMS Marketing</li>
-        </ul>
-        <p>Want to know more about our Zoho Training Customized Packages? Send an e-mail to <a href="mailto:odoo@cybrosys.com">inisor@global.com</a>.</p>
-    </div>
-</div>
 
-<div class="contact-section">
+
+<div class="contact-section" id="fungtional-training3">
     <div class="contact-content">
 
         <div class="contact-text">
-        <h1>Zoho Functional Training
+        <h1>Corporate Zoho Training
+
             </h1>
-            <p>Designed for clients, end-users, and business owners aiming for in-depth functional knowledge of Zoho.
+            <p>Our corporate training is designed for businesses utilising Zoho and those transitioning their operations to the platform. 
+
             </p>
             <ul>
-                <li><i class="bi bi-chevron-double-right"></i>Gain Expert Insight into Zoho Modules
-                </li>
-                <p>Dive deep into key modules like CRM, Books, and Projects with guidance from Zoho experts.
-                </p>
-                <li><i class="bi bi-chevron-double-right"></i>Stay Updated with the Latest Zoho Versions
-                </li>
-                <p>Training includes the latest versions, ensuring your knowledge stays current.
-
-                </p>
-                <li><i class="bi bi-chevron-double-right"></i>Hands-On Configuration and Setup Skills
+                <li><i class="bi bi-chevron-double-right"></i>Module-Specific Training
 
                 </li>
-                <p>Learn to configure and manage foundational modules for daily operations.
-
+                <p>Tailored sessions focusing on Zoho modules relevant to your business processes.
                 </p>
-                <li><i class="bi bi-chevron-double-right"></i>Custom App Creation with Zoho Creator
+                <li><i class="bi bi-chevron-double-right"></i>Interactive Live Demos
 
                 </li>
-                <p>Master customization techniques to fit your unique business needs.
+                <p>Engage in live demonstrations for a hands-on learning experience.
+
+
                 </p>
-                <li><i class="bi bi-chevron-double-right"></i>Optimise Efficiency & Reduce Costs
+                <li><i class="bi bi-chevron-double-right"></i>Video Tutorials
+
+
                 </li>
-                <p>Practical tips to save time and increase overall business efficiency.
+                <p>Access a library of training videos for self-paced learning.
+
+                </p>
+                <li><i class="bi bi-chevron-double-right"></i>Ongoing Live Support
+
+
+                </li>
+                <p>Receive real-time assistance to address any questions or challenges.
 
                 </p>
             </ul>
@@ -667,176 +641,179 @@
     </div>
 </div>
 
-<div class="training-package-card">
-    <div class="package-info">
-        <h3>Training Package</h3>
-        <p class="price">$199</p>
-        <p class="duration">4 Hours</p>
-    </div>
-    <div class="package-details">
-        <h4>Plan Benefits & Features</h4>
-        <ul>
-            <li><i class="bi bi-check-circle-fill"></i> 1 Day (4 Hours/Day)</li>
-            <li><i class="bi bi-check-circle-fill"></i> Modules include CRM, Marketing Automation, Social Marketing, SMS Marketing</li>
-        </ul>
-        <p>Want to know more about our Zoho Training Customized Packages? Send an e-mail to <a href="mailto:odoo@cybrosys.com">inisor@global.com</a>.</p>
-    </div>
-</div>
 
 <!-- ====================================newsletter================================== -->
 <style>
-  .newsletter-section {
-    background-color: #e4e5e5;
-    padding: 40px 0;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .newsletter-container {
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .newsletter-content {
-    max-width: 600px;
-  }
-
-  .newsletter-label {
-    color: var(--accent-color);
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
-
-  .newsletter-title {
-    font-weight: 400;
-    font-size: 36px;
-    color: #1d1d1d;
-    margin: 0;
-    line-height: 1.2;
-  }
-
-  .newsletter-subtitle {
-    font-weight: 400;
-    font-size: 36px;
-    color: #1d1d1d;
-    margin: 0 0 20px 0;
-    line-height: 1.2;
-  }
-
-  .newsletter-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 500px;
-  }
-
-  .newsletter-input {
-    flex: 1;
-    padding: 12px 15px;
-    border: 1px solid #ddd;
-    font-size: 16px;
-  }
-
-  .newsletter-button {
-    background-color: var(--accent-color);
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    width: 40%;
-    margin: auto;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-  }
-
-  .newsletter-button:hover {
-    background-color: #0f065c;
-  }
-
-  .newsletter-image {
-    position: absolute;
-    bottom: 0;right: 10%;
-    max-width: 400px;
-    height: auto;
-  }
-
-  @media (max-width: 768px) {
-    .newsletter-container {
-      flex-direction: column;
+    .newsletter-section {
+        background-color: #e4e5e5;
+        padding: 40px 0;
+        position: relative;
+        overflow: hidden;
     }
 
-    .newsletter-title,
+    .newsletter-container {
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .newsletter-content {
+        max-width: 600px;
+    }
+
+    .newsletter-label {
+        color: var(--accent-color);
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .newsletter-title {
+        font-weight: 400;
+        font-size: 36px;
+        color: #1d1d1d;
+        margin: 0;
+        line-height: 1.2;
+    }
+
     .newsletter-subtitle {
-      font-size: 25px;
+        font-weight: 400;
+        font-size: 36px;
+        color: #1d1d1d;
+        margin: 0 0 20px 0;
+        line-height: 1.2;
     }
 
     .newsletter-form {
-      width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 500px;
+    }
+
+    .newsletter-input {
+        flex: 1;
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        font-size: 16px;
+    }
+
+    .newsletter-button {
+        background-color: var(--accent-color);
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        width: 40%;
+        margin: auto;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+
+    .newsletter-button:hover {
+        background-color: #0f065c;
     }
 
     .newsletter-image {
-      display: none;
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+        max-width: 400px;
+        height: auto;
     }
-  }
-  .slide-bg-1 {
-    z-index: 1;
-    background-color: var(--accent-color);
-    align-self: center;
-    width: 5px;
-    height: 120%;
-    margin: auto;
+
+    @media (max-width: 768px) {
+        .newsletter-container {
+            flex-direction: column;
+        }
+
+        .newsletter-title,
+        .newsletter-subtitle {
+            font-size: 25px;
+        }
+
+        .newsletter-form {
+            width: 100%;
+        }
+
+        .newsletter-image {
+            display: none;
+        }
+    }
+
+    .slide-bg-1 {
+        z-index: 1;
+        background-color: var(--accent-color);
+        align-self: center;
+        width: 5px;
+        height: 120%;
+        margin: auto;
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 60%;
+        right: auto;
+        transform: skew(-10deg);
+    }
+
+    .slide-bg {
+        width: 45%;
+        background-color: #fff;
+        position: absolute;
+        right: -5%;
+        bottom: 0;
+        top: 0;
+        transform: skew(-10deg);
+    }
+
+    @media (max-width: 900px) {
+        .slide-bg {
+            background-color: #e4e5e5;
+        }
+    }
+    @media (max-width: 900px) {
+        .slide-bg,.slide-bg-1{display: none
+        }
+        .newsletter-image {
     position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 60%;
-    right: auto;
-    transform: skew(-10deg);
-}
-  .slide-bg {
-    width: 45%;
-    background-color: #fff;
-    position: absolute;
-    right: -5%;
     bottom: 0;
-    top: 0;
-    transform: skew(-10deg);
-  }
-
-  @media (max-width: 991px) {
-    .slide-bg{    background-color: #e4e5e5;
+    right: 0%;
+    max-width: 400px;
+    height: auto;
+}
     }
-  }
 
+    @media (max-width: 769px) {.newsletter-image{display: none;}
+
+    }
 </style>
 
 <div class="newsletter-section" data-aos="zoom-in-up" id="newsletter">
-  <div class="newsletter-container container">
+    <div class="newsletter-container container">
 
-    <div class="newsletter-content">
+        <div class="newsletter-content">
 
-      <div class="title-top">
-        <div class="title-dot"></div>
-        <div class="trust-badge">STAY CONNECTED</div>
-      </div>
-      <h2 class="newsletter-title">Join our network.
-      </h2>
-      <h2 class="newsletter-subtitle">Sign up for updates and insights.
-      </h2>
-      <form class="newsletter-form">
-        <input type="text" class="newsletter-input" placeholder="Your Name" required>
-        <input type="email" class="newsletter-input" placeholder="Your Email" required>
-        <input type="tel" class="newsletter-input" placeholder="Your Phone" required> <button type="submit"
-          class="newsletter-button">Join Now</button>
-      </form>
+            <div class="title-top">
+                <div class="title-dot"></div>
+                <div class="trust-badge">STAY CONNECTED</div>
+            </div>
+            <h2 class="newsletter-title">Join our network.
+            </h2>
+            <h2 class="newsletter-subtitle">Sign up for updates and insights.
+            </h2>
+            <form class="newsletter-form">
+                <input type="text" class="newsletter-input" placeholder="Your Name" required>
+                <input type="email" class="newsletter-input" placeholder="Your Email" required>
+                <input type="tel" class="newsletter-input" placeholder="Your Phone" required> <button type="submit"
+                    class="newsletter-button">Join Now</button>
+            </form>
+        </div>
+        <div class="slide-bg-1"></div>
+        <div class="slide-bg"> </div>
+
+        <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
     </div>
-    <div class="slide-bg-1"></div>
-    <div class="slide-bg">    </div>
-
-      <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
-  </div>
 </div>

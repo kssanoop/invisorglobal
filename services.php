@@ -30,7 +30,7 @@
         color: #fff;
     }
 
-    .banner-text {
+    .banner-text2 {
         font-size: 16px;
         line-height: 1.6;
         opacity: 0.9;
@@ -77,10 +77,10 @@
                 <div class="col-md-6 content-col">
                     <div class="title-top">
                         <div class="title-dot" style="background-color: #fff;"></div>
-                        <div class="trust-badge" style="color:#fff">SERVISES</div>
+                        <div class="trust-badge" style="color:#fff">SERVICES</div>
                     </div>
                     <h1 class="banner-title">Your trusted partner in financial excellence</h1>
-                    <p class="banner-text">Fusce volutpat lectus et nisl consectetur finibus. In vitae scelerisque
+                    <p class="banner-text2">Fusce volutpat lectus et nisl consectetur finibus. In vitae scelerisque
                         augue, in varius eros. Nunc sapien diam, euismod et pretium id, volutpat et tortor.</p>
                 </div>
 
@@ -95,239 +95,8 @@
 </div>
 
 
-<!-- ================================================== -->
-<section class="pillars-section">
-    <div class="pillars-container">
-        <div class="title-top">
-            <div class="title-dot"></div>
-            <div class="trust-badge">SERVICES</div>
-        </div>
-        <h2 class="main-title">We are building a strong foundation for growth
-        </h2>
-        <div class="pillars-row">
-            <div class="pillar-item">
-                <h3 class="pillar-title">Zoho Implementation Services
-                </h3>
-                <p class="pillar-description">
-                    Empower your business with seamless Zoho solutions. From CRM to analytics, we specialise in
-                    implementing and customising Zoho tools to streamline your operations and boost efficiency.
-
-                </p>
-            </div>
-            <div class="pillar-item">
-                <h3 class="pillar-title">Expert Accounting Services
-                </h3>
-                <p class="pillar-description">
-                    Simplify your financial management with our comprehensive accounting solutions. From bookkeeping to
-                    taxation, we help businesses of all sizes manage their finances with ease and precision.
-
-                </p>
-            </div>
-            <div class="pillar-item">
-                <h3 class="pillar-title">IT Services
-                </h3>
-                <p class="pillar-description">
-                    Elevate your business with our IT solutions, including website development, software development,
-                    app development, and UI/UX design, designed to keep your business competitive and future-ready.
-
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<style>
-    .pillars-section {
-        padding: 50px 20px;
-    }
-
-    .pillars-container {
-        max-width: 1000px;
-        margin: 0 auto;
-    }
 
 
-    .main-title {
-        font-size: 36px;
-        margin: 20px 0 40px;
-        color: #333;
-        font-weight: 300;
-    }
-
-    .pillars-row {
-        display: flex;
-        justify-content: space-between;
-        gap: 20px;
-        flex-wrap: wrap;
-        border-bottom: 1px solid #e0e0e0;
-
-    }
-
-    .pillar-item {
-        flex: 1;
-        min-width: 250px;
-        max-width: 300px;
-        padding: 20px 0;
-    }
-
-    .pillar-icon {
-        font-size: 30px;
-        color: #4CAF50;
-        margin-bottom: 15px;
-    }
-
-    .pillar-title {
-        font-size: 20px;
-        font-weight: 400;
-        color: #333;
-        margin-bottom: 10px;
-    }
-
-    .pillar-description {
-        font-weight: 300;
-        font-size: 18px;
-        color: #1d1d1d;
-        line-height: 28px;
-    }
-</style>
-
-
-
-
-<!-- Features Section -->
-<section id="features" class="features section">
-    <div class="title-top justify-content-center">
-        <div class="title-dot"></div>
-        <div class="trust-badge">OUR SERVICES</div>
-    </div>
-
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-        <h1 style="font-weight: 300;">We are building a strong foundation for growth</h1>
-    </div><!-- End Section Title -->
-
-    <div class="container">
-        <div class="row justify-content-between">
-
-            <div class="col-lg-5 d-flex align-items-center">
-
-                <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
-                    <li class="nav-item">
-                        <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-                            <div>
-                                <h4 class="d-none d-lg-block">Zoho Implementation Services</h4>
-                                <p>
-                                    Empower your business with seamless Zoho solutions. From CRM to analytics, we
-                                    specialise in implementing and customising Zoho tools to streamline your operations
-                                    and boost efficiency.
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
-                            <div>
-                                <h4 class="d-none d-lg-block">Expert Accounting Services</h4>
-                                <p>
-                                    Simplify your financial management with our comprehensive accounting solutions. From
-                                    bookkeeping to taxation, we help businesses of all sizes manage their finances with
-                                    ease and precision.
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
-                            <div>
-                                <h4 class="d-none d-lg-block">IT Services</h4>
-                                <p>
-                                    Elevate your business with our IT solutions, including website development, software
-                                    development, app development, and UI/UX design, designed to keep your business
-                                    competitive and future-ready.
-                                </p>
-                            </div>
-                        </a>
-                    </li>
-                </ul><!-- End Tab Nav -->
-
-            </div>
-
-            <div class="col-lg-6">
-
-                <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-
-                    <div class="tab-pane fade active show" id="features-tab-1">
-                        <img src="assets/img/service-tabs-1.jpg" alt="" class="img-fluid">
-                    </div><!-- End Tab Content Item -->
-
-                    <div class="tab-pane fade" id="features-tab-2">
-                        <img src="assets/img/service-tabs-2.jpg" alt="" class="img-fluid">
-                    </div><!-- End Tab Content Item -->
-
-                    <div class="tab-pane fade" id="features-tab-3">
-                        <img src="assets/img/service-tabs-3.jpg" alt="" class="img-fluid">
-                    </div><!-- End Tab Content Item -->
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section><!-- /Features Section -->
-
-<style>
-    /*--------------------------------------------------------------
-# Features Section
---------------------------------------------------------------*/
-    .features .nav-tabs {
-        border: 0;
-    }
-
-    .features .nav-item {
-        width: 100%;
-        margin-bottom: 15px;
-    }
-
-    .features .nav-item:last-child {
-        margin-bottom: 0;
-    }
-
-    .features .nav-link {
-        color: var(--heading-color);
-        border: 0;
-        padding: 30px;
-        transition: 0.3s;
-        border-radius: 10px;
-        display: flex;
-        cursor: pointer;
-    }
-
-
-    .features .nav-link h4 {
-        font-size: 20px;
-        font-weight: 400;
-        margin: 0 0 10px 0;
-        transition: 0.3s;
-    }
-
-    .features .nav-link p {
-        font-size: 15px;
-        margin: 0;
-    }
-
-    .features .nav-link:hover {}
-
-    .features .nav-link.active {
-        color: var(--default-color);
-    }
-
-    .features .tab-pane img {
-        width: 100%;
-        border-radius: 15px;
-    }
-</style>
 <!-- ========================================= -->
 
 <style>
@@ -415,7 +184,10 @@
 
 <div class="main-service" style="overflow: hidden;">
     <div class="container">
-        <h2 class="services-title">Zoho Implementation</h2>
+        <div class="title-top mb-3">
+            <div class="trust-badge" style="color:#1d1d1d">Zoho Implementation</div>
+        </div>
+        <hr>
         <div class="swiper-container" style="overflow: hidden;">
             <div class="swiper-wrapper">
                 <!-- Card 1 -->
@@ -676,7 +448,10 @@
 </div>
 <div class="main-service">
     <div class="container">
-        <h2 class="services-title">Zoho Training</h2>
+    <div class="title-top mb-3">
+            <div class="trust-badge" style="color:#1d1d1d">Zoho Training</div>
+        </div>
+<hr>
         <div class="swiper-container trining-tab1" style="overflow: hidden;">
             <div class="swiper-wrapper">
                 <!-- Training Card 1 -->
@@ -739,127 +514,133 @@
 </div>
 <div class="main-service" style="overflow: hidden;">
     <div class="container">
-        <h2 class="services-title">Zoho Support</h2>
+    <div class="title-top mb-3">
+            <div class="trust-badge" style="color:#1d1d1d">Zoho Support</div>
+        </div>
+        <hr>
         <div class="swiper-container trining-tab1" style="overflow: hidden;">
             <div class="swiper-wrapper">
-              <!-- Card 1 -->
-              <div class="swiper-slide">
-                <a href="?page=zoho-training">
-                  <div class="card service-card hvr-underline-from-left">
-                    <div class="card-body">
-                      <div class="card-top">
-                        <a href="?page=zoho-training">
-                          <h5 class="card-title">Zoho Support & Maintenance
+                <!-- Card 1 -->
+                <div class="swiper-slide">
+                    <a href="?page=zoho-support">
+                        <div class="card service-card hvr-underline-from-left">
+                            <div class="card-body">
+                                <div class="card-top">
+                                    <a href="?page=zoho-support">
+                                        <h5 class="card-title">Zoho Support & Maintenance
 
-                          </h5>
-                        </a>
-                      </div>
-                      <div class="card-bdy">
-                        <p class="card-text"> Invisor’s expert team offers end-to-end Zoho support, resolving technical
-                          issues and providing tailored solutions to enhance your business.
-                        </p>
-                        <div class="tab-bottom">
-                          <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
-                              class="bi bi-arrow-right-short"></i></a>
+                                        </h5>
+                                    </a>
+                                </div>
+                                <div class="card-bdy">
+                                    <p class="card-text"> Invisor’s expert team offers end-to-end Zoho support,
+                                        resolving technical
+                                        issues and providing tailored solutions to enhance your business.
+                                    </p>
+                                    <div class="tab-bottom">
+                                        <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
+                                                class="bi bi-arrow-right-short"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Card 1 -->
-              <div class="swiper-slide">
-                <a href="?page=zoho-training">
-                  <div class="card service-card hvr-underline-from-left">
-                    <div class="card-body">
-                      <div class="card-top">
-                        <a href="?page=zoho-training">
-                          <h5 class="card-title">Responsive Support
+                    </a>
+                </div>
+                <!-- Card 1 -->
+                <div class="swiper-slide">
+                    <a href="?page=zoho-support">
+                        <div class="card service-card hvr-underline-from-left">
+                            <div class="card-body">
+                                <div class="card-top">
+                                    <a href="?page=zoho-training">
+                                        <h5 class="card-title">Responsive Support
 
-                          </h5>
-                        </a>
-                      </div>
-                      <div class="card-bdy">
-                        <p class="card-text">Get timely assistance for any Zoho-related queries or issues.
+                                        </h5>
+                                    </a>
+                                </div>
+                                <div class="card-bdy">
+                                    <p class="card-text">Get timely assistance for any Zoho-related queries or issues.
 
-                        </p>
-                        <div class="tab-bottom">
-                          <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
-                              class="bi bi-arrow-right-short"></i></a>
+                                    </p>
+                                    <div class="tab-bottom">
+                                        <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
+                                                class="bi bi-arrow-right-short"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Card 2 -->
-              <div class="swiper-slide">
-                <a href="?page=zoho-training">
-                  <div class="card service-card hvr-underline-from-left">
-                    <div class="card-body">
-                      <div class="card-top">
-                        <h5 class="card-title">Expert Guidance
-                        </h5>
-                      </div>
-                      <div class="card-bdy">
-                        <p class="card-text">Benefit from our team's extensive knowledge and experience with Zoho
-                          applications.
-                        </p>
-                        <div class="tab-bottom">
-                          <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
-                              class="bi bi-arrow-right-short"></i></a>
+                    </a>
+                </div>
+                <!-- Card 2 -->
+                <div class="swiper-slide">
+                    <a href="?page=zoho-support">
+                        <div class="card service-card hvr-underline-from-left">
+                            <div class="card-body">
+                                <div class="card-top">
+                                    <h5 class="card-title">Expert Guidance
+                                    </h5>
+                                </div>
+                                <div class="card-bdy">
+                                    <p class="card-text">Benefit from our team's extensive knowledge and experience with
+                                        Zoho
+                                        applications.
+                                    </p>
+                                    <div class="tab-bottom">
+                                        <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
+                                                class="bi bi-arrow-right-short"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Card 3 -->
-              <div class="swiper-slide">
-                <a href="?page=zoho-training">
-                  <div class="card service-card hvr-underline-from-left">
-                    <div class="card-body">
-                      <div class="card-top">
-                        <h5 class="card-title">Customised Solutions
+                    </a>
+                </div>
+                <!-- Card 3 -->
+                <div class="swiper-slide">
+                    <a href="?page=zoho-support">
+                        <div class="card service-card hvr-underline-from-left">
+                            <div class="card-body">
+                                <div class="card-top">
+                                    <h5 class="card-title">Customised Solutions
 
-                        </h5>
-                      </div>
-                      <div class="card-bdy">
-                        <p class="card-text">We tailor our support to meet the specific needs of your business.
+                                    </h5>
+                                </div>
+                                <div class="card-bdy">
+                                    <p class="card-text">We tailor our support to meet the specific needs of your
+                                        business.
 
-                        </p>
-                        <div class="tab-bottom">
-                          <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
-                              class="bi bi-arrow-right-short"></i></a>
+                                    </p>
+                                    <div class="tab-bottom">
+                                        <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
+                                                class="bi bi-arrow-right-short"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Card 4 -->
-              <div class="swiper-slide">
-                <a href="?page=zoho-training">
-                  <div class="card service-card hvr-underline-from-left">
-                    <div class="card-body">
-                      <div class="card-top">
-                        <h5 class="card-title">Proactive Monitoring
+                    </a>
+                </div>
+                <!-- Card 4 -->
+                <div class="swiper-slide">
+                    <a href="?page=zoho-support">
+                        <div class="card service-card hvr-underline-from-left">
+                            <div class="card-body">
+                                <div class="card-top">
+                                    <h5 class="card-title">Proactive Monitoring
 
-                        </h5>
-                      </div>
-                      <div class="card-bdy">
-                        <p class="card-text">Stay ahead of potential issues with our regular system checks.
+                                    </h5>
+                                </div>
+                                <div class="card-bdy">
+                                    <p class="card-text">Stay ahead of potential issues with our regular system checks.
 
-                        </p>
-                        <div class="tab-bottom">
-                          <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
-                              class="bi bi-arrow-right-short"></i></a>
+                                    </p>
+                                    <div class="tab-bottom">
+                                        <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
+                                                class="bi bi-arrow-right-short"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
+                    </a>
+                </div>
             </div>
 
             <!-- Add Pagination -->
@@ -868,90 +649,94 @@
             <!-- Add Navigation -->
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
-          </div>
+        </div>
     </div>
 </div>
 <div class="main-service">
     <div class="container">
-        <h2 class="services-title">
-            Zoho Cunsultant Hire</h2>
-            <div class="swiper-container trining-tab1" style="overflow: hidden;">
+    <div class="title-top mb-3">
+            <div class="trust-badge" style="color:#1d1d1d">Zoho Cunsultant Hire</div>
+        </div>
+        <hr>
+        <div class="swiper-container trining-tab1" style="overflow: hidden;">
             <div class="swiper-wrapper">
-              <!-- Card 1 -->
-              <div class="swiper-slide">
-                <a href="?page=zoho-training">
-                  <div class="card service-card hvr-underline-from-left">
-                    <div class="card-body">
-                      <div class="card-top">
-                        <a href="?page=zoho-training">
-                          <h5 class="card-title">Hire
+                <!-- Card 1 -->
+                <div class="swiper-slide">
+                    <a href="?page=zoho-hire">
+                        <div class="card service-card hvr-underline-from-left">
+                            <div class="card-body">
+                                <div class="card-top">
+                                    <a href="?page=zoho-hire">
+                                        <h5 class="card-title">Hire
 
 
-                          </h5>
-                        </a>
-                      </div>
-                      <div class="card-bdy">
-                        <p class="card-text"> Hire Dedicated & Certified Zoho consultants From Invisor on Contract Basis
-                          For Short Term Or Long Term.
+                                        </h5>
+                                    </a>
+                                </div>
+                                <div class="card-bdy">
+                                    <p class="card-text"> Hire Dedicated & Certified Zoho consultants From Invisor on
+                                        Contract Basis
+                                        For Short Term Or Long Term.
 
-                        </p>
-                        <div class="tab-bottom">
-                          <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
-                              class="bi bi-arrow-right-short"></i></a>
+                                    </p>
+                                    <div class="tab-bottom">
+                                        <a href="?page=zoho-hire" class="btn btn-link contact-btn">Learn more <i
+                                                class="bi bi-arrow-right-short"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Card 1 -->
-              <div class="swiper-slide">
-                <a href="?page=zoho-training">
-                  <div class="card service-card hvr-underline-from-left">
-                    <div class="card-body">
-                      <div class="card-top">
-                        <a href="?page=zoho-training">
-                          <h5 class="card-title">Assign
+                    </a>
+                </div>
+                <!-- Card 1 -->
+                <div class="swiper-slide">
+                    <a href="?page=zoho-hire">
+                        <div class="card service-card hvr-underline-from-left">
+                            <div class="card-body">
+                                <div class="card-top">
+                                    <a href="?page=zoho-hire">
+                                        <h5 class="card-title">Assign
 
-                          </h5>
-                        </a>
-                      </div>
-                      <div class="card-bdy">
-                        <p class="card-text">Assign Your Tasks And Manage Our Resources According to Your Project Plan.
+                                        </h5>
+                                    </a>
+                                </div>
+                                <div class="card-bdy">
+                                    <p class="card-text">Assign Your Tasks And Manage Our Resources According to Your
+                                        Project Plan.
 
-                        </p>
-                        <div class="tab-bottom">
-                          <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
-                              class="bi bi-arrow-right-short"></i></a>
+                                    </p>
+                                    <div class="tab-bottom">
+                                        <a href="?page=zoho-hire" class="btn btn-link contact-btn">Learn more <i
+                                                class="bi bi-arrow-right-short"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-              <!-- Card 2 -->
-              <div class="swiper-slide">
-                <a href="?page=zoho-training">
-                  <div class="card service-card hvr-underline-from-left">
-                    <div class="card-body">
-                      <div class="card-top">
-                        <h5 class="card-title">Get Output
+                    </a>
+                </div>
+                <!-- Card 2 -->
+                <div class="swiper-slide">
+                    <a href="?page=zoho-hire">
+                        <div class="card service-card hvr-underline-from-left">
+                            <div class="card-body">
+                                <div class="card-top">
+                                    <h5 class="card-title">Get Output
 
-                        </h5>
-                      </div>
-                      <div class="card-bdy">
-                        <p class="card-text">Get Outputs on Time And Deliver It to Clients successfully.
+                                    </h5>
+                                </div>
+                                <div class="card-bdy">
+                                    <p class="card-text">Get Outputs on Time And Deliver It to Clients successfully.
 
-                        </p>
-                        <div class="tab-bottom">
-                          <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
-                              class="bi bi-arrow-right-short"></i></a>
+                                    </p>
+                                    <div class="tab-bottom">
+                                        <a href="?page=zoho-hire" class="btn btn-link contact-btn">Learn more <i
+                                                class="bi bi-arrow-right-short"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
+                    </a>
+                </div>
             </div>
 
             <!-- Add Pagination -->
@@ -960,7 +745,7 @@
             <!-- Add Navigation -->
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
-          </div>
+        </div>
     </div>
 </div>
 
@@ -1043,3 +828,186 @@
         display: block !important;
     }
 </style>
+<!-- ====================================newsletter================================== -->
+<style>
+    .newsletter-section {
+        background-color: #e4e5e5;
+        padding: 40px 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .newsletter-container {
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .newsletter-content {
+        max-width: 600px;
+    }
+
+    .newsletter-label {
+        color: var(--accent-color);
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .newsletter-title {
+        font-weight: 400;
+        font-size: 36px;
+        color: #1d1d1d;
+        margin: 0;
+        line-height: 1.2;
+    }
+
+    .newsletter-subtitle {
+        font-weight: 400;
+        font-size: 36px;
+        color: #1d1d1d;
+        margin: 0 0 20px 0;
+        line-height: 1.2;
+    }
+
+    .newsletter-form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 500px;
+    }
+
+    .newsletter-input {
+        flex: 1;
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        font-size: 16px;
+    }
+
+    .newsletter-button {
+        background-color: var(--accent-color);
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        width: 40%;
+        margin: auto;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+
+    .newsletter-button:hover {
+        background-color: #0f065c;
+    }
+
+    .newsletter-image {
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    @media (max-width: 768px) {
+        .newsletter-container {
+            flex-direction: column;
+        }
+
+        .newsletter-title,
+        .newsletter-subtitle {
+            font-size: 25px;
+        }
+
+        .newsletter-form {
+            width: 100%;
+        }
+
+        .newsletter-image {
+            display: none;
+        }
+    }
+
+    .slide-bg-1 {
+        z-index: 1;
+        background-color: var(--accent-color);
+        align-self: center;
+        width: 5px;
+        height: 120%;
+        margin: auto;
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 60%;
+        right: auto;
+        transform: skew(-10deg);
+    }
+
+    .slide-bg {
+        width: 45%;
+        background-color: #fff;
+        position: absolute;
+        right: -5%;
+        bottom: 0;
+        top: 0;
+        transform: skew(-10deg);
+    }
+
+    @media (max-width: 900px) {
+        .slide-bg {
+            background-color: #e4e5e5;
+        }
+    }
+
+    @media (max-width: 900px) {
+
+        .slide-bg,
+        .slide-bg-1 {
+            display: none
+        }
+
+        .newsletter-image {
+            position: absolute;
+            bottom: 0;
+            right: 0%;
+            max-width: 400px;
+            height: auto;
+        }
+    }
+
+    @media (max-width: 769px) {
+        .newsletter-image {
+            display: none;
+        }
+
+    }
+</style>
+
+<div class="newsletter-section" data-aos="zoom-in-up" id="newsletter">
+    <div class="newsletter-container container">
+
+        <div class="newsletter-content">
+
+            <div class="title-top">
+                <div class="title-dot"></div>
+                <div class="trust-badge">STAY CONNECTED</div>
+            </div>
+            <h2 class="newsletter-title">Join our network.
+            </h2>
+            <h2 class="newsletter-subtitle">Sign up for updates and insights.
+            </h2>
+            <form class="newsletter-form">
+                <input type="text" class="newsletter-input" placeholder="Your Name" required>
+                <input type="email" class="newsletter-input" placeholder="Your Email" required>
+                <input type="tel" class="newsletter-input" placeholder="Your Phone" required> <button type="submit"
+                    class="newsletter-button">Join Now</button>
+            </form>
+        </div>
+        <div class="slide-bg-1"></div>
+        <div class="slide-bg"> </div>
+
+        <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
+    </div>
+</div>

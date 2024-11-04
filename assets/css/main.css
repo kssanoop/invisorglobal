@@ -998,8 +998,7 @@ section,
   background-color: #f6f6f6;
   position: relative;
 }
-
-.title-top {
+.title-top {text-transform: uppercase;
   margin-bottom: 3%;
   display: flex;
   gap: 10px;
@@ -1073,7 +1072,7 @@ section,
     position: absolute;
     top: 0;
     right: 0;
-    height: auto;
+    height: 90vh;object-fit: cover;
     width: 50%;
   }
 
@@ -1085,11 +1084,11 @@ section,
 
 @media (min-width: 1500px) {
   .banner {
-    height: 72vh !important;
+    height: 70vh !important;
   }
 
   .banner-text {
-    margin-top: 25% !important;
+    margin-top: 15% !important;
   }
 
   .hero-section .img-fluid {
@@ -1100,7 +1099,7 @@ section,
 
 @media (min-width: 1200px) and (max-width:1400px) {
   .banner {
-    height: 90vh !important;
+    height: 68vh !important;
   }
 }
 

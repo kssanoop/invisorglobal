@@ -444,8 +444,8 @@
     <div class="why-choose-grid">
     <!-- Feature 1 -->
     <div class="why-choose-item">
-        <div class="icon" style="background-color: #d6e4ff;border: 1px solid #4C6EFF;">
-            <i style="color: #4C6EFF;" class="bi bi-people"></i>
+        <div class="icon" style="border:1px solid var(--accent-color)">
+            <i class="bi bi-people"></i>
         </div>
         <div class="why-choose-content">
             <h3 class="why-choose-feature-title">Empower Your Sales Team</h3>
@@ -454,9 +454,10 @@
     </div>
     <!-- Feature 2 -->
     <div class="why-choose-item">
-        <div class="icon" style="background-color: #f0e4ff;border: 1px solid #6A0572;">
-            <i style="color: #6A0572;" class="bi bi-chat-dots"></i>
+        <div class="icon" style="border:1px solid var(--accent-color)">
+            <i class="bi bi-chat-dots"></i>
         </div>
+
         <div class="why-choose-content">
             <h3 class="why-choose-feature-title">Enhance Customer Relationships</h3>
             <h6 class="why-choose-description">By providing a unified platform for managing customer interactions, Zoho CRM enables businesses to enhance their customer relationships. Understand customer needs, preferences, and behaviours to deliver a tailored experience that drives loyalty and satisfaction.</h6>
@@ -464,8 +465,9 @@
     </div>
     <!-- Feature 3 -->
     <div class="why-choose-item">
-        <div class="icon" style="background-color: #ffe3e3;border: 1px solid #de6264;">
-            <i style="color: #de6264;" class="bi bi-gear"></i>
+
+        <div class="icon" style="border:1px solid var(--accent-color)">
+            <i class="bi bi-gear"></i>
         </div>
         <div class="why-choose-content">
             <h3 class="why-choose-feature-title">Streamline Operations</h3>
@@ -474,9 +476,10 @@
     </div>
     <!-- Feature 4 -->
     <div class="why-choose-item">
-        <div class="icon" style="background-color: #e3f7e3;border: 1px solid #4C4C4C;">
-            <i style="color:#4C4C4C ;" class="bi bi-shield-lock"></i>
+        <div class="icon" style="border:1px solid var(--accent-color)">
+            <i class="bi bi-shield-lock"></i>
         </div>
+
         <div class="why-choose-content">
             <h3 class="why-choose-feature-title">Security You Can Trust</h3>
             <h6 class="why-choose-description">At Zoho, we prioritise the security of your data. With advanced security measures, including data encryption and role-based access controls, you can trust that your business information is protected.</h6>
@@ -519,8 +522,8 @@ color-mix(in srgb, var(--default-color), transparent 85%);
 
     .why-choose-section .icon {
         flex-shrink: 0;
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         border-radius: 8px;
         display: flex;
         align-items: center;
@@ -528,8 +531,8 @@ color-mix(in srgb, var(--default-color), transparent 85%);
         margin-right: 15px;
     }
 
-    .why-choose-section .icon i {
-        font-size: 2rem;
+    .why-choose-section .icon i {color: var(a--accent-color);
+        font-size: 1.5rem;
     }
 
     .why-choose-content {

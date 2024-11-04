@@ -137,7 +137,7 @@
 
   <!-- Full-Width Background Container -->
   <div class="footer-container-fluid container-fluid">
-    <div class="footer-container container">
+  <div class="footer-container container">
       <!-- Footer Logo and Address Section -->
       <div class="footer-logo footer-address">
         <a href="?page=home"><img src="assets/img/Invisor-footer-logo.jpeg" alt="Prospera Logo"></a>
@@ -159,6 +159,7 @@ Kaab Bin Malik Street, Al Olaya District, Kingdom of Saudi Arabia
             <li><a href="#">Home</a></li>
             <li><a href="#">Services</a></li>
             <li><a href="#">Blog</a></li>
+            
           </ul>
         </div>
         <div>

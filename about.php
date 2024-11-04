@@ -192,19 +192,22 @@
     <div class="container-fluid partners">
         <div class="container">
             <div class="row partner-sm">
-                <div class="col-md-6 col-sm-6">
-                    <img class="partner-img" src="assets/img/arabian-software.svg" alt="">
+                <div class="col-md-3 ptner">
+                    <img src="assets/img/arabian-software.svg" alt="">
                 </div>
-                <div class="col-md-6 col-sm-6">
-                    <img src="assets/img/Invisor_logo-rbg.png" alt="">
+                <div class="col-md-1 ptner">
+                    <img src="assets/img/icons/handshake.svg" alt="" class="hand-shake">
+                </div>
+                <div class="col-md-4 ptner">
+                    <img src="assets/img/zoho-logo.svg" alt="">
+                </div>
+                <div class="col-md-1 ptner">
+                <img src="assets/img/icons/handshake.svg" alt="" class="hand-shake">
+                </div>
+                <div class="col-md-3 ptner">
+                    <img class="partner-img" src="assets/img/Invisor_logo-rbg.png" alt="">
                 </div>
             </div>
-            <h6>Our partnership with Arabian Software, an award-winning Zoho One partner with over a decade of
-                experience, brings our clients top-tier solutions. With a shared commitment to “serving better,” we
-                provide tailored, high-impact tools that streamline processes, increase productivity, and empower
-                businesses to meet challenges head-on. Together, we’re dedicated to driving meaningful results and
-                supporting our clients’ success in a competitive landscape.</h6>
-
         </div>
 
     </div>
@@ -224,13 +227,10 @@
 # Features Section
 --------------------------------------------------------------*/
     .partners {
-        height: 500px;
+        height: auto;
         margin-bottom: 50px;
-        background-image: url(assets/img/shake-handbg.png);
-        background-repeat: no-repeat;
-        background-size: cover;
     }
-
+.partners .ptner{margin: auto;}
     .partners img {
         height: auto;
         width: 50%;
@@ -239,7 +239,7 @@
     }
 
     .partners .partner-img {
-        width: 40%;
+        width: 60%;
     }
 
     .partners h6,
@@ -253,28 +253,21 @@
         color: #1d1d1d;
     }
 
-    @media (max-width:1200px) {
-        .partners h6 {
-            display: none;
-        }
-    }
 
-    @media (min-width:1201px) {
-        .partner-text {
-            display: none
-        }
-    }
 
     @media (max-width:991px) {
-
         .partners {
             height: auto;
         }
 
         .partners img {
             height: auto;
-            width: 40%;
+            width: 50%;
         }
+    }
+    @media (max-width:767px) {
+        .ptner{margin-bottom: 30px;}
+.hand-shake{width: 20% !important;}
     }
 </style>
 
@@ -724,163 +717,22 @@
 
     /* Positioning */
     .swiper-button-next {
+        display: none;
         right: 0%;
         /* Place the next button 20px from the right */
     }
 
     .swiper-button-prev {
-        left: 0%;
+        display: none;
+        left: -0%;
         /* Place the prev button 20px from the left */
     }
 </style>
 
-<!-- ===============================contact=========================== -->
-<style>
-    .contact-section {
-        overflow: hidden;
-        display: flex;
-        justify-content: space-between;
-        align-items: stretch;
-        max-height: 400px;
-        background-color: #f8f9fa;
-    }
-
-    .contact-content {
-        background-color: var(--accent-color);
-        padding-top: 50px;
-        flex: 1;
-        position: relative;
-        color: #fff;
-        clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        /* Footer stays at the bottom */
-    }
-
-    .contact-text {
-        max-width: 400px;
-        margin: auto;
-    }
-
-    @media (min-width:1400px) {
-        .contact-text {
-            max-width: 400px;
-            margin: auto 22% auto 44%;
-        }
-
-        .contact-section .contact-btn {
-            width: 70% !important;
-            padding-left: 32% !important;
-        }
-
-        .contact-footer {
-            gap: 0;
-        }
-    }
-
-    @media (min-width:1400px) and (max-width:1637px) {
-        .contact-text {
-            max-width: 400px;
-            margin: auto 22% auto 35%;
-        }
-    }
-
-    .contact-text h5 {
-        color: #fff;
-        font-size: clamp(0.875rem, 1.5vw, 1rem);
-        letter-spacing: 0.1em;
-        text-transform: uppercase;
-        margin-bottom: 1rem;
-        font-weight: 600;
-    }
-
-    .contact-text h1 {
-        color: #fff;
-        font-size: 36px;
-        font-weight: 300;
-        margin-bottom: 1.5rem;
-        line-height: 1.2;
-    }
-
-    .contact-text h4 {
-        font-size: 22px;
-        font-weight: 400;
-        margin-bottom: 2.5rem;
-        line-height: 1.6;
-        color: #fff;
-    }
-
-
-    .contact-image {
-        flex: 1;
-        position: relative;
-        overflow: hidden;
-        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
-    }
-
-    .contact-image img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    @media (max-width: 768px) {
-        .contact-section {
-            height: auto !important;
-            max-height: 100%;
-            flex-direction: column;
-        }
-
-        .contact-content {
-            clip-path: none;
-            padding: 3rem 0 0;
-            justify-content: center;
-            /* Center content vertically on smaller screens */
-        }
-
-        .contact-text {
-            padding-left: 5%;
-        }
-
-        .contact-text p {
-            padding-right: 5%;
-        }
-
-        .contact-image {
-            height: 50vh;
-        }
-
-        .contact-footer {
-            align-items: center;
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
-    }
-</style>
-
-<div class="contact-section">
-    <div class="contact-content">
-
-        <div class="contact-text">
-            <div class="title-top align-items-center mb-4">
-                <div class="title-dot" style="background-color: #fff;"></div>
-                <div class="trust-badge" style="color: #fff;">OUR VISION</div>
-            </div>
-            <h4>We aspire to set new standards for precision and efficiency, becoming the catalyst for our clients'
-                enduring success and prosperity.
-            </h4>
-        </div>
-    </div>
-    <div class="contact-image" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
-        <img src="assets/img/touch.jpg" alt="People working on laptops">
-    </div>
-</div>
 
 
 
-<div class="clients-section">
+<div class="clients-section d-none">
     <div class="clients-content">
         <div class="title-top justify-content-center">
             <div class="title-dot"></div>
@@ -1062,10 +914,33 @@
         transform: skew(-10deg);
     }
 
-    @media (max-width: 991px) {
+    @media (max-width: 900px) {
         .slide-bg {
             background-color: #e4e5e5;
         }
+    }
+
+    @media (max-width: 900px) {
+
+        .slide-bg,
+        .slide-bg-1 {
+            display: none
+        }
+
+        .newsletter-image {
+            position: absolute;
+            bottom: 0;
+            right: 0%;
+            max-width: 400px;
+            height: auto;
+        }
+    }
+
+    @media (max-width: 769px) {
+        .newsletter-image {
+            display: none;
+        }
+
     }
 </style>
 

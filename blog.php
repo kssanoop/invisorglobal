@@ -8,8 +8,10 @@
               <div class="trust-badge">LATEST ARTICLE</div>
             </div>
 
-                <h1 class="article-title">Retirement Planning 101: Securing Your Golden Years</h1>
-                <p class="article-description">With Zoho CRM, you gain a comprehensive view of your customers by integrating all relevant data into a single platform. Access customer history, interactions, and preferences at a glance, empowering your team to deliver personalised service and build lasting relationships.</p>
+                <h1 class="article-title">Zoho Insights and Innovation 
+                </h1>
+                <p class="article-description">Discover expert insights, real-world success stories, and actionable tips on everything from CRM to inventory management, helping you maximise productivity and streamline your business operations with Zoho. Explore our articles to find out how Zoho can make a difference in your day-to-day workflow and support your growth journey.
+                </p>
                 <div class="hover-button mt-2" style="border-radius: 5px;">
           <a href="#newsletter">Learn more</a>
         </div>
@@ -230,172 +232,178 @@
       </div>
     </div>
 
-    <!-- ====================================newsletter================================== -->
+<!-- ====================================newsletter================================== -->
 <style>
-  .newsletter-section {
-    background-color: #e4e5e5;
-    padding: 40px 0;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .newsletter-container {
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .newsletter-content {
-    max-width: 600px;
-  }
-
-  .newsletter-label {
-    color: var(--accent-color);
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
-
-  .newsletter-title {
-    font-weight: 400;
-    font-size: 36px;
-    color: #1d1d1d;
-    margin: 0;
-    line-height: 1.2;
-  }
-
-  .newsletter-subtitle {
-    font-weight: 400;
-    font-size: 36px;
-    color: #1d1d1d;
-    margin: 0 0 20px 0;
-    line-height: 1.2;
-  }
-
-  .newsletter-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 500px;
-  }
-
-  .newsletter-input {
-    flex: 1;
-    padding: 12px 15px;
-    border: 1px solid #ddd;
-    font-size: 16px;
-  }
-
-  .newsletter-button {
-    background-color: var(--accent-color);
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    width: 40%;
-    margin: auto;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-  }
-
-  .newsletter-button:hover {
-    background-color: #0f065c;
-  }
-
-  .newsletter-image {
-    position: absolute;
-    bottom: 0;
-    right: 10%;
-    max-width: 400px;
-    height: auto;
-  }
-
-  @media (max-width: 768px) {
-    .newsletter-container {
-      flex-direction: column;
+    .newsletter-section {
+        background-color: #e4e5e5;
+        padding: 40px 0;
+        position: relative;
+        overflow: hidden;
     }
 
-    .newsletter-title,
+    .newsletter-container {
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .newsletter-content {
+        max-width: 600px;
+    }
+
+    .newsletter-label {
+        color: var(--accent-color);
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .newsletter-title {
+        font-weight: 400;
+        font-size: 36px;
+        color: #1d1d1d;
+        margin: 0;
+        line-height: 1.2;
+    }
+
     .newsletter-subtitle {
-      font-size: 25px;
+        font-weight: 400;
+        font-size: 36px;
+        color: #1d1d1d;
+        margin: 0 0 20px 0;
+        line-height: 1.2;
     }
 
     .newsletter-form {
-      width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 500px;
+    }
+
+    .newsletter-input {
+        flex: 1;
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        font-size: 16px;
+    }
+
+    .newsletter-button {
+        background-color: var(--accent-color);
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        width: 40%;
+        margin: auto;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+
+    .newsletter-button:hover {
+        background-color: #0f065c;
     }
 
     .newsletter-image {
-      display: none;
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+        max-width: 400px;
+        height: auto;
     }
-  }
 
-  .slide-bg-1 {
-    z-index: 1;
-    background-color: var(--accent-color);
-    align-self: center;
-    width: 5px;
-    height: 120%;
-    margin: auto;
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 60%;
-    right: auto;
-    transform: skew(-10deg);
-  }
+    @media (max-width: 768px) {
+        .newsletter-container {
+            flex-direction: column;
+        }
 
-  .slide-bg {
-    width: 45%;
-    background-color: #fff;
-    position: absolute;
-    right: -5%;
-    bottom: 0;
-    top: 0;
-    transform: skew(-10deg);
-  }
+        .newsletter-title,
+        .newsletter-subtitle {
+            font-size: 25px;
+        }
 
-  @media (max-width: 991px) {
-    .slide-bg {
-      display: none;
+        .newsletter-form {
+            width: 100%;
+        }
+
+        .newsletter-image {
+            display: none;
+        }
     }
 
     .slide-bg-1 {
-      display: none;
+        z-index: 1;
+        background-color: var(--accent-color);
+        align-self: center;
+        width: 5px;
+        height: 120%;
+        margin: auto;
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 60%;
+        right: auto;
+        transform: skew(-10deg);
     }
 
-    .newsletter-image {
-      right: -7%;
+    .slide-bg {
+        width: 45%;
+        background-color: #fff;
+        position: absolute;
+        right: -5%;
+        bottom: 0;
+        top: 0;
+        transform: skew(-10deg);
     }
 
-  }
+    @media (max-width: 900px) {
+        .slide-bg {
+            background-color: #e4e5e5;
+        }
+    }
+    @media (max-width: 900px) {
+        .slide-bg,.slide-bg-1{display: none
+        }
+        .newsletter-image {
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    max-width: 400px;
+    height: auto;
+}
+    }
+
+    @media (max-width: 769px) {.newsletter-image{display: none;}
+
+    }
 </style>
 
 <div class="newsletter-section" data-aos="zoom-in-up" id="newsletter">
-  <div class="newsletter-container container">
+    <div class="newsletter-container container">
 
-    <div class="newsletter-content">
+        <div class="newsletter-content">
 
-      <div class="title-top">
-        <div class="title-dot"></div>
-        <div class="trust-badge">STAY CONNECTED</div>
-      </div>
-      <h2 class="newsletter-title">Join our network.
-      </h2>
-      <h2 class="newsletter-subtitle">Sign up for updates and insights.
-      </h2>
-      <form class="newsletter-form">
-        <input type="text" class="newsletter-input" placeholder="Your Name" required>
-        <input type="email" class="newsletter-input" placeholder="Your Email" required>
-        <input type="tel" class="newsletter-input" placeholder="Your Phone" required> <button type="submit"
-          class="newsletter-button">Join Now</button>
-      </form>
+            <div class="title-top">
+                <div class="title-dot"></div>
+                <div class="trust-badge">STAY CONNECTED</div>
+            </div>
+            <h2 class="newsletter-title">Join our network.
+            </h2>
+            <h2 class="newsletter-subtitle">Sign up for updates and insights.
+            </h2>
+            <form class="newsletter-form">
+                <input type="text" class="newsletter-input" placeholder="Your Name" required>
+                <input type="email" class="newsletter-input" placeholder="Your Email" required>
+                <input type="tel" class="newsletter-input" placeholder="Your Phone" required> <button type="submit"
+                    class="newsletter-button">Join Now</button>
+            </form>
+        </div>
+        <div class="slide-bg-1"></div>
+        <div class="slide-bg"> </div>
+
+        <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
     </div>
-    <div class="slide-bg-1"></div>
-    <div class="slide-bg"> </div>
-
-    <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
-  </div>
 </div>

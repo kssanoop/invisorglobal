@@ -83,6 +83,14 @@ if($page=='zoho-training')
 {
 	include('zoho-training.php');
 }
+if($page=='zoho-support')
+{
+	include('zoho-support.php');
+}
+if($page=='zoho-hire')
+{
+	include('zoho-hire.php');
+}
 
 include('footer.php');
  ?>

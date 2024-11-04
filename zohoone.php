@@ -754,517 +754,179 @@
 </style>
 
 <!-- ================================================================== -->
-<!-- ================Services Section==================== -->
-<section id="services" class="services section">
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <div class="title-top">
-      <div class="title-dot"></div>
-      <div class="trust-badge text-center">SERVICES</div>
-    </div>
-
-    <h2 style="text-align: left;">Why Choose Invisor as Your Zoho Partner?
-
-    </h2>
-    <p style="text-align: left;">At Invisor, we do more than just implement software—we help businesses transform. With
-      our deep expertise and
-      hands-on approach, we’ll guide you through every stage of your Zoho journey, from planning and setup to support
-      and optimization
-    </p>
-  </div><!-- End Section Title -->
-
-
-  <main class="page-content container">
-
-    <div class="card">
-      <div class="content">
-        <h2 class="title">Understanding your business needs</h2>
-        <p class="copy">We start by thoroughly analysing your business processes to identify key areas where Zoho can
-          add
-          value. Our team ensures that the Zoho applications are aligned with your unique goals and operational
-          workflows.
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h2 class="title">Tailored Customisation</h2>
-        <p class="copy">Our experts customise Zoho solutions to fit your business requirements. We configure automation,
-          workflows, and custom features while seamlessly integrating them with your existing systems to enhance
-          efficiency.</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h2 class="title">Streamlined Integration Process</h2>
-        <p class="copy">Our integration process connects Zoho with your existing tools, creating a unified platform for
-          data flow across departments. We manage third-party integrations and ensure that all systems work together
-          harmoniously.</p>
-      </div>
-    </div>
-
-    <div class="card">
-      <div class="content">
-        <h2 class="title">Secure Data Transition</h2>
-        <p class="copy">We ensure a smooth migration of your data into Zoho, with a focus on accuracy and security. Our
-          team validates the data and guarantees its integrity throughout the migration process.</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h2 class="title">Comprehensive Training for Your Team</h2>
-        <p class="copy">Once the system is live, we provide hands-on training to your staff, ensuring they are fully
-          equipped to use Zoho’s tools effectively. Tailored training sessions ensure each department can maximise the
-          platform’s potential.</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="content">
-        <h2 class="title">Continuous Support and Optimization</h2>
-        <p class="copy">Beyond implementation, we offer ongoing support to keep your Zoho system optimised. Our team
-          provides updates, resolves issues, and ensures your platform evolves with your business needs.</p>
-      </div>
-    </div>
-  </main>
-
-</section><!-- /Services Section -->
-<style>
-  /*--------------------------------------------------------------
-# Services Section
---------------------------------------------------------------*/
-  :root {
-    --d: 700ms;
-    --e: cubic-bezier(0.19, 1, 0.22, 1);
-  }
-
-  .service-img {
-    width: 100%;
-    height: 150px;
-  }
-
-  @media (max-width: 1000px) {
-    .service-img {
-      display: none;
-    }
-  }
-
-  .service-img img {
-    object-fit: cover;
-  }
-
-  .container {
-    max-width: 1050px;
-  }
-
-  .services .service-item {
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    overflow: hidden;
-    padding: 1rem;
-    width: 100%;
-    text-align: center;
-    color: whitesmoke;
-    background-color: whitesmoke;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
-  }
-
-  .services .page-content {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  @media (min-width: 768px) and (max-width:991px) {
-    .services .page-content {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 10px;
-    }
-
-  }
-
-  @media (min-width: 600px) {
-    .services .page-content {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  @media (min-width: 1000px) {
-    .services .page-content {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-  /* Adjustments for screens with max-width 767px */
-  @media (max-width: 600px) {
-    .services .page-content {
-      grid-template-columns: repeat(1, 1fr);
-      /* Display two cards per row */
-    }
-
-  }
-
-  @media (max-width: 767px) {
-    .services .card {
-      padding: 45% 0 !important;
-    }
-  }
-
-  .services .card {
-    margin: 0% 0 30px 0;
-    border-radius: 15px;
-    position: relative;
-    display: -webkit-box;
-    -webkit-box-align: end;
-    overflow: hidden;
-    padding: 2%;
-    width: 100%;
-    text-align: center;
-    color: whitesmoke;
-    background-color: whitesmoke;
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  .services .card:hover {
-    transform: translateY(-40px);
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
-  }
-
-  @media (min-width: 600px) {
-    .services .card {
-      height: 360px;
-    }
-  }
-
-  .services .card:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 110%;
-    background-size: cover;
-    background-position: 0 0;
-    -webkit-transition: -webkit-transform calc(var(--d) * 1.5) var(--e);
-    transition: -webkit-transform calc(var(--d) * 1.5) var(--e);
-    transition: transform calc(var(--d) * 1.5) var(--e);
-    transition: transform calc(var(--d) * 1.5) var(--e), -webkit-transform calc(var(--d) * 1.5) var(--e);
-    pointer-events: none;
-  }
-
-  .services .card:nth-child(1):before {
-    background-image: url(assets/img/services-1.jpg);
-  }
-
-  .services .card:nth-child(2):before {
-    background-image: url(assets/img/services-2.jpg);
-  }
-
-  .services .card:nth-child(3):before {
-    background-image: url(assets/img/services-3.jpg);
-  }
-
-  .services .card:nth-child(4):before {
-    background-image: url(assets/img/services-4.jpg);
-  }
-
-  .services .card:nth-child(5):before {
-    background-image: url(assets/img/services-5.jpg);
-  }
-
-  .services .card:nth-child(6):before {
-    background-image: url(assets/img/services-6.jpg);
-  }
-
-  .services .card:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 200%;
-    pointer-events: none;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    -webkit-transition: -webkit-transform calc(var(--d) * 2) var(--e);
-    transition: -webkit-transform calc(var(--d) * 2) var(--e);
-    transition: transform calc(var(--d) * 2) var(--e);
-    transition: transform calc(var(--d) * 2) var(--e), -webkit-transform calc(var(--d) * 2) var(--e);
-  }
-
-  .services .content {
-    position: relative;
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    -webkit-box-align: center;
-    align-items: center;
-    width: 100%;
-    padding: 1rem;
-    -webkit-transition: -webkit-transform var(--d) var(--e);
-    transition: -webkit-transform var(--d) var(--e);
-    transition: transform var(--d) var(--e);
-    transition: transform var(--d) var(--e), -webkit-transform var(--d) var(--e);
-    z-index: 1;
-  }
-
-  .services .content>*+* {
-    margin-top: 1rem;
-  }
-
-  .services .title {
-    font-weight: 500;
-    color: #fff;
-    font-size: 22px;
-    line-height: 1.2;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  }
-
-  .services .copy {
-    font-size: 16px;
-    line-height: 1.35;
-  }
-
-  @media (hover: hover) and (min-width: 600px) {
-    .services .card:after {
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-    }
-
-    .services .content {
-      -webkit-transform: translateY(calc(100% - 4.5rem));
-      transform: translateY(calc(100% - 4.5rem));
-    }
-
-    .services .content>*:not(.title) {
-      opacity: 0;
-      -webkit-transform: translateY(1rem);
-      transform: translateY(1rem);
-      -webkit-transition: opacity var(--d) var(--e), -webkit-transform var(--d) var(--e);
-      transition: opacity var(--d) var(--e), -webkit-transform var(--d) var(--e);
-      transition: transform var(--d) var(--e), opacity var(--d) var(--e);
-      transition: transform var(--d) var(--e), opacity var(--d) var(--e), -webkit-transform var(--d) var(--e);
-    }
-
-    .services .card:hover,
-    .services .card:focus-within {
-      -webkit-box-align: center;
-      align-items: center;
-    }
-
-    .services .card:hover:before,
-    .services .card:focus-within:before {
-      -webkit-transform: translateY(-4%);
-      transform: translateY(-4%);
-    }
-
-    .services .card:hover:after,
-    .services .card:focus-within:after {
-      -webkit-transform: translateY(-50%);
-      transform: translateY(-50%);
-    }
-
-    .services .card:hover .content,
-    .services .card:focus-within .content {
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-    }
-
-    .services .card:hover .content>*:not(.title),
-    .services .card:focus-within .content>*:not(.title) {
-      opacity: 1;
-      -webkit-transform: translateY(0);
-      transform: translateY(0);
-      -webkit-transition-delay: calc(var(--d) / 8);
-      transition-delay: calc(var(--d) / 8);
-    }
-
-    .services .card:focus-within:before,
-    .card:focus-within:after,
-    .services .card:focus-within .content,
-    .services .card:focus-within .content>*:not(.title) {
-      -webkit-transition-duration: 0s;
-      transition-duration: 0s;
-    }
-  }
-
-  .services a {
-    font-weight: 200;
-    color: #fff;
-  }
-</style>
 
 <!-- ====================================newsletter================================== -->
 <style>
-  .newsletter-section {
-    background-color: #e4e5e5;
-    padding: 40px 0;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .newsletter-container {
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .newsletter-content {
-    max-width: 600px;
-  }
-
-  .newsletter-label {
-    color: var(--accent-color);
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
-
-  .newsletter-title {
-    font-weight: 400;
-    font-size: 36px;
-    color: #1d1d1d;
-    margin: 0;
-    line-height: 1.2;
-  }
-
-  .newsletter-subtitle {
-    font-weight: 400;
-    font-size: 36px;
-    color: #1d1d1d;
-    margin: 0 0 20px 0;
-    line-height: 1.2;
-  }
-
-  .newsletter-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 500px;
-  }
-
-  .newsletter-input {
-    flex: 1;
-    padding: 12px 15px;
-    border: 1px solid #ddd;
-    font-size: 16px;
-  }
-
-  .newsletter-button {
-    background-color: var(--accent-color);
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    width: 40%;
-    margin: auto;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-  }
-
-  .newsletter-button:hover {
-    background-color: #0f065c;
-  }
-
-  .newsletter-image {
-    position: absolute;
-    bottom: 0;
-    right: 10%;
-    max-width: 400px;
-    height: auto;
-  }
-
-  @media (max-width: 768px) {
-    .newsletter-container {
-      flex-direction: column;
+    .newsletter-section {
+        background-color: #e4e5e5;
+        padding: 40px 0;
+        position: relative;
+        overflow: hidden;
     }
 
-    .newsletter-title,
+    .newsletter-container {
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .newsletter-content {
+        max-width: 600px;
+    }
+
+    .newsletter-label {
+        color: var(--accent-color);
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .newsletter-title {
+        font-weight: 400;
+        font-size: 36px;
+        color: #1d1d1d;
+        margin: 0;
+        line-height: 1.2;
+    }
+
     .newsletter-subtitle {
-      font-size: 25px;
+        font-weight: 400;
+        font-size: 36px;
+        color: #1d1d1d;
+        margin: 0 0 20px 0;
+        line-height: 1.2;
     }
 
     .newsletter-form {
-      width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 500px;
+    }
+
+    .newsletter-input {
+        flex: 1;
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        font-size: 16px;
+    }
+
+    .newsletter-button {
+        background-color: var(--accent-color);
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        width: 40%;
+        margin: auto;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+
+    .newsletter-button:hover {
+        background-color: #0f065c;
     }
 
     .newsletter-image {
-      display: none;
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+        max-width: 400px;
+        height: auto;
     }
-  }
 
-  .slide-bg-1 {
-    z-index: 1;
-    background-color: var(--accent-color);
-    align-self: center;
-    width: 5px;
-    height: 120%;
-    margin: auto;
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 60%;
-    right: auto;
-    transform: skew(-10deg);
-  }
+    @media (max-width: 768px) {
+        .newsletter-container {
+            flex-direction: column;
+        }
 
-  .slide-bg {
-    width: 45%;
-    background-color: #fff;
-    position: absolute;
-    right: -5%;
-    bottom: 0;
-    top: 0;
-    transform: skew(-10deg);
-  }
+        .newsletter-title,
+        .newsletter-subtitle {
+            font-size: 25px;
+        }
 
-  @media (max-width: 991px) {
-    .slide-bg {
-      display: none;
+        .newsletter-form {
+            width: 100%;
+        }
+
+        .newsletter-image {
+            display: none;
+        }
     }
 
     .slide-bg-1 {
-      display: none;
+        z-index: 1;
+        background-color: var(--accent-color);
+        align-self: center;
+        width: 5px;
+        height: 120%;
+        margin: auto;
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 60%;
+        right: auto;
+        transform: skew(-10deg);
     }
 
-    .newsletter-image {
-      right: -7%;
+    .slide-bg {
+        width: 45%;
+        background-color: #fff;
+        position: absolute;
+        right: -5%;
+        bottom: 0;
+        top: 0;
+        transform: skew(-10deg);
     }
 
-  }
+    @media (max-width: 900px) {
+        .slide-bg {
+            background-color: #e4e5e5;
+        }
+    }
+    @media (max-width: 900px) {
+        .slide-bg,.slide-bg-1{display: none
+        }
+        .newsletter-image {
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    max-width: 400px;
+    height: auto;
+}
+    }
+
+    @media (max-width: 769px) {.newsletter-image{display: none;}
+
+    }
 </style>
 
 <div class="newsletter-section" data-aos="zoom-in-up" id="newsletter">
-  <div class="newsletter-container container">
+    <div class="newsletter-container container">
 
-    <div class="newsletter-content">
+        <div class="newsletter-content">
 
-      <div class="title-top">
-        <div class="title-dot"></div>
-        <div class="trust-badge">STAY CONNECTED</div>
-      </div>
-      <h2 class="newsletter-title">Join our network.
-      </h2>
-      <h2 class="newsletter-subtitle">Sign up for updates and insights.
-      </h2>
-      <form class="newsletter-form">
-        <input type="text" class="newsletter-input" placeholder="Your Name" required>
-        <input type="email" class="newsletter-input" placeholder="Your Email" required>
-        <input type="tel" class="newsletter-input" placeholder="Your Phone" required> <button type="submit"
-          class="newsletter-button">Join Now</button>
-      </form>
+            <div class="title-top">
+                <div class="title-dot"></div>
+                <div class="trust-badge">STAY CONNECTED</div>
+            </div>
+            <h2 class="newsletter-title">Join our network.
+            </h2>
+            <h2 class="newsletter-subtitle">Sign up for updates and insights.
+            </h2>
+            <form class="newsletter-form">
+                <input type="text" class="newsletter-input" placeholder="Your Name" required>
+                <input type="email" class="newsletter-input" placeholder="Your Email" required>
+                <input type="tel" class="newsletter-input" placeholder="Your Phone" required> <button type="submit"
+                    class="newsletter-button">Join Now</button>
+            </form>
+        </div>
+        <div class="slide-bg-1"></div>
+        <div class="slide-bg"> </div>
+
+        <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
     </div>
-    <div class="slide-bg-1"></div>
-    <div class="slide-bg"> </div>
-
-    <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
-  </div>
 </div>

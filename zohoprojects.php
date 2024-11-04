@@ -31,21 +31,17 @@
         <div class="row my-5">
             <div class="col-md-7">
                 <h1 class="service-title"><img src="assets/img/icons/zoho-projects.png" alt="" style="width: 40%;"></h1>
-                <h1 style="font-weight: 400;">Grow Smarter, Not Harder
-                </h1>
-                <h1 class="service-title">Elevate your customer relationships and drive success
+                <h1 style="font-weight: 400;">Simplify Project Management with Zoho Projects
 
                 </h1>
-                <p>At Invisor, we believe that building strong customer relationships is the cornerstone of business
-                    success. That’s why we offer tailored Zoho CRM implementation services designed to elevate your
-                    customer interactions and empower your sales team!
+                <p>Zoho Projects is the ultimate solution to streamline your project management processes. Whether you’re handling large-scale projects or daily tasks, Zoho Projects keeps your team organised, efficient, and on track to meet deadlines—all in one place.
 
                 </p>
                 <a class="hover-button mt-2" href="#newsletter">Learn more</a>
                 </div>
             <div class="col-md-5" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
 
-                <img src="https://www.zohowebstatic.com/sites/zweb/images/crm/banner-image-2x.svg" alt="Zoho One Image"
+                <img src="https://www.zohowebstatic.com/sites/zweb/images/projects/enterprise/header1.webp" alt="Zoho One Image"
                     class="service-image">
 
             </div>
@@ -77,12 +73,14 @@
     }
 </style>
 <div class="dashboard-container">
-    <h2 class="dashboard-title">What is Zoho CRM?</h2>
+    <h2 class="dashboard-title">What is Zoho Projects?
+    </h2>
     <p class="dashboard-description">
-    In today’s fast-paced business environment, effective customer relationship management (CRM) is essential for driving growth and maintaining strong client relationships. <strong> Zoho CRM </strong>is an all-in-one solution designed to help businesses of all sizes streamline their sales processes, enhance customer engagement, and ultimately drive success.
+    Zoho Projects is a comprehensive project management tool designed to help teams plan, track, and collaborate on projects efficiently. With features for task management, time tracking, and collaboration, Zoho Projects is an all-in-one solution for driving productivity and ensuring project success.
+
 
     </p>
-    <img src="https://www.zohowebstatic.com/sites/zweb/images/crm/canvas-screen-crm-home.svg" alt="">
+    <img src="assets/img/icons/what-project.png" alt="" class="img-fluid">
 </div>
 
 
@@ -91,7 +89,8 @@
     <section id="features-2" class="features-2 section">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2 style="text-align: center;margin-bottom: 50px;font-weight: 300;font-size: 3rem;">Key Features of Zoho CRM
+        <h2 style="text-align: center;margin-bottom: 50px;font-weight: 300;font-size: 3rem;">Key Features of Zoho Projects
+
         </h2>
 
         <div class="row align-items-center">
@@ -101,9 +100,10 @@
             <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="200">
               <div class="d-flex align-items-center justify-content-end gap-4">
                 <div class="feature-content">
-                  <h3>360-Degree Customer View
+                  <h3>Task Automation and Workflow Management
                   </h3>
-                  <p>With Zoho CRM, you gain a comprehensive view of your customers by integrating all relevant data into a single platform. Access customer history, interactions, and preferences at a glance, empowering your team to deliver personalised service and build lasting relationships.</p>
+                  <p>Automate routine tasks and manage workflows with ease. Zoho Projects streamlines task assignments, tracking, and approvals, allowing teams to stay focused on high-priority tasks.
+                  </p>
                 </div>
               </div>
             </div><!-- End .feature-item -->
@@ -111,9 +111,11 @@
             <div class="feature-item text-end mb-5" data-aos="fade-right" data-aos-delay="300">
               <div class="d-flex align-items-center justify-content-end gap-4">
                 <div class="feature-content">
-                  <h3> Intelligent Automation
+                  <h3>Customisable Dashboards and Gantt Charts
+
                   </h3>
-                  <p>Say goodbye to manual tasks! Zoho CRM automates repetitive processes, allowing your team to focus on what really matters—building connections. From lead nurturing to follow-up reminders, automation helps increase efficiency and ensures no opportunity slips through the cracks.
+                  <p>Track project progress visually with custom dashboards and Gantt charts, enabling you to monitor timelines, dependencies, and resource allocation in real-time.
+
                   </p>
                 </div>
               </div>
@@ -122,9 +124,11 @@
             <div class="feature-item text-end" data-aos="fade-right" data-aos-delay="400">
               <div class="d-flex align-items-center justify-content-end gap-4">
                 <div class="feature-content">
-                  <h3> Customization and Scalability
+                  <h3> Time Tracking and Billing
+
                   </h3>
-                  <p>Every business is unique, and Zoho CRM is designed to adapt to your specific needs. Customise fields, modules, and dashboards to reflect your business processes, ensuring that the platform grows with you as your organisation evolves.
+                  <p>Effortlessly track time spent on tasks and projects, making it easy to manage billing and ensure accountability, whether for internal reporting or client invoicing.
+
                   </p>
                 </div>
               </div>
@@ -134,7 +138,7 @@
 
           <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="phone-mockup text-center">
-              <img src="assets/img/crm-mobile.png" alt="Phone Mockup" class="img-fluid">
+              <img src="assets/img/icons/mobile-project.png" alt="Phone Mockup" class="img-fluid">
             </div>
           </div><!-- End Phone Mockup -->
 
@@ -143,9 +147,11 @@
             <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="200">
               <div class="d-flex align-items-center gap-4">
                 <div class="feature-content">
-                  <h3>Powerful Analytics and Reporting
+                  <h3>Team Collaboration Tools
+
                   </h3>
-                  <p>Make informed decisions with Zoho CRM’s robust analytics tools. Track key performance indicators (KPIs), monitor sales trends, and generate insightful reports that provide a clear understanding of your business performance, helping you strategize effectively.
+                  <p>With built-in tools for team communication, file sharing, and feedback, Zoho Projects enhances collaboration across departments, ensuring everyone stays aligned and informed.
+
                   </p>
                 </div>
               </div>
@@ -154,8 +160,10 @@
             <div class="feature-item mb-5" data-aos="fade-left" data-aos-delay="300">
               <div class="d-flex align-items-center gap-4">
                 <div class="feature-content">
-                  <h3>Seamless Integration</h3>
-                  <p>Zoho CRM integrates effortlessly with various third-party applications, including email, social media, and marketing tools. This connectivity enables smooth data sharing across your organisation and enhances collaboration among teams.
+                  <h3>Integrated Project Reporting
+                  </h3>
+                  <p>Generate insightful reports on project progress, resource utilisation, and timelines. Zoho Projects’ analytics provide the data needed to make informed decisions and optimise project efficiency.
+
                   </p>
                 </div>
               </div>
@@ -164,9 +172,11 @@
             <div class="feature-item" data-aos="fade-left" data-aos-delay="400">
               <div class="d-flex align-items-center gap-4">
                 <div class="feature-content">
-                  <h3>AI-Driven Insights
+                  <h3> Secure and Scalable
+
                   </h3>
-                  <p>Leverage the power of AI with Zoho CRM’s Zia, an intelligent assistant that predicts sales trends, identifies patterns, and delivers insights. Zia aids data-driven decision-making, sales strategy optimization, and customer interaction from lead scoring to anomaly identification.
+                  <p>Zoho Projects offers enterprise-grade security features, including data encryption and role-based access controls, ensuring secure and scalable project management as your team grows.
+
                   </p>
                 </div>
               </div>
@@ -425,14 +435,16 @@
       <div class="contact-content">
 
         <div class="contact-text">
-          <h1>Transform Your Business with Zoho CRM</h1>
-          <p>In a world where customer relationships are paramount, Zoho CRM stands out as a powerful ally. Whether you’re a small business or a large enterprise, Zoho CRM can help you streamline your operations, enhance customer experiences, and drive meaningful growth.
+          <h1>Keep Projects on Track with Zoho Projects
+          </h1>
+          <p>Whether you’re a small team or a large enterprise, Zoho Projects provides everything you need to plan, execute, and monitor projects with precision. From task lists and milestone tracking to advanced reporting, it’s the all-in-one project management tool you can rely on.
+
  
           </p>
         </div>
       </div>
       <div class="contact-image" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
-        <img src="assets/img/touch.jpg" alt="People working on laptops">
+        <img src="assets/img/icons/project-center.jpg" alt="People working on laptops">
       </div>
     </div>
 
@@ -440,46 +452,57 @@
 <!-- ================================================================ -->
 
 <div class="why-choose-section">
-    <h2 class="why-choose-title">Why Choose Zoho CRM?</h2>
+    <h2 class="why-choose-title">Why Choose Zoho Projects?
+    </h2>
     <div class="why-choose-grid">
     <!-- Feature 1 -->
     <div class="why-choose-item">
-        <div class="icon" style="background-color: #d6e4ff;border: 1px solid #4C6EFF;">
-            <i style="color: #4C6EFF;" class="bi bi-people"></i>
+        <div class="icon" style="border:1px solid var(--accent-color)">
+            <i class="bi bi-people"></i>
         </div>
         <div class="why-choose-content">
-            <h3 class="why-choose-feature-title">Empower Your Sales Team</h3>
-            <h6 class="why-choose-description">Zoho CRM is more than just a tool; it’s a platform that empowers your sales team to be more effective. With features like lead scoring, territory management, and multi-channel communication, your team can engage with prospects more effectively and close deals faster.</h6>
+            <h3 class="why-choose-feature-title">Stay on Track, Every Step of the Way
+            </h3>
+            <h6 class="why-choose-description">Zoho Projects helps your team manage tasks, timelines, and deadlines efficiently, ensuring that projects stay on schedule and within budget.
+            </h6>
         </div>
     </div>
     <!-- Feature 2 -->
     <div class="why-choose-item">
-        <div class="icon" style="background-color: #f0e4ff;border: 1px solid #6A0572;">
-            <i style="color: #6A0572;" class="bi bi-chat-dots"></i>
+        <div class="icon" style="border:1px solid var(--accent-color)">
+            <i class="bi bi-chat-dots"></i>
         </div>
+
         <div class="why-choose-content">
-            <h3 class="why-choose-feature-title">Enhance Customer Relationships</h3>
-            <h6 class="why-choose-description">By providing a unified platform for managing customer interactions, Zoho CRM enables businesses to enhance their customer relationships. Understand customer needs, preferences, and behaviours to deliver a tailored experience that drives loyalty and satisfaction.</h6>
+            <h3 class="why-choose-feature-title">Visualise Progress at a Glance
+            </h3>
+            <h6 class="why-choose-description">With Gantt charts and customisable dashboards, Zoho Projects provides a clear view of project progress, making it easy to adjust plans and optimise resources.
+            </h6>
         </div>
     </div>
     <!-- Feature 3 -->
     <div class="why-choose-item">
-        <div class="icon" style="background-color: #ffe3e3;border: 1px solid #de6264;">
-            <i style="color: #de6264;" class="bi bi-gear"></i>
+
+        <div class="icon" style="border:1px solid var(--accent-color)">
+            <i class="bi bi-gear"></i>
         </div>
         <div class="why-choose-content">
-            <h3 class="why-choose-feature-title">Streamline Operations</h3>
-            <h6 class="why-choose-description">Reduce bottlenecks and streamline your sales processes with Zoho CRM’s automation capabilities. By automating tasks like follow-ups and data entry, you free up time for your team to focus on strategy and customer engagement.</h6>
+            <h3 class="why-choose-feature-title">Enhance Team Collaboration
+            </h3>
+            <h6 class="why-choose-description">Built-in collaboration tools foster communication and teamwork, enabling your team to work together seamlessly across tasks and project milestones.
+            </h6>
         </div>
     </div>
     <!-- Feature 4 -->
     <div class="why-choose-item">
-        <div class="icon" style="background-color: #e3f7e3;border: 1px solid #4C4C4C;">
-            <i style="color:#4C4C4C ;" class="bi bi-shield-lock"></i>
+        <div class="icon" style="border:1px solid var(--accent-color)">
+            <i class="bi bi-shield-lock"></i>
         </div>
+
         <div class="why-choose-content">
             <h3 class="why-choose-feature-title">Security You Can Trust</h3>
-            <h6 class="why-choose-description">At Zoho, we prioritise the security of your data. With advanced security measures, including data encryption and role-based access controls, you can trust that your business information is protected.</h6>
+            <h6 class="why-choose-description">Zoho Projects prioritises data security with robust encryption and access control, ensuring that your project data is protected at all times.
+            </h6>
         </div>
     </div>
 </div>
@@ -519,8 +542,8 @@ color-mix(in srgb, var(--default-color), transparent 85%);
 
     .why-choose-section .icon {
         flex-shrink: 0;
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         border-radius: 8px;
         display: flex;
         align-items: center;
@@ -529,8 +552,8 @@ color-mix(in srgb, var(--default-color), transparent 85%);
     }
 
     .why-choose-section .icon i {
-        font-size: 2rem;
-    }
+        font-size: 1.5rem;
+color: var(--accent-color);    }
 
     .why-choose-content {
         text-align: left;
@@ -563,172 +586,178 @@ color-mix(in srgb, var(--default-color), transparent 85%);
 
 
 
-    <!-- ====================================newsletter================================== -->
+<!-- ====================================newsletter================================== -->
 <style>
-  .newsletter-section {
-    background-color: #e4e5e5;
-    padding: 40px 0;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .newsletter-container {
-    margin: 0 auto;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .newsletter-content {
-    max-width: 600px;
-  }
-
-  .newsletter-label {
-    color: var(--accent-color);
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
-
-  .newsletter-title {
-    font-weight: 400;
-    font-size: 36px;
-    color: #1d1d1d;
-    margin: 0;
-    line-height: 1.2;
-  }
-
-  .newsletter-subtitle {
-    font-weight: 400;
-    font-size: 36px;
-    color: #1d1d1d;
-    margin: 0 0 20px 0;
-    line-height: 1.2;
-  }
-
-  .newsletter-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 500px;
-  }
-
-  .newsletter-input {
-    flex: 1;
-    padding: 12px 15px;
-    border: 1px solid #ddd;
-    font-size: 16px;
-  }
-
-  .newsletter-button {
-    background-color: var(--accent-color);
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    width: 40%;
-    margin: auto;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s;
-  }
-
-  .newsletter-button:hover {
-    background-color: #0f065c;
-  }
-
-  .newsletter-image {
-    position: absolute;
-    bottom: 0;
-    right: 10%;
-    max-width: 400px;
-    height: auto;
-  }
-
-  @media (max-width: 768px) {
-    .newsletter-container {
-      flex-direction: column;
+    .newsletter-section {
+        background-color: #e4e5e5;
+        padding: 40px 0;
+        position: relative;
+        overflow: hidden;
     }
 
-    .newsletter-title,
+    .newsletter-container {
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .newsletter-content {
+        max-width: 600px;
+    }
+
+    .newsletter-label {
+        color: var(--accent-color);
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .newsletter-title {
+        font-weight: 400;
+        font-size: 36px;
+        color: #1d1d1d;
+        margin: 0;
+        line-height: 1.2;
+    }
+
     .newsletter-subtitle {
-      font-size: 25px;
+        font-weight: 400;
+        font-size: 36px;
+        color: #1d1d1d;
+        margin: 0 0 20px 0;
+        line-height: 1.2;
     }
 
     .newsletter-form {
-      width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 500px;
+    }
+
+    .newsletter-input {
+        flex: 1;
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        font-size: 16px;
+    }
+
+    .newsletter-button {
+        background-color: var(--accent-color);
+        color: white;
+        border: none;
+        padding: 12px 25px;
+        width: 40%;
+        margin: auto;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+
+    .newsletter-button:hover {
+        background-color: #0f065c;
     }
 
     .newsletter-image {
-      display: none;
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+        max-width: 400px;
+        height: auto;
     }
-  }
 
-  .slide-bg-1 {
-    z-index: 1;
-    background-color: var(--accent-color);
-    align-self: center;
-    width: 5px;
-    height: 120%;
-    margin: auto;
-    position: absolute;
-    top: 0%;
-    bottom: 0%;
-    left: 60%;
-    right: auto;
-    transform: skew(-10deg);
-  }
+    @media (max-width: 768px) {
+        .newsletter-container {
+            flex-direction: column;
+        }
 
-  .slide-bg {
-    width: 45%;
-    background-color: #fff;
-    position: absolute;
-    right: -5%;
-    bottom: 0;
-    top: 0;
-    transform: skew(-10deg);
-  }
+        .newsletter-title,
+        .newsletter-subtitle {
+            font-size: 25px;
+        }
 
-  @media (max-width: 991px) {
-    .slide-bg {
-      display: none;
+        .newsletter-form {
+            width: 100%;
+        }
+
+        .newsletter-image {
+            display: none;
+        }
     }
 
     .slide-bg-1 {
-      display: none;
+        z-index: 1;
+        background-color: var(--accent-color);
+        align-self: center;
+        width: 5px;
+        height: 120%;
+        margin: auto;
+        position: absolute;
+        top: 0%;
+        bottom: 0%;
+        left: 60%;
+        right: auto;
+        transform: skew(-10deg);
     }
 
-    .newsletter-image {
-      right: -7%;
+    .slide-bg {
+        width: 45%;
+        background-color: #fff;
+        position: absolute;
+        right: -5%;
+        bottom: 0;
+        top: 0;
+        transform: skew(-10deg);
     }
 
-  }
+    @media (max-width: 900px) {
+        .slide-bg {
+            background-color: #e4e5e5;
+        }
+    }
+    @media (max-width: 900px) {
+        .slide-bg,.slide-bg-1{display: none
+        }
+        .newsletter-image {
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    max-width: 400px;
+    height: auto;
+}
+    }
+
+    @media (max-width: 769px) {.newsletter-image{display: none;}
+
+    }
 </style>
 
 <div class="newsletter-section" data-aos="zoom-in-up" id="newsletter">
-  <div class="newsletter-container container">
+    <div class="newsletter-container container">
 
-    <div class="newsletter-content">
+        <div class="newsletter-content">
 
-      <div class="title-top">
-        <div class="title-dot"></div>
-        <div class="trust-badge">STAY CONNECTED</div>
-      </div>
-      <h2 class="newsletter-title">Join our network.
-      </h2>
-      <h2 class="newsletter-subtitle">Sign up for updates and insights.
-      </h2>
-      <form class="newsletter-form">
-        <input type="text" class="newsletter-input" placeholder="Your Name" required>
-        <input type="email" class="newsletter-input" placeholder="Your Email" required>
-        <input type="tel" class="newsletter-input" placeholder="Your Phone" required> <button type="submit"
-          class="newsletter-button">Join Now</button>
-      </form>
+            <div class="title-top">
+                <div class="title-dot"></div>
+                <div class="trust-badge">STAY CONNECTED</div>
+            </div>
+            <h2 class="newsletter-title">Join our network.
+            </h2>
+            <h2 class="newsletter-subtitle">Sign up for updates and insights.
+            </h2>
+            <form class="newsletter-form">
+                <input type="text" class="newsletter-input" placeholder="Your Name" required>
+                <input type="email" class="newsletter-input" placeholder="Your Email" required>
+                <input type="tel" class="newsletter-input" placeholder="Your Phone" required> <button type="submit"
+                    class="newsletter-button">Join Now</button>
+            </form>
+        </div>
+        <div class="slide-bg-1"></div>
+        <div class="slide-bg"> </div>
+
+        <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
     </div>
-    <div class="slide-bg-1"></div>
-    <div class="slide-bg"> </div>
-
-    <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
-  </div>
 </div>
