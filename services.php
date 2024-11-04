@@ -79,9 +79,10 @@
                         <div class="title-dot" style="background-color: #fff;"></div>
                         <div class="trust-badge" style="color:#fff">SERVICES</div>
                     </div>
-                    <h1 class="banner-title">Your trusted partner in financial excellence</h1>
-                    <p class="banner-text2">Fusce volutpat lectus et nisl consectetur finibus. In vitae scelerisque
-                        augue, in varius eros. Nunc sapien diam, euismod et pretium id, volutpat et tortor.</p>
+                    <h1 class="banner-title">Building a strong foundation for growth 
+                    </h1>
+                    <p class="banner-text2">With a team of certified Zoho experts, we are committed to delivering the best Zoho solutions tailored to your business. From consultation to post-implementation support, we offer end-to-end services. 
+                    </p>
                 </div>
 
                 <!-- Image Column -->
