@@ -1737,3 +1737,11 @@ section,
 .features .tab-pane p:last-child {
   margin-bottom: 0;
 }
+
+
+/* ===================== */
+
+@media (max-width:768px) {
+  .contact-section .contact-image{clip-path: none;}
+  
+}

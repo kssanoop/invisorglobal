@@ -245,7 +245,7 @@
 
       .contact-content {
         background-color: var(--accent-color);
-        padding-top: 50px;
+        padding: 50px;
         flex: 1;
         position: relative;
         color: #fff;
@@ -279,8 +279,8 @@
 
       @media (min-width:1400px) and (max-width:1637px) {
         .contact-text {
-          max-width: 400px;
-          margin: auto 22% auto 35%;
+          max-width: 450px;
+          margin: auto ;
         }
       }
 

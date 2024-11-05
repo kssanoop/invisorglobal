@@ -650,7 +650,7 @@
 
     <div class="faq-header">
       <h1 class="faq-title">Explore your financial queries answered</h1>
-      <a href="#" class="contact-link right-arrow hvr-underline-from-left">
+      <a href="?page=contact" class="contact-link right-arrow hvr-underline-from-left">
         Contact Us
         <img src="assets/img/arrow.svg" alt="arrow">
       </a>
