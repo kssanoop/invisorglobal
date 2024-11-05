@@ -309,7 +309,7 @@
           </li>
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="hire-tab" data-bs-toggle="tab" data-bs-target="#hire" type="button" role="tab"
-              aria-controls="hire" aria-selected="false">Zoho Cunsultant Hire
+              aria-controls="hire" aria-selected="false">Zoho Consultant Hire
             </button>
           </li>
 
@@ -941,7 +941,7 @@
     }
 
     .about-heading {
-      font-size: 42px;
+      font-size: 2.6rem;
       color: #333;
       margin-bottom: 30px;
       font-weight: 500;
@@ -1065,7 +1065,7 @@
   </style>
   <!-- =============================================testimonial====================================== -->
 
-  <section class="testimonials-section" data-aos="zoom-in-up">
+  <section class="testimonials-section" id="testimonial" data-aos="zoom-in-up">
     <div class="container">
       <div class="section-heading">
         <div class="title-top align-items-center justify-content-center mb-4">
@@ -1679,7 +1679,7 @@
         <h1>Delve into our blog for expert insights and inspiring stories</h1>
       </div>
       <div class="show-more right-arrow hvr-underline-from-left">
-        <a href="">Show more <img src="assets/img/arrow.svg" alt=""></a>
+        <a href="?page=blog">Show more <img src="assets/img/arrow.svg" alt=""></a>
       </div>
     </div>
 
@@ -1867,7 +1867,7 @@
     }
   </style>
 
-  <div class="faq-section container" data-aos="zoom-in-up">
+  <div class="faq-section container" id="faq" data-aos="zoom-in-up">
     <div class="title-top">
       <div class="title-dot"></div>
       <div class="trust-badge">FAQ</div>
@@ -1875,7 +1875,7 @@
 
     <div class="faq-header">
       <h1 class="faq-title">Explore your financial queries answered</h1>
-      <a href="#" class="contact-link right-arrow hvr-underline-from-left">
+      <a href="?page=contact" class="contact-link right-arrow hvr-underline-from-left">
         Contact Us
         <img src="assets/img/arrow.svg" alt="arrow">
       </a>

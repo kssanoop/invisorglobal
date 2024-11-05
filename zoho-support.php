@@ -86,7 +86,7 @@
 
                 <!-- Image Column -->
                 <div class="col-md-6 image-col">
-                    <img src="assets/img/service-image.png" alt="Financial advisors"
+                    <img src="assets/img/services-1.jpg" alt="Financial advisors"
                         class="img-fluid w-100 h-100 object-fit-cover">
                 </div>
             </div>
@@ -375,6 +375,7 @@
     }
 
     @media (max-width: 768px) {
+        .contact-image,.contact-image2,.contact-content{clip-path: none;}
         .contact-section {
             height: auto !important;
             max-height: 100%;
@@ -383,7 +384,7 @@
 
         .contact-content {
             clip-path: none;
-            padding: 3rem 0 0;
+            padding: 3rem;
             justify-content: center;
             /* Center content vertically on smaller screens */
         }

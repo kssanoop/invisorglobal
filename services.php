@@ -618,7 +618,7 @@
 <div class="main-service">
     <div class="container">
         <div class="title-top mb-3">
-            <div class="trust-badge" style="color:#1d1d1d">Zoho Cunsultant Hire</div>
+            <div class="trust-badge" style="color:#1d1d1d">Zoho Consultant Hire</div>
         </div>
         <hr>
         <div class="swiper-container trining-tab1" style="overflow: hidden;">

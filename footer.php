@@ -123,9 +123,10 @@
     .footer-logo img {
       width: 150px;
     }
+
     .footer-links {
-    gap: 2rem;
-  }
+      gap: 2rem;
+    }
 
     .footer-address p {
       font-size: 0.85rem;
@@ -136,7 +137,6 @@
       gap: 1rem;
     }
   }
-
 </style>
 
 <!-- Full-Width Background Container -->
@@ -160,28 +160,35 @@
       <div>
         <h4>Shortcuts</h4>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="?page=home">Home</a></li>
+          <li><a href="?page=services">Services</a></li>
+          <li><a href="?page=about">About</a></li>
+          <li><a href="?page=blog">Blog</a></li>
+          <li><a href="?page=contact">Contact</a></li>
+          <li><a href="?page=home#faq">FAQ</a></li>
 
         </ul>
       </div>
       <div>
-        <h4>Services</h4>
+        <h4 style="visibility: hidden;">Services</h4>
         <ul>
-          <li><a href="#">Financial Consulting</a></li>
-          <li><a href="#">Bookkeeping</a></li>
-          <li><a href="#">Tax Services</a></li>
+        <li><a href="tel:+918136826665">Call Us</a></li>
+        <li><a href="?page=about#team">Our Team</a></li>
+        <li><a href="?page=about#vision">Our Vision</a></li>
+        <li><a href="?page=home#testimonial">Testimonials</a></li>
         </ul>
         <ul class="d-flex mt-4 social-links" style="gap:1rem">
-  <li><a href="https://www.facebook.com/profile.php?id=100088235898852" target="_blank"><i class="bi bi-facebook"></i></a></li>
-  <li><a href="https://www.instagram.com/invisor_global/" target="_blank"><i class="bi bi-instagram"></i></a></li>
-  <li><a href="https://www.linkedin.com/company/invisorbusinessschool/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
-  <li><a href="https://www.youtube.com/@invisorglobal2460" target="_blank"><i class="bi bi-youtube"></i></a></li>
-  <li><a href="https://www.youtube.com/@invisorglobal2460" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
-</ul>
+          <li><a href="https://www.facebook.com/profile.php?id=100088235898852" target="_blank"><i
+                class="bi bi-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/invisor_global/" target="_blank"><i class="bi bi-instagram"></i></a>
+          </li>
+          <li><a href="https://www.linkedin.com/company/invisorbusinessschool/" target="_blank"><i
+                class="bi bi-linkedin"></i></a></li>
+          <li><a href="https://www.youtube.com/@invisorglobal2460" target="_blank"><i class="bi bi-youtube"></i></a>
+          </li>
+          <li><a href="https://www.youtube.com/@invisorglobal2460" target="_blank"><i class="bi bi-whatsapp"></i></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
@@ -231,7 +238,7 @@
       // When window width is <= 200px
       200: {
         slidesPerView: 1,
-        spaceBetween: 20,
+        spaceBetween: 10,
       },
       // When window width is <= 767px
       767: {

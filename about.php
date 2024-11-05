@@ -99,7 +99,13 @@
         background-image: url('assets/img/about/about-right.png');
         clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
     }
+@media (max-width:500px) {
+    .left-side,.right-side{clip-path: none;}
+    .paragraph-wrap {
+        width: 100% !important;
+    }
 
+}
     /* Paragraph styling */
     .paragraph-container {
         width: 100%;
@@ -316,7 +322,7 @@
             </div>
         </div>
         <div class="team-member hvr-underline-from-left">
-            <img src="assets/img/team/sanoop.png" alt="Jane Jacobs">
+            <img src="assets/img/team/sanoop4.jpeg" alt="Jane Jacobs">
             <div class="member-info">
                 <div class="team-name">
                     <h3>Sanoop KS</h3>
@@ -435,7 +441,7 @@
     }
 </style>
 
-<div class="vision-section hvr-shutter-in-horizontal">
+<div class="vision-section hvr-shutter-in-horizontal" id="vision">
     <div class="vision-content">
         <div class="title-top justify-content-center">
             <div class="title-dot" style="background-color: #fff;"></div>

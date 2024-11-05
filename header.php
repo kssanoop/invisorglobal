@@ -47,6 +47,7 @@
 
       <nav id="navmenu" class="navmenu d-flex justify-content-center align-items-center m-xl-auto">
         <ul>
+        <li><a href="?page=home" id="home">Home<br></a></li>
         <li><a href="?page=services" id="services">Services<br></a></li>
 <li style="display: none;"><a href="?page=pricing" id="pricing">Pricing</a></li>
 <li><a href="?page=about" id="about">About Us</a></li>
@@ -58,8 +59,11 @@
 
 
     </div>
-    <div class="phone"> <a style="color: #fff;" href=""><img src="assets/img/phonecall.svg" alt=""> + 574 7348 531</a>
-    </div>
+    <div class="phone">
+    <a style="color: #fff;" href="tel:+918136826665">
+        <img src="assets/img/phonecall.svg" alt="">+91 8136826665
+    </a>
+</div>
   
   </header>
 

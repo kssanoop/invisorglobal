@@ -367,6 +367,8 @@
     }
 
     @media (max-width: 768px) {
+        .contact-image,.contact-image2,.contact-content{clip-path: none;}
+
         .contact-section {
             height: auto !important;
             max-height: 100%;
@@ -375,7 +377,7 @@
 
         .contact-content {
             clip-path: none;
-            padding: 3rem 0 0;
+            padding: 3rem;
             justify-content: center;
             /* Center content vertically on smaller screens */
         }

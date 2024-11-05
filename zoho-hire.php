@@ -330,7 +330,7 @@
 
     .contact-text h1 {
         color: #fff;
-        font-size: 36px;
+        font-size: 2rem;
         font-weight: 300;
         margin-bottom: 1.5rem;
         line-height: 1.2;
@@ -371,6 +371,8 @@
     }
 
     @media (max-width: 768px) {
+      .contact-image,.contact-image2,.contact-content{clip-path: none;}
+
         .contact-section {
             height: auto !important;
             max-height: 100%;
@@ -379,7 +381,7 @@
 
         .contact-content {
             clip-path: none;
-            padding: 3rem 0 0;
+            padding: 3rem;
             justify-content: center;
             /* Center content vertically on smaller screens */
         }

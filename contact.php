@@ -172,7 +172,7 @@
 </style>
 
 <div class="container cntct-info">
-  <p class="contact-info">General inquiries<br>
+  <p class="contact-info"><strong>General inquiries</strong><br>
   For questions or more information about our Zoho services, email us at <a href="contact@invisorglobal.com">contact@invisorglobal.com</a> <br> and our team will get back to you asap!
 
   </p>

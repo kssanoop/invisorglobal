@@ -1,5 +1,6 @@
 <div class="container blog1">
-    <h1 class="post-title">Retirement Planning 101: Securing Your Golden Years</h1>
+    <h1 class="post-title">Why Zoho? Uncover the Key Benefits of Zoho Implementation
+</h1>
     <div class="post-image">
         <img src="assets/img/blog1.jpg" alt="Retirement Celebration">
     </div>

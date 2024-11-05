@@ -1,5 +1,6 @@
 <div class="container blog1">
-    <h1 class="post-title">Retirement Planning 101: Securing Your Golden Years</h1>
+    <h1 class="post-title">
+    Zoho Implementation Success Stories: Real-World Examples of Business Transformation</h1>
     <div class="post-image">
         <img src="assets/img/blog2.jpg" alt="Retirement Celebration">
     </div>

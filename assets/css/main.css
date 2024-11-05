@@ -283,7 +283,13 @@ h6 {
   }
 }
 
+@media (min-width:768px) and (max-width:991px) {
+  .green-overlay {  clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
 
+    width: 340px !important;
+
+  }
+}
 @media (max-width: 1200px) {
   .green-overlay {
     position: absolute;
