@@ -79,9 +79,11 @@
                         <div class="title-dot" style="background-color: #fff;"></div>
                         <div class="trust-badge" style="color:#fff">SERVICES</div>
                     </div>
-                    <h1 class="banner-title">Building a strong foundation for growth 
+                    <h1 class="banner-title">Building a strong foundation for growth
                     </h1>
-                    <p class="banner-text2">With a team of certified Zoho experts, we are committed to delivering the best Zoho solutions tailored to your business. From consultation to post-implementation support, we offer end-to-end services. 
+                    <p class="banner-text2">With a team of certified Zoho experts, we are committed to delivering the
+                        best Zoho solutions tailored to your business. From consultation to post-implementation support,
+                        we offer end-to-end services.
                     </p>
                 </div>
 
@@ -129,6 +131,7 @@
 
     /* Service Cards */
     .main-service .service-card {
+        position: relative;
         border: none;
         border-radius: 8px;
         height: 260px;
@@ -449,10 +452,10 @@
 </div>
 <div class="main-service">
     <div class="container">
-    <div class="title-top mb-3">
+        <div class="title-top mb-3">
             <div class="trust-badge" style="color:#1d1d1d">Zoho Training</div>
         </div>
-<hr>
+        <hr>
         <div class="swiper-container trining-tab1" style="overflow: hidden;">
             <div class="swiper-wrapper">
                 <!-- Training Card 1 -->
@@ -460,12 +463,14 @@
                     <a href="?page=zoho-training">
                         <div class="card service-card">
                             <div class="card-body">
-                                <h5 class="card-title">Zoho Functional Training</h5>
+                                <h5 class="card-title">Functional Training</h5>
                                 <div class="card-bdy">
                                     <p class="card-text">Designed for clients, end-users, and business owners aiming for
                                         in-depth functional knowledge of Zoho.</p>
-                                    <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
-                                            class="bi bi-arrow-right-short"></i></a>
+                                        <div class="tab-bottom">
+                                        <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
+                                                class="bi bi-arrow-right-short"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -476,12 +481,14 @@
                     <a href="?page=zoho-training">
                         <div class="card service-card">
                             <div class="card-body">
-                                <h5 class="card-title">Technical Zoho Training</h5>
+                                <h5 class="card-title">Technical Training</h5>
                                 <div class="card-bdy">
                                     <p class="card-text">For IT professionals and new developers interested in
                                         customising and developing with Zoho.</p>
-                                    <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
-                                            class="bi bi-arrow-right-short"></i></a>
+                                        <div class="tab-bottom">
+                                        <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
+                                                class="bi bi-arrow-right-short"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -492,12 +499,14 @@
                     <a href="?page=zoho-training">
                         <div class="card service-card">
                             <div class="card-body">
-                                <h5 class="card-title">Corporate Zoho Training</h5>
+                                <h5 class="card-title">Corporate Training</h5>
                                 <div class="card-bdy">
                                     <p class="card-text">For businesses utilising Zoho, covering in-depth functional and
                                         technical topics.</p>
-                                    <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
-                                            class="bi bi-arrow-right-short"></i></a>
+                                        <div class="tab-bottom">
+                                        <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
+                                                class="bi bi-arrow-right-short"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -515,7 +524,7 @@
 </div>
 <div class="main-service" style="overflow: hidden;">
     <div class="container">
-    <div class="title-top mb-3">
+        <div class="title-top mb-3">
             <div class="trust-badge" style="color:#1d1d1d">Zoho Support</div>
         </div>
         <hr>
@@ -534,9 +543,8 @@
                                     </a>
                                 </div>
                                 <div class="card-bdy">
-                                    <p class="card-text"> Invisor’s expert team offers end-to-end Zoho support,
-                                        resolving technical
-                                        issues and providing tailored solutions to enhance your business.
+                                    <p class="card-text">Invisor’s expert team offers end-to-end Zoho support, resolving
+                                        technical issues and providing tailored solutions to enhance your business.
                                     </p>
                                     <div class="tab-bottom">
                                         <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
@@ -554,7 +562,7 @@
                             <div class="card-body">
                                 <div class="card-top">
                                     <a href="?page=zoho-training">
-                                        <h5 class="card-title">Responsive Support
+                                        <h5 class="card-title">Zoho AMC Service
 
                                         </h5>
                                     </a>
@@ -562,29 +570,6 @@
                                 <div class="card-bdy">
                                     <p class="card-text">Get timely assistance for any Zoho-related queries or issues.
 
-                                    </p>
-                                    <div class="tab-bottom">
-                                        <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
-                                                class="bi bi-arrow-right-short"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <!-- Card 2 -->
-                <div class="swiper-slide">
-                    <a href="?page=zoho-support">
-                        <div class="card service-card hvr-underline-from-left">
-                            <div class="card-body">
-                                <div class="card-top">
-                                    <h5 class="card-title">Expert Guidance
-                                    </h5>
-                                </div>
-                                <div class="card-bdy">
-                                    <p class="card-text">Benefit from our team's extensive knowledge and experience with
-                                        Zoho
-                                        applications.
                                     </p>
                                     <div class="tab-bottom">
                                         <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
@@ -619,29 +604,6 @@
                         </div>
                     </a>
                 </div>
-                <!-- Card 4 -->
-                <div class="swiper-slide">
-                    <a href="?page=zoho-support">
-                        <div class="card service-card hvr-underline-from-left">
-                            <div class="card-body">
-                                <div class="card-top">
-                                    <h5 class="card-title">Proactive Monitoring
-
-                                    </h5>
-                                </div>
-                                <div class="card-bdy">
-                                    <p class="card-text">Stay ahead of potential issues with our regular system checks.
-
-                                    </p>
-                                    <div class="tab-bottom">
-                                        <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
-                                                class="bi bi-arrow-right-short"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
             </div>
 
             <!-- Add Pagination -->
@@ -655,7 +617,7 @@
 </div>
 <div class="main-service">
     <div class="container">
-    <div class="title-top mb-3">
+        <div class="title-top mb-3">
             <div class="trust-badge" style="color:#1d1d1d">Zoho Cunsultant Hire</div>
         </div>
         <hr>
@@ -765,6 +727,14 @@
         .services-section .services-title {
             margin-right: 50%;
         }
+        .tab-bottom {
+        position: absolute;
+        bottom: 20px;
+        min-width: 300px;
+        display: flex !important;
+        align-items: center !important;
+    }
+
     }
 
     @media (max-width: 768px) {
@@ -810,11 +780,14 @@
         margin-top: 10px;
         display: flex !important;
         align-items: center !important;
-        justify-content: space-between !important;
     }
 
+
     .tab-bottom img {
+        margin: auto;
         max-width: 80px !important;
+        display: block;
+        padding-top: 10px;
     }
 
     .services-section .contact-btn {
@@ -823,10 +796,6 @@
         align-items: center;
         gap: 8px;
         transition: all var(--transition-speed) ease;
-    }
-
-    .trining-tab1 .tab-bottom {
-        display: block !important;
     }
 </style>
 <!-- ====================================newsletter================================== -->

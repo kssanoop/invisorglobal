@@ -30,13 +30,6 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: HeroBiz
-  * Template URL: https://bootstrapmade.com/herobiz-bootstrap-business-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="index-page">
@@ -54,11 +47,11 @@
 
       <nav id="navmenu" class="navmenu d-flex justify-content-center align-items-center m-xl-auto">
         <ul>
-          <li><a href="?page=services">Services<br></a></li>
-          <li style="display: none;"><a href="?page=pricing">Pricing</a></li>
-          <li><a href="?page=about">About Us</a></li>
-          <li><a href="?page=blog">Blog</a></li>
-          <li><a href="?page=contact">Contact</a></li>
+        <li><a href="?page=services" id="services">Services<br></a></li>
+<li style="display: none;"><a href="?page=pricing" id="pricing">Pricing</a></li>
+<li><a href="?page=about" id="about">About Us</a></li>
+<li><a href="?page=blog" id="blog">Blog</a></li>
+<li><a href="?page=contact" id="contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -69,4 +62,165 @@
     </div>
   
   </header>
-  
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    // Get the current page parameter from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const currentPage = urlParams.get("page");
+
+    // If there's a current page, find the matching link and set it as active
+    if (currentPage) {
+        const activeLink = document.getElementById(currentPage);
+        if (activeLink) {
+            activeLink.classList.add("active");
+        }
+    }
+});
+
+  </script>
+  <style>
+    @media (min-width:1200px) {
+      .header .active {
+    position: relative;
+    color: var(--accent-color); /* Change to your desired color */
+}
+
+.header .active::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* 5px below the text */
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--accent-color); /* Match the accent color or choose a new color */
+}
+}
+
+
+  </style>
+  <!-- Popup Form HTML -->
+<div class="popup-form-overlay" id="popupForm">
+  <div class="popup-form">
+    <button class="close-btn" onclick="closePopup()">×</button>
+    <form action="#" method="POST">
+      <input type="text" name="first_name" placeholder="First Name" required>
+      <input type="text" name="last_name" placeholder="Last Name" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required pattern="[0-9]{10}" title="Please enter a 10-digit phone number">
+
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Message" required></textarea>
+      <button type="submit" class="submit-btn">Submit</button>
+      <p class="terms-text">*By clicking "Send Message" you agree to our <a href="#">Terms of Services</a></p>
+    </form>
+  </div>
+</div>
+
+<!-- Popup Form CSS -->
+<style>
+  .popup-form-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+
+  .popup-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+  }
+
+  .popup-form form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .popup-form input,
+  .popup-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  .popup-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+
+  .popup-form-overlay .submit-btn {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    padding: 12px 0;
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .popup-form-overlay .submit-btn:hover {
+    background-color: #333;
+  }
+
+  .popup-form-overlay .terms-text {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 10px;
+  }
+
+  .popup-form-overlay .terms-text a {
+    color: var(--accent-color);
+    text-decoration: none;
+  }
+
+  .popup-form-overlay .terms-text a:hover {
+    text-decoration: underline;
+  }
+
+  .popup-form input:hover,
+  .popup-form textarea:hover,
+  .popup-form input:focus,
+  .popup-form textarea:focus {
+    border-color: var(--accent-color);
+  }
+
+  .popup-form-overlay .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+</style>
+
+<!-- Popup Form JavaScript -->
+<script>
+  function showPopup() {
+    document.getElementById("popupForm").style.display = "flex";
+  }
+
+  function closePopup() {
+    document.getElementById("popupForm").style.display = "none";
+  }
+
+  window.onload = function() {
+    setTimeout(showPopup, 5000); // Show popup 10 seconds after page load
+  };
+</script>
+

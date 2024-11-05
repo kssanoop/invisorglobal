@@ -432,7 +432,7 @@
         </div>
       </div>
       <div class="contact-image" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
-        <img src="assets/img/touch.jpg" alt="People working on laptops">
+        <img src="assets/img/icons/crm-center.jpg" alt="People working on laptops">
       </div>
     </div>
 

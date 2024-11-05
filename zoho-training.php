@@ -58,7 +58,10 @@
 
         .banner-title {
             font-size: 32px;
+     
         }
+        .banner-section img{display: none;}
+
     }
 </style>
 
@@ -80,7 +83,7 @@
 
                 <!-- Image Column -->
                 <div class="col-md-6 image-col">
-                    <img src="assets/img/service-image.png" alt="Financial advisors"
+                    <img src="assets/img/zoho-training.jpg" alt="Financial advisors"
                         class="img-fluid w-100 h-100 object-fit-cover">
                 </div>
             </div>
@@ -96,53 +99,50 @@
         <div class="card-container">
             <!-- Training Card 1 -->
             <div class="card service-card">
-                <div class="card-body">
                     <div class="card-top">
-                        <h5 class="card-title">Zoho Functional Training</h5>
+                        <h5 class="card-title"> Functional Training</h5>
                     </div>
                     <div class="card-bdy">
                         <p class="card-text">Designed for clients, end-users, and business owners aiming for in-depth
                             functional knowledge of Zoho.</p>
-                        <div class="tab-bottom">
+                    </div>
+                    <div class="tab-bottom">
                             <a href="#fungtional-training" class="btn btn-link contact-btn">Learn more <i
                                     class="bi bi-arrow-right-short"></i></a>
                         </div>
-                    </div>
-                </div>
+
             </div>
 
             <!-- Training Card 2 -->
             <div class="card service-card">
-                <div class="card-body">
                     <div class="card-top">
-                        <h5 class="card-title">Technical Zoho Training</h5>
+                        <h5 class="card-title">Technical Training</h5>
                     </div>
                     <div class="card-bdy">
                         <p class="card-text">Designed for IT professionals and new developers interested in customising
                             and developing with Zoho, this training covers:</p>
-                        <div class="tab-bottom">
+                    </div>
+                    <div class="tab-bottom">
                             <a href="#fungtional-training2" class="btn btn-link contact-btn">Learn more <i
                                     class="bi bi-arrow-right-short"></i></a>
                         </div>
-                    </div>
-                </div>
+
             </div>
 
             <!-- Training Card 3 -->
             <div class="card service-card">
-                <div class="card-body">
                     <div class="card-top">
-                        <h5 class="card-title">Corporate Zoho Training</h5>
+                        <h5 class="card-title">Corporate Training</h5>
                     </div>
                     <div class="card-bdy">
                         <p class="card-text">Our corporate training is designed for businesses utilising Zoho and those
                             transitioning their operations to the platform.</p>
-                        <div class="tab-bottom">
+                    </div>
+                    <div class="tab-bottom">
                             <a href="#fungtional-training3" class="btn btn-link contact-btn">Learn more <i
                                     class="bi bi-arrow-right-short"></i></a>
                         </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
@@ -192,7 +192,7 @@
         gap: 20px;
     }
 
-    .services-section .service-card {
+    .services-section .service-card {display: flex;justify-content: space-between;
         background: #fff;
         border-radius: 8px;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -231,7 +231,7 @@
         align-items: center;
         padding: 0 20px 20px;
     }
-
+    .services-section .tab-bottom .btn{padding: 0;}
     .services-section .tab-bottom img {
         max-width: 50px;
     }
@@ -252,7 +252,7 @@
 
 <!-- ===============================contact=========================== -->
 <style>
-    .contact-section {
+    .contact-section {margin-bottom: 50px;
         overflow: hidden;
         display: flex;
         justify-content: space-between;
@@ -262,7 +262,7 @@
 
     .contact-content {
         background-color: var(--accent-color);
-        padding: 30px 20px 30px 10px;
+        padding: 30px ;
         flex: 1;
         position: relative;
         color: #fff;
@@ -404,7 +404,7 @@
     <div class="contact-content">
 
         <div class="contact-text">
-            <h1>Zoho Functional Training
+            <h1> Functional Training
             </h1>
             <p>Designed for clients, end-users, and business owners aiming for in-depth functional knowledge of Zoho.
             </p>
@@ -549,13 +549,13 @@
 
 <div class="contact-section" id="fungtional-training2">
     <div class="contact-image contact-image2" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
-        <img src="assets/img/training2.webp" alt="People working on laptops">
+        <img src="https://www.zohowebstatic.com/sites/zweb/images/zoho_general_pages/zh-homev2-banner-india-3.webp" alt="People working on laptops">
     </div>
 
     <div class="contact-content contact-content2">
 
         <div class="contact-text">
-        <h1>Technical Zoho Training
+        <h1>Technical Training
             </h1>
             <p>Designed for IT professionals and new developers interested in customising and developing with Zoho, this training covers:
 
@@ -600,7 +600,7 @@
     <div class="contact-content">
 
         <div class="contact-text">
-        <h1>Corporate Zoho Training
+        <h1>Corporate Training
 
             </h1>
             <p>Our corporate training is designed for businesses utilising Zoho and those transitioning their operations to the platform. 

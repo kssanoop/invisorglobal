@@ -59,6 +59,8 @@
         .banner-title {
             font-size: 32px;
         }
+        .banner-section img{display: none;}
+
     }
 </style>
 
@@ -86,7 +88,7 @@
 
                 <!-- Image Column -->
                 <div class="col-md-6 image-col">
-                    <img src="assets/img/service-image.png" alt="Financial advisors"
+                    <img src="assets/img/hiring-banner.jpg" alt="Financial advisors"
                         class="img-fluid w-100 h-100 object-fit-cover">
                 </div>
             </div>
@@ -254,7 +256,7 @@
 
 <!-- ===============================contact=========================== -->
 <style>
-    .contact-section {
+    .contact-section {margin-bottom: 50px;
         overflow: hidden;
         display: flex;
         justify-content: space-between;

@@ -7,15 +7,18 @@
           <div class="title-dot" style="background-color: #fff;"></div>
           <div class="trust-badge" style="color:#fff">OUR VISION</div>
         </div>
-        <h1 class="contact-title">Let's get in touch: igniting conversations, sparking connections!</h1>
-        <p class="contact-description">Fusce volutpat lectus et nisl consectetur finibus. In vitae scelerisque augue, in
-          varius eros. Nunc sapien diam, euismod et pretium id, volutpat et tortor.</p>
+        <h1 class="contact-title"><strong>Let's get in touch</strong>: Connecting you with streamlined solutions!
+        </h1>
+        <p class="contact-description">At Invisor, we’re here to empower your business with Zoho’s powerful suite of tools, tailored to your unique needs. Reach out below to explore how our Zoho experts can help transform your workflows and elevate your operations.
+        </p>
       </div>
       <!-- Right Section: Contact Form -->
       <div class="col-md-6 contact-form">
         <form action="#" method="POST">
           <input type="text" name="first_name" placeholder="First Name" required>
           <input type="text" name="last_name" placeholder="Last Name" required>
+          <input type="tel" name="phone" placeholder="Phone Number" required pattern="[0-9]{10}" title="Please enter a 10-digit phone number">
+
           <input type="email" name="email" placeholder="Email" required>
           <textarea name="message" placeholder="Message" required></textarea>
           <button type="submit" class="submit-btn">Submit</button>
@@ -170,14 +173,20 @@
 
 <div class="container cntct-info">
   <p class="contact-info">General inquiries<br>
-    Reach us at <a href="mailto:email@example.com">email@example.com</a> <br> and we will get back to you asap.
+  For questions or more information about our Zoho services, email us at <a href="contact@invisorglobal.com">contact@invisorglobal.com</a> <br> and our team will get back to you asap!
+
   </p>
 </div>
 <style>
   .cntct-info {
     padding: 50px 10px;
   }
+@media (min-width:1200px) {
+  .cntct-info {
+    padding: 50px 50% 50px 10px;
+  }
 
+}
   .contact-info {
     font-size: 1rem;
     color: #1d1d1d;

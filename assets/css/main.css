@@ -537,7 +537,7 @@ h6 {
   .navmenu a:hover,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-dropdown-hover-color);
+    color: var(--accent-color);
   }
 
   .navmenu .active i,
@@ -596,7 +596,7 @@ h6 {
 /*--------------------------------------------------------------
 # Scroll Top Button
 --------------------------------------------------------------*/
-.scroll-top {
+.scroll-top {border: 1px solid #fff;
   position: fixed;
   visibility: hidden;
   opacity: 0;
@@ -1150,8 +1150,8 @@ section,
     /* Adjust the image size */
   }
 
-  .col-md-6,
-  .col-md-6 {
+  .banner .col-md-6,
+  .banner .col-md-6 {
     width: 100%;
   }
 }
@@ -1209,7 +1209,7 @@ section,
 
 /* Swiper Navigation Button Styles */
 .swiper-button-next,
-.swiper-button-prev {
+.swiper-button-prev {display: none;
   width: 20px;
   /* Adjust button width */
   height: 20px;

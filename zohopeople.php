@@ -41,7 +41,7 @@
                 </div>
             <div class="col-md-5" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
 
-                <img src="https://www.zohowebstatic.com/sites/zweb/images/crm/banner-image-2x.svg" alt="Zoho One Image"
+                <img src="assets/img/icons/people-banner.png" alt="Zoho One Image"
                     class="service-image">
 
             </div>

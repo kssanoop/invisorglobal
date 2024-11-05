@@ -59,6 +59,11 @@
         .banner-title {
             font-size: 32px;
         }
+
+        .banner-section img {
+            display: none;
+        }
+
     }
 </style>
 
@@ -74,8 +79,9 @@
                     </div>
                     <h1 class="banner-title">Zoho Support
                     </h1>
-                    <p class="banner-text1">At Invisor, we understand that effective support is crucial for leveraging the full potential of Zoho solutions. Our dedicated team is here to assist you with
-                        </p>
+                    <p class="banner-text1">At Invisor, we understand that effective support is crucial for leveraging
+                        the full potential of Zoho solutions. Our dedicated team is here to assist you with
+                    </p>
                 </div>
 
                 <!-- Image Column -->
@@ -96,55 +102,53 @@
         <div class="card-container">
             <!-- Training Card 1 -->
             <div class="card service-card">
-                <div class="card-body">
-                    <div class="card-top">
-                        <h5 class="card-title">Zoho Support & Maintenance</h5>
-                    </div>
-                    <div class="card-bdy">
-                        <p class="card-text">Invisor’s expert team offers end-to-end Zoho support, resolving technical issues and providing tailored solutions to enhance your business.
-                        </p>
-                        <div class="tab-bottom">
-                            <a href="#fungtional-training" class="btn btn-link contact-btn">Learn more <i
-                                    class="bi bi-arrow-right-short"></i></a>
-                        </div>
-                    </div>
+                <div class="card-top">
+                    <h5 class="card-title">Zoho Support & Maintenance</h5>
                 </div>
+                <div class="card-bdy">
+                    <p class="card-text">Invisor’s expert team offers end-to-end Zoho support, resolving technical
+                        issues and providing tailored solutions to enhance your business.
+                    </p>
+                </div>
+                <div class="tab-bottom">
+                    <a href="#fungtional-training" class="btn btn-link contact-btn">Learn more <i
+                            class="bi bi-arrow-right-short"></i></a>
+                </div>
+
             </div>
 
             <!-- Training Card 2 -->
             <div class="card service-card">
-                <div class="card-body">
-                    <div class="card-top">
-                        <h5 class="card-title">Zoho AMC Service
-                        </h5>
-                    </div>
-                    <div class="card-bdy">
-                        <p class="card-text"> Get timely assistance for any Zoho-related queries or issues.
-                        </p>
-                        <div class="tab-bottom">
-                            <a href="#fungtional-training2" class="btn btn-link contact-btn">Learn more <i
-                                    class="bi bi-arrow-right-short"></i></a>
-                        </div>
-                    </div>
+                <div class="card-top">
+                    <h5 class="card-title">Zoho AMC Service
+                    </h5>
                 </div>
+                <div class="card-bdy">
+                    <p class="card-text"> Get timely assistance for any Zoho-related queries or issues.
+                    </p>
+                </div>
+                <div class="tab-bottom">
+                    <a href="#fungtional-training2" class="btn btn-link contact-btn">Learn more <i
+                            class="bi bi-arrow-right-short"></i></a>
+                </div>
+
             </div>
 
             <!-- Training Card 3 -->
             <div class="card service-card">
-                <div class="card-body">
-                    <div class="card-top">
-                        <h5 class="card-title">Customised Solutions</h5>
-                    </div>
-                    <div class="card-bdy">
-                        <p class="card-text"> We tailor our support to meet the specific needs of your business.
-
-                        </p>
-                        <div class="tab-bottom">
-                            <a href="#fungtional-training3" class="btn btn-link contact-btn">Learn more <i
-                                    class="bi bi-arrow-right-short"></i></a>
-                        </div>
-                    </div>
+                <div class="card-top">
+                    <h5 class="card-title">Customised Solutions</h5>
                 </div>
+                <div class="card-bdy">
+                    <p class="card-text"> We tailor our support to meet the specific needs of your business.
+
+                    </p>
+                </div>
+                <div class="tab-bottom">
+                    <a href="#fungtional-training3" class="btn btn-link contact-btn">Learn more <i
+                            class="bi bi-arrow-right-short"></i></a>
+                </div>
+
             </div>
 
 
@@ -196,7 +200,7 @@
         gap: 20px;
     }
 
-    .services-section .service-card {
+    .services-section .service-card {display: flex;justify-content: space-between;
         background: #fff;
         border-radius: 8px;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -256,7 +260,7 @@
 
 <!-- ===============================contact=========================== -->
 <style>
-    .contact-section {
+    .contact-section {margin-bottom: 50px;
         overflow: hidden;
         display: flex;
         justify-content: space-between;
@@ -266,7 +270,7 @@
 
     .contact-content {
         background-color: var(--accent-color);
-        padding: 30px 20px 30px 10px;
+        padding: 30px;
         flex: 1;
         position: relative;
         color: #fff;
@@ -312,7 +316,7 @@
         }
     }
 
-    @media (min-width:1400px)  {
+    @media (min-width:1400px) {
         .contact-text {
             max-width: 520px;
             margin: auto;
@@ -411,7 +415,10 @@
             <h1>Zoho Support & Maintenance
 
             </h1>
-            <p>Zoho Support and maintenance is a comprehensive service provided by Invisor. Our team of functional consultants and technical experts addresses a full range of Zoho-related issues, helping businesses troubleshoot, resolve bugs, and maintain seamless operations. Our experienced team offers extensive support via customizations, documentation, troubleshooting, guidance, and more.
+            <p>Zoho Support and maintenance is a comprehensive service provided by Invisor. Our team of functional
+                consultants and technical experts addresses a full range of Zoho-related issues, helping businesses
+                troubleshoot, resolve bugs, and maintain seamless operations. Our experienced team offers extensive
+                support via customizations, documentation, troubleshooting, guidance, and more.
 
             </p>
         </div>
@@ -423,104 +430,104 @@
 
 <style>
     /* General Card Styling */
-.training-package-card {
-    display: none;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    margin:50px auto;
-}
-
-/* Left Section Styling */
-.package-info {
-    background-color: var(--accent-color);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.package-info h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-
-.package-info .price {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.package-info .duration {
-    font-size: 1rem;
-    font-weight: bold;
-    color: #ffd700;
-}
-
-/* Right Section Styling */
-.package-details {
-    padding: 20px;
-    width: 65%;
-}
-
-.package-details h4 {
-    font-size: 1.1rem;
-    margin-bottom: 15px;
-    color: #333;
-}
-
-.package-details ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 15px 0;
-}
-
-.package-details ul li {
-    display: flex;
-    align-items: center;
-    font-size: 0.9rem;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.package-details ul li i {
-    color: #4caf50;
-    margin-right: 8px;
-}
-
-.package-details p {
-    font-size: 0.9rem;
-    color: #666;
-    margin-bottom: 20px;
-}
-
-.package-details a {
-    color: var(--accent-color);
-    text-decoration: none;
-    font-weight: bold;
-}
-
-
-/* Responsive Styling */
-@media (max-width: 768px) {
     .training-package-card {
-        flex-direction: column;
+        display: none;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 600px;
+        margin: 50px auto;
     }
 
-    .package-info, .package-details {
-        width: 100%;
-    }
-
+    /* Left Section Styling */
     .package-info {
-        padding: 15px;
+        background-color: var(--accent-color);
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-}
 
+    .package-info h3 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .package-info .price {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .package-info .duration {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #ffd700;
+    }
+
+    /* Right Section Styling */
+    .package-details {
+        padding: 20px;
+        width: 65%;
+    }
+
+    .package-details h4 {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+    .package-details ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 15px 0;
+    }
+
+    .package-details ul li {
+        display: flex;
+        align-items: center;
+        font-size: 0.9rem;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .package-details ul li i {
+        color: #4caf50;
+        margin-right: 8px;
+    }
+
+    .package-details p {
+        font-size: 0.9rem;
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+    .package-details a {
+        color: var(--accent-color);
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+
+    /* Responsive Styling */
+    @media (max-width: 768px) {
+        .training-package-card {
+            flex-direction: column;
+        }
+
+        .package-info,
+        .package-details {
+            width: 100%;
+        }
+
+        .package-info {
+            padding: 15px;
+        }
+    }
 </style>
 
 <div class="training-package-card">
@@ -533,9 +540,11 @@
         <h4>Plan Benefits & Features</h4>
         <ul>
             <li><i class="bi bi-check-circle-fill"></i> 1 Day (4 Hours/Day)</li>
-            <li><i class="bi bi-check-circle-fill"></i> Modules include CRM, Marketing Automation, Social Marketing, SMS Marketing</li>
+            <li><i class="bi bi-check-circle-fill"></i> Modules include CRM, Marketing Automation, Social Marketing, SMS
+                Marketing</li>
         </ul>
-        <p>Want to know more about our Zoho Training Customized Packages? Send an e-mail to <a href="mailto:odoo@cybrosys.com">inisor@global.com</a>.</p>
+        <p>Want to know more about our Zoho Training Customized Packages? Send an e-mail to <a
+                href="mailto:odoo@cybrosys.com">inisor@global.com</a>.</p>
     </div>
 </div>
 
@@ -543,16 +552,18 @@
 
 <div class="contact-section" id="fungtional-training2">
     <div class="contact-image contact-image2" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
-    <img src="assets/img/inner-blog/inner-blog3.jpg" alt="People working on laptops">
+        <img src="assets/img/inner-blog/inner-blog3.jpg" alt="People working on laptops">
     </div>
 
     <div class="contact-content contact-content2">
 
         <div class="contact-text">
-        <h1>Zoho AMC Service
+            <h1>Zoho AMC Service
 
             </h1>
-            <p>Zoho solutions benefit from continuous support to ensure optimal performance. Invisor, with years of experience, offers tailored support services for ongoing Zoho needs, empowering businesses to streamline their workflows and achieve maximum efficiency.
+            <p>Zoho solutions benefit from continuous support to ensure optimal performance. Invisor, with years of
+                experience, offers tailored support services for ongoing Zoho needs, empowering businesses to streamline
+                their workflows and achieve maximum efficiency.
 
 
             </p>
@@ -586,9 +597,11 @@
         <h4>Plan Benefits & Features</h4>
         <ul>
             <li><i class="bi bi-check-circle-fill"></i> 1 Day (4 Hours/Day)</li>
-            <li><i class="bi bi-check-circle-fill"></i> Modules include CRM, Marketing Automation, Social Marketing, SMS Marketing</li>
+            <li><i class="bi bi-check-circle-fill"></i> Modules include CRM, Marketing Automation, Social Marketing, SMS
+                Marketing</li>
         </ul>
-        <p>Want to know more about our Zoho Training Customized Packages? Send an e-mail to <a href="mailto:odoo@cybrosys.com">inisor@global.com</a>.</p>
+        <p>Want to know more about our Zoho Training Customized Packages? Send an e-mail to <a
+                href="mailto:odoo@cybrosys.com">inisor@global.com</a>.</p>
     </div>
 </div>
 
@@ -596,15 +609,19 @@
     <div class="contact-content">
 
         <div class="contact-text">
-        <h1>Customised Solutions
+            <h1>Customised Solutions
             </h1>
-            <p>At Invisor, we understand that every business has unique requirements. Our dedicated Zoho support team works closely with you to create tailored solutions that directly address your specific challenges and objectives. We ensure your Zoho tools are optimised to enhance efficiency and drive growth. With our deep expertise and flexible approach, we help you unlock the full potential of Zoho applications in a way that aligns seamlessly with your business goals.
+            <p>At Invisor, we understand that every business has unique requirements. Our dedicated Zoho support team
+                works closely with you to create tailored solutions that directly address your specific challenges and
+                objectives. We ensure your Zoho tools are optimised to enhance efficiency and drive growth. With our
+                deep expertise and flexible approach, we help you unlock the full potential of Zoho applications in a
+                way that aligns seamlessly with your business goals.
 
             </p>
         </div>
     </div>
     <div class="contact-image" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
-    <img src="assets/img/inner-blog/inner-blog6.jpg" alt="People working on laptops">
+        <img src="assets/img/inner-blog/inner-blog6.jpg" alt="People working on laptops">
     </div>
 </div>
 
@@ -618,9 +635,11 @@
         <h4>Plan Benefits & Features</h4>
         <ul>
             <li><i class="bi bi-check-circle-fill"></i> 1 Day (4 Hours/Day)</li>
-            <li><i class="bi bi-check-circle-fill"></i> Modules include CRM, Marketing Automation, Social Marketing, SMS Marketing</li>
+            <li><i class="bi bi-check-circle-fill"></i> Modules include CRM, Marketing Automation, Social Marketing, SMS
+                Marketing</li>
         </ul>
-        <p>Want to know more about our Zoho Training Customized Packages? Send an e-mail to <a href="mailto:odoo@cybrosys.com">inisor@global.com</a>.</p>
+        <p>Want to know more about our Zoho Training Customized Packages? Send an e-mail to <a
+                href="mailto:odoo@cybrosys.com">inisor@global.com</a>.</p>
     </div>
 </div>
 
@@ -756,19 +775,27 @@
             background-color: #e4e5e5;
         }
     }
+
     @media (max-width: 900px) {
-        .slide-bg,.slide-bg-1{display: none
+
+        .slide-bg,
+        .slide-bg-1 {
+            display: none
         }
+
         .newsletter-image {
-    position: absolute;
-    bottom: 0;
-    right: 0%;
-    max-width: 400px;
-    height: auto;
-}
+            position: absolute;
+            bottom: 0;
+            right: 0%;
+            max-width: 400px;
+            height: auto;
+        }
     }
 
-    @media (max-width: 769px) {.newsletter-image{display: none;}
+    @media (max-width: 769px) {
+        .newsletter-image {
+            display: none;
+        }
 
     }
 </style>
