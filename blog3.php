@@ -1,5 +1,5 @@
 <div class="container blog1">
-    <h1 class="post-title">Zoho Books Can Revolutionise Your Finances</h1>
+    <h1 class="post-title">Accounting Made Simple: How Zoho Books Can Revolutionise Your Finances</h1>
     <div class="post-image">
         <img src="assets/img/blog3.jpg" alt="Retirement Celebration">
     </div>
@@ -9,7 +9,7 @@
      .blog1 {
             max-width: 900px;
             margin: 0 auto;
-            padding: 20px;
+            padding:80px 20px 0;
         }
 
         /* Title styling */
@@ -21,7 +21,12 @@
             margin-top: 20px;
             margin-bottom: 20px;
         }
+@media (max-width:991px) {
+  .post-title {
+    font-size: 1.5rem;
 
+  }
+}
         /* Image styling */
         .post-image {
             width: 100%;
@@ -41,7 +46,7 @@
   <div class="container">
     <h2 class="blog-title">Managing Finances with Zoho Books</h2>
     <p class="blog-intro">
-      Managing finances efficiently is crucial for every business, big or small. Let’s dive into how Zoho Books is transforming financial management and why it might be the perfect fit for your business.
+    Managing finances efficiently is crucial for every business, big or small. But finding an accounting tool that’s both powerful and easy to use can be a challenge.  Zoho Books—a platform designed to make accounting straightforward and accessible, even for non-experts. Let’s dive into how Zoho Books is transforming financial management and why it might be the perfect fit for your business.
     </p>
 
     <div class="blog-content">
@@ -50,7 +55,10 @@
         <div class="row align-items-center">
           <div class="col-md-6">
             <h3 class="blog-section-title">Effortless Invoicing</h3>
-            <p>Zoho Books simplifies invoicing with customizable templates and built-in payment options, enabling faster invoicing and easy payment integration.</p>
+            <p>Keeping track of invoices and payments can be a headache, but Zoho Books simplifies it with customizable templates and built-in payment options. Imagine creating an invoice in minutes, sending it to a client, and getting paid—all without leaving the app.
+            .</p>
+            <p><strong>Why it matters</strong>: Faster invoicing and easy payment integration help improve cash flow, meaning fewer headaches for you and faster service for your clients.
+            </p>
           </div>
           <div class="col-md-6">
             <img src="assets/img/inner-blog/invoicing.jpg" alt="Effortless Invoicing" class="img-fluid blog-image">
@@ -66,7 +74,16 @@
           </div>
           <div class="col-md-6">
             <h3 class="blog-section-title">Real-Time Expense Tracking</h3>
-            <p>With real-time expense categorization and receipt management, Zoho Books keeps your finances organized and helps track spending trends.</p>
+            <p>With Zoho Books, tracking expenses doesn’t have to be a chore. The platform allows you to categorise expenses, attach receipts, and track costs by project or department.
+            </p>
+            <h6>Feature highlights:</h6>
+            <ul>
+              <li>Real-time expense categorization
+              </li>
+              <li>Easy receipt management</li>
+              <li>Budget insights to prevent overspending</li>
+            </ul>
+            <p>This keeps your finances organised and gives you a clear view of your business’s spending trends.</p>
           </div>
         </div>
       </div>
@@ -76,7 +93,10 @@
         <div class="row align-items-center">
           <div class="col-md-6">
             <h3 class="blog-section-title">Bank Reconciliation Made Easy</h3>
-            <p>Automate bank statement reconciliation to reduce manual errors, save time, and monitor cash flow effortlessly.</p>
+            <p>One of the trickiest parts of accounting is reconciling bank statements. Zoho Books lets you connect your bank accounts, enabling automatic imports of bank transactions. It then matches them to your entries in Zoho Books, saving time and ensuring accuracy.
+            </p>
+            <p><strong>Benefit</strong>: Automation reduces manual errors, saves time, and lets you keep an eye on cash flow effortlessly.
+            </p>
           </div>
           <div class="col-md-6">
             <img src="assets/img/inner-blog/bank-reconciliation.jpg" alt="Bank Reconciliation" class="img-fluid blog-image">
@@ -92,7 +112,19 @@
           </div>
           <div class="col-md-6">
             <h3 class="blog-section-title">Data-Driven Decision Making</h3>
-            <p>Gain insights through reports like Profit & Loss, Balance Sheet, and Cash Flow Analysis to make informed decisions and support growth.</p>
+            <p>Zoho Books isn’t just about bookkeeping; it’s also a powerful tool for insights. With comprehensive reports—like Profit & Loss statements, cash flow reports, and balance sheets—Zoho Books helps you understand your business’s financial health at a glance.
+            </p>
+            <h6>Example reports:
+            </h6>
+            <ul>
+              <li>Profit & Loss for tracking revenue and expenses
+              </li>
+              <li>Balance Sheet to monitor assets, liabilities, and equity</li>
+              <li>Cash Flow Analysis to aid in future planning</li>
+            </ul>
+            <p>The data-driven approach Zoho Books provides means you can make informed decisions to support growth.
+            </p>
+
           </div>
         </div>
       </div>
@@ -102,7 +134,8 @@
         <div class="row align-items-center">
           <div class="col-md-6">
             <h3 class="blog-section-title">Simplified Tax Compliance</h3>
-            <p>With automated tax calculations and filing-ready reports, Zoho Books simplifies compliance, saving time and reducing stress.</p>
+            <p>Tax season can be a stressful time, but Zoho Books is designed to make compliance easier. With features that allow you to set tax preferences and generate filing-ready reports, Zoho Books ensures you stay compliant without the stress.</p>
+            <p><strong>Added Value</strong>: Automated tax calculation and filing-ready reports mean less time spent on tedious paperwork.</p>
           </div>
           <div class="col-md-6">
             <img src="assets/img/inner-blog/tax-compliance.jpg" alt="Tax Compliance" class="img-fluid blog-image">
@@ -118,7 +151,8 @@
           </div>
           <div class="col-md-6">
             <h3 class="blog-section-title">Project-Centric Accounting</h3>
-            <p>Zoho Books allows project-specific tracking of income and expenses, offering insights into profitability per project.</p>
+            <p>For businesses that juggle multiple projects, Zoho Books offers project-specific tracking for income and expenses. This feature allows you to view how each project is performing financially and invoice clients accordingly.</p>
+            <p><strong>How it helps</strong>: Track expenses and time for each project separately, giving you clear insight into profitability per project.</p>
           </div>
         </div>
       </div>
@@ -128,7 +162,16 @@
         <div class="row align-items-center">
           <div class="col-md-6">
             <h3 class="blog-section-title">A Scalable Solution for Growing Businesses</h3>
-            <p>Zoho Books grows with your business, offering flexible plans, add-ons, and smooth integration with the Zoho ecosystem.</p>
+            <p>Whether you’re running a small startup or a large enterprise, Zoho Books scales to fit your needs. Its integration with other Zoho applications and third-party tools means you can customise it as your business grows.
+            </p>
+            <h6>Flexibility Includes:</h6>
+            <ul>
+              <li>Customizable plans for different business sizes
+              </li>
+              <li>Add-ons to enhance functionality</li>
+              <li>Smooth integration with Zoho ecosystem and third-party tools</li>
+            </ul>
+
           </div>
           <div class="col-md-6">
             <img src="assets/img/inner-blog/scalable-solution.jpg" alt="Scalable Solution" class="img-fluid blog-image">
@@ -138,7 +181,12 @@
 
       <!-- Conclusion Section -->
       <div class="blog-conclusion">
-        <p>Zoho Books takes the complexity out of accounting, making it an ideal choice for businesses aiming to streamline financial management and focus on growth. Discover how Zoho Books can be your strategic partner in financial management.</p>
+        <h4>Final Thoughts: Making Finance Management Simple
+        </h4>
+        <p>Zoho Books takes the complexity out of accounting, giving businesses an intuitive and powerful solution that simplifies everything from invoicing to tax filing. For companies that want to streamline financial management and focus on growth, Zoho Books could be the perfect partner.
+        </p>
+        <p>Consider trying out Zoho Books to see firsthand how it can make managing your finances less of a task and more of a strategic advantage.
+        </p>
       </div>
     </div>
   </div>
@@ -203,7 +251,7 @@
 
 .inner-blog3 .blog-section ul li::before {
     content: "\2022";
-    color: #4CAF50; /* Accent color */
+    color: var(--accent-color); /* Accent color */
     font-weight: bold;
     font-size: 1.2rem;
     position: absolute;
@@ -228,7 +276,7 @@
     }
 
     .inner-blog3 .blog-title {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 }
 
@@ -242,6 +290,13 @@
       margin: 0 auto;
       padding: 3rem 1.5rem;
     }
+    @media (min-width:992px) {
+    .blog-item {position: relative;
+      height: 390px;
+      max-height: 400px;
+    }
+    .blog-item .read-more{position: absolute;bottom: 20px;}
+  }
 
     .blog-section h5 {
       color: var(--accent-color);
@@ -390,7 +445,7 @@
     <div class="row">
       <!-- Blog Item 1 -->
       <div class="col-md-4 col-sm-6 col-12">
-        <a href="?page=blog1">
+        <a href="?page=blog2">
           <div class="blog-item hvr-underline-from-left">
             <div class="blog-image">
               <img src="assets/img/blog1.jpg" alt="Retirement Planning 101">
@@ -405,7 +460,7 @@
 
       <!-- Blog Item 2 -->
       <div class="col-md-4 col-sm-6 col-12">
-        <a href="?page=blog2">
+        <a href="?page=blog1">
           <div class="blog-item hvr-underline-from-left">
             <div class="blog-image">
               <img src="assets/img/blog2.jpg" alt="Retirement Planning 101">

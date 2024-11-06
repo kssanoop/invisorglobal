@@ -68,7 +68,7 @@
 </style>
 
 <div class="banner-section">
-    <div class="container-fluid p-0">
+    <div class="container-fluid pt-5">
         <div class="container">
             <div class="row g-0">
                 <!-- Content Column -->
@@ -80,7 +80,7 @@
                     <h1 class="banner-title">Zoho Support
                     </h1>
                     <p class="banner-text1">At Invisor, we understand that effective support is crucial for leveraging
-                        the full potential of Zoho solutions. Our dedicated team is here to assist you with
+                        the full potential of Zoho solutions. Our dedicated team is here to assist you with every step.
                     </p>
                 </div>
 
@@ -101,9 +101,9 @@
 
         <div class="card-container">
             <!-- Training Card 1 -->
-            <div class="card service-card">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                 <div class="card-top">
-                    <h5 class="card-title">Zoho Support & Maintenance</h5>
+                    <h5 class="card-title hvr-sweep-to-right">Zoho Support & Maintenance</h5>
                 </div>
                 <div class="card-bdy">
                     <p class="card-text">Invisor’s expert team offers end-to-end Zoho support, resolving technical
@@ -118,9 +118,9 @@
             </div>
 
             <!-- Training Card 2 -->
-            <div class="card service-card">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                 <div class="card-top">
-                    <h5 class="card-title">Zoho AMC Service
+                    <h5 class="card-title hvr-sweep-to-right">Zoho AMC Service
                     </h5>
                 </div>
                 <div class="card-bdy">
@@ -135,9 +135,9 @@
             </div>
 
             <!-- Training Card 3 -->
-            <div class="card service-card">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                 <div class="card-top">
-                    <h5 class="card-title">Customised Solutions</h5>
+                    <h5 class="card-title hvr-sweep-to-right">Customised Solutions</h5>
                 </div>
                 <div class="card-bdy">
                     <p class="card-text"> We tailor our support to meet the specific needs of your business.
@@ -334,7 +334,7 @@
 
     .contact-text h1 {
         color: #fff;
-        font-size: 36px;
+        font-size: 2rem;
         font-weight: 300;
         margin-bottom: 1.5rem;
         line-height: 1.2;

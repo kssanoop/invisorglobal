@@ -235,32 +235,40 @@
       disableOnInteraction: false, // Auto-slide continues even after manual interaction
     },
     breakpoints: {
-      // When window width is <= 200px
       200: {
         slidesPerView: 1,
         spaceBetween: 10,
       },
-      // When window width is <= 767px
       767: {
         slidesPerView: 2,
         spaceBetween: 20,
       },
-      // When window width is <= 1023px
       1023: {
         slidesPerView: 2,
         spaceBetween: 30,
       },
-      // When window width is >= 1024px
       1024: {
         slidesPerView: 3,
         spaceBetween: 20,
       },
     },
   });
+
+  // Stop autoplay on hover
+  const swiperContainer = document.querySelector('.swiper-container');
+  swiperContainer.addEventListener('mouseenter', () => {
+    swiper.autoplay.stop();
+  });
+
+  // Resume autoplay when hover ends
+  swiperContainer.addEventListener('mouseleave', () => {
+    swiper.autoplay.start();
+  });
 </script>
 
 <!-- Main JS File -->
 <script src="assets/js/main.js"></script>
+
 
 </body>
 

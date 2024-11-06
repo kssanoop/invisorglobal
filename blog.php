@@ -1,5 +1,5 @@
 <section class="latest-article">
-  <div class="container">
+  <div class="container pt-5">
     <div class="row align-items-center">
       <!-- Text Content -->
       <div class="col-md-6 content">
@@ -51,7 +51,7 @@
   }
 
 
-  .image img {height: 100%;object-fit: cover
+  .image img {height: 100%;object-fit: cover;
     position: absolute;
     right: 0;
     top: 0;
@@ -173,7 +173,7 @@
     color: var(--accent-color);
   }
 
-  @media (min-width:1010px) {
+  @media (min-width:992px) {
     .blog-item {position: relative;
       height: 390px;
       max-height: 400px;
@@ -212,7 +212,7 @@
   <div class="row">
     <!-- Blog Item 1 -->
     <div class="col-md-4 col-sm-6 col-12">
-      <a href="?page=blog1">
+      <a href="?page=blog2">
         <div class="blog-item hvr-underline-from-left">
           <div class="blog-image">
             <img src="assets/img/blog1.jpg" alt="Retirement Planning 101">
@@ -227,7 +227,7 @@
 
     <!-- Blog Item 2 -->
     <div class="col-md-4 col-sm-6 col-12">
-      <a href="?page=blog2">
+      <a href="?page=blog1">
         <div class="blog-item hvr-underline-from-left">
           <div class="blog-image">
             <img src="assets/img/blog2.jpg" alt="Retirement Planning 101">

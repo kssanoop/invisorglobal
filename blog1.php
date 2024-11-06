@@ -1,8 +1,8 @@
 <div class="container blog1">
-    <h1 class="post-title">Why Zoho? Uncover the Key Benefits of Zoho Implementation
+    <h1 class="post-title">Zoho Implementation Success Stories: Real-World Examples of Business Transformation
 </h1>
     <div class="post-image">
-        <img src="assets/img/blog1.jpg" alt="Retirement Celebration">
+        <img src="assets/img/blog2.jpg" alt="Retirement Celebration">
     </div>
 </div>
 
@@ -10,7 +10,7 @@
      .blog1 {
             max-width: 900px;
             margin: 0 auto;
-            padding: 20px;
+            padding:80px 20px 20px;
         }
 
         /* Title styling */
@@ -22,6 +22,12 @@
             margin-top: 20px;
             margin-bottom: 20px;
         }
+        @media (max-width:991px) {
+  .post-title {
+    font-size: 1.5rem;
+
+  }
+}
 
         /* Image styling */
         .post-image {
@@ -166,7 +172,7 @@
 
 .inner-blog2 .blog-section ul li::before {
     content: "\2022";
-    color: #4CAF50; /* Accent color */
+    color: var(--accent-color); /* Accent color */
     font-weight: bold;
     font-size: 1.2rem;
     position: absolute;
@@ -205,6 +211,13 @@
       margin: 0 auto;
       padding: 3rem 1.5rem;
     }
+    @media (min-width:992px) {
+    .blog-item {position: relative;
+      height: 390px;
+      max-height: 400px;
+    }
+    .blog-item .read-more{position: absolute;bottom: 20px;}
+  }
 
     .blog-section h5 {
       color: var(--accent-color);
@@ -353,7 +366,7 @@
     <div class="row">
       <!-- Blog Item 1 -->
       <div class="col-md-4 col-sm-6 col-12">
-        <a href="?page=blog1">
+        <a href="?page=blog2">
           <div class="blog-item hvr-underline-from-left">
             <div class="blog-image">
               <img src="assets/img/blog1.jpg" alt="Retirement Planning 101">
@@ -368,7 +381,7 @@
 
       <!-- Blog Item 2 -->
       <div class="col-md-4 col-sm-6 col-12">
-        <a href="?page=blog2">
+        <a href="?page=blog1">
           <div class="blog-item hvr-underline-from-left">
             <div class="blog-image">
               <img src="assets/img/blog2.jpg" alt="Retirement Planning 101">

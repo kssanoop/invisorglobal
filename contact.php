@@ -1,4 +1,4 @@
-<section class="contact-section">
+<section class="contact-section" style="padding-top: 130px;">
   <div class="container">
     <div class="row align-items-start contact-row">
       <!-- Left Section: Contact Text -->
@@ -38,7 +38,7 @@
 
   @media (min-width:1200px) {
     .contact-section {
-      height: 410px;
+      height: 500px;
       overflow: visible;
     }
   }
@@ -62,7 +62,7 @@
 
 
   .contact-title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 300;
     color: #ffffff;
     margin-bottom: 20px;
@@ -340,10 +340,6 @@
 
   <div class="faq-header">
     <h1 class="faq-title">Explore your financial queries answered</h1>
-    <a href="#" class="contact-link right-arrow hvr-underline-from-left">
-      Contact Us
-      <img src="assets/img/arrow.svg" alt="arrow">
-    </a>
   </div>
 
   <div class="row">

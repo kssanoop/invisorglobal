@@ -66,7 +66,7 @@
 </style>
 
 <div class="banner-section">
-    <div class="container-fluid p-0">
+    <div class="container-fluid pt-5">
         <div class="container">
             <div class="row g-0">
                 <!-- Content Column -->
@@ -98,9 +98,9 @@
 
         <div class="card-container">
             <!-- Training Card 1 -->
-            <div class="card service-card">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                        <h5 class="card-title"> Functional Training</h5>
+                        <h5 class="card-title hvr-sweep-to-right"> Functional Training</h5>
                     </div>
                     <div class="card-bdy">
                         <p class="card-text">Designed for clients, end-users, and business owners aiming for in-depth
@@ -114,9 +114,9 @@
             </div>
 
             <!-- Training Card 2 -->
-            <div class="card service-card">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                        <h5 class="card-title">Technical Training</h5>
+                        <h5 class="card-title hvr-sweep-to-right">Technical Training</h5>
                     </div>
                     <div class="card-bdy">
                         <p class="card-text">Designed for IT professionals and new developers interested in customising
@@ -130,9 +130,9 @@
             </div>
 
             <!-- Training Card 3 -->
-            <div class="card service-card">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                        <h5 class="card-title">Corporate Training</h5>
+                        <h5 class="card-title hvr-sweep-to-right">Corporate Training</h5>
                     </div>
                     <div class="card-bdy">
                         <p class="card-text">Our corporate training is designed for businesses utilising Zoho and those
@@ -326,7 +326,7 @@
 
     .contact-text h1 {
         color: #fff;
-        font-size: 36px;
+        font-size: 2rem;
         font-weight: 300;
         margin-bottom: 1.5rem;
         line-height: 1.2;

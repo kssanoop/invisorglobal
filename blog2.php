@@ -1,8 +1,8 @@
 <div class="container blog1">
     <h1 class="post-title">
-    Zoho Implementation Success Stories: Real-World Examples of Business Transformation</h1>
+    Why Zoho? Uncover the Key Benefits of Zoho Implementation</h1>
     <div class="post-image">
-        <img src="assets/img/blog2.jpg" alt="Retirement Celebration">
+        <img src="assets/img/blog1.jpg" alt="Retirement Celebration">
     </div>
 </div>
 
@@ -10,7 +10,7 @@
      .blog1 {
             max-width: 900px;
             margin: 0 auto;
-            padding: 20px;
+            padding:80px 20px 0;
         }
 
         /* Title styling */
@@ -22,6 +22,12 @@
             margin-top: 20px;
             margin-bottom: 20px;
         }
+        @media (max-width:991px) {
+  .post-title {
+    font-size: 1.5rem;
+
+  }
+}
 
         /* Image styling */
         .post-image {
@@ -117,9 +123,9 @@
 
 <div class="inner-blog">
   <div class="container">
-    <h2 class="blog-title">Why Zoho? Uncover the Key Benefits of Zoho Implementation</h2>
     <p class="blog-intro">
-      When it comes to business operations, efficiency, integration, and simplicity are key. Zoho provides an array of integrated software applications designed to manage various facets of a business, all within a single ecosystem. Let’s dive into how each Zoho application can transform your business.
+    When it comes to business operations, efficiency, integration, and simplicity are key. Zoho provides an array of integrated software applications designed to manage various facets of a business, all within a single ecosystem. From customer relationships and accounting to inventory management and business intelligence, Zoho’s platform offers immense benefits. Let’s dive into how each Zoho application can transform your business.
+
     </p>
 
     <div class="blog-content">
@@ -252,6 +258,12 @@
           </div>
         </div>
       </div>
+      <div class="blog-conclusion">
+        </h4>
+        <p>Choosing Zoho for your business means choosing integration, efficiency, and growth. Each Zoho application brings unique benefits, whether it’s strengthening customer relationships, optimising finances, or streamlining HR processes. Implementing Zoho with the help of an experienced partner like Invisor will ensure you get the maximum value, making the transition seamless and empowering your business to reach new heights.
+
+        </p>
+      </div>
 
     </div>
   </div>
@@ -264,6 +276,13 @@
       margin: 0 auto;
       padding: 3rem 1.5rem;
     }
+    @media (min-width:992px) {
+    .blog-item {position: relative;
+      height: 390px;
+      max-height: 400px;
+    }
+    .blog-item .read-more{position: absolute;bottom: 20px;}
+  }
 
     .blog-section h5 {
       color: var(--accent-color);
@@ -412,7 +431,7 @@
     <div class="row">
       <!-- Blog Item 1 -->
       <div class="col-md-4 col-sm-6 col-12">
-        <a href="?page=blog1">
+        <a href="?page=blog2">
           <div class="blog-item hvr-underline-from-left">
             <div class="blog-image">
               <img src="assets/img/blog1.jpg" alt="Retirement Planning 101">
@@ -427,7 +446,7 @@
 
       <!-- Blog Item 2 -->
       <div class="col-md-4 col-sm-6 col-12">
-        <a href="?page=blog2">
+        <a href="?page=blog1">
           <div class="blog-item hvr-underline-from-left">
             <div class="blog-image">
               <img src="assets/img/blog2.jpg" alt="Retirement Planning 101">

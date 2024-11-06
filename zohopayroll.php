@@ -2,7 +2,7 @@
     /* General container and layout */
     .zoho-one {
         margin: 0 auto;
-        padding: 30px 10px 0;
+        padding: 70px 10px 0;
     }
 
     .service-section {
@@ -67,6 +67,12 @@
         font-size: 2.5rem;
         font-weight: 300;
     }
+    @media (max-width:767px) {
+  .dashboard-title {
+        font-size: 2.1rem;
+    }
+
+}
 
     .dashboard-description {
         width: 80%;
@@ -309,7 +315,7 @@
 
       .contact-text h1 {
         color: #fff;
-        font-size: 36px;
+        font-size: 2rem;
         font-weight: 300;
         margin-bottom: 1.5rem;
         line-height: 1.2;
@@ -526,6 +532,12 @@
         margin-bottom: 50px;
         color: #1d1d1d;
     }
+    @media (max-width:767px) {
+  .why-choose-title {
+        font-size: 2rem;
+    }
+
+}
 
     .why-choose-grid {
         display: grid;
@@ -585,7 +597,260 @@ color-mix(in srgb, var(--default-color), transparent 85%);
 
 
 
-    <!-- ============================================================ -->
+<!-- ================================================================== -->
+
+<div class="service-cmn container-fluid">
+  <div class="container">
+    <h2 class="services-title">Why Choose Invisor as Your Zoho Partner?</h2>
+    <p>At Invisor, we do more than just implement software—we help businesses transform. With our deep expertise and
+      hands-on approach, we’ll guide you through every stage of your Zoho journey, from planning and setup to support
+      and optimization</p>
+    <div class="service-cards" data-aos="zoom-in-up">
+      <div class="swiper-container" style="overflow: hidden;">
+        <div class="swiper-wrapper">
+          <!-- Card 1 -->
+          <div class="swiper-slide">
+              <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
+                <div class="card-body">
+                  <div class="card-top">
+                    <h5 class="card-title hvr-sweep-to-right">Understanding your business needs</h5>
+                  </div>
+                  <div class="card-bdy">
+                    <p class="card-text">We start by thoroughly analysing your business processes to identify key areas
+                      where Zoho can add value. Our team ensures that the Zoho applications are aligned with your unique
+                      goals and operational workflows.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- Additional cards follow similar structure -->
+          <!-- Card 2 -->
+          <div class="swiper-slide">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
+              <div class="card-body">
+                <div class="card-top">
+                  <h5 class="card-title hvr-sweep-to-right">Tailored Customisation</h5>
+                </div>
+                <div class="card-bdy">
+                  <p class="card-text">Our experts customise Zoho solutions to fit your business requirements. We
+                    configure automation, workflows, and custom features while seamlessly integrating them with your
+                    existing systems to enhance efficiency.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="swiper-slide">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
+              <div class="card-body">
+                <div class="card-top">
+                  <h5 class="card-title hvr-sweep-to-right">Streamlined Integration Process</h5>
+                </div>
+                <div class="card-bdy">
+                  <p class="card-text">Our integration process connects Zoho with your existing tools, creating a
+                    unified platform for data flow across departments. We manage third-party integrations and ensure
+                    that all systems work together harmoniously.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div class="swiper-slide">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
+              <div class="card-body">
+                <div class="card-top">
+                  <h5 class="card-title hvr-sweep-to-right">Comprehensive Training for Your Team</h5>
+                </div>
+                <div class="card-bdy">
+                  <p class="card-text">Once the system is live, we provide hands-on training to your staff, ensuring
+                    they are fully equipped to use Zoho’s tools effectively. Tailored training sessions ensure each
+                    department can maximise the platform’s potential.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="swiper-slide">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
+              <div class="card-body">
+                <div class="card-top">
+                  <h5 class="card-title hvr-sweep-to-right">Continuous Support and Optimization</h5>
+                </div>
+                <div class="card-bdy">
+                  <p class="card-text">Beyond implementation, we offer ongoing support to keep your Zoho system
+                    optimised. Our team provides updates, resolves issues, and ensures your platform evolves with your
+                    business needs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="swiper-slide">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
+              <div class="card-body">
+                <div class="card-top">
+                  <h5 class="card-title hvr-sweep-to-right">Secure Data Transition</h5>
+                </div>
+                <div class="card-bdy">
+                  <p class="card-text">We ensure a smooth migration of your data into Zoho, with a focus on accuracy and
+                    security. Our team validates the data and guarantees its integrity throughout the migration process.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- More service cards can be added here as needed -->
+        </div>
+
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- Add Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  /* Positioning */
+.swiper-button-next {
+  right: 0px;
+  /* Place the next button 20px from the right */
+}
+
+.swiper-button-prev {
+  left: 0px;
+  /* Place the prev button 20px from the left */
+}
+@media (min-width:1200px) {
+  .swiper-button-next {
+  right: -30px !important;
+  /* Place the next button 20px from the right */
+}
+
+.swiper-button-prev {
+  left: -30px;
+  /* Place the prev button 20px from the left */
+}
+
+}
+  .service-cmn {
+    position: relative;
+    padding: 50px 0;
+  }
+
+  .service-cmn .card-body {
+    background-color: #fff;
+    padding: 0;
+  }
+
+  .service-cmn .card-bdy {
+    padding: 0 20px 20px;
+  }
+
+  .service-cmn .services-title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  .service-cmn .services-badge {
+    color: var(--accent-color);
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  /* Service Cards */
+  .service-cmn .service-card {
+    border: none;
+    border-radius: 8px;
+    height: 275px;
+    max-height: 350px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: all 0.3s ease;
+  }
+
+  .service-cmn .card:before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -30px;
+    right: -30px;
+    background: linear-gradient(135deg, #e1e1e1, #f3f3f3);
+    height: 32px;
+    width: 32px;
+    border-radius: 0;
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform 0.35s ease-out;
+    rotate: 45deg;
+  }
+
+  .service-cmn .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(99, 99, 99, 0.3) 0px 4px 12px 0px;
+  }
+
+  .service-cmn .service-card .card-title {
+    color: #fff;
+    font-weight: 500;
+    padding: 20px;
+    font-size: 18px;
+    margin-bottom: 15px;
+    background-color: var(--accent-color);
+    height: 75px;
+    text-align: center;display: flex;align-items: center;justify-content: center;
+  }
+
+  .service-cmn .service-card .card-text {
+    text-align: justify;
+    color: #1d1d1dcc;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+
+  .service-cmn .service-card .btn-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0;
+  }
+
+  /* Responsive Styles */
+  @media (max-width:767px) {
+    .service-cmn .service-card {
+      height: auto;
+      width: 80%;
+      margin: auto;
+      display: block;
+    }
+  }
+
+  @media (min-width:767px) and (max-width:991px) {
+    .service-cmn .service-card {
+      height: 300px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .service-cmn .services-title {
+      font-size: 2rem;
+    }
+
+    .service-cmn .service-card .card-title {
+      font-size: 1.1rem;
+    }
+
+    .service-cmn .service-card .card-text {
+      font-size: 0.9rem;
+    }
+  }
+</style>
+
+<!-- ================================================================== -->
 
 
 

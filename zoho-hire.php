@@ -65,7 +65,7 @@
 </style>
 
 <div class="banner-section">
-    <div class="container-fluid p-0">
+    <div class="container-fluid pt-5">
         <div class="container">
             <div class="row g-0">
                 <!-- Content Column -->
@@ -104,10 +104,10 @@
 
         <div class="card-container">
             <!-- Training Card 1 -->
-            <div class="card service-card">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                 <div class="card-body">
                     <div class="card-top">
-                        <h5 class="card-title">Hire
+                        <h5 class="card-title hvr-sweep-to-right">Hire
                         </h5>
                     </div>
                     <div class="card-bdy">
@@ -118,10 +118,10 @@
             </div>
 
             <!-- Training Card 2 -->
-            <div class="card service-card">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                 <div class="card-body">
                     <div class="card-top">
-                        <h5 class="card-title">Assign
+                        <h5 class="card-title hvr-sweep-to-right">Assign
                         </h5>
                     </div>
                     <div class="card-bdy">
@@ -133,10 +133,10 @@
             </div>
 
             <!-- Training Card 3 -->
-            <div class="card service-card">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                 <div class="card-body">
                     <div class="card-top">
-                        <h5 class="card-title">Get Output
+                        <h5 class="card-title hvr-sweep-to-right">Get Output
                         </h5>
                     </div>
                     <div class="card-bdy">
@@ -471,7 +471,7 @@
             <h1>Our Zoho Support Includes
 
             </h1>
-            <p>Experience comprehensive Zoho support with our top-tier consultants. From impeccable coding to complete project management, we've got you covered.
+            <p>Experience comprehensive Zoho support with our top-tier consultants. From seamless integration to complete project management, we've got you covered.
 
 
             </p>

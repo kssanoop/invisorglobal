@@ -265,7 +265,7 @@
       max-width: 80px !important;
     }
 
-    .services-section .contact-btn {
+    .services-section .contact-btn {width: 60%;
       justify-content: left !important;
       display: inline-flex;
       align-items: center;
@@ -325,17 +325,17 @@
               <!-- Card 1 -->
               <div class="swiper-slide">
                 <a href="?page=zohoone">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
                       <a href="?page=zohoone">
-                        <h5 class="card-title">Zoho One
+                        <h5 class="card-title hvr-sweep-to-right">Zoho One
                         </h5>
                       </a>
                     </div>
                     <div class="card-bdy">
-                      <p class="card-text">An all-in-one suite offering 50+ integrated apps to run your entire
+                      <a href="?page=zohoone"><p class="card-text">An all-in-one suite offering 50+ integrated apps to run your entire
                         business
-                        from one platform.</p>
+                        from one platform.</p></a>
                     </div>
                     <div class="tab-bottom">
                       <a href="?page=zohoone" class="btn btn-link contact-btn">Learn more <i
@@ -349,9 +349,9 @@
               <!-- Card 2 -->
               <div class="swiper-slide">
                 <a href="?page=zohocrm">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                      <h5 class="card-title">Zoho CRM</h5>
+                      <h5 class="card-title hvr-sweep-to-right">Zoho CRM</h5>
                     </div>
                     <div class="card-bdy">
                       <p class="card-text">A powerful CRM tool to manage sales, marketing, and customer support,
@@ -369,9 +369,9 @@
               <!-- Card 3 -->
               <div class="swiper-slide">
                 <a href="?page=zohobooks">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                      <h5 class="card-title">Zoho Books
+                      <h5 class="card-title hvr-sweep-to-right">Zoho Books
                       </h5>
                     </div>
                     <div class="card-bdy">
@@ -391,9 +391,9 @@
               <!-- Card 4 -->
               <div class="swiper-slide">
                 <a href="?page=zohoinventory">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                      <h5 class="card-title">Zoho Inventory
+                      <h5 class="card-title hvr-sweep-to-right">Zoho Inventory
                       </h5>
                     </div>
                     <div class="card-bdy">
@@ -413,9 +413,9 @@
               <!-- Card 5 -->
               <div class="swiper-slide">
                 <a href="?page=zohoanalytics">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                      <h5 class="card-title">Zoho Analytics</h5>
+                      <h5 class="card-title hvr-sweep-to-right">Zoho Analytics</h5>
                     </div>
                     <div class="card-bdy">
                       <p class="card-text">A business intelligence platform offering deep data insights with
@@ -434,9 +434,9 @@
               <!-- Card 6 -->
               <div class="swiper-slide">
                 <a href="?page=zohocreator">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                      <h5 class="card-title">Zoho creator
+                      <h5 class="card-title hvr-sweep-to-right">Zoho creator
                       </h5>
                     </div>
                     <div class="card-bdy">
@@ -456,9 +456,9 @@
               <!-- Card 6 -->
               <div class="swiper-slide">
                 <a href="?page=zohoprojects">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                      <h5 class="card-title">Zoho projects
+                      <h5 class="card-title hvr-sweep-to-right">Zoho projects
 
                       </h5>
                     </div>
@@ -479,9 +479,9 @@
               <!-- Card 6 -->
               <div class="swiper-slide">
                 <a href="?page=zohodesk">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                      <h5 class="card-title">Zoho Desk
+                      <h5 class="card-title hvr-sweep-to-right">Zoho Desk
 
                       </h5>
                     </div>
@@ -503,9 +503,9 @@
               <!-- Card 6 -->
               <div class="swiper-slide">
                 <a href="?page=zohopeople">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                      <h5 class="card-title">Zoho People
+                      <h5 class="card-title hvr-sweep-to-right">Zoho People
 
                       </h5>
                     </div>
@@ -526,9 +526,9 @@
               <!-- Card 6 -->
               <div class="swiper-slide">
                 <a href="?page=zohopayroll">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                      <h5 class="card-title">Zoho Payroll
+                      <h5 class="card-title hvr-sweep-to-right">Zoho Payroll
                       </h5>
                     </div>
                     <div class="card-bdy">
@@ -562,18 +562,18 @@
               <!-- Card 1 -->
               <div class="swiper-slide">
                 <a href="?page=zoho-training">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
                       <a href="?page=zoho-training">
-                        <h5 class="card-title">Functional Training
+                        <h5 class="card-title hvr-sweep-to-right">Functional Training
 
                         </h5>
                       </a>
                     </div>
                     <div class="card-bdy">
-                      <p class="card-text">Designed for clients, end-users, and business owners aiming for in-depth
+                      <a href="?page=zoho-training"><p class="card-text">Designed for clients, end-users, and business owners aiming for in-depth
                         functional knowledge of Zoho.
-                      </p>
+                      </p></a>
                     </div>
                     <div class="tab-bottom">
                       <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
@@ -587,15 +587,15 @@
               <!-- Card 2 -->
               <div class="swiper-slide">
                 <a href="?page=zoho-training">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                      <h5 class="card-title">Technical Training
+                      <h5 class="card-title hvr-sweep-to-right">Technical Training
                       </h5>
                     </div>
                     <div class="card-bdy">
-                      <p class="card-text">Designed for IT professionals and new developers interested in customising
+                      <a href="?page=zoho-training"><p class="card-text">Designed for IT professionals and new developers interested in customising
                         and developing with Zoho, this training covers:
-                      </p>
+                      </p></a>
                     </div>
                     <div class="tab-bottom">
                       <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
@@ -608,9 +608,9 @@
               <!-- Card 3 -->
               <div class="swiper-slide">
                 <a href="?page=zoho-training">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                      <h5 class="card-title">Corporate Training
+                      <h5 class="card-title hvr-sweep-to-right">Corporate Training
 
                       </h5>
                     </div>
@@ -644,18 +644,18 @@
               <!-- Card 1 -->
               <div class="swiper-slide">
                 <a href="?page=zoho-support">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
                       <a href="?page=zoho-support">
-                        <h5 class="card-title">Zoho Support & Maintenance
+                        <h5 class="card-title hvr-sweep-to-right">Zoho Support & Maintenance
 
                         </h5>
                       </a>
                     </div>
                     <div class="card-bdy">
-                      <p class="card-text"> Invisor’s expert team offers end-to-end Zoho support, resolving technical
+                      <a href="?page=zoho-support"><p class="card-text"> Invisor’s expert team offers end-to-end Zoho support, resolving technical
                         issues and providing tailored solutions to enhance your business.
-                      </p>
+                      </p></a>
                     </div>
                     <div class="tab-bottom">
                       <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
@@ -665,16 +665,13 @@
                   </div>
                 </a>
               </div>
-              <!-- Card 1 -->
               <div class="swiper-slide">
                 <a href="?page=zoho-support">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                      <a href="?page=zoho-support">
-                        <h5 class="card-title">Responsive Support
+                      <h5 class="card-title hvr-sweep-to-right">Zoho AMC Service
 
-                        </h5>
-                      </a>
+                      </h5>
                     </div>
                     <div class="card-bdy">
                       <p class="card-text">Get timely assistance for any Zoho-related queries or issues.
@@ -689,60 +686,18 @@
                   </div>
                 </a>
               </div>
-              <!-- Card 2 -->
-              <div class="swiper-slide">
-                <a href="?page=zoho-support">
-                  <div class="card service-card hvr-underline-from-left">
-                    <div class="card-top">
-                      <h5 class="card-title">Expert Guidance
-                      </h5>
-                    </div>
-                    <div class="card-bdy">
-                      <p class="card-text">Benefit from our team's extensive knowledge and experience with Zoho
-                        applications.
-                      </p>
-                    </div>
-                    <div class="tab-bottom">
-                      <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
-                          class="bi bi-arrow-right-short"></i></a>
-                    </div>
 
-                  </div>
-                </a>
-              </div>
               <!-- Card 3 -->
               <div class="swiper-slide">
                 <a href="?page=zoho-support">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                      <h5 class="card-title">Customised Solutions
+                      <h5 class="card-title hvr-sweep-to-right">Customised Solutions
 
                       </h5>
                     </div>
                     <div class="card-bdy">
                       <p class="card-text">We tailor our support to meet the specific needs of your business.
-
-                      </p>
-                    </div>
-                    <div class="tab-bottom">
-                      <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
-                          class="bi bi-arrow-right-short"></i></a>
-                    </div>
-
-                  </div>
-                </a>
-              </div>
-              <!-- Card 4 -->
-              <div class="swiper-slide">
-                <a href="?page=zoho-support">
-                  <div class="card service-card hvr-underline-from-left">
-                    <div class="card-top">
-                      <h5 class="card-title">Proactive Monitoring
-
-                      </h5>
-                    </div>
-                    <div class="card-bdy">
-                      <p class="card-text">Stay ahead of potential issues with our regular system checks.
 
                       </p>
                     </div>
@@ -771,20 +726,22 @@
               <!-- Card 1 -->
               <div class="swiper-slide">
                 <a href="?page=zoho-hire">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
                       <a href="?page=zoho-hire">
-                        <h5 class="card-title">Hire
+                        <h5 class="card-title hvr-sweep-to-right">Hire
 
 
                         </h5>
                       </a>
                     </div>
                     <div class="card-bdy">
+                    <a href="?page=zoho-hire">
+
                       <p class="card-text"> Hire Dedicated & Certified Zoho consultants From Invisor on Contract Basis
                         For Short Term Or Long Term.
 
-                      </p>
+                      </p></a>
                     </div>
                     <div class="tab-bottom">
                       <a href="?page=zoho-hire" class="btn btn-link contact-btn">Learn more <i
@@ -797,18 +754,20 @@
               <!-- Card 1 -->
               <div class="swiper-slide">
                 <a href="?page=zoho-hire">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
                       <a href="?page=zoho-hire">
-                        <h5 class="card-title">Assign
+                        <h5 class="card-title hvr-sweep-to-right">Assign
 
                         </h5>
                       </a>
                     </div>
                     <div class="card-bdy">
+                    <a href="?page=zoho-hire">
+
                       <p class="card-text">Assign Your Tasks And Manage Our Resources According to Your Project Plan.
 
-                      </p>
+                      </p></a>
                     </div>
                     <div class="tab-bottom">
                       <a href="?page=zoho-hire" class="btn btn-link contact-btn">Learn more <i
@@ -821,16 +780,17 @@
               <!-- Card 2 -->
               <div class="swiper-slide">
                 <a href="?page=zoho-hire">
-                  <div class="card service-card hvr-underline-from-left">
+                  <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                      <h5 class="card-title">Get Output
+                      <h5 class="card-title hvr-sweep-to-right">Get Output
 
                       </h5>
                     </div>
                     <div class="card-bdy">
-                      <p class="card-text">Get Outputs on Time And Deliver It to Clients successfully.
+                    <a href="?page=zoho-hire">
+                    <p class="card-text">Get Outputs on Time And Deliver It to Clients successfully.
 
-                      </p>
+                      </p></a>
                     </div>
                     <div class="tab-bottom">
                       <a href="?page=zoho-hire" class="btn btn-link contact-btn">Learn more <i
@@ -896,7 +856,7 @@
       <a href="?page=about">
         <div class="lern-more" style="width: 50%;margin: auto;display: block;">
           <span class="arrow" style="color: #fff;">→</span>
-          <div class="learn-more-text">Get a glimpse into our team and work ethics</div>
+          <div class="learn-more-text">Get a glimpse into our team and work ethic</div>
         </div>
       </a>
     </div>
@@ -947,7 +907,11 @@
       font-weight: 500;
       line-height: 1.2;
     }
+@media (max-width:767px) {
+  .about-heading {
+      font-size: 1.6rem;}
 
+}
     .about-description {
       color: #1d1d1dcc;
       font-weight: 300;
@@ -1090,7 +1054,6 @@
                   "
                 </p>
                 <div class="client-info">
-                  <img src="assets/img/team/Xavier-photo.jpg" alt="Andrew McArthur" class="client-photo">
                   <div class="client-details">
                     <p class="client-name">Xavier Tom Joseph</p>
                     <p class="client-title"> CEO Happix </p>
@@ -1108,10 +1071,9 @@
                   "
                 </p>
                 <div class="client-info">
-                  <img src="assets/img/team/team-3.jpg" alt="Andrew McArthur" class="client-photo">
                   <div class="client-details">
-                    <p class="client-name">Andrew McArthur</p>
-                    <p class="client-title"> CEO Netflix </p>
+                    <p class="client-name">Christopher Bryn Murray</p>
+                    <p class="client-title">Vamoose Electric Cycle Ltd</p>
                   </div>
                 </div>
               </div>
@@ -1127,10 +1089,9 @@
                   goals. "
                 </p>
                 <div class="client-info">
-                  <img src="assets/img/team/team-1.jpg" alt="Andrew McArthur" class="client-photo">
                   <div class="client-details">
-                    <p class="client-name">Andrew McArthur</p>
-                    <p class="client-title">CEO</p>
+                    <p class="client-name">Tarun Tadepalli</p>
+                    <p class="client-title">Zelecloud</p>
                   </div>
                 </div>
               </div>
@@ -1145,10 +1106,9 @@
                   empowered our team with the knowledge and tools to maximise the system's potential."
                 </p>
                 <div class="client-info">
-                  <img src="assets/img/team/team-1.jpg" alt="Andrew McArthur" class="client-photo">
                   <div class="client-details">
                     <p class="client-name">Andrew McArthur</p>
-                    <p class="client-title">PROJECT MANAGER</p>
+                    <p class="client-title">Al Farha Coal Ind LLC</p>
                   </div>
                 </div>
               </div>
@@ -1165,10 +1125,9 @@
                   results. "
                 </p>
                 <div class="client-info">
-                  <img src="assets/img/team/team-1.jpg" alt="Andrew McArthur" class="client-photo">
                   <div class="client-details">
-                    <p class="client-name">Andrew McArthur</p>
-                    <p class="client-title">IT DIRECTOR</p>
+                    <p class="client-name">Arunkumar</p>
+                    <p class="client-title">Asala of East Gulf LLC</p>
                   </div>
                 </div>
               </div>
@@ -1184,10 +1143,9 @@
                   board. "
                 </p>
                 <div class="client-info">
-                  <img src="assets/img/team/team-1.jpg" alt="Andrew McArthur" class="client-photo">
                   <div class="client-details">
                     <p class="client-name">Andrew McArthur</p>
-                    <p class="client-title">CEO DHL</p>
+                    <p class="client-title">Frenzimpex Building Materials Trading LLC</p>
                   </div>
                 </div>
               </div>
@@ -1250,8 +1208,10 @@
 
     @media (min-width:768px) {
       .testimonial-card {
-        height: 280px;
-        max-height: 320px;
+        height: 250px;
+        max-height: 310px;
+      }
+      .testimonial-text {text-align: justify;
       }
     }
 
@@ -1264,28 +1224,25 @@
 
     .client-info {
       display: flex;
-      align-items: center;
+      align-items: center;justify-content: center;
     }
 
-    .client-photo {
-      width: 50px;
-      height: 50px;
-      object-fit: cover;
-      margin-right: 10px;
-    }
 
     .client-details {
       text-align: left;
     }
-
-    .client-name {
+@media (min-width:768px) {
+  .client-details {position: absolute;bottom: 20px;
+  }
+}
+    .client-name {text-align: center;
       font-size: 16px;
       font-weight: bold;
       color: #333;
       margin-bottom: 0;
     }
 
-    .client-title {
+    .client-title {text-align: center;
       font-size: 14px;
       color: #999;
     }
@@ -1439,7 +1396,29 @@
       font-size: 1.125rem;
       transition: all 0.3s ease;
     }
+@media (max-width:420px) {
+  .contact-btn {
+      width: 40%;
+      background-color: #fff;
+      color: var(--accent-color);
+      padding: 10px 15px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 500;
+      text-align: center;
+      position: relative;
+      transition: all var(--transition-speed) ease;
+      clip-path: polygon(0 0, 85% 0, 90% 100%, 0% 100%);
+    }
+}
+@media (max-width:360px) {
+  .contact-btn {
+clip-path: none; width: 60%; }
+  .contact-footer {justify-content: center;
 
+  }
+  .phone-details{margin-bottom: 20px;}
+}
     .phone-details img {
       transition: transform 0.6s ease;
       /* Smooth rotation */
@@ -1519,7 +1498,7 @@
         <a href="#" class="contact-btn">Contact Us <i class="bi bi-arrow-right-short"></i></a>
         <div class="phone-details">
           <img src="assets/img/phonecall.svg" alt="">
-          <span>+574 7348 531</span>
+          <span><a href="tel:+918136826665"></a>+91 81368 26665</span>
         </div>
       </div>
     </div>
@@ -1659,8 +1638,11 @@
       }
 
     }
-
-    @media (min-width:1010px) {
+    @media (min-width: 768px) and (max-width: 991px) {
+    .blog-section h3 {
+        font-size: 1rem !important;
+    }
+}    @media (min-width:1010px) {
       .blog-item {
         height: 390px;
         max-height: 400px;
@@ -1685,8 +1667,8 @@
 
     <div class="row">
       <!-- Blog Item 1 -->
-      <div class="col-md-4 col-sm-6 col-12">
-        <a href="?page=blog1">
+      <div class="col-md-4 col-12">
+        <a href="?page=blog2">
           <div class="blog-item hvr-underline-from-left">
             <div class="blog-image">
               <img src="assets/img/blog1.jpg" alt="Retirement Planning 101">
@@ -1700,8 +1682,8 @@
       </div>
 
       <!-- Blog Item 2 -->
-      <div class="col-md-4 col-sm-6 col-12">
-        <a href="?page=blog2">
+      <div class="col-md-4 col-12">
+        <a href="?page=blog1">
           <div class="blog-item hvr-underline-from-left">
             <div class="blog-image">
               <img src="assets/img/blog2.jpg" alt="Retirement Planning 101">
@@ -1716,7 +1698,7 @@
       </div>
 
       <!-- Blog Item 3 -->
-      <div class="col-md-4 col-sm-6 col-12">
+      <div class="col-md-4 col-12">
         <a href="?page=blog3">
           <div class="blog-item hvr-underline-from-left">
             <div class="blog-image">
@@ -1862,7 +1844,7 @@
       }
 
       .contact-link {
-        margin-top: 1rem;
+        margin-left: auto;
       }
     }
   </style>
@@ -2203,3 +2185,15 @@
   </div>
 
 </main>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      setTimeout(function () {
+        if ($(window).scrollTop() === 0) {
+          var scrollAmount = $(document).height() * 0.09;
+          $('html, body').animate({ scrollTop: scrollAmount }, 1000);
+        }
+      }, 5000);
+    });
+  </script>

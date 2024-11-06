@@ -2,7 +2,7 @@
   /* General container and layout */
   .zoho-one {
     margin: 0 auto;
-    padding: 30px 10px 0;
+    padding: 70px 10px 0;
   }
 
   .service-section {
@@ -39,7 +39,7 @@
         </p>
         <a class="hover-button mt-2" href="#newsletter">Learn more</a>
         </div>
-      <div class="col-md-6" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+      <div class="col-md-6 m-auto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
 
         <img src="assets/img/dashboard-sm.png" alt="Zoho One Image" class="service-image">
 
@@ -78,7 +78,7 @@
 <!-- Features Section -->
 <section id="features" class="features section">
   <!-- Section Title -->
-  <div class="container section-title about-head mt-5" data-aos="fade-up">
+  <div class="container section-title about-head" data-aos="fade-up">
     <h3 style="font-weight: 300;">List of Zoho One's Business Management Software Tools</h3>
     <p>All apps under Zoho One are consistent in their approach in terms of usability and design. This means the
       learning curve is lessened and different functionalities use data from other apps, so your data flows smoothly
@@ -219,7 +219,7 @@
       <div class="tab-pane fade" id="features-tab-4">
         <div class="row gy-4">
           <div class="col-lg-7 order-2 order-lg-1">
-            <p>Our HR-based apps allow you to fill job openings, do resume parsing, conduct interviews, send offer
+            <p>Zoho's HR-based apps allow you to fill job openings, do resume parsing, conduct interviews, send offer
               letters, onboard new employees, create company-wide policies, track in and out times, and manage time off.
               Create a collaborative office culture with a cloud office suite and an internal social network. Create a
               great employee experience!
@@ -495,13 +495,10 @@
   </div>
 
 </section><!-- /Call To Action Section -->
+<!-- ================================================================== -->
 
 <div class="service-cmn container-fluid">
   <div class="container">
-    <div class="title-top">
-      <div class="title-dot"></div>
-      <div class="trust-badge">SERVICES</div>
-    </div>
     <h2 class="services-title">Why Choose Invisor as Your Zoho Partner?</h2>
     <p>At Invisor, we do more than just implement software—we help businesses transform. With our deep expertise and
       hands-on approach, we’ll guide you through every stage of your Zoho journey, from planning and setup to support
@@ -511,11 +508,10 @@
         <div class="swiper-wrapper">
           <!-- Card 1 -->
           <div class="swiper-slide">
-            <a href="?page=zohoone">
-              <div class="card service-card hvr-underline-from-left">
+              <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                 <div class="card-body">
                   <div class="card-top">
-                    <h5 class="card-title">Understanding your business needs</h5>
+                    <h5 class="card-title hvr-sweep-to-right">Understanding your business needs</h5>
                   </div>
                   <div class="card-bdy">
                     <p class="card-text">We start by thoroughly analysing your business processes to identify key areas
@@ -524,15 +520,14 @@
                   </div>
                 </div>
               </div>
-            </a>
           </div>
           <!-- Additional cards follow similar structure -->
           <!-- Card 2 -->
           <div class="swiper-slide">
-            <div class="card service-card hvr-underline-from-left">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
               <div class="card-body">
                 <div class="card-top">
-                  <h5 class="card-title">Tailored Customisation</h5>
+                  <h5 class="card-title hvr-sweep-to-right">Tailored Customisation</h5>
                 </div>
                 <div class="card-bdy">
                   <p class="card-text">Our experts customise Zoho solutions to fit your business requirements. We
@@ -544,10 +539,10 @@
           </div>
           <!-- Card 3 -->
           <div class="swiper-slide">
-            <div class="card service-card hvr-underline-from-left">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
               <div class="card-body">
                 <div class="card-top">
-                  <h5 class="card-title">Streamlined Integration Process</h5>
+                  <h5 class="card-title hvr-sweep-to-right">Streamlined Integration Process</h5>
                 </div>
                 <div class="card-bdy">
                   <p class="card-text">Our integration process connects Zoho with your existing tools, creating a
@@ -559,10 +554,10 @@
           </div>
           <!-- Card 4 -->
           <div class="swiper-slide">
-            <div class="card service-card hvr-underline-from-left">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
               <div class="card-body">
                 <div class="card-top">
-                  <h5 class="card-title">Comprehensive Training for Your Team</h5>
+                  <h5 class="card-title hvr-sweep-to-right">Comprehensive Training for Your Team</h5>
                 </div>
                 <div class="card-bdy">
                   <p class="card-text">Once the system is live, we provide hands-on training to your staff, ensuring
@@ -574,10 +569,10 @@
           </div>
           <!-- Card 5 -->
           <div class="swiper-slide">
-            <div class="card service-card hvr-underline-from-left">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
               <div class="card-body">
                 <div class="card-top">
-                  <h5 class="card-title">Continuous Support and Optimization</h5>
+                  <h5 class="card-title hvr-sweep-to-right">Continuous Support and Optimization</h5>
                 </div>
                 <div class="card-bdy">
                   <p class="card-text">Beyond implementation, we offer ongoing support to keep your Zoho system
@@ -589,10 +584,10 @@
           </div>
           <!-- Card 6 -->
           <div class="swiper-slide">
-            <div class="card service-card hvr-underline-from-left">
+            <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
               <div class="card-body">
                 <div class="card-top">
-                  <h5 class="card-title">Secure Data Transition</h5>
+                  <h5 class="card-title hvr-sweep-to-right">Secure Data Transition</h5>
                 </div>
                 <div class="card-bdy">
                   <p class="card-text">We ensure a smooth migration of your data into Zoho, with a focus on accuracy and
@@ -705,7 +700,7 @@
     margin-bottom: 15px;
     background-color: var(--accent-color);
     height: 75px;
-    text-align: center;
+    text-align: center;display: flex;align-items: center;justify-content: center;
   }
 
   .service-cmn .service-card .card-text {

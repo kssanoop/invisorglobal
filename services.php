@@ -70,7 +70,7 @@
 </style>
 
 <div class="banner-section">
-    <div class="container-fluid p-0">
+    <div class="container-fluid pt-5">
         <div class="container">
             <div class="row g-0">
                 <!-- Content Column -->
@@ -89,7 +89,7 @@
 
                 <!-- Image Column -->
                 <div class="col-md-6 image-col">
-                    <img src="assets/img/service-image.png" alt="Financial advisors"
+                    <img src="assets/img/service-img.webp" alt="Financial advisors"
                         class="img-fluid w-100 h-100 object-fit-cover">
                 </div>
             </div>
@@ -197,19 +197,19 @@
                 <!-- Card 1 -->
                 <div class="swiper-slide">
                     <a href="?page=zohoone">
-                        <div class="card service-card hvr-underline-from-left">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
-                                    <a href="">
-                                        <h5 class="card-title">Zoho One
+                                    <a href="?page=zohoone">
+                                        <h5 class="card-title hvr-sweep-to-right">Zoho One
                                         </h5>
                                     </a>
                                 </div>
                                 <div class="card-bdy">
-                                    <p class="card-text">An all-in-one suite offering 50+ integrated apps to run your
+                                    <a href="?page=zohoone"><p class="card-text">An all-in-one suite offering 50+ integrated apps to run your
                                         entire
                                         business
-                                        from one platform.</p>
+                                        from one platform.</p></a>
                                     <div class="tab-bottom">
                                         <a href="?page=zohoone" class="btn btn-link contact-btn">Learn more <i
                                                 class="bi bi-arrow-right-short"></i></a>
@@ -223,10 +223,10 @@
                 <!-- Card 2 -->
                 <div class="swiper-slide">
                     <a href="?page=zohocrm">
-                        <div class="card service-card hvr-underline-from-left">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
-                                    <h5 class="card-title">Zoho CRM</h5>
+                                    <h5 class="card-title hvr-sweep-to-right">Zoho CRM</h5>
                                 </div>
                                 <div class="card-bdy">
                                     <p class="card-text">A powerful CRM tool to manage sales, marketing, and customer
@@ -245,10 +245,10 @@
                 <!-- Card 3 -->
                 <div class="swiper-slide">
                     <a href="?page=zohobooks">
-                        <div class="card service-card hvr-underline-from-left">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
-                                    <h5 class="card-title">Zoho Books
+                                    <h5 class="card-title hvr-sweep-to-right">Zoho Books
                                     </h5>
                                 </div>
                                 <div class="card-bdy">
@@ -269,10 +269,10 @@
                 <!-- Card 4 -->
                 <div class="swiper-slide">
                     <a href="?page=zohoinventory">
-                        <div class="card service-card hvr-underline-from-left">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
-                                    <h5 class="card-title">Zoho Inventory
+                                    <h5 class="card-title hvr-sweep-to-right">Zoho Inventory
                                     </h5>
                                 </div>
                                 <div class="card-bdy">
@@ -293,10 +293,10 @@
                 <!-- Card 5 -->
                 <div class="swiper-slide">
                     <a href="?page=zohoanalytics">
-                        <div class="card service-card hvr-underline-from-left">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
-                                    <h5 class="card-title">Zoho Analytics</h5>
+                                    <h5 class="card-title hvr-sweep-to-right">Zoho Analytics</h5>
                                 </div>
                                 <div class="card-bdy">
                                     <p class="card-text">A business intelligence platform offering deep data insights
@@ -316,10 +316,10 @@
                 <!-- Card 6 -->
                 <div class="swiper-slide">
                     <a href="?page=zohocreator">
-                        <div class="card service-card hvr-underline-from-left">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
-                                    <h5 class="card-title">Zoho creator
+                                    <h5 class="card-title hvr-sweep-to-right">Zoho creator
                                     </h5>
                                 </div>
                                 <div class="card-bdy">
@@ -340,10 +340,10 @@
                 <!-- Card 6 -->
                 <div class="swiper-slide">
                     <a href="?page=zohoprojects">
-                        <div class="card service-card hvr-underline-from-left">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
-                                    <h5 class="card-title">Zoho projects
+                                    <h5 class="card-title hvr-sweep-to-right">Zoho projects
 
                                     </h5>
                                 </div>
@@ -365,10 +365,10 @@
                 <!-- Card 6 -->
                 <div class="swiper-slide">
                     <a href="?page=zohodesk">
-                        <div class="card service-card hvr-underline-from-left">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
-                                    <h5 class="card-title">Zoho Desk
+                                    <h5 class="card-title hvr-sweep-to-right">Zoho Desk
 
                                     </h5>
                                 </div>
@@ -391,10 +391,10 @@
                 <!-- Card 6 -->
                 <div class="swiper-slide">
                     <a href="?page=zohopeople">
-                        <div class="card service-card hvr-underline-from-left">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
-                                    <h5 class="card-title">Zoho People
+                                    <h5 class="card-title hvr-sweep-to-right">Zoho People
 
                                     </h5>
                                 </div>
@@ -417,10 +417,10 @@
                 <!-- Card 6 -->
                 <div class="swiper-slide">
                     <a href="?page=zohopayroll">
-                        <div class="card service-card hvr-underline-from-left">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
-                                    <h5 class="card-title">Zoho Payroll
+                                    <h5 class="card-title hvr-sweep-to-right">Zoho Payroll
                                     </h5>
                                 </div>
                                 <div class="card-bdy">
@@ -461,9 +461,9 @@
                 <!-- Training Card 1 -->
                 <div class="swiper-slide">
                     <a href="?page=zoho-training">
-                        <div class="card service-card">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
-                                <h5 class="card-title">Functional Training</h5>
+                                <h5 class="card-title hvr-sweep-to-right">Functional Training</h5>
                                 <div class="card-bdy">
                                     <p class="card-text">Designed for clients, end-users, and business owners aiming for
                                         in-depth functional knowledge of Zoho.</p>
@@ -479,9 +479,9 @@
                 <!-- Training Card 2 -->
                 <div class="swiper-slide">
                     <a href="?page=zoho-training">
-                        <div class="card service-card">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
-                                <h5 class="card-title">Technical Training</h5>
+                                <h5 class="card-title hvr-sweep-to-right">Technical Training</h5>
                                 <div class="card-bdy">
                                     <p class="card-text">For IT professionals and new developers interested in
                                         customising and developing with Zoho.</p>
@@ -497,9 +497,9 @@
                 <!-- Training Card 3 -->
                 <div class="swiper-slide">
                     <a href="?page=zoho-training">
-                        <div class="card service-card">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
-                                <h5 class="card-title">Corporate Training</h5>
+                                <h5 class="card-title hvr-sweep-to-right">Corporate Training</h5>
                                 <div class="card-bdy">
                                     <p class="card-text">For businesses utilising Zoho, covering in-depth functional and
                                         technical topics.</p>
@@ -533,11 +533,11 @@
                 <!-- Card 1 -->
                 <div class="swiper-slide">
                     <a href="?page=zoho-support">
-                        <div class="card service-card hvr-underline-from-left">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
                                     <a href="?page=zoho-support">
-                                        <h5 class="card-title">Zoho Support & Maintenance
+                                        <h5 class="card-title hvr-sweep-to-right">Zoho Support & Maintenance
 
                                         </h5>
                                     </a>
@@ -558,11 +558,11 @@
                 <!-- Card 1 -->
                 <div class="swiper-slide">
                     <a href="?page=zoho-support">
-                        <div class="card service-card hvr-underline-from-left">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
                                     <a href="?page=zoho-training">
-                                        <h5 class="card-title">Zoho AMC Service
+                                        <h5 class="card-title hvr-sweep-to-right">Zoho AMC Service
 
                                         </h5>
                                     </a>
@@ -583,10 +583,10 @@
                 <!-- Card 3 -->
                 <div class="swiper-slide">
                     <a href="?page=zoho-support">
-                        <div class="card service-card hvr-underline-from-left">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
-                                    <h5 class="card-title">Customised Solutions
+                                    <h5 class="card-title hvr-sweep-to-right">Customised Solutions
 
                                     </h5>
                                 </div>
@@ -626,11 +626,11 @@
                 <!-- Card 1 -->
                 <div class="swiper-slide">
                     <a href="?page=zoho-hire">
-                        <div class="card service-card hvr-underline-from-left">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
                                     <a href="?page=zoho-hire">
-                                        <h5 class="card-title">Hire
+                                        <h5 class="card-title hvr-sweep-to-right">Hire
 
 
                                         </h5>
@@ -654,11 +654,11 @@
                 <!-- Card 1 -->
                 <div class="swiper-slide">
                     <a href="?page=zoho-hire">
-                        <div class="card service-card hvr-underline-from-left">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
                                     <a href="?page=zoho-hire">
-                                        <h5 class="card-title">Assign
+                                        <h5 class="card-title hvr-sweep-to-right">Assign
 
                                         </h5>
                                     </a>
@@ -680,10 +680,10 @@
                 <!-- Card 2 -->
                 <div class="swiper-slide">
                     <a href="?page=zoho-hire">
-                        <div class="card service-card hvr-underline-from-left">
+                        <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
-                                    <h5 class="card-title">Get Output
+                                    <h5 class="card-title hvr-sweep-to-right">Get Output
 
                                     </h5>
                                 </div>
