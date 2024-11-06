@@ -315,10 +315,10 @@
             <img src="assets/img/team/team-3.jpeg" alt="Marta Cooper">
             <div class="member-info">
                 <div class="team-name">
-                    <h3>Ashfaq</h3>
-                    <p></p>
+                    <h3>Ashfaq Abdullah</h3>
+                    <p>CMA</p>
                 </div>
-                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/ashfaq-abdullah-9840b9141/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
             </div>
         </div>
         <div class="team-member hvr-underline-from-left">
