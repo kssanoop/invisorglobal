@@ -1036,7 +1036,7 @@
           <div class="title-dot"></div>
           <div class="trust-badge">TESTIMONIALS</div>
         </div>
-        <h2 class="section-title">Hear what our satisfied clients have to say</h2>
+        <h2 class="section-title pb-0">Hear what our satisfied clients have to say</h2>
       </div>
 
       <div class="testimonials-container">
@@ -1186,11 +1186,15 @@
     }
 
     .section-title {
-      font-size: 36px;
+      font-size: 2.8rem;
       font-weight: 300;
       color: #333;
     }
-
+@media (max-width:991px) {
+  .section-title {
+      font-size: 2rem;
+  }
+}
     .testimonials-container {
       position: relative;
       display: flex;
