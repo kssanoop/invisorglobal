@@ -402,16 +402,15 @@
             </li>
 
           </ul>
-          <p>With Zoho One, you get the power of automation, the flexibility to customise, and the ease of
-            integration—all in one place.
-          </p>
         </div>
       </div>
     </div>
     <div class="learn-more-section" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
       <div class="lern-more" style="width: 50%;margin: auto;display: block;">
-        <span class="arrow">→</span>
-        <div class="learn-more-text">Learn more about our work <br> ethics and personalities</div>
+        <span class="arrow"></span>
+        <div class="learn-more-text">With Zoho One, you get the power of automation, the flexibility to customise, and the ease of integration—all in one place.
+
+</div>
       </div>
     </div>
 

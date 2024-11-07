@@ -436,7 +436,7 @@
                 <a href="?page=zohocreator">
                   <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                      <h5 class="card-title hvr-sweep-to-right">Zoho creator
+                      <h5 class="card-title hvr-sweep-to-right">Zoho Creator
                       </h5>
                     </div>
                     <div class="card-bdy">
@@ -458,7 +458,7 @@
                 <a href="?page=zohoprojects">
                   <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                     <div class="card-top">
-                      <h5 class="card-title hvr-sweep-to-right">Zoho projects
+                      <h5 class="card-title hvr-sweep-to-right">Zoho Projects
 
                       </h5>
                     </div>
@@ -491,7 +491,7 @@
 
                       </p>
                     </div>
-                    <div class="tab-bottom">
+                    <div class="tab-bottom pb-xl-2">
                       <a href="?page=zohodesk" class="btn btn-link contact-btn">Learn more <i
                           class="bi bi-arrow-right-short"></i></a>
                       <img src="assets/img/zoho-desk.webp" alt="">
@@ -854,9 +854,9 @@
 
     <div class="learn-more-section" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
       <a href="?page=about">
-        <div class="lern-more" style="width: 50%;margin: auto;display: block;">
+        <div class="lern-more ctct-lernmore" style="width: 50%;margin: auto;display: block;">
           <span class="arrow" style="color: #fff;">→</span>
-          <div class="learn-more-text">Get a glimpse into our team and work ethic</div>
+          <div class="learn-more-text">Get a glimpse into our team and work ethic.</div>
         </div>
       </a>
     </div>
@@ -960,7 +960,7 @@
     }
 
     .learn-more-text {
-      font-size: 24px;
+      font-size: 25px;
       color: white;
       font-weight: 300;
     }
@@ -969,7 +969,14 @@
       font-size: 24px;
       margin-right: 20px;
     }
-
+    @media (max-width: 767px) {
+      .learn-more-text {
+      font-size: 1.2rem;
+      }
+      .learn-more-section {
+padding: 15px 10px;
+      }
+    }
     @media (min-width: 1100px) {
       .learn-more-section {
         padding-left: 10%;
@@ -1026,6 +1033,12 @@
         /* Hide the <br> on screens 991px and below */
       }
     }
+    @media (max-width: 400px) {
+      .about-section .lern-more {
+        width: 65% !important;
+      }
+      .ctct-lernmore{margin: 0 !important;}
+    }
   </style>
   <!-- =============================================testimonial====================================== -->
 
@@ -1047,10 +1060,7 @@
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "Invisor made our Zoho setup easy and stress-free. Their team really listened to what we
-                  needed, and
-                  now
-                  our daily tasks run so much smoother!
+                  "Our Zoho setup was made easy and stress-free by Invisor. Their team really listened to what we needed, and now our daily tasks run so much smoother!
                   "
                 </p>
                 <div class="client-info">
@@ -1065,9 +1075,7 @@
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "Invisor made our Zoho setup easy and stress-free. Their team really listened to what we
-                  needed, and
-                  now our daily tasks run so much smoother!
+                  "Working with Invisor was a game-changer for our team. Their thorough understanding of Zoho's capabilities allowed us to optimise our workflows and enhance our overall efficiency.
                   "
                 </p>
                 <div class="client-info">
@@ -1083,10 +1091,7 @@
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "Invisor delivered a flawless Zoho integration for our company. Their professionalism
-                  and dedication
-                  to understanding our requirements made all the difference in achieving our operational
-                  goals. "
+                  "The team provided exceptional support during our Zoho implementation. They tailored everything to fit our business, and their training made it simple for our team to get on board."
                 </p>
                 <div class="client-info">
                   <div class="client-details">
@@ -1101,13 +1106,11 @@
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "The training and ongoing support from Invisor were invaluable during our Zoho
-                  transition. They
-                  empowered our team with the knowledge and tools to maximise the system's potential."
+                  "Their approach to Zoho implementation transformed how we operate. Invisor's insights into workflow optimization have increased our productivity and streamlined our processes effortlessly."
                 </p>
                 <div class="client-info">
                   <div class="client-details">
-                    <p class="client-name">Andrew McArthur</p>
+                    <p class="client-name">Mujeeb T C</p>
                     <p class="client-title">Al Farha Coal Ind LLC</p>
                   </div>
                 </div>
@@ -1118,11 +1121,7 @@
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "Invisor's team exhibited a high level of expertise throughout our Zoho implementation.
-                  Their
-                  strategic insights and hands-on approach helped us leverage Zoho to its fullest, driving
-                  measurable
-                  results. "
+                  "From planning to execution, the team’s attention to detail and expertise with Zoho ensured a smooth setup. They tailored everything perfectly to our needs, making the system intuitive and valuable for our team."
                 </p>
                 <div class="client-info">
                   <div class="client-details">
@@ -1137,10 +1136,7 @@
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "The Invisor team provided exceptional support during our Zoho implementation. They
-                  tailored
-                  everything to fit our business, and their training made it simple for our team to get on
-                  board. "
+                  "Their expertise allows us to fully customise our Zoho systems to our needs, allowing us to focus on growth without worrying about the details."
                 </p>
                 <div class="client-info">
                   <div class="client-details">
@@ -1319,7 +1315,13 @@
         gap: 0;
       }
     }
-
+    @media (min-width:769px) and (max-width:991px) {
+      .contact-text {
+padding: 20px;
+      } 0
+      .contact-footer{gap: 0;}
+      .contact-section .contact-btn{width: 40%;padding: 10px 0 !important;}
+    }
     @media (min-width:1400px) and (max-width:1637px) {
       .contact-text {
         max-width: 400px;
@@ -1499,10 +1501,10 @@ clip-path: none; width: 60%; }
         </p>
       </div>
       <div class="contact-footer">
-        <a href="#" class="contact-btn">Contact Us <i class="bi bi-arrow-right-short"></i></a>
+        <a href="?page=contact" class="contact-btn">Contact Us <i class="bi bi-arrow-right-short"></i></a>
         <div class="phone-details">
           <img src="assets/img/phonecall.svg" alt="">
-          <span><a href="tel:+918136826665"></a>+91 81368 26665</span>
+          <span><a style="color:#fff" href="tel:+918136826665">+91 81368 26665</a></span>
         </div>
       </div>
     </div>

@@ -198,6 +198,231 @@
   }
 </style>
 
+<!-- ================================ -->
+<style>
+  /* Map container styling */
+  .map-container {margin: 100px 0 20px;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Map image styling */
+  .map-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  /* Marker styling */
+  .marker {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url("https://www.zohowebstatic.com/sites/zweb/images/partners/images/map-pin.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+  }
+
+  /* Tooltip styling */
+  .tooltip {
+    position: absolute;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    pointer-events: none;
+  }
+
+  /* Optional tooltip arrow */
+  .tooltip::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 8px;
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+  }
+</style>
+
+<div class="map-container">
+  <!-- World map image -->
+  <img src="assets/img/world-map.png" alt="World Map" class="map-image">
+
+  <!-- Markers with data-country attribute for tooltip text -->
+  <!-- Marker for Canada (approximately top: 25%, left: 15%) -->
+  <div class="marker" style="top: 24%; left: 16%;" data-country="Canada"></div>
+  <!-- Marker for Saudi Arabia (approximately top: 45%, left: 70%) -->
+  <div class="marker" style="top: 65%; left: 65%;" data-country="Saudi Arabia"></div>
+  <!-- Marker for India (approximately top: 57%, left: 55%) -->
+  <div class="marker" style="top: 70%; left: 70%;" data-country="India"></div>
+
+  <!-- Tooltip for displaying country names -->
+  <div class="tooltip" id="tooltip"></div>
+</div>
+
+<script>
+  // JavaScript to handle tooltip functionality
+  const markers = document.querySelectorAll('.marker');
+  const tooltip = document.getElementById('tooltip');
+
+  markers.forEach(marker => {
+    marker.addEventListener('mouseenter', (e) => {
+      const country = e.target.getAttribute('data-country');
+      tooltip.innerText = country;
+      tooltip.style.display = 'block';
+      tooltip.style.left = `${e.pageX}px`;
+      tooltip.style.top = `${e.pageY - 30}px`;
+    });
+
+    marker.addEventListener('mouseleave', () => {
+      tooltip.style.display = 'none';
+    });
+
+    marker.addEventListener('mousemove', (e) => {
+      tooltip.style.left = `${e.pageX}px`;
+      tooltip.style.top = `${e.pageY - 30}px`;
+    });
+  });
+</script>
+  
+  <!-- ====================================================== -->
+  <div class="locations-wrap container">
+    <div class="location-wrap row">
+        <div class="col-md-4 country">
+            <div class="big-text-dark">India</div>
+            <a href="https://www.google.com/maps/place/Carnival+Infopark,+Kakkanad,+Cochin" target="_blank" class="link-with-icon">View on Map →</a>
+        </div>
+        <div class="col-md-4 address">
+            <div class="address-item">
+                <div class="dark-text-title">City:</div>
+                <a href="https://www.google.com/maps/place/Kakkanad,+Cochin" target="_blank" class="address-link">Cochin</a>
+            </div>
+            <div class="address-item">
+                <div class="dark-text-title">Street:</div>
+                <a href="https://www.google.com/maps/place/Carnival+Infopark,+Phase+1" target="_blank" class="address-link">2nd Floor, Phase 1, Carnival Infopark</a>
+            </div>
+        </div>
+        <div class="col-md-4 office-info">
+            <div class="contacts-detail">
+                <span class="contacts-icon"><i class="bi bi-geo"></i></span>
+                <span>Cochin: 682042</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="location-wrap row">
+        <div class="col-md-4 country">
+            <div class="big-text-dark">Canada</div>
+            <a href="https://www.google.com/maps/place/341+Talbot+Street,+London,+Ontario" target="_blank" class="link-with-icon">View on Map →</a>
+        </div>
+        <div class="col-md-4 address">
+            <div class="address-item">
+                <div class="dark-text-title">City:</div>
+                <a href="https://www.google.com/maps/place/London,+Ontario" target="_blank" class="address-link">London, Ontario</a>
+            </div>
+            <div class="address-item">
+                <div class="dark-text-title">Street:</div>
+                <a href="https://www.google.com/maps/place/341+Talbot+Street" target="_blank" class="address-link">Suite 337V, 341 Talbot Street</a>
+            </div>
+        </div>
+        <div class="col-md-4 office-info">
+            <div class="contacts-detail">
+                <span class="contacts-icon"><i class="bi bi-geo"></i></span>
+                <span>N6A2R5, Canada</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="location-wrap row last">
+        <div class="col-md-4 country">
+            <div class="big-text-dark">Saudi Arabia</div>
+            <a href="https://www.google.com/maps/place/Le+Cygne+Commercial+Center-2,+Al+Olaya+District" target="_blank" class="link-with-icon">View on Map →</a>
+        </div>
+        <div class="col-md-4 address">
+            <div class="address-item">
+                <div class="dark-text-title">City:</div>
+                <a href="https://www.google.com/maps/place/Al+Olaya+District" target="_blank" class="address-link">Al Olaya District</a>
+            </div>
+            <div class="address-item">
+                <div class="dark-text-title">Street:</div>
+                <a href="https://www.google.com/maps/place/Kaab+Bin+Malik+Street" target="_blank" class="address-link">5th Floor, Le Cygne Commercial Center-2, Kaab Bin Malik Street</a>
+            </div>
+        </div>
+        <div class="col-md-4 office-info">
+            <div class="contacts-detail">
+                <span class="contacts-icon"><i class="bi bi-geo"></i></span>
+                <span>Kingdom of Saudi Arabia</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.locations-wrap {
+    padding: 20px;
+}
+
+.location-wrap {
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.country {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2f1a52;
+}
+
+.link-with-icon {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 0.9rem;font-weight: 500;
+}
+
+.address, .office-info {
+    margin-top: 10px;
+}
+
+.address-item, .contacts-detail {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.dark-text-title {
+    font-weight: 600;
+    margin-right: 5px;
+}
+@media (min-width:1200px) {
+  .dark-text-title {width: 15%;margin-right: 20px;}
+}
+.address-link, .paragraph-no-margin {
+    color: #333;
+    text-decoration: none;
+}
+
+.contacts-icon {
+    margin-right: 5px;
+    color: var(--accent-color);
+}
+
+@media (min-width: 768px) {
+    .location-wrap {
+        display: flex;
+        flex-direction: row;
+    }
+}
+</style>
 <!-- ==================================faq====================================== -->
 
 <style>

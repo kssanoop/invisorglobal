@@ -319,7 +319,7 @@
                         <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
-                                    <h5 class="card-title hvr-sweep-to-right">Zoho creator
+                                    <h5 class="card-title hvr-sweep-to-right">Zoho Creator
                                     </h5>
                                 </div>
                                 <div class="card-bdy">
@@ -343,7 +343,7 @@
                         <div class="card service-card hvr-underline-from-left hvr-sweep-to-right">
                             <div class="card-body">
                                 <div class="card-top">
-                                    <h5 class="card-title hvr-sweep-to-right">Zoho projects
+                                    <h5 class="card-title hvr-sweep-to-right">Zoho Projects
 
                                     </h5>
                                 </div>
@@ -981,3 +981,15 @@
         <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
     </div>
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      setTimeout(function () {
+        if ($(window).scrollTop() === 0) {
+          var scrollAmount = $(document).height() * 0.09;
+          $('html, body').animate({ scrollTop: scrollAmount }, 1000);
+        }
+      }, 5000);
+    });
+  </script>
