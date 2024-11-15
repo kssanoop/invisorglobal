@@ -1504,7 +1504,7 @@ clip-path: none; width: 60%; }
         <a href="?page=contact" class="contact-btn">Contact Us <i class="bi bi-arrow-right-short"></i></a>
         <div class="phone-details">
           <img src="assets/img/phonecall.svg" alt="">
-          <span><a style="color:#fff" href="tel:+918136826665">+91 81368 26665</a></span>
+          <span><a style="color:#fff" href="tel:+918136826665">+12262273482</a></span>
         </div>
       </div>
     </div>
