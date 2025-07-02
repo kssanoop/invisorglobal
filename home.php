@@ -1081,9 +1081,6 @@
       font-size: 1.4rem
     }
 
-    .partner-section p {
-      font-style: normal;
-    }
         @media (max-width:767px) {
           .partner-section h5 {
       text-align: center;
@@ -1672,8 +1669,7 @@
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "Our Zoho setup was made easy and stress-free by Invisor. Their team really listened to what we
-                  needed, and now our daily tasks run so much smoother!
+                  "We were hesitant to outsource backend work at first, but Invisor changed our perspective completely. They’re professional, detail-oriented, and easy to work with. 
                   "
                 </p>
                 <div class="client-info">
@@ -1688,8 +1684,7 @@
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "Working with Invisor was a game-changer for our team. Their thorough understanding of Zoho's
-                  capabilities allowed us to optimise our workflows and enhance our overall efficiency.
+                  "With Invisor handling the backend, we’ve been able to take on more projects without compromising delivery. Their attention to detail is unmatched
                   "
                 </p>
                 <div class="client-info">
@@ -1705,8 +1700,7 @@
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "The team provided exceptional support during our Zoho implementation. They tailored everything to fit
-                  our business, and their training made it simple for our team to get on board."
+                  "Working with Invisor has streamlined our internal operations. Their team adapts to our workflows and keeps things moving without constant follow-up."
                 </p>
                 <div class="client-info">
                   <div class="client-details">
@@ -1721,8 +1715,7 @@
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "Their approach to Zoho implementation transformed how we operate. Invisor's insights into workflow
-                  optimization have increased our productivity and streamlined our processes effortlessly."
+                  "​​They’ve helped us deliver complex Zoho implementations faster and more reliably. Their backend team truly understands what it means to support partners, not clients."
                 </p>
                 <div class="client-info">
                   <div class="client-details">
@@ -1737,9 +1730,7 @@
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "From planning to execution, the team’s attention to detail and expertise with Zoho ensured a smooth
-                  setup. They tailored everything perfectly to our needs, making the system intuitive and valuable for
-                  our team."
+                  "What we appreciate most is how dependable they are. We don’t need to follow up constantly - they deliver on time, with quality, every single time."
                 </p>
                 <div class="client-info">
                   <div class="client-details">
@@ -1754,8 +1745,7 @@
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "Their expertise allows us to fully customise our Zoho systems to our needs, allowing us to focus on
-                  growth without worrying about the details."
+                  "Invisor feels like an extension of our team. They’ve helped us manage complex projects quietly and effectively - our clients don’t even know they’re there, and that’s exactly what we wanted."
                 </p>
                 <div class="client-info">
                   <div class="client-details">
