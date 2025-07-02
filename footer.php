@@ -149,11 +149,11 @@
       </p>
       <p><strong>Canada:</strong> Suite 337V, 341 Talbot Street, London, Ontario,<br> N6A2R5, Canada
       </p>
-      <p><strong>Saudi Arabia:</strong> KSA, Arabian Software, 5th Floor,Le Cygne Commercial Center-2
+<!--       <p><strong>Saudi Arabia:</strong> KSA, Arabian Software, 5th Floor,Le Cygne Commercial Center-2
         Kaab Bin Malik Street, Al Olaya District, Kingdom of Saudi Arabia
 
       </p>
-    </div>
+ -->    </div>
 
     <!-- Footer Links Section -->
     <div class="footer-links">

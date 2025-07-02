@@ -6,12 +6,12 @@
         <div class="col-md-6 banner-text">
           <div class="title-top">
             <div class="title-dot"></div>
-            <div class="trust-badge">DON'T JUST TRUST, TRY</div>
+            <div class="trust-badge">Best Zoho partner in India </div>
           </div>
-          <h1 class="hero-title">Let <img src="assets/img/zoho-logo.svg" alt="" style="width: 100px;"> help your
-            business grow
+          <h1 class="hero-title">Partner of
+            <img src="assets/img/zoho-logo.svg" alt="" style="width: 100px;margin-bottom:10px"> Partners
           </h1>
-          <p class="hero-subtitle">We specialise in implementing expert Zoho solutions for businesses of all sizes
+          <p class="hero-subtitle">We support Zoho Partners with expert backend services across Finance, IT, and HR
           </p>
           <a href="?page=services" class="hover-button2 me-2">Our Services</a>
           <a href="?page=contact" class="hover-button">Book Consultation</a>
@@ -28,10 +28,13 @@
     </div>
   </div>
   <style>
-        @media (max-width:991px) {
-          .hero-section .title-top{justify-content: center !important;}
+    @media (max-width:991px) {
+      .hero-section .title-top {
+        justify-content: center !important;
+      }
 
     }
+
     .imgs img {
       width: 50px;
     }
@@ -84,7 +87,7 @@
     /* General Styles for the Services Section */
     .services-section {
       position: relative;
-      padding: 50px 0;
+      padding: 20px 0 50px 0;
     }
 
     .services-section .card-body {
@@ -133,7 +136,8 @@
     }
 
     /* Service Cards */
-    .services-section .service-card {position: relative;
+    .services-section .service-card {
+      position: relative;
       border: none;
       border-radius: 8px;
       height: 260px;
@@ -213,7 +217,12 @@
       .services-section .services-title {
         margin-right: 50%;
       }
-      .tab-bottom{position: absolute;bottom: 10px;min-width: 300px;}
+
+      .tab-bottom {
+        position: absolute;
+        bottom: 10px;
+        min-width: 300px;
+      }
     }
 
     @media (max-width: 768px) {
@@ -261,11 +270,13 @@
       align-items: center !important;
     }
 
-    .tab-bottom img {margin: auto !important;
+    .tab-bottom img {
+      margin: auto !important;
       max-width: 80px !important;
     }
 
-    .services-section .contact-btn {width: 60%;
+    .services-section .contact-btn {
+      width: 60%;
       justify-content: left !important;
       display: inline-flex;
       align-items: center;
@@ -288,7 +299,7 @@
         <div class="title-dot"></div>
         <div class="trust-badge">SERVICES</div>
       </div>
-      <h2 class="services-title">The Operating System for your Business</h2>
+      <h2 class="services-title">The Operating System for Zoho partners </h2>
 
       <!-- Flexbox container for Tabs and Show More Button -->
       <div class="tab-top">
@@ -333,14 +344,16 @@
                       </a>
                     </div>
                     <div class="card-bdy">
-                      <a href="?page=zohoone"><p class="card-text">An all-in-one suite offering 50+ integrated apps to run your entire
-                        business
-                        from one platform.</p></a>
+                      <a href="?page=zohoone">
+                        <p class="card-text">An all-in-one suite offering 50+ integrated apps to run your entire
+                          business
+                          from one platform.</p>
+                      </a>
                     </div>
                     <div class="tab-bottom">
                       <a href="?page=zohoone" class="btn btn-link contact-btn">Learn more <i
                           class="bi bi-arrow-right-short"></i></a>
-                      <img src="assets/img/zoho-logo.svg" alt="">
+                      <a href="?page=zohoone"><img src="assets/img/zoho-logo.svg" alt=""></a>
                     </div>
 
                   </div>
@@ -360,7 +373,7 @@
                     <div class="tab-bottom">
                       <a href="?page=zohocrm" class="btn btn-link contact-btn">Learn more <i
                           class="bi bi-arrow-right-short"></i></a>
-                      <img src="assets/img/crm.svg" alt="">
+                      <a href="?page=zohocrm"><img src="assets/img/crm.svg" alt=""></a>
                     </div>
 
                   </div>
@@ -382,7 +395,7 @@
                     <div class="tab-bottom">
                       <a href="?page=zohobooks" class="btn btn-link contact-btn">Learn more <i
                           class="bi bi-arrow-right-short"></i></a>
-                      <img src="assets/img/zoho-books_3ex2.png" alt="">
+                      <a href="?page=zohobooks"><img src="assets/img/zoho-books_3ex2.png" alt=""></a>
                     </div>
 
                   </div>
@@ -404,7 +417,7 @@
                     <div class="tab-bottom">
                       <a href="?page=zohoinventory" class="btn btn-link contact-btn">Learn more <i
                           class="bi bi-arrow-right-short"></i></a>
-                      <img src="assets/img/inventory.png" alt="">
+                      <a href="?page=zohoinventory"><img src="assets/img/inventory.png" alt=""></a>
                     </div>
 
                   </div>
@@ -425,7 +438,7 @@
                     <div class="tab-bottom">
                       <a href="?page=zohoanalytics" class="btn btn-link contact-btn">Learn more <i
                           class="bi bi-arrow-right-short"></i></a>
-                      <img src="assets/img/zoho-analytics-logo-lockup.png" alt="">
+                      <a href="?page=zohoanalytics"><img src="assets/img/zoho-analytics-logo-lockup.png" alt=""></a>
                     </div>
 
                   </div>
@@ -447,7 +460,7 @@
                     <div class="tab-bottom">
                       <a href="?page=zohocreator" class="btn btn-link contact-btn">Learn more <i
                           class="bi bi-arrow-right-short"></i></a>
-                      <img src="assets/img/creator.png" alt="">
+                      <a href="?page=zohocreator"><img src="assets/img/creator.png" alt=""></a>
                     </div>
 
                   </div>
@@ -470,7 +483,7 @@
                     <div class="tab-bottom">
                       <a href="?page=zohoprojects" class="btn btn-link contact-btn">Learn more <i
                           class="bi bi-arrow-right-short"></i></a>
-                      <img src="assets/img/zoho-Projects-logo-lockup.jpg" alt="">
+                      <a href="?page=zohoprojects"><img src="assets/img/zoho-Projects-logo-lockup.jpg" alt=""></a>
                     </div>
 
                   </div>
@@ -494,7 +507,7 @@
                     <div class="tab-bottom pb-xl-2">
                       <a href="?page=zohodesk" class="btn btn-link contact-btn">Learn more <i
                           class="bi bi-arrow-right-short"></i></a>
-                      <img src="assets/img/zoho-desk.webp" alt="">
+                      <a href="?page=zohodesk"><img src="assets/img/zoho-desk.webp" alt=""></a>
                     </div>
 
                   </div>
@@ -518,7 +531,7 @@
                     <div class="tab-bottom">
                       <a href="?page=zohopeople" class="btn btn-link contact-btn">Learn more <i
                           class="bi bi-arrow-right-short"></i></a>
-                      <img src="assets/img/People-logo-lockup.jpg" alt="">
+                      <a href="?page=zohopeople"><img src="assets/img/People-logo-lockup.jpg" alt=""></a>
                     </div>
                   </div>
                 </a>
@@ -539,7 +552,7 @@
                     <div class="tab-bottom">
                       <a href="?page=zohopayroll" class="btn btn-link contact-btn">Learn more <i
                           class="bi bi-arrow-right-short"></i></a>
-                      <img src="assets/img/Payroll-logo-lockup.jpg" alt="">
+                      <a href="?page=zohopayroll"><img src="assets/img/Payroll-logo-lockup.jpg" alt=""></a>
                     </div>
 
                   </div>
@@ -571,9 +584,11 @@
                       </a>
                     </div>
                     <div class="card-bdy">
-                      <a href="?page=zoho-training"><p class="card-text">Designed for clients, end-users, and business owners aiming for in-depth
-                        functional knowledge of Zoho.
-                      </p></a>
+                      <a href="?page=zoho-training">
+                        <p class="card-text">Designed for clients, end-users, and business owners aiming for in-depth
+                          functional knowledge of Zoho.
+                        </p>
+                      </a>
                     </div>
                     <div class="tab-bottom">
                       <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
@@ -593,9 +608,11 @@
                       </h5>
                     </div>
                     <div class="card-bdy">
-                      <a href="?page=zoho-training"><p class="card-text">Designed for IT professionals and new developers interested in customising
-                        and developing with Zoho, this training covers:
-                      </p></a>
+                      <a href="?page=zoho-training">
+                        <p class="card-text">Designed for IT professionals and new developers interested in customising
+                          and developing with Zoho, this training covers:
+                        </p>
+                      </a>
                     </div>
                     <div class="tab-bottom">
                       <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
@@ -653,9 +670,11 @@
                       </a>
                     </div>
                     <div class="card-bdy">
-                      <a href="?page=zoho-support"><p class="card-text"> Invisor’s expert team offers end-to-end Zoho support, resolving technical
-                        issues and providing tailored solutions to enhance your business.
-                      </p></a>
+                      <a href="?page=zoho-support">
+                        <p class="card-text"> Invisor’s expert team offers end-to-end Zoho support, resolving technical
+                          issues and providing tailored solutions to enhance your business.
+                        </p>
+                      </a>
                     </div>
                     <div class="tab-bottom">
                       <a href="?page=zoho-support" class="btn btn-link contact-btn">Learn more <i
@@ -736,12 +755,13 @@
                       </a>
                     </div>
                     <div class="card-bdy">
-                    <a href="?page=zoho-hire">
+                      <a href="?page=zoho-hire">
 
-                      <p class="card-text"> Hire Dedicated & Certified Zoho consultants From Invisor on Contract Basis
-                        For Short Term Or Long Term.
+                        <p class="card-text"> Hire Dedicated & Certified Zoho consultants From Invisor on Contract Basis
+                          For Short Term Or Long Term.
 
-                      </p></a>
+                        </p>
+                      </a>
                     </div>
                     <div class="tab-bottom">
                       <a href="?page=zoho-hire" class="btn btn-link contact-btn">Learn more <i
@@ -763,11 +783,12 @@
                       </a>
                     </div>
                     <div class="card-bdy">
-                    <a href="?page=zoho-hire">
+                      <a href="?page=zoho-hire">
 
-                      <p class="card-text">Assign Your Tasks And Manage Our Resources According to Your Project Plan.
+                        <p class="card-text">Assign Your Tasks And Manage Our Resources According to Your Project Plan.
 
-                      </p></a>
+                        </p>
+                      </a>
                     </div>
                     <div class="tab-bottom">
                       <a href="?page=zoho-hire" class="btn btn-link contact-btn">Learn more <i
@@ -787,10 +808,11 @@
                       </h5>
                     </div>
                     <div class="card-bdy">
-                    <a href="?page=zoho-hire">
-                    <p class="card-text">Get Outputs on Time And Deliver It to Clients successfully.
+                      <a href="?page=zoho-hire">
+                        <p class="card-text">Get Outputs on Time And Deliver It to Clients successfully.
 
-                      </p></a>
+                        </p>
+                      </a>
                     </div>
                     <div class="tab-bottom">
                       <a href="?page=zoho-hire" class="btn btn-link contact-btn">Learn more <i
@@ -830,9 +852,11 @@
       <h1 class="about-heading">Your Success, Simplified with Our Expert Solutions</h1>
 
       <p class="about-description">
-        At Invisor, our global team of certified finance professionals, focusing on transforming businesses through
-        innovative finance and digital solutions. With extensive experience in sectors such as IT, hospitality,
-        financial services, and retail, we specialise in high-impact consulting and large-scale change management.
+        At Invisor, we work exclusively with Zoho Partners - providing backend execution that blends seamlessly into
+        your delivery process. Our team operates with precision, ensuring every project runs smoothly, on time, and to
+        the highest standards. With a sharp focus on quality and confidentiality, we help you scale your capacity
+        without compromising control - so you can focus on client success while we handle the rest.
+
 
       </p>
 
@@ -907,11 +931,14 @@
       font-weight: 500;
       line-height: 1.2;
     }
-@media (max-width:767px) {
-  .about-heading {
-      font-size: 1.6rem;}
 
-}
+    @media (max-width:767px) {
+      .about-heading {
+        font-size: 1.6rem;
+      }
+
+    }
+
     .about-description {
       color: #1d1d1dcc;
       font-weight: 300;
@@ -969,14 +996,17 @@
       font-size: 24px;
       margin-right: 20px;
     }
+
     @media (max-width: 767px) {
       .learn-more-text {
-      font-size: 1.2rem;
+        font-size: 1.2rem;
       }
+
       .learn-more-section {
-padding: 15px 10px;
+        padding: 15px 10px;
       }
     }
+
     @media (min-width: 1100px) {
       .learn-more-section {
         padding-left: 10%;
@@ -1033,11 +1063,15 @@ padding: 15px 10px;
         /* Hide the <br> on screens 991px and below */
       }
     }
+
     @media (max-width: 400px) {
       .about-section .lern-more {
         width: 65% !important;
       }
-      .ctct-lernmore{margin: 0 !important;}
+
+      .ctct-lernmore {
+        margin: 0 !important;
+      }
     }
   </style>
   <!-- =============================================testimonial====================================== -->
@@ -1060,7 +1094,8 @@ padding: 15px 10px;
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "Our Zoho setup was made easy and stress-free by Invisor. Their team really listened to what we needed, and now our daily tasks run so much smoother!
+                  "Our Zoho setup was made easy and stress-free by Invisor. Their team really listened to what we
+                  needed, and now our daily tasks run so much smoother!
                   "
                 </p>
                 <div class="client-info">
@@ -1075,7 +1110,8 @@ padding: 15px 10px;
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "Working with Invisor was a game-changer for our team. Their thorough understanding of Zoho's capabilities allowed us to optimise our workflows and enhance our overall efficiency.
+                  "Working with Invisor was a game-changer for our team. Their thorough understanding of Zoho's
+                  capabilities allowed us to optimise our workflows and enhance our overall efficiency.
                   "
                 </p>
                 <div class="client-info">
@@ -1091,7 +1127,8 @@ padding: 15px 10px;
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "The team provided exceptional support during our Zoho implementation. They tailored everything to fit our business, and their training made it simple for our team to get on board."
+                  "The team provided exceptional support during our Zoho implementation. They tailored everything to fit
+                  our business, and their training made it simple for our team to get on board."
                 </p>
                 <div class="client-info">
                   <div class="client-details">
@@ -1106,7 +1143,8 @@ padding: 15px 10px;
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "Their approach to Zoho implementation transformed how we operate. Invisor's insights into workflow optimization have increased our productivity and streamlined our processes effortlessly."
+                  "Their approach to Zoho implementation transformed how we operate. Invisor's insights into workflow
+                  optimization have increased our productivity and streamlined our processes effortlessly."
                 </p>
                 <div class="client-info">
                   <div class="client-details">
@@ -1121,7 +1159,9 @@ padding: 15px 10px;
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "From planning to execution, the team’s attention to detail and expertise with Zoho ensured a smooth setup. They tailored everything perfectly to our needs, making the system intuitive and valuable for our team."
+                  "From planning to execution, the team’s attention to detail and expertise with Zoho ensured a smooth
+                  setup. They tailored everything perfectly to our needs, making the system intuitive and valuable for
+                  our team."
                 </p>
                 <div class="client-info">
                   <div class="client-details">
@@ -1136,7 +1176,8 @@ padding: 15px 10px;
             <div class="swiper-slide">
               <div class="testimonial-card">
                 <p class="testimonial-text">
-                  "Their expertise allows us to fully customise our Zoho systems to our needs, allowing us to focus on growth without worrying about the details."
+                  "Their expertise allows us to fully customise our Zoho systems to our needs, allowing us to focus on
+                  growth without worrying about the details."
                 </p>
                 <div class="client-info">
                   <div class="client-details">
@@ -1186,11 +1227,13 @@ padding: 15px 10px;
       font-weight: 300;
       color: #333;
     }
-@media (max-width:991px) {
-  .section-title {
-      font-size: 2rem;
-  }
-}
+
+    @media (max-width:991px) {
+      .section-title {
+        font-size: 2rem;
+      }
+    }
+
     .testimonials-container {
       position: relative;
       display: flex;
@@ -1211,7 +1254,9 @@ padding: 15px 10px;
         height: 250px;
         max-height: 310px;
       }
-      .testimonial-text {text-align: justify;
+
+      .testimonial-text {
+        text-align: justify;
       }
     }
 
@@ -1224,25 +1269,32 @@ padding: 15px 10px;
 
     .client-info {
       display: flex;
-      align-items: center;justify-content: center;
+      align-items: center;
+      justify-content: center;
     }
 
 
     .client-details {
       text-align: left;
     }
-@media (min-width:768px) {
-  .client-details {position: absolute;bottom: 20px;
-  }
-}
-    .client-name {text-align: center;
+
+    @media (min-width:768px) {
+      .client-details {
+        position: absolute;
+        bottom: 20px;
+      }
+    }
+
+    .client-name {
+      text-align: center;
       font-size: 16px;
       font-weight: bold;
       color: #333;
       margin-bottom: 0;
     }
 
-    .client-title {text-align: center;
+    .client-title {
+      text-align: center;
       font-size: 14px;
       color: #999;
     }
@@ -1315,13 +1367,22 @@ padding: 15px 10px;
         gap: 0;
       }
     }
+
     @media (min-width:769px) and (max-width:991px) {
       .contact-text {
-padding: 20px;
-      } 0
-      .contact-footer{gap: 0;}
-      .contact-section .contact-btn{width: 40%;padding: 10px 0 !important;}
+        padding: 20px;
+      }
+
+      0 .contact-footer {
+        gap: 0;
+      }
+
+      .contact-section .contact-btn {
+        width: 40%;
+        padding: 10px 0 !important;
+      }
     }
+
     @media (min-width:1400px) and (max-width:1637px) {
       .contact-text {
         max-width: 400px;
@@ -1402,29 +1463,39 @@ padding: 20px;
       font-size: 1.125rem;
       transition: all 0.3s ease;
     }
-@media (max-width:420px) {
-  .contact-btn {
-      width: 40%;
-      background-color: #fff;
-      color: var(--accent-color);
-      padding: 10px 15px;
-      text-decoration: none;
-      font-size: 16px;
-      font-weight: 500;
-      text-align: center;
-      position: relative;
-      transition: all var(--transition-speed) ease;
-      clip-path: polygon(0 0, 85% 0, 90% 100%, 0% 100%);
-    }
-}
-@media (max-width:360px) {
-  .contact-btn {
-clip-path: none; width: 60%; }
-  .contact-footer {justify-content: center;
 
-  }
-  .phone-details{margin-bottom: 20px;}
-}
+    @media (max-width:420px) {
+      .contact-btn {
+        width: 40%;
+        background-color: #fff;
+        color: var(--accent-color);
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+        position: relative;
+        transition: all var(--transition-speed) ease;
+        clip-path: polygon(0 0, 85% 0, 90% 100%, 0% 100%);
+      }
+    }
+
+    @media (max-width:360px) {
+      .contact-btn {
+        clip-path: none;
+        width: 60%;
+      }
+
+      .contact-footer {
+        justify-content: center;
+
+      }
+
+      .phone-details {
+        margin-bottom: 20px;
+      }
+    }
+
     .phone-details img {
       transition: transform 0.6s ease;
       /* Smooth rotation */
@@ -1644,11 +1715,14 @@ clip-path: none; width: 60%; }
       }
 
     }
+
     @media (min-width: 768px) and (max-width: 991px) {
-    .blog-section h3 {
+      .blog-section h3 {
         font-size: 1rem !important;
+      }
     }
-}    @media (min-width:1010px) {
+
+    @media (min-width:1010px) {
       .blog-item {
         height: 390px;
         max-height: 400px;
@@ -1720,6 +1794,98 @@ clip-path: none; width: 60%; }
       </div>
     </div>
   </div>
+
+  <!-- ============================testimonial copy for PARTNER section============================ -->
+  <style>
+    .partner-section h5 {
+      text-align: left;
+      font-size: 1.4rem
+    }
+
+    .partner-section p {
+      font-style: normal;
+    }
+  </style>
+
+  <section class="testimonials-section partner-section" id="testimonial" data-aos="zoom-in-up">
+    <div class="container">
+      <div class="section-heading">
+        <h2 class="section-title pb-0">Why Partner With Us</h2>
+      </div>
+
+      <div class="testimonials-container">
+        <!-- Swiper -->
+        <div class="swiper-container" style="overflow: hidden;">
+          <div class="swiper-wrapper">
+            <!-- Card 1 -->
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <h5>We Understand Partners</h5>
+                <p class="testimonial-text">
+                  Our entire model is built around supporting Zoho Partners - not end users. That means we understand
+                  the pace, expectations, and sensitivity of your client relationships.
+                </p>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <h5>Backend Support You Can Trust</h5>
+                <p class="testimonial-text">
+                  We handle the implementation, technical setup, and admin so you can focus on strategy, sales, and
+                  support.
+                </p>
+              </div>
+
+            </div>
+            <!-- Card 3 -->
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <h5>Domain Specialists</h5>
+                <p class="testimonial-text">
+                  Each vertical is managed by professionals who know the modules inside-out - whether it’s automating
+                  payroll or building a custom CRM pipeline.
+                </p>
+              </div>
+
+            </div>
+            <!-- Card 4 -->
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <h5>Reliable Turnarounds</h5>
+                <p class="testimonial-text">
+                  We know your timelines are tight. We deliver with speed, but never compromise on accuracy.
+                </p>
+              </div>
+
+            </div>
+            <!-- Card 5 -->
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <h5>Confidential. Consistent. Committed.</h5>
+                <p class="testimonial-text">
+                  We work quietly in the background, maintaining the same level of professionalism your clients expect
+                  from you.
+                </p>
+              </div>
+
+            </div>
+            <!-- More cards -->
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- Add Navigation -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
 
   <!-- ==================================faq====================================== -->
 
@@ -1892,7 +2058,8 @@ clip-path: none; width: 60%; }
             <span class="icon"></span>
           </button>
           <div class="faq-answer">
-            We provide Zoho implementation, accounting solutions, and IT services to optimise your business operations.
+            Our team provides technical implementation, setup, configuration, and administrative support for Zoho
+            solutions - tailored to each partner’s delivery process.
           </div>
         </div>
       </div>
@@ -1906,6 +2073,7 @@ clip-path: none; width: 60%; }
           <div class="faq-answer">
             Our personalised approach, industry expertise, and commitment to delivering effective solutions distinguish
             us in the market.
+
 
           </div>
         </div>
@@ -1922,20 +2090,6 @@ clip-path: none; width: 60%; }
             We follow strict quality control measures and continuously monitor our processes to guarantee exceptional
             results for our clients.
 
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="faq-item">
-          <button class="faq-question">
-            Who are your typical clients?
-
-            <span class="icon"></span>
-          </button>
-          <div class="faq-answer">
-            We work with businesses of all sizes, including startups, SMEs, and established corporations across various
-            industries.
 
           </div>
         </div>
@@ -1944,12 +2098,15 @@ clip-path: none; width: 60%; }
       <div class="col-md-6">
         <div class="faq-item">
           <button class="faq-question">
-            Can you customise your services for my business?
+            What turnaround time can we expect?
+
 
             <span class="icon"></span>
           </button>
           <div class="faq-answer">
-            Absolutely! We tailor our solutions to meet the specific needs and goals of your business.
+            Timelines are discussed upfront and adhered to closely. We’re structured to deliver efficiently without
+            compromising on quality.
+
 
           </div>
         </div>
@@ -1958,12 +2115,13 @@ clip-path: none; width: 60%; }
       <div class="col-md-6">
         <div class="faq-item">
           <button class="faq-question">
-            Do you offer training for your solutions?
+            How do you ensure confidentiality?
 
             <span class="icon"></span>
           </button>
           <div class="faq-answer">
-            Yes, we provide comprehensive training to help your team effectively use our Zoho solutions and services.
+            We follow strict internal protocols to protect client data and are open to signing NDAs as part of our
+            working relationship.
 
           </div>
         </div>
@@ -1972,13 +2130,28 @@ clip-path: none; width: 60%; }
       <div class="col-md-6">
         <div class="faq-item">
           <button class="faq-question">
-            What is the typical timeline for implementation?
+            How do you manage quality control?
 
             <span class="icon"></span>
           </button>
           <div class="faq-answer">
-            The timeline varies based on the complexity of your needs, but we ensure efficient planning to meet your
-            deadlines.
+            All work goes through internal reviews and is executed by specialists familiar with each Zoho module,
+            ensuring accuracy and consistency.
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="faq-item">
+          <button class="faq-question">
+            Do you provide support for all Zoho products?
+
+            <span class="icon"></span>
+          </button>
+          <div class="faq-answer">
+            We support key modules across Finance, IT, and HR. For specific products, feel free to reach out to confirm.
+
 
           </div>
         </div>
@@ -2193,13 +2366,13 @@ clip-path: none; width: 60%; }
 </main>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      setTimeout(function () {
-        if ($(window).scrollTop() === 0) {
-          var scrollAmount = $(document).height() * 0.09;
-          $('html, body').animate({ scrollTop: scrollAmount }, 1000);
-        }
-      }, 5000);
-    });
-  </script>
+<script>
+  $(document).ready(function () {
+    setTimeout(function () {
+      if ($(window).scrollTop() === 0) {
+        var scrollAmount = $(document).height() * 0.09;
+        $('html, body').animate({ scrollTop: scrollAmount }, 1000);
+      }
+    }, 5000);
+  });
+</script>

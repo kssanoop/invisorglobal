@@ -198,19 +198,13 @@
     <div class="container-fluid partners">
         <div class="container">
             <div class="row partner-sm">
-                <div class="col-md-3 ptner">
-                    <img src="assets/img/arabian-software.svg" alt="">
-                </div>
-                <div class="col-md-1 ptner">
-                    <img src="assets/img/icons/handshake.svg" alt="" class="hand-shake">
-                </div>
                 <div class="col-md-4 ptner">
                     <img src="assets/img/zoho-logo.svg" alt="">
                 </div>
-                <div class="col-md-1 ptner">
+                <div class="col-md-4 ptner">
                 <img src="assets/img/icons/handshake.svg" alt="" class="hand-shake">
                 </div>
-                <div class="col-md-3 ptner">
+                <div class="col-md-4 ptner">
                     <img class="partner-img" src="assets/img/Invisor_logo-rbg.png" alt="">
                 </div>
             </div>
@@ -219,12 +213,8 @@
     </div>
 
     <div class="container">
-        <h6 class="partner-text">Our partnership with Arabian Software, an award-winning Zoho One partner with over a
-            decade of
-            experience, brings our clients top-tier solutions. With a shared commitment to “serving better,” we
-            provide tailored, high-impact tools that streamline processes, increase productivity, and empower
-            businesses to meet challenges head-on. Together, we’re dedicated to driving meaningful results and
-            supporting our clients’ success in a competitive landscape.</h6>
+        <h6 class="partner-text">We collaborate with a growing network of Zoho Partners who trust us to handle the backend while they focus on client relationships. Built on mutual trust and shared standards of professionalism, our partnerships are designed to drive efficiency, strengthen delivery, and support long-term growth.
+</h6>
     </div>
 </section>
 
@@ -261,6 +251,7 @@
         color: #1d1d1d;
     }
 
+.hand-shake{width: 20% !important;}
 
 
     @media (max-width:991px) {
@@ -314,16 +305,6 @@
             </div>
         </div>
         <div class="team-member hvr-underline-from-left">
-            <img src="assets/img/team/team-3.jpeg" alt="Marta Cooper">
-            <div class="member-info">
-                <div class="team-name">
-                    <h3>Ashfaq Abdullah</h3>
-                    <p>CMA</p>
-                </div>
-                <a href="https://www.linkedin.com/in/ashfaq-abdullah-9840b9141/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
-            </div>
-        </div>
-        <div class="team-member hvr-underline-from-left">
             <img src="assets/img/team/sanoop4.jpeg" alt="Jane Jacobs">
             <div class="member-info">
                 <div class="team-name">
@@ -332,30 +313,6 @@
                 </div>
                 <a
                     href="https://www.linkedin.com/in/sanoop-developer?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i
-                        class="bi bi-linkedin"></i></a>
-            </div>
-        </div>
-        <div class="team-member hvr-underline-from-left">
-            <img src="assets/img/team/bernie-invisor.webp" alt="Olivia Wallberg">
-            <div class="member-info">
-                <div class="team-name">
-                    <h3>Bernie Keim</h3>
-                    <p>MBA,FCPA,FCGA</p>
-                </div>
-                <a
-                    href="https://www.linkedin.com/in/bernie-keim-mba-fcpa-fcga-9063819?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i
-                        class="bi bi-linkedin"></i></a>
-            </div>
-        </div>
-        <div class="team-member hvr-underline-from-left">
-            <img src="assets/img/team/sisir-2.jpg" alt="Marta Cooper">
-            <div class="member-info">
-                <div class="team-name">
-                    <h3>Sisir Sasikumar</h3>
-                    <p>ITIL V4</p>
-                </div>
-                <a
-                    href="https://www.linkedin.com/in/sisir-sasikumar-peroth-93552872?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i
                         class="bi bi-linkedin"></i></a>
             </div>
         </div>
@@ -371,8 +328,8 @@
         max-width: 1000px;
         margin: 0 auto;
         display: flex;
-        gap: 20px;
-        justify-content: space-around;
+        gap: 30px;
+        justify-content: space-between;
         flex-wrap: wrap;
     }
 
@@ -389,7 +346,7 @@
         overflow: hidden;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         text-align: center;
-        max-width: 300px;
+        max-width: 260px;
         transition: transform 0.3s ease;
     }
 
@@ -398,10 +355,10 @@
     }
 
     .team-member img {
-        max-width: 400px;
+        max-width: 300px;
         max-height: 200px;
         object-fit: cover;
-        width: 300px;
+        width: 260px;
         height: auto;
     }
 
@@ -450,8 +407,7 @@
             <div class="trust-badge" style="color:#fff">OUR VISION</div>
         </div>
         <p class="vision-text">
-            We aspire to set new standards for precision and efficiency, becoming the catalyst for our clients' enduring
-            success and prosperity.
+            We are committed to becoming the trusted backbone for Zoho Partners - delivering with accuracy, discretion, and unwavering support.
         </p>
     </div>
 </div>

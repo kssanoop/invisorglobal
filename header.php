@@ -303,16 +303,32 @@ justify-content: center !important;
   </style>
 
   <!-- Popup Form JavaScript -->
-  <script>
-    function showPopup() {
-      document.getElementById("popupForm").style.display = "flex";
-    }
+<script>
+  function showPopup() {
+    document.getElementById("popupForm").style.display = "flex";
+    document.body.classList.add("popup-open");
+  }
 
-    function closePopup() {
-      document.getElementById("popupForm").style.display = "none";
-    }
+  function closePopup() {
+    document.getElementById("popupForm").style.display = "none";
+    document.body.classList.remove("popup-open");
+  }
 
-    window.onload = function () {
-      setTimeout(showPopup, 10000); // Show popup 10 seconds after page load
-    };
-  </script>
+  window.onload = function () {
+    setTimeout(showPopup, 10000); // Show popup 10 seconds after page load
+  };
+
+  // Close popup when clicking outside the form
+  document.addEventListener("click", function (event) {
+    const popupOverlay = document.getElementById("popupForm");
+    const popupForm = document.querySelector(".popup-form");
+
+    if (
+      popupOverlay.style.display === "flex" &&
+      !popupForm.contains(event.target) &&
+      !event.target.closest(".popup-form")
+    ) {
+      closePopup();
+    }
+  });
+</script>

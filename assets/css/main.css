@@ -1016,6 +1016,7 @@ section,
   color: #333 !important;
 }
 
+
 .hvr-shutter-in-horizontal:hover:before,
 .hvr-shutter-in-horizontal:focus:before,
 .hvr-shutter-in-horizontal:active:before {
@@ -1089,7 +1090,7 @@ section,
 }
 
 .hero-subtitle {
-  padding-right: 30%;
+  padding-right: 25%;
   font-weight: 300 !important;
   font-size: 1.2rem;
   color: #1d1d1dcc;
@@ -1135,7 +1136,7 @@ section,
 
 @media (min-width: 992px) {
   .banner {
-    height: 55vh;
+    height: 75vh;
   }
 
   .hero-section .img-fluid {
@@ -1170,7 +1171,7 @@ section,
 
 @media (min-width: 1200px) and (max-width:1400px) {
   .banner {
-    height: 70vh !important;
+    height: 75vh !important;
   }
 }
 

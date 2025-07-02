@@ -173,20 +173,20 @@
 
 <div class="container cntct-info">
   <p class="contact-info"><strong>General inquiries</strong><br>
-  For questions or more information about our Zoho services, email us at <a href="contact@invisorglobal.com">contact@invisorglobal.com</a> <br> and our team will get back to you asap!
+  For questions or more information about our Zoho <br class="sm-none">services, email us at <a href="contact@invisorglobal.com">contact@invisorglobal.com</a> <br> and our team will get back to you asap!
 
   </p>
 </div>
 <style>
+  @media (max-width: 700px) {
+  .sm-none {
+    display: none;
+  }
+}
+
   .cntct-info {
     padding: 50px 10px;
   }
-@media (min-width:1200px) {
-  .cntct-info {
-    padding: 50px 50% 50px 10px;
-  }
-
-}
   .contact-info {
     font-size: 1rem;
     color: #1d1d1d;
@@ -263,9 +263,9 @@
   <!-- Marker for Canada (approximately top: 25%, left: 15%) -->
   <div class="marker" style="top: 24%; left: 16%;" data-country="Canada"></div>
   <!-- Marker for Saudi Arabia (approximately top: 45%, left: 70%) -->
-  <div class="marker" style="top: 65%; left: 65%;" data-country="Saudi Arabia"></div>
-  <!-- Marker for India (approximately top: 57%, left: 55%) -->
-  <div class="marker" style="top: 70%; left: 70%;" data-country="India"></div>
+<!--   <div class="marker" style="top: 65%; left: 65%;" data-country="Saudi Arabia"></div>
+ -->  <!-- Marker for India (approximately top: 57%, left: 55%) -->
+  <div class="marker" style="top: 73%; left: 70%;" data-country="India"></div>
 
   <!-- Tooltip for displaying country names -->
   <div class="tooltip" id="tooltip"></div>
@@ -344,7 +344,7 @@
         </div>
     </div>
 
-    <div class="location-wrap row last">
+<!--     <div class="location-wrap row last">
         <div class="col-md-4 country">
             <div class="big-text-dark">Saudi Arabia</div>
             <a href="https://www.google.com/maps/place/Le+Cygne+Commercial+Center-2,+Al+Olaya+District" target="_blank" class="link-with-icon">View on Map →</a>
@@ -366,7 +366,7 @@
             </div>
         </div>
     </div>
-</div>
+ --></div>
 
 <style>
 .locations-wrap {
@@ -567,121 +567,122 @@
     <h1 class="faq-title">Explore your financial queries answered</h1>
   </div>
 
-  <div class="row">
-    <div class="col-md-6">
-      <div class="faq-item">
-        <button class="faq-question">
-          How can I get started?
-          <span class="icon"></span>
-        </button>
-        <div class="faq-answer">
-          To begin, fill out our contact form or call us. Our team will assist you in navigating our services.
+    <div class="row">
+      <div class="col-md-6">
+        <div class="faq-item">
+          <button class="faq-question">
+            How can I get started?
+            <span class="icon"></span>
+          </button>
+          <div class="faq-answer">
+            To begin, fill out our contact form or call us. Our team will assist you in navigating our services.
 
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="faq-item">
+          <button class="faq-question">
+            What services do you offer?
+
+
+            <span class="icon"></span>
+          </button>
+          <div class="faq-answer">
+            Our team provides technical implementation, setup, configuration, and administrative support for Zoho solutions - tailored to each partner’s delivery process.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="faq-item">
+          <button class="faq-question">
+            What sets us apart?
+            <span class="icon"></span>
+          </button>
+          <div class="faq-answer">
+            Our personalised approach, industry expertise, and commitment to delivering effective solutions distinguish us in the market.
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="faq-item">
+          <button class="faq-question">
+            How do you ensure quality in your services?
+
+            <span class="icon"></span>
+          </button>
+          <div class="faq-answer">
+            We follow strict quality control measures and continuously monitor our processes to guarantee      exceptional results for our clients.
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="faq-item">
+          <button class="faq-question">
+            What turnaround time can we expect?
+
+
+            <span class="icon"></span>
+          </button>
+          <div class="faq-answer">
+            Timelines are discussed upfront and adhered to closely. We’re structured to deliver efficiently without compromising on quality.
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="faq-item">
+          <button class="faq-question">
+           How do you ensure confidentiality?
+
+            <span class="icon"></span>
+          </button>
+          <div class="faq-answer">
+            We follow strict internal protocols to protect client data and are open to signing NDAs as part of our working relationship.
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="faq-item">
+          <button class="faq-question">
+           How do you manage quality control?
+
+            <span class="icon"></span>
+          </button>
+          <div class="faq-answer">
+            All work goes through internal reviews and is executed by specialists familiar with each Zoho module, ensuring accuracy and consistency.
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="faq-item">
+          <button class="faq-question">
+            Do you provide support for all Zoho products?
+
+            <span class="icon"></span>
+          </button>
+          <div class="faq-answer">
+            We support key modules across Finance, IT, and HR. For specific products, feel free to reach out to confirm.
+
+
+          </div>
         </div>
       </div>
     </div>
-
-    <div class="col-md-6">
-      <div class="faq-item">
-        <button class="faq-question">
-          What services do you offer?
-
-
-          <span class="icon"></span>
-        </button>
-        <div class="faq-answer">
-          We provide Zoho implementation, accounting solutions, and IT services to optimise your business operations.
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="faq-item">
-        <button class="faq-question">
-          What sets us apart?
-          <span class="icon"></span>
-        </button>
-        <div class="faq-answer">
-          Our personalised approach, industry expertise, and commitment to delivering effective solutions distinguish us
-          in the market.
-
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="faq-item">
-        <button class="faq-question">
-          How do you ensure quality in your services?
-
-          <span class="icon"></span>
-        </button>
-        <div class="faq-answer">
-          We follow strict quality control measures and continuously monitor our processes to guarantee exceptional
-          results for our clients.
-
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="faq-item">
-        <button class="faq-question">
-          Who are your typical clients?
-
-          <span class="icon"></span>
-        </button>
-        <div class="faq-answer">
-          We work with businesses of all sizes, including startups, SMEs, and established corporations across various
-          industries.
-
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="faq-item">
-        <button class="faq-question">
-          Can you customise your services for my business?
-
-          <span class="icon"></span>
-        </button>
-        <div class="faq-answer">
-          Absolutely! We tailor our solutions to meet the specific needs and goals of your business.
-
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="faq-item">
-        <button class="faq-question">
-          Do you offer training for your solutions?
-
-          <span class="icon"></span>
-        </button>
-        <div class="faq-answer">
-          Yes, we provide comprehensive training to help your team effectively use our Zoho solutions and services.
-
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-6">
-      <div class="faq-item">
-        <button class="faq-question">
-          What is the typical timeline for implementation?
-
-          <span class="icon"></span>
-        </button>
-        <div class="faq-answer">
-          The timeline varies based on the complexity of your needs, but we ensure efficient planning to meet your
-          deadlines.
-
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 
 <script>

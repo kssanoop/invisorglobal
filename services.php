@@ -206,14 +206,18 @@
                                     </a>
                                 </div>
                                 <div class="card-bdy">
-                                    <a href="?page=zohoone"><p class="card-text">An all-in-one suite offering 50+ integrated apps to run your
-                                        entire
-                                        business
-                                        from one platform.</p></a>
+                                    <a href="?page=zohoone">
+                                        <p class="card-text">An all-in-one suite offering 50+ integrated apps to run
+                                            your
+                                            entire
+                                            business
+                                            from one platform.</p>
+                                    </a>
                                     <div class="tab-bottom">
                                         <a href="?page=zohoone" class="btn btn-link contact-btn">Learn more <i
                                                 class="bi bi-arrow-right-short"></i></a>
-                                        <img src="assets/img/zoho-logo.svg" alt="">
+                                        <img src="assets/img/zoho-logo.svg" alt="Zoho Logo"
+                                            onclick="window.location.href='?page=zohoone'" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -235,7 +239,7 @@
                                     <div class="tab-bottom">
                                         <a href="?page=zohocrm" class="btn btn-link contact-btn">Learn more <i
                                                 class="bi bi-arrow-right-short"></i></a>
-                                        <img src="assets/img/crm.svg" alt="">
+                                        <img src="assets/img/crm.svg" alt="" onclick="window.location.href='?page=zohoone'" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -259,7 +263,7 @@
                                     <div class="tab-bottom">
                                         <a href="?page=zohobooks" class="btn btn-link contact-btn">Learn more <i
                                                 class="bi bi-arrow-right-short"></i></a>
-                                        <img src="assets/img/zoho-books_3ex2.png" alt="">
+                                        <img src="assets/img/zoho-books_3ex2.png" alt="" onclick="window.location.href='?page=zohoone'" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -283,7 +287,7 @@
                                     <div class="tab-bottom">
                                         <a href="?page=zohoinventory" class="btn btn-link contact-btn">Learn more <i
                                                 class="bi bi-arrow-right-short"></i></a>
-                                        <img src="assets/img/inventory.png" alt="">
+                                        <img src="assets/img/inventory.png" alt="" onclick="window.location.href='?page=zohoinventory'" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -306,7 +310,7 @@
                                     <div class="tab-bottom">
                                         <a href="?page=zohoanalytics" class="btn btn-link contact-btn">Learn more <i
                                                 class="bi bi-arrow-right-short"></i></a>
-                                        <img src="assets/img/zoho-analytics-logo-lockup.png" alt="">
+                                        <img src="assets/img/zoho-analytics-logo-lockup.png" alt="" onclick="window.location.href='?page=zohoanalytics'" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -330,7 +334,7 @@
                                     <div class="tab-bottom">
                                         <a href="?page=zohocreator" class="btn btn-link contact-btn">Learn more <i
                                                 class="bi bi-arrow-right-short"></i></a>
-                                        <img src="assets/img/creator.png" alt="">
+                                        <img src="assets/img/creator.png" alt="" onclick="window.location.href='?page=zohocreator'" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -355,7 +359,7 @@
                                     <div class="tab-bottom">
                                         <a href="?page=zohoprojects" class="btn btn-link contact-btn">Learn more <i
                                                 class="bi bi-arrow-right-short"></i></a>
-                                        <img src="assets/img/zoho-Projects-logo-lockup.jpg" alt="">
+                                        <img src="assets/img/zoho-Projects-logo-lockup.jpg" alt="" onclick="window.location.href='?page=zohoprojects'" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -381,7 +385,7 @@
                                     <div class="tab-bottom">
                                         <a href="?page=zohodesk" class="btn btn-link contact-btn">Learn more <i
                                                 class="bi bi-arrow-right-short"></i></a>
-                                        <img src="assets/img/zoho-desk.webp" alt="">
+                                        <img src="assets/img/zoho-desk.webp" alt="" onclick="window.location.href='?page=zohodesk'" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -407,7 +411,7 @@
                                     <div class="tab-bottom">
                                         <a href="?page=zohopeople" class="btn btn-link contact-btn">Learn more <i
                                                 class="bi bi-arrow-right-short"></i></a>
-                                        <img src="assets/img/People-logo-lockup.jpg" alt="">
+                                        <img src="assets/img/People-logo-lockup.jpg" alt="" onclick="window.location.href='?page=zohopeople'" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -431,7 +435,7 @@
                                     <div class="tab-bottom">
                                         <a href="?page=zohopayroll" class="btn btn-link contact-btn">Learn more <i
                                                 class="bi bi-arrow-right-short"></i></a>
-                                        <img src="assets/img/Payroll-logo-lockup.jpg" alt="">
+                                        <img src="assets/img/Payroll-logo-lockup.jpg" alt="" onclick="window.location.href='?page=zohopayroll'" style="cursor:pointer;">
                                     </div>
                                 </div>
                             </div>
@@ -467,7 +471,7 @@
                                 <div class="card-bdy">
                                     <p class="card-text">Designed for clients, end-users, and business owners aiming for
                                         in-depth functional knowledge of Zoho.</p>
-                                        <div class="tab-bottom">
+                                    <div class="tab-bottom">
                                         <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
                                                 class="bi bi-arrow-right-short"></i></a>
                                     </div>
@@ -485,7 +489,7 @@
                                 <div class="card-bdy">
                                     <p class="card-text">For IT professionals and new developers interested in
                                         customising and developing with Zoho.</p>
-                                        <div class="tab-bottom">
+                                    <div class="tab-bottom">
                                         <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
                                                 class="bi bi-arrow-right-short"></i></a>
                                     </div>
@@ -503,7 +507,7 @@
                                 <div class="card-bdy">
                                     <p class="card-text">For businesses utilising Zoho, covering in-depth functional and
                                         technical topics.</p>
-                                        <div class="tab-bottom">
+                                    <div class="tab-bottom">
                                         <a href="?page=zoho-training" class="btn btn-link contact-btn">Learn more <i
                                                 class="bi bi-arrow-right-short"></i></a>
                                     </div>
@@ -727,13 +731,14 @@
         .services-section .services-title {
             margin-right: 50%;
         }
+
         .tab-bottom {
-        position: absolute;
-        bottom: 20px;
-        min-width: 300px;
-        display: flex !important;
-        align-items: center !important;
-    }
+            position: absolute;
+            bottom: 20px;
+            min-width: 300px;
+            display: flex !important;
+            align-items: center !important;
+        }
 
     }
 
@@ -983,13 +988,13 @@
 </div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
+<script>
     $(document).ready(function () {
-      setTimeout(function () {
-        if ($(window).scrollTop() === 0) {
-          var scrollAmount = $(document).height() * 0.09;
-          $('html, body').animate({ scrollTop: scrollAmount }, 1000);
-        }
-      }, 5000);
+        setTimeout(function () {
+            if ($(window).scrollTop() === 0) {
+                var scrollAmount = $(document).height() * 0.09;
+                $('html, body').animate({ scrollTop: scrollAmount }, 1000);
+            }
+        }, 5000);
     });
-  </script>
+</script>
