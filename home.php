@@ -1074,16 +1074,22 @@
       }
     }
   </style>
-  <!-- =============================================testimonial====================================== -->
+    <!-- ============================testimonial copy for PARTNER section============================ -->
+  <style>
+    .partner-section h5 {
+      text-align: left;
+      font-size: 1.4rem
+    }
 
-  <section class="testimonials-section" id="testimonial" data-aos="zoom-in-up">
+    .partner-section p {
+      font-style: normal;
+    }
+  </style>
+
+  <section class="testimonials-section partner-section" id="testimonial" data-aos="zoom-in-up">
     <div class="container">
       <div class="section-heading">
-        <div class="title-top align-items-center justify-content-center mb-4">
-          <div class="title-dot"></div>
-          <div class="trust-badge">TESTIMONIALS</div>
-        </div>
-        <h2 class="section-title pb-0">Hear what our satisfied clients have to say</h2>
+        <h2 class="section-title pb-0">Why Partner With Us</h2>
       </div>
 
       <div class="testimonials-container">
@@ -1093,98 +1099,53 @@
             <!-- Card 1 -->
             <div class="swiper-slide">
               <div class="testimonial-card">
+                <h5>We Understand Partners</h5>
                 <p class="testimonial-text">
-                  "Our Zoho setup was made easy and stress-free by Invisor. Their team really listened to what we
-                  needed, and now our daily tasks run so much smoother!
-                  "
+                  Our entire model is built around supporting Zoho Partners - not end users. That means we understand
+                  the pace, expectations, and sensitivity of your client relationships.
                 </p>
-                <div class="client-info">
-                  <div class="client-details">
-                    <p class="client-name">Xavier Tom Joseph</p>
-                    <p class="client-title"> CEO Happix </p>
-                  </div>
-                </div>
               </div>
             </div>
             <!-- Card 2 -->
             <div class="swiper-slide">
               <div class="testimonial-card">
+                <h5>Backend Support You Can Trust</h5>
                 <p class="testimonial-text">
-                  "Working with Invisor was a game-changer for our team. Their thorough understanding of Zoho's
-                  capabilities allowed us to optimise our workflows and enhance our overall efficiency.
-                  "
+                  We handle the implementation, technical setup, and admin so you can focus on strategy, sales, and
+                  support.
                 </p>
-                <div class="client-info">
-                  <div class="client-details">
-                    <p class="client-name">Christopher Bryn Murray</p>
-                    <p class="client-title">Vamoose Electric Cycle Ltd</p>
-                  </div>
-                </div>
               </div>
 
             </div>
             <!-- Card 3 -->
             <div class="swiper-slide">
               <div class="testimonial-card">
+                <h5>Domain Specialists</h5>
                 <p class="testimonial-text">
-                  "The team provided exceptional support during our Zoho implementation. They tailored everything to fit
-                  our business, and their training made it simple for our team to get on board."
+                  Each vertical is managed by professionals who know the modules inside-out - whether it’s automating
+                  payroll or building a custom CRM pipeline.
                 </p>
-                <div class="client-info">
-                  <div class="client-details">
-                    <p class="client-name">Tarun Tadepalli</p>
-                    <p class="client-title">Zelecloud</p>
-                  </div>
-                </div>
               </div>
 
             </div>
             <!-- Card 4 -->
             <div class="swiper-slide">
               <div class="testimonial-card">
+                <h5>Reliable Turnarounds</h5>
                 <p class="testimonial-text">
-                  "Their approach to Zoho implementation transformed how we operate. Invisor's insights into workflow
-                  optimization have increased our productivity and streamlined our processes effortlessly."
+                  We know your timelines are tight. We deliver with speed, but never compromise on accuracy.
                 </p>
-                <div class="client-info">
-                  <div class="client-details">
-                    <p class="client-name">Mujeeb T C</p>
-                    <p class="client-title">Al Farha Coal Ind LLC</p>
-                  </div>
-                </div>
               </div>
 
             </div>
             <!-- Card 5 -->
             <div class="swiper-slide">
               <div class="testimonial-card">
+                <h5>Confidential. Consistent. Committed.</h5>
                 <p class="testimonial-text">
-                  "From planning to execution, the team’s attention to detail and expertise with Zoho ensured a smooth
-                  setup. They tailored everything perfectly to our needs, making the system intuitive and valuable for
-                  our team."
+                  We work quietly in the background, maintaining the same level of professionalism your clients expect
+                  from you.
                 </p>
-                <div class="client-info">
-                  <div class="client-details">
-                    <p class="client-name">Arunkumar</p>
-                    <p class="client-title">Asala of East Gulf LLC</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <!-- Card 6 -->
-            <div class="swiper-slide">
-              <div class="testimonial-card">
-                <p class="testimonial-text">
-                  "Their expertise allows us to fully customise our Zoho systems to our needs, allowing us to focus on
-                  growth without worrying about the details."
-                </p>
-                <div class="client-info">
-                  <div class="client-details">
-                    <p class="client-name">Andrew McArthur</p>
-                    <p class="client-title">Frenzimpex Building Materials Trading LLC</p>
-                  </div>
-                </div>
               </div>
 
             </div>
@@ -1204,125 +1165,6 @@
     </div>
   </section>
 
-  <style>
-    .swiper-pagination {
-      position: relative;
-      bottom: 0px;
-      text-align: center;
-      margin-top: 10px;
-    }
-
-    .testimonials-section {
-      background-color: #f9f9f9;
-      padding: 50px 0;
-      text-align: center;
-    }
-
-    .section-heading {
-      margin-bottom: 30px;
-    }
-
-    .section-title {
-      font-size: 2.8rem;
-      font-weight: 300;
-      color: #333;
-    }
-
-    @media (max-width:991px) {
-      .section-title {
-        font-size: 2rem;
-      }
-    }
-
-    .testimonials-container {
-      position: relative;
-      display: flex;
-      justify-content: space-between;
-      gap: 20px;
-    }
-
-    .testimonial-card {
-      background-color: white;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-      flex: 1;
-    }
-
-    @media (min-width:768px) {
-      .testimonial-card {
-        height: 250px;
-        max-height: 310px;
-      }
-
-      .testimonial-text {
-        text-align: justify;
-      }
-    }
-
-    .testimonial-text {
-      font-size: 16px;
-      font-style: italic;
-      color: #666;
-      margin-bottom: 20px;
-    }
-
-    .client-info {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-
-    .client-details {
-      text-align: left;
-    }
-
-    @media (min-width:768px) {
-      .client-details {
-        position: absolute;
-        bottom: 20px;
-      }
-    }
-
-    .client-name {
-      text-align: center;
-      font-size: 16px;
-      font-weight: bold;
-      color: #333;
-      margin-bottom: 0;
-    }
-
-    .client-title {
-      text-align: center;
-      font-size: 14px;
-      color: #999;
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
-      .testimonials-container {
-        flex-direction: column;
-      }
-
-      .testimonial-card {
-        margin-bottom: 20px;
-      }
-    }
-
-    /* Positioning */
-    .swiper-button-next {
-      display: none;
-      right: 0%;
-      /* Place the next button 20px from the right */
-    }
-
-    .swiper-button-prev {
-      display: none;
-      left: -0%;
-      /* Place the prev button 20px from the left */
-    }
-  </style>
   <!-- ===============================contact=========================== -->
   <style>
     .contact-section {
@@ -1795,22 +1637,16 @@
     </div>
   </div>
 
-  <!-- ============================testimonial copy for PARTNER section============================ -->
-  <style>
-    .partner-section h5 {
-      text-align: left;
-      font-size: 1.4rem
-    }
+  <!-- =============================================testimonial====================================== -->
 
-    .partner-section p {
-      font-style: normal;
-    }
-  </style>
-
-  <section class="testimonials-section partner-section" id="testimonial" data-aos="zoom-in-up">
+  <section class="testimonials-section" id="testimonial" data-aos="zoom-in-up">
     <div class="container">
       <div class="section-heading">
-        <h2 class="section-title pb-0">Why Partner With Us</h2>
+        <div class="title-top align-items-center justify-content-center mb-4">
+          <div class="title-dot"></div>
+          <div class="trust-badge">TESTIMONIALS</div>
+        </div>
+        <h2 class="section-title pb-0">Hear what our satisfied clients have to say</h2>
       </div>
 
       <div class="testimonials-container">
@@ -1820,53 +1656,98 @@
             <!-- Card 1 -->
             <div class="swiper-slide">
               <div class="testimonial-card">
-                <h5>We Understand Partners</h5>
                 <p class="testimonial-text">
-                  Our entire model is built around supporting Zoho Partners - not end users. That means we understand
-                  the pace, expectations, and sensitivity of your client relationships.
+                  "Our Zoho setup was made easy and stress-free by Invisor. Their team really listened to what we
+                  needed, and now our daily tasks run so much smoother!
+                  "
                 </p>
+                <div class="client-info">
+                  <div class="client-details">
+                    <p class="client-name">Xavier Tom Joseph</p>
+                    <p class="client-title"> CEO Happix </p>
+                  </div>
+                </div>
               </div>
             </div>
             <!-- Card 2 -->
             <div class="swiper-slide">
               <div class="testimonial-card">
-                <h5>Backend Support You Can Trust</h5>
                 <p class="testimonial-text">
-                  We handle the implementation, technical setup, and admin so you can focus on strategy, sales, and
-                  support.
+                  "Working with Invisor was a game-changer for our team. Their thorough understanding of Zoho's
+                  capabilities allowed us to optimise our workflows and enhance our overall efficiency.
+                  "
                 </p>
+                <div class="client-info">
+                  <div class="client-details">
+                    <p class="client-name">Christopher Bryn Murray</p>
+                    <p class="client-title">Vamoose Electric Cycle Ltd</p>
+                  </div>
+                </div>
               </div>
 
             </div>
             <!-- Card 3 -->
             <div class="swiper-slide">
               <div class="testimonial-card">
-                <h5>Domain Specialists</h5>
                 <p class="testimonial-text">
-                  Each vertical is managed by professionals who know the modules inside-out - whether it’s automating
-                  payroll or building a custom CRM pipeline.
+                  "The team provided exceptional support during our Zoho implementation. They tailored everything to fit
+                  our business, and their training made it simple for our team to get on board."
                 </p>
+                <div class="client-info">
+                  <div class="client-details">
+                    <p class="client-name">Tarun Tadepalli</p>
+                    <p class="client-title">Zelecloud</p>
+                  </div>
+                </div>
               </div>
 
             </div>
             <!-- Card 4 -->
             <div class="swiper-slide">
               <div class="testimonial-card">
-                <h5>Reliable Turnarounds</h5>
                 <p class="testimonial-text">
-                  We know your timelines are tight. We deliver with speed, but never compromise on accuracy.
+                  "Their approach to Zoho implementation transformed how we operate. Invisor's insights into workflow
+                  optimization have increased our productivity and streamlined our processes effortlessly."
                 </p>
+                <div class="client-info">
+                  <div class="client-details">
+                    <p class="client-name">Mujeeb T C</p>
+                    <p class="client-title">Al Farha Coal Ind LLC</p>
+                  </div>
+                </div>
               </div>
 
             </div>
             <!-- Card 5 -->
             <div class="swiper-slide">
               <div class="testimonial-card">
-                <h5>Confidential. Consistent. Committed.</h5>
                 <p class="testimonial-text">
-                  We work quietly in the background, maintaining the same level of professionalism your clients expect
-                  from you.
+                  "From planning to execution, the team’s attention to detail and expertise with Zoho ensured a smooth
+                  setup. They tailored everything perfectly to our needs, making the system intuitive and valuable for
+                  our team."
                 </p>
+                <div class="client-info">
+                  <div class="client-details">
+                    <p class="client-name">Arunkumar</p>
+                    <p class="client-title">Asala of East Gulf LLC</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- Card 6 -->
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <p class="testimonial-text">
+                  "Their expertise allows us to fully customise our Zoho systems to our needs, allowing us to focus on
+                  growth without worrying about the details."
+                </p>
+                <div class="client-info">
+                  <div class="client-details">
+                    <p class="client-name">Andrew McArthur</p>
+                    <p class="client-title">Frenzimpex Building Materials Trading LLC</p>
+                  </div>
+                </div>
               </div>
 
             </div>
@@ -1885,6 +1766,126 @@
       </div>
     </div>
   </section>
+
+  <style>
+    .swiper-pagination {
+      position: relative;
+      bottom: 0px;
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .testimonials-section {
+      background-color: #f9f9f9;
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    .section-heading {
+      margin-bottom: 30px;
+    }
+
+    .section-title {
+      font-size: 2.8rem;
+      font-weight: 300;
+      color: #333;
+    }
+
+    @media (max-width:991px) {
+      .section-title {
+        font-size: 2rem;
+      }
+    }
+
+    .testimonials-container {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .testimonial-card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      flex: 1;
+    }
+
+    @media (min-width:768px) {
+      .testimonial-card {
+        height: 250px;
+        max-height: 310px;
+      }
+
+      .testimonial-text {
+        text-align: justify;
+      }
+    }
+
+    .testimonial-text {
+      font-size: 16px;
+      font-style: italic;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .client-info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+
+    .client-details {
+      text-align: left;
+    }
+
+    @media (min-width:768px) {
+      .client-details {
+        position: absolute;
+        bottom: 20px;
+      }
+    }
+
+    .client-name {
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 0;
+    }
+
+    .client-title {
+      text-align: center;
+      font-size: 14px;
+      color: #999;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .testimonials-container {
+        flex-direction: column;
+      }
+
+      .testimonial-card {
+        margin-bottom: 20px;
+      }
+    }
+
+    /* Positioning */
+    .swiper-button-next {
+      display: none;
+      right: 0%;
+      /* Place the next button 20px from the right */
+    }
+
+    .swiper-button-prev {
+      display: none;
+      left: -0%;
+      /* Place the prev button 20px from the left */
+    }
+  </style>
 
 
   <!-- ==================================faq====================================== -->
