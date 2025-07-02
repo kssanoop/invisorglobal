@@ -1084,6 +1084,21 @@
     .partner-section p {
       font-style: normal;
     }
+        @media (max-width:767px) {
+          .partner-section h5 {
+      text-align: center;
+    }
+    }
+    @media (min-width:300px) and (max-width:500px) {
+      .partner-section .testimonial-card{
+        min-height:200px
+      }
+    }
+    @media (min-width:500px) and (max-width:767px) {
+      .partner-section .testimonial-card{
+        min-height:150px
+      }
+    }
   </style>
 
   <section class="testimonials-section partner-section" id="testimonial" data-aos="zoom-in-up">
@@ -1141,7 +1156,7 @@
             <!-- Card 5 -->
             <div class="swiper-slide">
               <div class="testimonial-card">
-                <h5>Confidential. Consistent. Committed.</h5>
+                <h5>Behind You Always</h5>
                 <p class="testimonial-text">
                   We work quietly in the background, maintaining the same level of professionalism your clients expect
                   from you.
@@ -1679,8 +1694,8 @@
                 </p>
                 <div class="client-info">
                   <div class="client-details">
-                    <p class="client-name">Christopher Bryn Murray</p>
-                    <p class="client-title">Vamoose Electric Cycle Ltd</p>
+                    <p class="client-name">Ashfaq Abdullah</p>
+                    <p class="client-title">Arabian Software </p>
                   </div>
                 </div>
               </div>

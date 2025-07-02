@@ -482,8 +482,8 @@
                 </p>
                 <div class="client-info">
                   <div class="client-details">
-                    <p class="client-name">Christopher Bryn Murray</p>
-                    <p class="client-title">Vamoose Electric Cycle Ltd</p>
+                    <p class="client-name">Ashfaq Abdullah</p>
+                    <p class="client-title">Arabian Software </p>
                   </div>
                 </div>
               </div>
