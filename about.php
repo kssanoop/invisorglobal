@@ -99,13 +99,20 @@
         background-image: url('assets/img/about/about-right.png');
         clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
     }
-@media (max-width:500px) {
-    .left-side,.right-side{clip-path: none;}
-    .paragraph-wrap {
-        width: 100% !important;
+
+    @media (max-width:500px) {
+
+        .left-side,
+        .right-side {
+            clip-path: none;
+        }
+
+        .paragraph-wrap {
+            width: 100% !important;
+        }
+
     }
 
-}
     /* Paragraph styling */
     .paragraph-container {
         width: 100%;
@@ -202,7 +209,7 @@
                     <img src="assets/img/zoho-logo.svg" alt="">
                 </div>
                 <div class="col-md-4 ptner">
-                <img src="assets/img/icons/handshake.svg" alt="" class="hand-shake">
+                    <img src="assets/img/icons/handshake.svg" alt="" class="hand-shake">
                 </div>
                 <div class="col-md-4 ptner">
                     <img class="partner-img" src="assets/img/Invisor_logo-rbg.png" alt="">
@@ -213,8 +220,11 @@
     </div>
 
     <div class="container">
-        <h6 class="partner-text">We collaborate with a growing network of Zoho Partners who trust us to handle the backend while they focus on client relationships. Built on mutual trust and shared standards of professionalism, our partnerships are designed to drive efficiency, strengthen delivery, and support long-term growth.
-</h6>
+        <h6 class="partner-text">We collaborate with a growing network of Zoho Partners who trust us to handle the
+            backend while they focus on client relationships. Built on mutual trust and shared standards of
+            professionalism, our partnerships are designed to drive efficiency, strengthen delivery, and support
+            long-term growth.
+        </h6>
     </div>
 </section>
 
@@ -226,7 +236,11 @@
         height: auto;
         margin-bottom: 50px;
     }
-.partners .ptner{margin: auto;}
+
+    .partners .ptner {
+        margin: auto;
+    }
+
     .partners img {
         height: auto;
         width: 50%;
@@ -237,9 +251,13 @@
     .partners .partner-img {
         width: 60%;
     }
-    .partners .partner-sm {width: 92%;margin: auto;
+
+    .partners .partner-sm {
+        width: 92%;
+        margin: auto;
 
     }
+
     .partners h6,
     .partner-text {
         width: 80%;
@@ -251,7 +269,9 @@
         color: #1d1d1d;
     }
 
-.hand-shake{width: 20% !important;}
+    .hand-shake {
+        width: 20% !important;
+    }
 
 
     @media (max-width:991px) {
@@ -264,9 +284,15 @@
             width: 50%;
         }
     }
+
     @media (max-width:767px) {
-        .ptner{margin-bottom: 30px;}
-.hand-shake{width: 20% !important;}
+        .ptner {
+            margin-bottom: 30px;
+        }
+
+        .hand-shake {
+            width: 20% !important;
+        }
     }
 </style>
 
@@ -288,7 +314,7 @@
                     <p>CMA, CSCA</p>
                 </div>
                 <a
-                    href="https://www.linkedin.com/in/alextomjoseph?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i
+                    href="https://www.linkedin.com/in/alextomjoseph?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener"><i
                         class="bi bi-linkedin"></i></a>
             </div>
         </div>
@@ -300,7 +326,7 @@
                     <p>CMA</p>
                 </div>
                 <a
-                    href="https://www.linkedin.com/in/alextomjoseph?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i
+                    href="https://www.linkedin.com/in/alextomjoseph?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener"><i
                         class="bi bi-linkedin"></i></a>
             </div>
         </div>
@@ -309,13 +335,75 @@
             <div class="member-info">
                 <div class="team-name">
                     <h3>Sanoop KS</h3>
-                    <p>MCA</p>
                 </div>
                 <a
-                    href="https://www.linkedin.com/in/sanoop-developer?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i
+                    href="https://www.linkedin.com/in/sanoop-developer?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener"><i
                         class="bi bi-linkedin"></i></a>
             </div>
         </div>
+        <div class="team-member hvr-underline-from-left">
+            <img src="assets/img/team/saeed.webp" alt="Jane Jacobs">
+            <div class="member-info">
+                <div class="team-name">
+                    <h3>Saeed Rasheed</h3>
+                </div>
+                <a
+                    href="https://www.linkedin.com/in/saeed-rasheed-731722199/" target="_blank" rel="noopener"><i
+                        class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="team-member hvr-underline-from-left">
+            <img src="assets/img/team/midesh.webp" alt="Jane Jacobs">
+            <div class="member-info">
+                <div class="team-name">
+                    <h3>Midhesh A</h3>
+                </div>
+                <a href="https://www.linkedin.com/in/midhesh-a-6a0190199/" target="_blank" rel="noopener">
+                    <i class="bi bi-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <div class="team-member hvr-underline-from-left">
+            <img src="assets/img/team/anitta.webp" style="object-position: center;" alt="Jane Jacobs">
+            <div class="member-info">
+                <div class="team-name">
+                    <h3>Anitta Philip</h3>
+                </div>
+                <a
+                    href="https://www.linkedin.com/in/anitta-philip-323ba3226/" target="_blank" rel="noopener"><i
+                        class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="team-member hvr-underline-from-left">
+            <img src="assets/img/team/karthika.webp" style="object-position: center -20px;" alt="Jane Jacobs">
+            <div class="member-info">
+                <div class="team-name">
+                    <h3>Karthika</h3>
+                </div>
+                <a
+                    href="https://www.linkedin.com/in/karthika-rajeev-abb3b927a/" target="_blank" rel="noopener"><i
+                        class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="team-member hvr-underline-from-left">
+            <img src="assets/img/team/jincy.jpg" alt="Jane Jacobs">
+            <div class="member-info">
+                <div class="team-name">
+                    <h3>Jincy Treasa P X</h3>
+                </div>
+                <a href="https://www.linkedin.com/in/jincytreasa/" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="team-member hvr-underline-from-left">
+            <img src="assets/img/team/arjun.webp" alt="Jane Jacobs">
+            <div class="member-info">
+                <div class="team-name">
+                    <h3>Arjun Ashokan </h3>
+                </div>
+                <a href="https://www.linkedin.com/in/arjun-ashokan/" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+
     </div>
 </section>
 
@@ -329,7 +417,7 @@
         margin: 0 auto;
         display: flex;
         gap: 30px;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
     }
 
@@ -356,10 +444,12 @@
 
     .team-member img {
         max-width: 300px;
-        max-height: 200px;
+        max-height: 240px;
         object-fit: cover;
+        object-position: top;
         width: 260px;
         height: auto;
+        
     }
 
     .member-info {
@@ -407,7 +497,8 @@
             <div class="trust-badge" style="color:#fff">OUR VISION</div>
         </div>
         <p class="vision-text">
-            We are committed to becoming the trusted backbone for Zoho Partners - delivering with accuracy, discretion, and unwavering support.
+            We are committed to becoming the trusted backbone for Zoho Partners - delivering with accuracy, discretion,
+            and unwavering support.
         </p>
     </div>
 </div>
@@ -441,238 +532,256 @@
 </style>
 
 
-  <!-- =============================================testimonial====================================== -->
-  <!-- =============================================testimonial====================================== -->
+<!-- =============================================testimonial====================================== -->
+<!-- =============================================testimonial====================================== -->
 
-  <section class="testimonials-section" id="testimonial" data-aos="zoom-in-up">
+<section class="testimonials-section" id="testimonial" data-aos="zoom-in-up">
     <div class="container">
-      <div class="section-heading">
-        <div class="title-top align-items-center justify-content-center mb-4">
-          <div class="title-dot"></div>
-          <div class="trust-badge">TESTIMONIALS</div>
-        </div>
-        <h2 class="section-title pb-0">Hear what our satisfied clients have to say</h2>
-      </div>
-
-      <div class="testimonials-container">
-        <!-- Swiper -->
-        <div class="swiper-container" style="overflow: hidden;">
-          <div class="swiper-wrapper">
-            <!-- Card 1 -->
-            <div class="swiper-slide">
-              <div class="testimonial-card">
-                <p class="testimonial-text">
-                  "We were hesitant to outsource backend work at first, but Invisor changed our perspective completely. They’re professional, detail-oriented, and easy to work with. 
-                  "
-                </p>
-                <div class="client-info">
-                  <div class="client-details">
-                    <p class="client-name">Xavier Tom Joseph</p>
-                    <p class="client-title"> CEO Happix </p>
-                  </div>
-                </div>
-              </div>
+        <div class="section-heading">
+            <div class="title-top align-items-center justify-content-center mb-4">
+                <div class="title-dot"></div>
+                <div class="trust-badge">TESTIMONIALS</div>
             </div>
-            <!-- Card 2 -->
-            <div class="swiper-slide">
-              <div class="testimonial-card">
-                <p class="testimonial-text">
-                  "With Invisor handling the backend, we’ve been able to take on more projects without compromising delivery. Their attention to detail is unmatched
-                  "
-                </p>
-                <div class="client-info">
-                  <div class="client-details">
-                    <p class="client-name">Ashfaq Abdullah</p>
-                    <p class="client-title">Arabian Software </p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <!-- Card 3 -->
-            <div class="swiper-slide">
-              <div class="testimonial-card">
-                <p class="testimonial-text">
-                  "Working with Invisor has streamlined our internal operations. Their team adapts to our workflows and keeps things moving without constant follow-up."
-                </p>
-                <div class="client-info">
-                  <div class="client-details">
-                    <p class="client-name">Tarun Tadepalli</p>
-                    <p class="client-title">Zelecloud</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <!-- Card 4 -->
-            <div class="swiper-slide">
-              <div class="testimonial-card">
-                <p class="testimonial-text">
-                  "​​They’ve helped us deliver complex Zoho implementations faster and more reliably. Their backend team truly understands what it means to support partners, not clients."
-                </p>
-                <div class="client-info">
-                  <div class="client-details">
-                    <p class="client-name">Mujeeb T C</p>
-                    <p class="client-title">Al Farha Coal Ind LLC</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <!-- Card 5 -->
-            <div class="swiper-slide">
-              <div class="testimonial-card">
-                <p class="testimonial-text">
-                  "What we appreciate most is how dependable they are. We don’t need to follow up constantly - they deliver on time, with quality, every single time."
-                </p>
-                <div class="client-info">
-                  <div class="client-details">
-                    <p class="client-name">Arunkumar</p>
-                    <p class="client-title">Asala of East Gulf LLC</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <!-- Card 6 -->
-            <div class="swiper-slide">
-              <div class="testimonial-card">
-                <p class="testimonial-text">
-                  "Invisor feels like an extension of our team. They’ve helped us manage complex projects quietly and effectively - our clients don’t even know they’re there, and that’s exactly what we wanted."
-                </p>
-                <div class="client-info">
-                  <div class="client-details">
-                    <p class="client-name">Andrew McArthur</p>
-                    <p class="client-title">Frenzimpex Building Materials Trading LLC</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <!-- More cards -->
-          </div>
-
-          <!-- Add Pagination -->
-          <div class="swiper-pagination"></div>
-
-          <!-- Add Navigation -->
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
+            <h2 class="section-title pb-0">Hear what our satisfied clients have to say</h2>
         </div>
 
+        <div class="testimonials-container">
+            <!-- Swiper -->
+            <div class="swiper-container" style="overflow: hidden;">
+                <div class="swiper-wrapper">
+                    <!-- Card 1 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                "We were hesitant to outsource backend work at first, but Invisor changed our
+                                perspective completely. They’re professional, detail-oriented, and easy to work with.
+                                "
+                            </p>
+                            <div class="client-info">
+                                <div class="client-details">
+                                    <p class="client-name">Xavier Tom Joseph</p>
+                                    <p class="client-title"> CEO Happix </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                "With Invisor handling the backend, we’ve been able to take on more projects without
+                                compromising delivery. Their attention to detail is unmatched
+                                "
+                            </p>
+                            <div class="client-info">
+                                <div class="client-details">
+                                    <p class="client-name">Ashfaq Abdullah</p>
+                                    <p class="client-title">Arabian Software </p>
+                                </div>
+                            </div>
+                        </div>
 
-      </div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                "Working with Invisor has streamlined our internal operations. Their team adapts to our
+                                workflows and keeps things moving without constant follow-up."
+                            </p>
+                            <div class="client-info">
+                                <div class="client-details">
+                                    <p class="client-name">Tarun Tadepalli</p>
+                                    <p class="client-title">Zelecloud</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                "​​They’ve helped us deliver complex Zoho implementations faster and more reliably.
+                                Their backend team truly understands what it means to support partners, not clients."
+                            </p>
+                            <div class="client-info">
+                                <div class="client-details">
+                                    <p class="client-name">Mujeeb T C</p>
+                                    <p class="client-title">Al Farha Coal Ind LLC</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                "What we appreciate most is how dependable they are. We don’t need to follow up
+                                constantly - they deliver on time, with quality, every single time."
+                            </p>
+                            <div class="client-info">
+                                <div class="client-details">
+                                    <p class="client-name">Arunkumar</p>
+                                    <p class="client-title">Asala of East Gulf LLC</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <p class="testimonial-text">
+                                "Invisor feels like an extension of our team. They’ve helped us manage complex projects
+                                quietly and effectively - our clients don’t even know they’re there, and that’s exactly
+                                what we wanted."
+                            </p>
+                            <div class="client-info">
+                                <div class="client-details">
+                                    <p class="client-name">Andrew McArthur</p>
+                                    <p class="client-title">Frenzimpex Building Materials Trading LLC</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- More cards -->
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- Add Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+
+        </div>
     </div>
-  </section>
+</section>
 
-  <style>
+<style>
     .swiper-pagination {
-      position: relative;
-      bottom: 0px;
-      text-align: center;
-      margin-top: 10px;
+        position: relative;
+        bottom: 0px;
+        text-align: center;
+        margin-top: 10px;
     }
 
     .testimonials-section {
-      background-color: #f9f9f9;
-      padding: 50px 0;
-      text-align: center;
+        background-color: #f9f9f9;
+        padding: 50px 0;
+        text-align: center;
     }
 
     .section-heading {
-      margin-bottom: 30px;
+        margin-bottom: 30px;
     }
 
     .section-title {
-      font-size: 2.8rem;
-      font-weight: 300;
-      color: #333;
+        font-size: 2.8rem;
+        font-weight: 300;
+        color: #333;
     }
-@media (max-width:991px) {
-  .section-title {
-      font-size: 2rem;
-  }
-}
+
+    @media (max-width:991px) {
+        .section-title {
+            font-size: 2rem;
+        }
+    }
+
     .testimonials-container {
-      position: relative;
-      display: flex;
-      justify-content: space-between;
-      gap: 20px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
     }
 
     .testimonial-card {
-      background-color: white;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-      flex: 1;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        flex: 1;
     }
 
     @media (min-width:768px) {
-      .testimonial-card {
-        height: 250px;
-        max-height: 310px;
-      }
-      .testimonial-text {text-align: justify;
-      }
+        .testimonial-card {
+            height: 250px;
+            max-height: 310px;
+        }
+
+        .testimonial-text {
+            text-align: justify;
+        }
     }
 
     .testimonial-text {
-      font-size: 16px;
-      font-style: italic;
-      color: #666;
-      margin-bottom: 20px;
+        font-size: 16px;
+        font-style: italic;
+        color: #666;
+        margin-bottom: 20px;
     }
 
     .client-info {
-      display: flex;
-      align-items: center;justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
 
     .client-details {
-      text-align: left;
-    }
-@media (min-width:768px) {
-  .client-details {position: absolute;bottom: 20px;
-  }
-}
-    .client-name {text-align: center;
-      font-size: 16px;
-      font-weight: bold;
-      color: #333;
-      margin-bottom: 0;
+        text-align: left;
     }
 
-    .client-title {text-align: center;
-      font-size: 14px;
-      color: #999;
+    @media (min-width:768px) {
+        .client-details {
+            position: absolute;
+            bottom: 20px;
+        }
+    }
+
+    .client-name {
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 0;
+    }
+
+    .client-title {
+        text-align: center;
+        font-size: 14px;
+        color: #999;
     }
 
     /* Responsive */
     @media (max-width: 768px) {
-      .testimonials-container {
-        flex-direction: column;
-      }
+        .testimonials-container {
+            flex-direction: column;
+        }
 
-      .testimonial-card {
-        margin-bottom: 20px;
-      }
+        .testimonial-card {
+            margin-bottom: 20px;
+        }
     }
 
     /* Positioning */
     .swiper-button-next {
-      display: none;
-      right: 0%;
-      /* Place the next button 20px from the right */
+        display: none;
+        right: 0%;
+        /* Place the next button 20px from the right */
     }
 
     .swiper-button-prev {
-      display: none;
-      left: -0%;
-      /* Place the prev button 20px from the left */
+        display: none;
+        left: -0%;
+        /* Place the prev button 20px from the left */
     }
-  </style>
+</style>
 
 
 <div class="clients-section d-none">
