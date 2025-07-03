@@ -9,7 +9,9 @@
         </div>
         <h1 class="contact-title"><strong>Let's get in touch</strong>: Connecting you with streamlined solutions!
         </h1>
-        <p class="contact-description">At Invisor, we’re here to empower your business with Zoho’s powerful suite of tools, tailored to your unique needs. Reach out below to explore how our Zoho experts can help transform your workflows and elevate your operations.
+        <p class="contact-description">At Invisor, we’re here to empower your business with Zoho’s powerful suite of
+          tools, tailored to your unique needs. Reach out below to explore how our Zoho experts can help transform your
+          workflows and elevate your operations.
         </p>
       </div>
       <!-- Right Section: Contact Form -->
@@ -17,7 +19,8 @@
         <form action="#" method="POST">
           <input type="text" name="first_name" placeholder="First Name" required>
           <input type="text" name="last_name" placeholder="Last Name" required>
-          <input type="tel" name="phone" placeholder="Phone Number" required pattern="[0-9]{10}" title="Please enter a 10-digit phone number">
+          <input type="tel" name="phone" placeholder="Phone Number" required pattern="[0-9]{10}"
+            title="Please enter a 10-digit phone number">
 
           <input type="email" name="email" placeholder="Email" required>
           <textarea name="message" placeholder="Message" required></textarea>
@@ -173,20 +176,22 @@
 
 <div class="container cntct-info">
   <p class="contact-info"><strong>General inquiries</strong><br>
-  For questions or more information about our Zoho <br class="sm-none">services, email us at <a href="contact@invisorglobal.com">contact@invisorglobal.com</a> <br> and our team will get back to you asap!
+    For questions or more information about our Zoho <br class="sm-none">services, email us at <a
+      href="contact@invisorglobal.com">contact@invisorglobal.com</a> <br> and our team will get back to you asap!
 
   </p>
 </div>
 <style>
   @media (max-width: 700px) {
-  .sm-none {
-    display: none;
+    .sm-none {
+      display: none;
+    }
   }
-}
 
   .cntct-info {
     padding: 50px 10px;
   }
+
   .contact-info {
     font-size: 1rem;
     color: #1d1d1d;
@@ -201,10 +206,10 @@
 <!-- ================================ -->
 <style>
   /* Map container styling */
-  .map-container {margin: 100px 0 20px;
+  .map-container {
+    margin: 100px 0 20px;
     position: relative;
-    width: 100%;
-    max-width: 1000px;
+    width: 95%;
     margin: auto;
     padding: 20px;
     text-align: center;
@@ -215,136 +220,248 @@
     width: 100%;
     height: auto;
     border-radius: 10px;
+    
   }
 
-  /* Marker styling */
-  .marker {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    background-image: url("https://www.zohowebstatic.com/sites/zweb/images/partners/images/map-pin.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    transform: translate(-50%, -50%);
-  }
+ /* Marker */
+    .marker {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background-color: #e74c3c;
+      border: 3px solid white;
+      border-radius: 50%;
+      cursor: pointer;
+      transform: translate(-50%, -50%);
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      z-index: 10;
+      animation: pulse 3s infinite;
+    }
 
-  /* Tooltip styling */
-  .tooltip {
-    position: absolute;
-    padding: 10px;
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    display: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-size: 14px;
-    pointer-events: none;
-  }
+    .marker:hover {
+      transform: translate(-50%, -50%) scale(1.2);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
 
-  /* Optional tooltip arrow */
-  .tooltip::after {
-    content: '';
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-    border-width: 8px;
-    border-style: solid;
-    border-color: white transparent transparent transparent;
-  }
-</style>
+    .marker::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 12px;
+      height: 12px;
+      background-color: white;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+    }
 
-<div class="map-container">
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0.7); }
+      70% { box-shadow: 0 0 0 20px rgba(231, 76, 60, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(231, 76, 60, 0); }
+    }
+
+    /* Tooltip */
+    .tooltip {
+      position: absolute;
+      padding: 15px;
+      background: linear-gradient(135deg,rgb(0, 19, 82) 0%,rgba(30, 0, 87, 0.43) 100%);
+      color: white;
+      border-radius: 10px;
+      display: none;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+      font-size: 14px;
+      pointer-events: none;
+      max-width: 280px;
+      z-index: 100;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .tooltip.show {
+      display: block;
+      opacity: 1;
+    }
+
+    .tooltip::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-width: 10px;
+      border-style: solid;
+      border-color: #667eea transparent transparent transparent;
+    }
+
+    .tooltip-country {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+
+    .tooltip-city {
+      font-size: 14px;
+      margin-bottom: 5px;
+      color: #f0f0f0;
+    }
+
+    .tooltip-street {
+      font-size: 12px;
+      color: #e0e0e0;
+      line-height: 1.4;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .map-container {
+        margin: 10px;
+        padding: 15px;
+      }
+
+      .map-title {
+        font-size: 24px;
+      }
+
+      .marker {
+        width: 25px;
+        height: 25px;
+      }
+
+      .tooltip {
+        max-width: 180px;
+        padding: 12px;
+      }
+    }</style>
+
+<div class="map-container container">
   <!-- World map image -->
   <img src="assets/img/world-map.png" alt="World Map" class="map-image">
 
   <!-- Markers with data-country attribute for tooltip text -->
-  <!-- Marker for Canada (approximately top: 25%, left: 15%) -->
-  <div class="marker" style="top: 24%; left: 16%;" data-country="Canada"></div>
-  <!-- Marker for Saudi Arabia (approximately top: 45%, left: 70%) -->
-<!--   <div class="marker" style="top: 65%; left: 65%;" data-country="Saudi Arabia"></div>
- -->  <!-- Marker for India (approximately top: 57%, left: 55%) -->
-  <div class="marker" style="top: 73%; left: 70%;" data-country="India"></div>
 
+  <!-- Markers -->
+  <div class="marker" style="top: 24%; left: 16%;" data-country="Canada" data-city="London, Ontario"
+    data-street="Suite 337V, 341 Talbot Street<br>N6A2R5, Canada"></div>
+
+  <div class="marker" style="top: 73%; left: 70%;" data-country="India" data-city="Cochin"
+    data-street="2nd Floor, Phase 1, Carnival Infopark<br>Cochin: 682042"></div>
   <!-- Tooltip for displaying country names -->
-  <div class="tooltip" id="tooltip"></div>
+  <!-- Tooltip -->
+  <div class="tooltip" id="tooltip">
+    <div class="tooltip-country"></div>
+    <div class="tooltip-city"></div>
+    <div class="tooltip-street"></div>
+  </div>
 </div>
 
 <script>
-  // JavaScript to handle tooltip functionality
-  const markers = document.querySelectorAll('.marker');
-  const tooltip = document.getElementById('tooltip');
+    const markers = document.querySelectorAll('.marker');
+    const tooltip = document.getElementById('tooltip');
+    const tooltipCountry = tooltip.querySelector('.tooltip-country');
+    const tooltipCity = tooltip.querySelector('.tooltip-city');
+    const tooltipStreet = tooltip.querySelector('.tooltip-street');
 
-  markers.forEach(marker => {
-    marker.addEventListener('mouseenter', (e) => {
-      const country = e.target.getAttribute('data-country');
-      tooltip.innerText = country;
-      tooltip.style.display = 'block';
-      tooltip.style.left = `${e.pageX}px`;
-      tooltip.style.top = `${e.pageY - 30}px`;
+    markers.forEach(marker => {
+      marker.addEventListener('mouseenter', (e) => {
+        const country = e.target.getAttribute('data-country');
+        const city = e.target.getAttribute('data-city');
+        const street = e.target.getAttribute('data-street');
+
+        tooltipCountry.textContent = country;
+        tooltipCity.textContent = `City: ${city}`;
+        tooltipStreet.innerHTML = `Street: ${street}`;
+
+        tooltip.classList.add('show');
+        updateTooltipPosition(e);
+      });
+
+      marker.addEventListener('mouseleave', () => {
+        tooltip.classList.remove('show');
+      });
+
+      marker.addEventListener('mousemove', (e) => {
+        updateTooltipPosition(e);
+      });
     });
 
-    marker.addEventListener('mouseleave', () => {
-      tooltip.style.display = 'none';
-    });
+    function updateTooltipPosition(e) {
+      const rect = e.target.getBoundingClientRect();
+      const containerRect = document.querySelector('.map-container').getBoundingClientRect();
+      const x = rect.left - containerRect.left + rect.width / 2;
+      const y = rect.top - containerRect.top;
 
-    marker.addEventListener('mousemove', (e) => {
-      tooltip.style.left = `${e.pageX}px`;
-      tooltip.style.top = `${e.pageY - 30}px`;
-    });
-  });
-</script>
-  
-  <!-- ====================================================== -->
-  <div class="locations-wrap container">
-    <div class="location-wrap row">
-        <div class="col-md-4 country">
-            <div class="big-text-dark">India</div>
-            <a href="https://www.google.com/maps/place/Carnival+Infopark,+Kakkanad,+Cochin" target="_blank" class="link-with-icon">View on Map →</a>
-        </div>
-        <div class="col-md-4 address">
-            <div class="address-item">
-                <div class="dark-text-title">City:</div>
-                <a href="https://www.google.com/maps/place/Kakkanad,+Cochin" target="_blank" class="address-link">Cochin</a>
-            </div>
-            <div class="address-item">
-                <div class="dark-text-title">Street:</div>
-                <a href="https://www.google.com/maps/place/Carnival+Infopark,+Phase+1" target="_blank" class="address-link">2nd Floor, Phase 1, Carnival Infopark</a>
-            </div>
-        </div>
-        <div class="col-md-4 office-info">
-            <div class="contacts-detail">
-                <span class="contacts-icon"><i class="bi bi-geo"></i></span>
-                <span>Cochin: 682042</span>
-            </div>
-        </div>
+      tooltip.style.left = `${x}px`;
+      tooltip.style.top = `${y - 80}px`;
+
+      const tooltipRect = tooltip.getBoundingClientRect();
+      const containerWidth = containerRect.width;
+
+      if (x + tooltipRect.width / 2 > containerWidth) {
+        tooltip.style.left = `${containerWidth - tooltipRect.width - 10}px`;
+      } else if (x - tooltipRect.width / 2 < 0) {
+        tooltip.style.left = `10px`;
+      } else {
+        tooltip.style.left = `${x - tooltipRect.width / 2}px`;
+      }
+    }
+  </script>
+<!-- ====================================================== -->
+<div class="locations-wrap container">
+  <div class="location-wrap row">
+    <div class="col-md-4 country">
+      <div class="big-text-dark">India</div>
+      <a href="https://www.google.com/maps/place/Carnival+Infopark,+Kakkanad,+Cochin" target="_blank"
+        class="link-with-icon">View on Map →</a>
     </div>
-
-    <div class="location-wrap row">
-        <div class="col-md-4 country">
-            <div class="big-text-dark">Canada</div>
-            <a href="https://www.google.com/maps/place/341+Talbot+Street,+London,+Ontario" target="_blank" class="link-with-icon">View on Map →</a>
-        </div>
-        <div class="col-md-4 address">
-            <div class="address-item">
-                <div class="dark-text-title">City:</div>
-                <a href="https://www.google.com/maps/place/London,+Ontario" target="_blank" class="address-link">London, Ontario</a>
-            </div>
-            <div class="address-item">
-                <div class="dark-text-title">Street:</div>
-                <a href="https://www.google.com/maps/place/341+Talbot+Street" target="_blank" class="address-link">Suite 337V, 341 Talbot Street</a>
-            </div>
-        </div>
-        <div class="col-md-4 office-info">
-            <div class="contacts-detail">
-                <span class="contacts-icon"><i class="bi bi-geo"></i></span>
-                <span>N6A2R5, Canada</span>
-            </div>
-        </div>
+    <div class="col-md-4 address">
+      <div class="address-item">
+        <div class="dark-text-title">City:</div>
+        <a href="https://www.google.com/maps/place/Kakkanad,+Cochin" target="_blank" class="address-link">Cochin</a>
+      </div>
+      <div class="address-item">
+        <div class="dark-text-title">Street:</div>
+        <a href="https://www.google.com/maps/place/Carnival+Infopark,+Phase+1" target="_blank" class="address-link">2nd
+          Floor, Phase 1, Carnival Infopark</a>
+      </div>
     </div>
+    <div class="col-md-4 office-info">
+      <div class="contacts-detail">
+        <span class="contacts-icon"><i class="bi bi-geo"></i></span>
+        <span>Cochin: 682042</span>
+      </div>
+    </div>
+  </div>
 
-<!--     <div class="location-wrap row last">
+  <div class="location-wrap row">
+    <div class="col-md-4 country">
+      <div class="big-text-dark">Canada</div>
+      <a href="https://www.google.com/maps/place/341+Talbot+Street,+London,+Ontario" target="_blank"
+        class="link-with-icon">View on Map →</a>
+    </div>
+    <div class="col-md-4 address">
+      <div class="address-item">
+        <div class="dark-text-title">City:</div>
+        <a href="https://www.google.com/maps/place/London,+Ontario" target="_blank" class="address-link">London,
+          Ontario</a>
+      </div>
+      <div class="address-item">
+        <div class="dark-text-title">Street:</div>
+        <a href="https://www.google.com/maps/place/341+Talbot+Street" target="_blank" class="address-link">Suite 337V,
+          341 Talbot Street</a>
+      </div>
+    </div>
+    <div class="col-md-4 office-info">
+      <div class="contacts-detail">
+        <span class="contacts-icon"><i class="bi bi-geo"></i></span>
+        <span>N6A2R5, Canada</span>
+      </div>
+    </div>
+  </div>
+
+  <!--     <div class="location-wrap row last">
         <div class="col-md-4 country">
             <div class="big-text-dark">Saudi Arabia</div>
             <a href="https://www.google.com/maps/place/Le+Cygne+Commercial+Center-2,+Al+Olaya+District" target="_blank" class="link-with-icon">View on Map →</a>
@@ -366,62 +483,72 @@
             </div>
         </div>
     </div>
- --></div>
+ -->
+</div>
 
 <style>
-.locations-wrap {
+  .locations-wrap {
     padding: 20px;
-}
+  }
 
-.location-wrap {
+  .location-wrap {
     padding: 15px 0;
     border-bottom: 1px solid #ddd;
-}
+  }
 
-.country {
+  .country {
     font-size: 1.5rem;
     font-weight: bold;
     color: #2f1a52;
-}
+  }
 
-.link-with-icon {
+  .link-with-icon {
     color: var(--accent-color);
     text-decoration: none;
-    font-size: 0.9rem;font-weight: 500;
-}
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
 
-.address, .office-info {
+  .address,
+  .office-info {
     margin-top: 10px;
-}
+  }
 
-.address-item, .contacts-detail {
+  .address-item,
+  .contacts-detail {
     display: flex;
     margin-bottom: 5px;
-}
+  }
 
-.dark-text-title {
+  .dark-text-title {
     font-weight: 600;
     margin-right: 5px;
-}
-@media (min-width:1200px) {
-  .dark-text-title {width: 15%;margin-right: 20px;}
-}
-.address-link, .paragraph-no-margin {
+  }
+
+  @media (min-width:1200px) {
+    .dark-text-title {
+      width: 15%;
+      margin-right: 20px;
+    }
+  }
+
+  .address-link,
+  .paragraph-no-margin {
     color: #333;
     text-decoration: none;
-}
+  }
 
-.contacts-icon {
+  .contacts-icon {
     margin-right: 5px;
     color: var(--accent-color);
-}
+  }
 
-@media (min-width: 768px) {
+  @media (min-width: 768px) {
     .location-wrap {
-        display: flex;
-        flex-direction: row;
+      display: flex;
+      flex-direction: row;
     }
-}
+  }
 </style>
 <!-- ==================================faq====================================== -->
 
@@ -567,122 +694,128 @@
     <h1 class="faq-title">Explore your financial queries answered</h1>
   </div>
 
-    <div class="row">
-      <div class="col-md-6">
-        <div class="faq-item">
-          <button class="faq-question">
-            How can I get started?
-            <span class="icon"></span>
-          </button>
-          <div class="faq-answer">
-            To begin, fill out our contact form or call us. Our team will assist you in navigating our services.
+  <div class="row">
+    <div class="col-md-6">
+      <div class="faq-item">
+        <button class="faq-question">
+          How can I get started?
+          <span class="icon"></span>
+        </button>
+        <div class="faq-answer">
+          To begin, fill out our contact form or call us. Our team will assist you in navigating our services.
 
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="faq-item">
-          <button class="faq-question">
-            What services do you offer?
-
-
-            <span class="icon"></span>
-          </button>
-          <div class="faq-answer">
-            Our team provides technical implementation, setup, configuration, and administrative support for Zoho solutions - tailored to each partner’s delivery process.
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="faq-item">
-          <button class="faq-question">
-            What sets us apart?
-            <span class="icon"></span>
-          </button>
-          <div class="faq-answer">
-            Our personalised approach, industry expertise, and commitment to delivering effective solutions distinguish us in the market.
-
-
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="faq-item">
-          <button class="faq-question">
-            How do you ensure quality in your services?
-
-            <span class="icon"></span>
-          </button>
-          <div class="faq-answer">
-            We follow strict quality control measures and continuously monitor our processes to guarantee      exceptional results for our clients.
-
-
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="faq-item">
-          <button class="faq-question">
-            What turnaround time can we expect?
-
-
-            <span class="icon"></span>
-          </button>
-          <div class="faq-answer">
-            Timelines are discussed upfront and adhered to closely. We’re structured to deliver efficiently without compromising on quality.
-
-
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="faq-item">
-          <button class="faq-question">
-           How do you ensure confidentiality?
-
-            <span class="icon"></span>
-          </button>
-          <div class="faq-answer">
-            We follow strict internal protocols to protect client data and are open to signing NDAs as part of our working relationship.
-
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="faq-item">
-          <button class="faq-question">
-           How do you manage quality control?
-
-            <span class="icon"></span>
-          </button>
-          <div class="faq-answer">
-            All work goes through internal reviews and is executed by specialists familiar with each Zoho module, ensuring accuracy and consistency.
-
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6">
-        <div class="faq-item">
-          <button class="faq-question">
-            Do you provide support for all Zoho products?
-
-            <span class="icon"></span>
-          </button>
-          <div class="faq-answer">
-            We support key modules across Finance, IT, and HR. For specific products, feel free to reach out to confirm.
-
-
-          </div>
         </div>
       </div>
     </div>
+
+    <div class="col-md-6">
+      <div class="faq-item">
+        <button class="faq-question">
+          What services do you offer?
+
+
+          <span class="icon"></span>
+        </button>
+        <div class="faq-answer">
+          Our team provides technical implementation, setup, configuration, and administrative support for Zoho
+          solutions - tailored to each partner’s delivery process.
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="faq-item">
+        <button class="faq-question">
+          What sets us apart?
+          <span class="icon"></span>
+        </button>
+        <div class="faq-answer">
+          Our personalised approach, industry expertise, and commitment to delivering effective solutions distinguish us
+          in the market.
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="faq-item">
+        <button class="faq-question">
+          How do you ensure quality in your services?
+
+          <span class="icon"></span>
+        </button>
+        <div class="faq-answer">
+          We follow strict quality control measures and continuously monitor our processes to guarantee exceptional
+          results for our clients.
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="faq-item">
+        <button class="faq-question">
+          What turnaround time can we expect?
+
+
+          <span class="icon"></span>
+        </button>
+        <div class="faq-answer">
+          Timelines are discussed upfront and adhered to closely. We’re structured to deliver efficiently without
+          compromising on quality.
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="faq-item">
+        <button class="faq-question">
+          How do you ensure confidentiality?
+
+          <span class="icon"></span>
+        </button>
+        <div class="faq-answer">
+          We follow strict internal protocols to protect client data and are open to signing NDAs as part of our working
+          relationship.
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="faq-item">
+        <button class="faq-question">
+          How do you manage quality control?
+
+          <span class="icon"></span>
+        </button>
+        <div class="faq-answer">
+          All work goes through internal reviews and is executed by specialists familiar with each Zoho module, ensuring
+          accuracy and consistency.
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="faq-item">
+        <button class="faq-question">
+          Do you provide support for all Zoho products?
+
+          <span class="icon"></span>
+        </button>
+        <div class="faq-answer">
+          We support key modules across Finance, IT, and HR. For specific products, feel free to reach out to confirm.
+
+
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -707,176 +840,184 @@
 
 <!-- ====================================newsletter================================== -->
 <style>
-    .newsletter-section {
-        background-color: #e4e5e5;
-        padding: 40px 0;
-        position: relative;
-        overflow: hidden;
-    }
+  .newsletter-section {
+    background-color: #e4e5e5;
+    padding: 40px 0;
+    position: relative;
+    overflow: hidden;
+  }
 
+  .newsletter-container {
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .newsletter-content {
+    max-width: 600px;
+  }
+
+  .newsletter-label {
+    color: var(--accent-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .newsletter-title {
+    font-weight: 400;
+    font-size: 36px;
+    color: #1d1d1d;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .newsletter-subtitle {
+    font-weight: 400;
+    font-size: 36px;
+    color: #1d1d1d;
+    margin: 0 0 20px 0;
+    line-height: 1.2;
+  }
+
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+  }
+
+  .newsletter-input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+
+  .newsletter-button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    width: 40%;
+    margin: auto;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+
+  .newsletter-button:hover {
+    background-color: #0f065c;
+  }
+
+  .newsletter-image {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  @media (max-width: 768px) {
     .newsletter-container {
-        margin: 0 auto;
-        padding: 0 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+      flex-direction: column;
     }
 
-    .newsletter-content {
-        max-width: 600px;
-    }
-
-    .newsletter-label {
-        color: var(--accent-color);
-        text-transform: uppercase;
-        font-size: 14px;
-        font-weight: 600;
-        margin-bottom: 10px;
-    }
-
-    .newsletter-title {
-        font-weight: 400;
-        font-size: 36px;
-        color: #1d1d1d;
-        margin: 0;
-        line-height: 1.2;
-    }
-
+    .newsletter-title,
     .newsletter-subtitle {
-        font-weight: 400;
-        font-size: 36px;
-        color: #1d1d1d;
-        margin: 0 0 20px 0;
-        line-height: 1.2;
+      font-size: 25px;
     }
 
     .newsletter-form {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        max-width: 500px;
-    }
-
-    .newsletter-input {
-        flex: 1;
-        padding: 12px 15px;
-        border: 1px solid #ddd;
-        font-size: 16px;
-    }
-
-    .newsletter-button {
-        background-color: var(--accent-color);
-        color: white;
-        border: none;
-        padding: 12px 25px;
-        width: 40%;
-        margin: auto;
-        cursor: pointer;
-        font-size: 16px;
-        transition: background-color 0.3s;
-    }
-
-    .newsletter-button:hover {
-        background-color: #0f065c;
+      width: 100%;
     }
 
     .newsletter-image {
-        position: absolute;
-        bottom: 0;
-        right: 10%;
-        max-width: 400px;
-        height: auto;
+      display: none;
     }
+  }
 
-    @media (max-width: 768px) {
-        .newsletter-container {
-            flex-direction: column;
-        }
-
-        .newsletter-title,
-        .newsletter-subtitle {
-            font-size: 25px;
-        }
-
-        .newsletter-form {
-            width: 100%;
-        }
-
-        .newsletter-image {
-            display: none;
-        }
-    }
-
-    .slide-bg-1 {
-        z-index: 1;
-        background-color: var(--accent-color);
-        align-self: center;
-        width: 5px;
-        height: 120%;
-        margin: auto;
-        position: absolute;
-        top: 0%;
-        bottom: 0%;
-        left: 60%;
-        right: auto;
-        transform: skew(-10deg);
-    }
-
-    .slide-bg {
-        width: 45%;
-        background-color: #fff;
-        position: absolute;
-        right: -5%;
-        bottom: 0;
-        top: 0;
-        transform: skew(-10deg);
-    }
-
-    @media (max-width: 900px) {
-        .slide-bg {
-            background-color: #e4e5e5;
-        }
-    }
-    @media (max-width: 900px) {
-        .slide-bg,.slide-bg-1{display: none
-        }
-        .newsletter-image {
+  .slide-bg-1 {
+    z-index: 1;
+    background-color: var(--accent-color);
+    align-self: center;
+    width: 5px;
+    height: 120%;
+    margin: auto;
     position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 60%;
+    right: auto;
+    transform: skew(-10deg);
+  }
+
+  .slide-bg {
+    width: 45%;
+    background-color: #fff;
+    position: absolute;
+    right: -5%;
     bottom: 0;
-    right: 0%;
-    max-width: 400px;
-    height: auto;
-}
+    top: 0;
+    transform: skew(-10deg);
+  }
+
+  @media (max-width: 900px) {
+    .slide-bg {
+      background-color: #e4e5e5;
+    }
+  }
+
+  @media (max-width: 900px) {
+
+    .slide-bg,
+    .slide-bg-1 {
+      display: none
     }
 
-    @media (max-width: 769px) {.newsletter-image{display: none;}
-
+    .newsletter-image {
+      position: absolute;
+      bottom: 0;
+      right: 0%;
+      max-width: 400px;
+      height: auto;
     }
+  }
+
+  @media (max-width: 769px) {
+    .newsletter-image {
+      display: none;
+    }
+
+  }
 </style>
 
 <div class="newsletter-section" data-aos="zoom-in-up" id="newsletter">
-    <div class="newsletter-container container">
+  <div class="newsletter-container container">
 
-        <div class="newsletter-content">
+    <div class="newsletter-content">
 
-            <div class="title-top">
-                <div class="title-dot"></div>
-                <div class="trust-badge">STAY CONNECTED</div>
-            </div>
-            <h2 class="newsletter-title">Join our network.
-            </h2>
-            <h2 class="newsletter-subtitle">Sign up for updates and insights.
-            </h2>
-            <form class="newsletter-form">
-                <input type="text" class="newsletter-input" placeholder="Your Name" required>
-                <input type="email" class="newsletter-input" placeholder="Your Email" required>
-                <input type="tel" class="newsletter-input" placeholder="Your Phone" required> <button type="submit"
-                    class="newsletter-button">Join Now</button>
-            </form>
-        </div>
-        <div class="slide-bg-1"></div>
-        <div class="slide-bg"> </div>
-
-        <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
+      <div class="title-top">
+        <div class="title-dot"></div>
+        <div class="trust-badge">STAY CONNECTED</div>
+      </div>
+      <h2 class="newsletter-title">Join our network.
+      </h2>
+      <h2 class="newsletter-subtitle">Sign up for updates and insights.
+      </h2>
+      <form class="newsletter-form">
+        <input type="text" class="newsletter-input" placeholder="Your Name" required>
+        <input type="email" class="newsletter-input" placeholder="Your Email" required>
+        <input type="tel" class="newsletter-input" placeholder="Your Phone" required> <button type="submit"
+          class="newsletter-button">Join Now</button>
+      </form>
     </div>
+    <div class="slide-bg-1"></div>
+    <div class="slide-bg"> </div>
+
+    <img src="assets/img/woman.png" alt="Professional woman with clipboard" class="newsletter-image">
+  </div>
 </div>
