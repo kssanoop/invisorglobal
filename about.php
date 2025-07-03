@@ -319,7 +319,7 @@
             </div>
         </div>
         <div class="team-member hvr-underline-from-left">
-            <img src="assets/img/team/alex.jpeg" alt="Olivia Wallberg">
+            <img src="assets/img/team/alex.webp" alt="Olivia Wallberg">
             <div class="member-info">
                 <div class="team-name">
                     <h3>Alex Tom Joseph</h3>
@@ -331,7 +331,7 @@
             </div>
         </div>
         <div class="team-member hvr-underline-from-left">
-            <img src="assets/img/team/sanoop4.jpeg" alt="Jane Jacobs">
+            <img src="assets/img/team/sanoop1.png" alt="Jane Jacobs">
             <div class="member-info">
                 <div class="team-name">
                     <h3>Sanoop KS</h3>
@@ -386,7 +386,7 @@
             </div>
         </div>
         <div class="team-member hvr-underline-from-left">
-            <img src="assets/img/team/jincy.jpg" alt="Jane Jacobs">
+            <img src="assets/img/team/jincy.png" alt="Jane Jacobs">
             <div class="member-info">
                 <div class="team-name">
                     <h3>Jincy Treasa P X</h3>
@@ -449,6 +449,7 @@
         object-position: top;
         width: 260px;
         height: auto;
+        filter:grayscale(1)
         
     }
 
