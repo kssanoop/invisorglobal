@@ -9,7 +9,7 @@
             <div class="trust-badge">Best Zoho partner in India </div>
           </div>
           <h1 class="hero-title">Partner of
-            <img src="assets/img/zoho-logo.svg" alt="" style="width: 100px;margin-bottom:10px"> Partners
+            <img src="assets/img/zoho-logo.svg" alt="" style="width: 130px;margin-bottom:10px"> Partners
           </h1>
           <p class="hero-subtitle">We support Zoho Partners with expert backend services across Finance, IT, and HR
           </p>
@@ -1429,7 +1429,7 @@
         <a href="?page=contact" class="contact-btn">Contact Us <i class="bi bi-arrow-right-short"></i></a>
         <div class="phone-details">
           <img src="assets/img/phonecall.svg" alt="">
-          <span><a style="color:#fff" href="tel:+918136826665">+12262273482</a></span>
+          <span><a style="color:#fff" href="tel:+917012030702">+917012030702</a></span>
         </div>
       </div>
     </div>

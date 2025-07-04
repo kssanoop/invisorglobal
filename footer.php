@@ -149,11 +149,12 @@
       </p>
       <p><strong>Canada:</strong> Suite 337V, 341 Talbot Street, London, Ontario,<br> N6A2R5, Canada
       </p>
-<!--       <p><strong>Saudi Arabia:</strong> KSA, Arabian Software, 5th Floor,Le Cygne Commercial Center-2
+      <!--       <p><strong>Saudi Arabia:</strong> KSA, Arabian Software, 5th Floor,Le Cygne Commercial Center-2
         Kaab Bin Malik Street, Al Olaya District, Kingdom of Saudi Arabia
 
       </p>
- -->    </div>
+ -->
+    </div>
 
     <!-- Footer Links Section -->
     <div class="footer-links">
@@ -172,21 +173,24 @@
       <div>
         <h4 style="visibility: hidden;">Services</h4>
         <ul>
-        <li><a href="tel:+918136826665">Call Us</a></li>
-        <li><a href="?page=about#team">Our Team</a></li>
-        <li><a href="?page=about#vision">Our Vision</a></li>
-        <li><a href="?page=home#testimonial">Testimonials</a></li>
+          <li><a href="tel:+917012030702">Call Us</a></li>
+          <li><a href="?page=about#team">Our Team</a></li>
+          <li><a href="?page=about#vision">Our Vision</a></li>
+          <li><a href="?page=home#testimonial">Testimonials</a></li>
+          
         </ul>
         <ul class="d-flex mt-4 social-links" style="gap:1rem">
-          <li><a href="https://www.facebook.com/profile.php?id=100088235898852" target="_blank"><i
+          <li><a href="https://www.facebook.com/share/16xgPeNQPN/?mibextid=wwXIfr" target="_blank"><i
                 class="bi bi-facebook"></i></a></li>
-          <li><a href="https://www.instagram.com/invisor_global/" target="_blank"><i class="bi bi-instagram"></i></a>
+          <li><a href="https://www.instagram.com/invisor_consulting?igsh=MTc5bnllZzBycXhyaQ%3D%3D&utm_source=qr"
+              target="_blank"><i class="bi bi-instagram"></i></a>
           </li>
-          <li><a href="https://www.linkedin.com/company/invisorbusinessschool/" target="_blank"><i
+          <li><a href="https://www.linkedin.com/company/invisorglobal/" target="_blank"><i
                 class="bi bi-linkedin"></i></a></li>
-          <li><a href="https://www.youtube.com/@invisorglobal2460" target="_blank"><i class="bi bi-youtube"></i></a>
-          </li>
-          <li><a href="https://www.youtube.com/@invisorglobal2460" target="_blank"><i class="bi bi-whatsapp"></i></a>
+          <li><a href="https://wa.me/917012030702" target="_blank">
+              <i class="bi bi-whatsapp"></i>
+            </a>
+
           </li>
         </ul>
       </div>

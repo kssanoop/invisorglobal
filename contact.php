@@ -177,7 +177,7 @@
 <div class="container cntct-info">
   <p class="contact-info"><strong>General inquiries</strong><br>
     For questions or more information about our Zoho <br class="sm-none">services, email us at <a
-      href="contact@invisorglobal.com">contact@invisorglobal.com</a> <br> and our team will get back to you asap!
+      href="alex.tom@invisorglobal.com">alex.tom@invisorglobal.com</a> <br> and our team will get back to you asap!
 
   </p>
 </div>
@@ -340,15 +340,16 @@
   <!-- World map image -->
   <img src="assets/img/world-map.png" alt="World Map" class="map-image">
 
-  <!-- Markers with data-country attribute for tooltip text -->
-
   <!-- Markers -->
   <div class="marker" style="top: 24%; left: 16%;" data-country="Canada" data-city="London, Ontario"
     data-street="Suite 337V, 341 Talbot Street<br>N6A2R5, Canada"></div>
 
   <div class="marker" style="top: 73%; left: 70%;" data-country="India" data-city="Cochin"
     data-street="2nd Floor, Phase 1, Carnival Infopark<br>Cochin: 682042"></div>
-  <!-- Tooltip for displaying country names -->
+
+  <div class="marker" style="top: 65%; left: 65%;" data-country="Saudi Arabia" data-city="Al Olaya District"
+    data-street="5th Floor, Le Cygne Commercial Center-2,<br>Kaab Bin Malik Street"></div>
+
   <!-- Tooltip -->
   <div class="tooltip" id="tooltip">
     <div class="tooltip-country"></div>
@@ -461,7 +462,7 @@
     </div>
   </div>
 
-  <!--     <div class="location-wrap row last">
+  <div class="location-wrap row last">
         <div class="col-md-4 country">
             <div class="big-text-dark">Saudi Arabia</div>
             <a href="https://www.google.com/maps/place/Le+Cygne+Commercial+Center-2,+Al+Olaya+District" target="_blank" class="link-with-icon">View on Map →</a>
@@ -483,8 +484,8 @@
             </div>
         </div>
     </div>
- -->
-</div>
+
+  </div>
 
 <style>
   .locations-wrap {

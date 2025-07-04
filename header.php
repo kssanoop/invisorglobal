@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Invisor Global</title>
+  <title>Invisor Zoho</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -53,8 +53,7 @@
           <li><a href="?page=about" id="about">About Us</a></li>
           <li><a href="?page=blog" id="blog">Blog</a></li>
           <li><a href="?page=contact" id="contact">Contact</a></li>
-          <li class="callbutton"> <a href="tel:+918136826665"><img class="me-3" src="assets/img/phonecall.svg" alt=""> +91 81368
-              26665</a>
+          <li class="callbutton"> <a href="tel:+917012030702"><img class="me-3" src="assets/img/phonecall.svg" alt=""> +91 7012030702</a>
           </li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -63,8 +62,8 @@
 
     </div>
     <div class="phone">
-      <a style="color: #fff;" href="tel:+918136826665">
-        <img src="assets/img/phonecall.svg" alt=""> +12262273482
+      <a style="color: #fff;" href="tel:+917012030702">
+        <img src="assets/img/phonecall.svg" alt=""> +91 7012030702
       </a>
     </div>
 
